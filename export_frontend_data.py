@@ -185,10 +185,14 @@ def main():
     with open("paths_cache.json", "r", encoding="utf-8") as f:
         paths_data = json.load(f)
         
+    # Load pre-generated emojis map
+    with open("elements_emojis.json", "r", encoding="utf-8") as f:
+        emojis_map = json.load(f)
+        
     # Map emojis to elements
     elements_map = {}
     for elem in elements_data:
-        elem["emoji"] = get_emoji(elem["id"])
+        elem["emoji"] = emojis_map.get(elem["id"], "🔮")
         elements_map[elem["id"]] = elem
         
     # Pre-generate puzzles for all craftable elements

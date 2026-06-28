@@ -6,7 +6,7 @@ const GRAPH_DATA = {
     "name": "Acid Rain",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf08"
   },
   {
     "id": "air",
@@ -20,119 +20,119 @@ const GRAPH_DATA = {
     "name": "Airplane",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2708\ufe0f"
+    "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f"
   },
   {
     "id": "alarm clock",
     "name": "Alarm Clock",
     "level": 8,
     "source": "dataset",
-    "emoji": "\u23f0"
+    "emoji": "\ud83d\udc93"
   },
   {
     "id": "alchemist",
     "name": "Alchemist",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\udd2c"
   },
   {
     "id": "alcohol",
     "name": "Alcohol",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf7a"
   },
   {
     "id": "algae",
     "name": "Algae",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf3f"
   },
   {
     "id": "alien",
     "name": "Alien",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc7d"
   },
   {
     "id": "allergy",
     "name": "Allergy",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd27"
   },
   {
     "id": "alligator",
     "name": "Alligator",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc0a"
   },
   {
     "id": "alpaca",
     "name": "Alpaca",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd99"
   },
   {
     "id": "ambulance",
     "name": "Ambulance",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude91"
   },
   {
     "id": "angel",
     "name": "Angel",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude07"
   },
   {
     "id": "angler",
     "name": "Angler",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfa3"
   },
   {
     "id": "animal",
     "name": "Animal",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\ude3a"
   },
   {
     "id": "ant",
     "name": "Ant",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc1c"
   },
   {
     "id": "ant farm",
     "name": "Ant Farm",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83e\udd33"
   },
   {
     "id": "antarctica",
     "name": "Antarctica",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83c\udde6\ud83c\uddf6"
   },
   {
     "id": "anthill",
     "name": "Anthill",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc1c"
   },
   {
     "id": "apron",
@@ -146,378 +146,378 @@ const GRAPH_DATA = {
     "name": "Aquarium",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc1f"
   },
   {
     "id": "archeologist",
     "name": "Archeologist",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd96"
   },
   {
     "id": "archipelago",
     "name": "Archipelago",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfdd\ufe0f"
   },
   {
     "id": "arctic",
     "name": "Arctic",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f"
   },
   {
     "id": "armadillo",
     "name": "Armadillo",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc3e"
   },
   {
     "id": "armor",
     "name": "Armor",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udee1\ufe0f"
   },
   {
     "id": "arrow",
     "name": "Arrow",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd03"
   },
   {
     "id": "ash",
     "name": "Ash",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca6"
   },
   {
     "id": "astronaut",
     "name": "Astronaut",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude80"
   },
   {
     "id": "astronomer",
     "name": "Astronomer",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude80"
   },
   {
     "id": "atmosphere",
     "name": "Atmosphere",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf0c"
   },
   {
     "id": "atomic bomb",
     "name": "Atomic Bomb",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca5"
   },
   {
     "id": "aurora",
     "name": "Aurora",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf0c"
   },
   {
     "id": "avalanche",
     "name": "Avalanche",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfd4\ufe0f"
   },
   {
     "id": "aviary",
     "name": "Aviary",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd85"
   },
   {
     "id": "axe",
     "name": "Axe",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude93"
   },
   {
     "id": "bacon",
     "name": "Bacon",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83e\udd53"
   },
   {
     "id": "bacteria",
     "name": "Bacteria",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udda0"
   },
   {
     "id": "baker",
     "name": "Baker",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf73"
   },
   {
     "id": "bakery",
     "name": "Bakery",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd56"
   },
   {
     "id": "banana",
     "name": "Banana",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc12"
   },
   {
     "id": "banana bread",
     "name": "Banana Bread",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\u270b"
   },
   {
     "id": "bandage",
     "name": "Bandage",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd15"
   },
   {
     "id": "bank",
     "name": "Bank",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfe6"
   },
   {
     "id": "barn",
     "name": "Barn",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83c\udfda\ufe0f"
   },
   {
     "id": "barrel",
     "name": "Barrel",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf76"
   },
   {
     "id": "bat",
     "name": "Bat",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd87"
   },
   {
     "id": "batter",
     "name": "Batter",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd87"
   },
   {
     "id": "battery",
     "name": "Battery",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd0b"
   },
   {
     "id": "bayonet",
     "name": "Bayonet",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udde1\ufe0f"
   },
   {
     "id": "bbq",
     "name": "BBQ",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf56"
   },
   {
     "id": "beach",
     "name": "Beach",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude0e"
   },
   {
     "id": "beaver",
     "name": "Beaver",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddab"
   },
   {
     "id": "bee",
     "name": "Bee",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc1d"
   },
   {
     "id": "beehive",
     "name": "Beehive",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc1d"
   },
   {
     "id": "beekeeper",
     "name": "Beekeeper",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc1d"
   },
   {
     "id": "beer",
     "name": "Beer",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83c\udf7a"
   },
   {
     "id": "bell",
     "name": "Bell",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf90"
   },
   {
     "id": "bicycle",
     "name": "Bicycle",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udeb4"
   },
   {
     "id": "big",
     "name": "Big",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude06"
   },
   {
     "id": "binoculars",
     "name": "Binoculars",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc53"
   },
   {
     "id": "bird",
     "name": "Bird",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83d\udd95"
   },
   {
     "id": "birdcage",
     "name": "Birdcage",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83d\udd95"
   },
   {
     "id": "birdhouse",
     "name": "Birdhouse",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83d\udd95"
   },
   {
     "id": "black hole",
     "name": "Black Hole",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2764\ufe0f"
   },
   {
     "id": "blade",
     "name": "Blade",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2a"
   },
   {
     "id": "blender",
     "name": "Blender",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2699\ufe0f"
   },
   {
     "id": "blizzard",
     "name": "Blizzard",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2744\ufe0f"
   },
   {
     "id": "blood",
     "name": "Blood",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udddb"
   },
   {
     "id": "blood bag",
     "name": "Blood Bag",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udddb"
   },
   {
     "id": "boat",
     "name": "Boat",
     "level": 13,
     "source": "dataset",
-    "emoji": "\u26f5"
+    "emoji": "\u2693"
   },
   {
     "id": "boiler",
     "name": "Boiler",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude94"
   },
   {
     "id": "bone",
     "name": "Bone",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddb4"
   },
   {
     "id": "bonsai tree",
     "name": "Bonsai Tree",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83c\udf43"
   },
   {
     "id": "book",
@@ -531,35 +531,35 @@ const GRAPH_DATA = {
     "name": "Bottle",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf76"
   },
   {
     "id": "boulder",
     "name": "Boulder",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea8"
   },
   {
     "id": "bow",
     "name": "Bow",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude4f"
   },
   {
     "id": "box",
     "name": "Box",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc9d"
   },
   {
     "id": "bread",
     "name": "Bread",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83c\udf5e"
   },
   {
     "id": "brick",
@@ -573,273 +573,273 @@ const GRAPH_DATA = {
     "name": "Bridge",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf01"
   },
   {
     "id": "broom",
     "name": "Broom",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83e\uddf9"
   },
   {
     "id": "bucket",
     "name": "Bucket",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea3"
   },
   {
     "id": "bullet",
     "name": "Bullet",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2b"
   },
   {
     "id": "bulletproof vest",
     "name": "Bulletproof Vest",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udee1\ufe0f"
   },
   {
     "id": "bus",
     "name": "Bus",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude8c"
   },
   {
     "id": "butcher",
     "name": "Butcher",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2a"
   },
   {
     "id": "butter",
     "name": "Butter",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddc8"
   },
   {
     "id": "butterfly",
     "name": "Butterfly",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc50"
   },
   {
     "id": "butterfly net",
     "name": "Butterfly Net",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc50"
   },
   {
     "id": "cable car",
     "name": "Cable Car",
     "level": 12,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83d\ude9e"
   },
   {
     "id": "cactus",
     "name": "Cactus",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf35"
   },
   {
     "id": "cage",
     "name": "Cage",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd1e"
   },
   {
     "id": "cake",
     "name": "Cake",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf82"
   },
   {
     "id": "camel",
     "name": "Camel",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc2a"
   },
   {
     "id": "campfire",
     "name": "Campfire",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude92"
   },
   {
     "id": "candle",
     "name": "Candle",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": "candy cane",
     "name": "Candy Cane",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd6b"
   },
   {
     "id": "cannon",
     "name": "Cannon",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd6b"
   },
   {
     "id": "canvas",
     "name": "Canvas",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\uddbc\ufe0f"
   },
   {
     "id": "car",
     "name": "Car",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\ude97"
+    "emoji": "\ud83d\ude9e"
   },
   {
     "id": "caramel",
     "name": "Caramel",
     "level": 12,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83c\udf6e"
   },
   {
     "id": "carbon dioxide",
     "name": "Carbon Dioxide",
     "level": 9,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83d\ude9e"
   },
   {
     "id": "carrot",
     "name": "Carrot",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\udd55"
   },
   {
     "id": "cart",
     "name": "Cart",
     "level": 13,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udfa8"
   },
   {
     "id": "cashmere",
     "name": "Cashmere",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfe6"
   },
   {
     "id": "castle",
     "name": "Castle",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83c\udff0"
   },
   {
     "id": "cat",
     "name": "Cat",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc08"
   },
   {
     "id": "catnip",
     "name": "Catnip",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc08"
   },
   {
     "id": "cauldron",
     "name": "Cauldron",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd63"
   },
   {
     "id": "cave",
     "name": "Cave",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd73\ufe0f"
   },
   {
     "id": "caviar",
     "name": "Caviar",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc1f"
   },
   {
     "id": "centaur",
     "name": "Centaur",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc0e"
   },
   {
     "id": "cereal",
     "name": "Cereal",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd63"
   },
   {
     "id": "chain",
     "name": "Chain",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26d3\ufe0f"
   },
   {
     "id": "chainsaw",
     "name": "Chainsaw",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd17"
   },
   {
     "id": "chameleon",
     "name": "Chameleon",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd81"
   },
   {
     "id": "charcoal",
     "name": "Charcoal",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea8"
   },
   {
     "id": "cheese",
     "name": "Cheese",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83e\udd6f"
   },
   {
     "id": "cheeseburger",
@@ -853,91 +853,91 @@ const GRAPH_DATA = {
     "name": "Chicken",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc14"
   },
   {
     "id": "chicken coop",
     "name": "Chicken Coop",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc14"
   },
   {
     "id": "chicken soup",
     "name": "Chicken Soup",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc14"
   },
   {
     "id": "chicken wing",
     "name": "Chicken wing",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc14"
   },
   {
     "id": "chill",
     "name": "Chill",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udecb\ufe0f"
   },
   {
     "id": "chimney",
     "name": "Chimney",
     "level": 3,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfed"
   },
   {
     "id": "chocolate",
     "name": "Chocolate",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc9d"
   },
   {
     "id": "chocolate milk",
     "name": "Chocolate Milk",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc9d"
   },
   {
     "id": "christmas stocking",
     "name": "Christmas Stocking",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd34"
   },
   {
     "id": "christmas tree",
     "name": "Christmas Tree",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83c\udf43"
   },
   {
     "id": "cigarette",
     "name": "Cigarette",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udeac"
   },
   {
     "id": "circus",
     "name": "Circus",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc35"
   },
   {
     "id": "city",
     "name": "City",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83c\udfd9\ufe0f"
+    "emoji": "\ud83c\udfe2"
   },
   {
     "id": "clay",
@@ -951,21 +951,21 @@ const GRAPH_DATA = {
     "name": "Clock",
     "level": 7,
     "source": "dataset",
-    "emoji": "\u23f0"
+    "emoji": "\ud83c\udfeb"
   },
   {
     "id": "closet",
     "name": "Closet",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcd0"
   },
   {
     "id": "cloud",
     "name": "Cloud",
     "level": 5,
     "source": "dataset",
-    "emoji": "\u2601\ufe0f"
+    "emoji": "\ud83d\udcad"
   },
   {
     "id": "coal",
@@ -979,420 +979,420 @@ const GRAPH_DATA = {
     "name": "Coconut",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf34"
   },
   {
     "id": "coconut milk",
     "name": "Coconut Milk",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd31"
   },
   {
     "id": "coffin",
     "name": "Coffin",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26b0\ufe0f"
   },
   {
     "id": "cold",
     "name": "Cold",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83e\udd76"
+    "emoji": "\ud83d\ude05"
   },
   {
     "id": "combustion engine",
     "name": "Combustion Engine",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83d\udc65"
   },
   {
     "id": "computer",
     "name": "Computer",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd16"
   },
   {
     "id": "computer mouse",
     "name": "Computer Mouse",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd16"
   },
   {
     "id": "confetti",
     "name": "Confetti",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf8a"
   },
   {
     "id": "constellation",
     "name": "Constellation",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26ce"
   },
   {
     "id": "container",
     "name": "Container",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd61"
   },
   {
     "id": "continent",
     "name": "Continent",
     "level": 2,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd6b"
   },
   {
     "id": "cook",
     "name": "Cook",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf73"
   },
   {
     "id": "cookbook",
     "name": "Cookbook",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udcd6"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf73"
   },
   {
     "id": "cookie",
     "name": "Cookie",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf6a"
   },
   {
     "id": "cookie cutter",
     "name": "Cookie Cutter",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf73"
   },
   {
     "id": "cookie dough",
     "name": "Cookie Dough",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude12"
   },
   {
     "id": "coral",
     "name": "Coral",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udeb8"
   },
   {
     "id": "corpse",
     "name": "Corpse",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc80"
   },
   {
     "id": "cotton",
     "name": "Cotton",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2601\ufe0f"
   },
   {
     "id": "cotton candy",
     "name": "Cotton Candy",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd6b"
   },
   {
     "id": "cow",
     "name": "Cow",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc02"
   },
   {
     "id": "crayon",
     "name": "Crayon",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd8d\ufe0f"
   },
   {
     "id": "crow",
     "name": "Crow",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc26\u200d\u2b1b"
   },
   {
     "id": "crystal ball",
     "name": "Crystal Ball",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude02"
   },
   {
     "id": "cuckoo",
     "name": "Cuckoo",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd85"
   },
   {
     "id": "cup",
     "name": "Cup",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf75"
   },
   {
     "id": "current",
     "name": "Current",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26a1"
   },
   {
     "id": "cutting board",
     "name": "Cutting Board",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc87"
   },
   {
     "id": "cyborg",
     "name": "Cyborg",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd16"
   },
   {
     "id": "cyclist",
     "name": "Cyclist",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udeb4"
   },
   {
     "id": "dam",
     "name": "Dam",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddab"
   },
   {
     "id": "darkness",
     "name": "Darkness",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83c\udf11"
+    "emoji": "\ud83d\udda4"
   },
   {
     "id": "dawn",
     "name": "Dawn",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf05"
   },
   {
     "id": "day",
     "name": "Day",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2600\ufe0f"
   },
   {
     "id": "death",
     "name": "Death",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc80"
   },
   {
     "id": "deity",
     "name": "deity",
     "level": null,
     "source": "dataset",
-    "emoji": "\ud83d\udc7c"
+    "emoji": "\ud83d\udd2e"
   },
   {
     "id": "desert",
     "name": "Desert",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83c\udfdc\ufe0f"
+    "emoji": "\ud83d\udc2a"
   },
   {
     "id": "dew",
     "name": "Dew",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf48"
   },
   {
     "id": "diamond",
     "name": "Diamond",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc8e"
+    "emoji": "\ud83d\udc8d"
   },
   {
     "id": "dinosaur",
     "name": "Dinosaur",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd96"
+    "emoji": "\ud83e\udd95"
   },
   {
     "id": "diver",
     "name": "Diver",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfca"
   },
   {
     "id": "doctor",
     "name": "Doctor",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "dog",
     "name": "Dog",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udca9"
   },
   {
     "id": "doge",
     "name": "Doge",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc15"
   },
   {
     "id": "doghouse",
     "name": "Doghouse",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udca9"
   },
   {
     "id": "domestication",
     "name": "Domestication",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc08"
   },
   {
     "id": "don quixote",
     "name": "Don Quixote",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcae"
   },
   {
     "id": "donut",
     "name": "Donut",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf69"
   },
   {
     "id": "double rainbow!",
     "name": "Double Rainbow!",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude4f"
   },
   {
     "id": "dough",
     "name": "Dough",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf5e"
   },
   {
     "id": "dragon",
     "name": "Dragon",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc09"
   },
   {
     "id": "drone",
     "name": "Drone",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2a"
   },
   {
     "id": "drum",
     "name": "Drum",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd41"
   },
   {
     "id": "drunk",
     "name": "Drunk",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd74"
   },
   {
     "id": "dry ice",
     "name": "Dry Ice",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "duck",
     "name": "Duck",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83d\ude17"
   },
   {
     "id": "duckling",
     "name": "Duckling",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83e\udda2"
   },
   {
     "id": "dune",
     "name": "Dune",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfdc\ufe0f"
   },
   {
     "id": "dust",
     "name": "Dust",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udfed"
   },
   {
     "id": "dynamite",
     "name": "Dynamite",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udde8"
   },
   {
     "id": "eagle",
@@ -1406,56 +1406,56 @@ const GRAPH_DATA = {
     "name": "Earth",
     "level": 0,
     "source": "dataset",
-    "emoji": "\u26f0\ufe0f"
+    "emoji": "\ud83c\udf0d"
   },
   {
     "id": "earthquake",
     "name": "Earthquake",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udee8"
   },
   {
     "id": "eclipse",
     "name": "Eclipse",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf11"
   },
   {
     "id": "egg",
     "name": "Egg",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83d\udc23"
   },
   {
     "id": "egg timer",
     "name": "Egg Timer",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83d\udc23"
   },
   {
     "id": "electric car",
     "name": "Electric Car",
     "level": 12,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83d\ude83"
   },
   {
     "id": "electric eel",
     "name": "Electric Eel",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83d\ude83"
   },
   {
     "id": "electrician",
     "name": "Electrician",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\udd27"
   },
   {
     "id": "electricity",
@@ -1469,49 +1469,49 @@ const GRAPH_DATA = {
     "name": "Email",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc8c"
   },
   {
     "id": "energy",
     "name": "Energy",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udca5"
+    "emoji": "\ud83d\udd0b"
   },
   {
     "id": "engineer",
     "name": "Engineer",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\udd2c"
   },
   {
     "id": "eruption",
     "name": "Eruption",
     "level": 2,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf0b"
   },
   {
     "id": "excalibur",
     "name": "Excalibur",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udde1\ufe0f"
   },
   {
     "id": "excavator",
     "name": "Excavator",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea3"
   },
   {
     "id": "explosion",
     "name": "Explosion",
     "level": 3,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2f"
   },
   {
     "id": "fabric",
@@ -1525,336 +1525,336 @@ const GRAPH_DATA = {
     "name": "Factory",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfed"
   },
   {
     "id": "fairy tale",
     "name": "Fairy Tale",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83e\ude84"
+    "emoji": "\ud83d\ude07"
   },
   {
     "id": "family",
     "name": "Family",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc6a"
   },
   {
     "id": "family tree",
     "name": "Family tree",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83e\udd1f"
   },
   {
     "id": "farm",
     "name": "Farm",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude9c"
   },
   {
     "id": "farmer",
     "name": "Farmer",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf3e"
   },
   {
     "id": "faun",
     "name": "Faun",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc10"
   },
   {
     "id": "fence",
     "name": "Fence",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd3a"
   },
   {
     "id": "field",
     "name": "Field",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf3e"
   },
   {
     "id": "fire",
     "name": "Fire",
     "level": 0,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude92"
   },
   {
     "id": "fire extinguisher",
     "name": "Fire Extinguisher",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude92"
   },
   {
     "id": "firefighter",
     "name": "Firefighter",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude92"
   },
   {
     "id": "fireplace",
     "name": "Fireplace",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude92"
   },
   {
     "id": "firestation",
     "name": "Firestation",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83d\ude2a"
   },
   {
     "id": "firetruck",
     "name": "Firetruck",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude92"
   },
   {
     "id": "firewall",
     "name": "Firewall",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude92"
   },
   {
     "id": "fireworks",
     "name": "Fireworks",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83c\udf86"
   },
   {
     "id": "fish",
     "name": "Fish",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83d\udc2c"
   },
   {
     "id": "fishing rod",
     "name": "Fishing Rod",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83e\udda6"
   },
   {
     "id": "flamethrower",
     "name": "Flamethrower",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd25"
   },
   {
     "id": "flashlight",
     "name": "Flashlight",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd26"
   },
   {
     "id": "flood",
     "name": "Flood",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udebd"
   },
   {
     "id": "flour",
     "name": "Flour",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf3e"
   },
   {
     "id": "flower",
     "name": "Flower",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf31"
+    "emoji": "\ud83d\udc90"
   },
   {
     "id": "flute",
     "name": "Flute",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude88"
   },
   {
     "id": "flying fish",
     "name": "Flying Fish",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f"
   },
   {
     "id": "flying squirrel",
     "name": "Flying Squirrel",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f"
   },
   {
     "id": "fog",
     "name": "Fog",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf01"
   },
   {
     "id": "force knight",
     "name": "Force Knight",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude34"
   },
   {
     "id": "forest",
     "name": "Forest",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83d\ude2a"
   },
   {
     "id": "fork",
     "name": "Fork",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u23f9\ufe0f"
   },
   {
     "id": "fortune cookie",
     "name": "Fortune Cookie",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf73"
   },
   {
     "id": "fossil",
     "name": "Fossil",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddb4"
   },
   {
     "id": "fountain",
     "name": "Fountain",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26f2"
   },
   {
     "id": "fox",
     "name": "Fox",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83e\udd8a"
   },
   {
     "id": "frankenstein's monster",
     "name": "Frankenstein's Monster",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc80"
   },
   {
     "id": "french fries",
     "name": "French Fries",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd50"
   },
   {
     "id": "fridge",
     "name": "Fridge",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddca"
   },
   {
     "id": "frog",
     "name": "Frog",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc38"
   },
   {
     "id": "frozen yogurt",
     "name": "Frozen Yogurt",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "fruit",
     "name": "Fruit",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83c\udf47"
   },
   {
     "id": "fruit tree",
     "name": "Fruit Tree",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83c\udf43"
   },
   {
     "id": "galaxy",
     "name": "Galaxy",
     "level": 5,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83c\udf0c"
   },
   {
     "id": "galaxy cluster",
     "name": "Galaxy Cluster",
     "level": 6,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83c\udf0c"
   },
   {
     "id": "garage",
     "name": "Garage",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude21"
   },
   {
     "id": "garden",
     "name": "Garden",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc0c"
   },
   {
     "id": "gardener",
     "name": "Gardener",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf3e"
   },
   {
     "id": "gas",
     "name": "Gas",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude24"
   },
   {
     "id": "geyser",
@@ -1868,42 +1868,42 @@ const GRAPH_DATA = {
     "name": "Ghost",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc7b"
   },
   {
     "id": "gift",
     "name": "Gift",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc9d"
   },
   {
     "id": "gingerbread house",
     "name": "Gingerbread House",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83d\udc68\u200d\ud83e\uddb0"
   },
   {
     "id": "gingerbread man",
     "name": "Gingerbread Man",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83d\udc66"
   },
   {
     "id": "glacier",
     "name": "Glacier",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\uddca"
   },
   {
     "id": "glass",
     "name": "Glass",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83e\udd5b"
+    "emoji": "\ud83e\udd42"
   },
   {
     "id": "glasses",
@@ -1917,35 +1917,35 @@ const GRAPH_DATA = {
     "name": "Gnome",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude0b"
   },
   {
     "id": "goat",
     "name": "Goat",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc10"
   },
   {
     "id": "gold",
     "name": "Gold",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83e\ude99"
+    "emoji": "\ud83d\udc9b"
   },
   {
     "id": "golem",
     "name": "Golem",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd16"
   },
   {
     "id": "granite",
     "name": "Granite",
     "level": 2,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea8"
   },
   {
     "id": "grass",
@@ -1959,49 +1959,49 @@ const GRAPH_DATA = {
     "name": "Grave",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea6"
   },
   {
     "id": "gravestone",
     "name": "Gravestone",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea6"
   },
   {
     "id": "graveyard",
     "name": "Graveyard",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26b0\ufe0f"
   },
   {
     "id": "greenhouse",
     "name": "Greenhouse",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83e\udd22"
   },
   {
     "id": "grenade",
     "name": "Grenade",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca3"
   },
   {
     "id": "grilled cheese",
     "name": "Grilled Cheese",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "grim reaper",
     "name": "Grim Reaper",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc80"
   },
   {
     "id": "gun",
@@ -2015,35 +2015,35 @@ const GRAPH_DATA = {
     "name": "Gunpowder",
     "level": 2,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2b"
   },
   {
     "id": "gust",
     "name": "Gust",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "hacker",
     "name": "Hacker",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcbb"
   },
   {
     "id": "hail",
     "name": "Hail",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\uddf9\ud83c\udded"
   },
   {
     "id": "ham",
     "name": "Ham",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude33"
   },
   {
     "id": "hamburger",
@@ -2057,413 +2057,413 @@ const GRAPH_DATA = {
     "name": "Hammer",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd28"
   },
   {
     "id": "hamster",
     "name": "Hamster",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc39"
   },
   {
     "id": "hangar",
     "name": "Hangar",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude82"
   },
   {
     "id": "harp",
     "name": "Harp",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude89"
   },
   {
     "id": "hay",
     "name": "Hay",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf3e"
   },
   {
     "id": "hay bale",
     "name": "Hay Bale",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf3e"
   },
   {
     "id": "heat",
     "name": "Heat",
     "level": 2,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\udd75"
   },
   {
     "id": "hedge",
     "name": "Hedge",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udccf"
   },
   {
     "id": "hedgehog",
     "name": "Hedgehog",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd94"
   },
   {
     "id": "helicopter",
     "name": "Helicopter",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude81"
   },
   {
     "id": "hero",
     "name": "Hero",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddb8"
   },
   {
     "id": "hill",
     "name": "Hill",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "hippo",
     "name": "Hippo",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd9b"
   },
   {
     "id": "honey",
     "name": "Honey",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udda1"
   },
   {
     "id": "horizon",
     "name": "Horizon",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udea5"
   },
   {
     "id": "horse",
     "name": "Horse",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc0e"
   },
   {
     "id": "horseshoe",
     "name": "Horseshoe",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83e\uddf2"
   },
   {
     "id": "hospital",
     "name": "Hospital",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\u2695\ufe0f"
   },
   {
     "id": "hot chocolate",
     "name": "Hot Chocolate",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude05"
   },
   {
     "id": "hourglass",
     "name": "Hourglass",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u23f3"
   },
   {
     "id": "house",
     "name": "House",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83c\udfd8\ufe0f"
   },
   {
     "id": "human",
     "name": "Human",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83e\uddd1"
+    "emoji": "\ud83e\uddd3"
   },
   {
     "id": "hummingbird",
     "name": "Hummingbird",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83d\udd95"
   },
   {
     "id": "hurricane",
     "name": "Hurricane",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf00"
   },
   {
     "id": "husky",
     "name": "Husky",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf06"
   },
   {
     "id": "ice",
     "name": "Ice",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\uddca"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "ice cream",
     "name": "Ice Cream",
     "level": 12,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "ice cream truck",
     "name": "Ice Cream Truck",
     "level": 13,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "ice sculpture",
     "name": "Ice Sculpture",
     "level": 11,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "iceberg",
     "name": "Iceberg",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\uddca"
   },
   {
     "id": "iced tea",
     "name": "Iced Tea",
     "level": 12,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "idea",
     "name": "Idea",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca1"
   },
   {
     "id": "igloo",
     "name": "Igloo",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udebd"
   },
   {
     "id": "internet",
     "name": "Internet",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf10"
   },
   {
     "id": "island",
     "name": "Island",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udde8\ud83c\udde8"
   },
   {
     "id": "ivy",
     "name": "Ivy",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf31"
+    "emoji": "\ud83c\udf3f"
   },
   {
     "id": "jack-o-lantern",
     "name": "Jack-O-Lantern",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udc1c"
   },
   {
     "id": "jam",
     "name": "Jam",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\uddef\ud83c\uddf2"
   },
   {
     "id": "jar",
     "name": "Jar",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udffa"
   },
   {
     "id": "jerky",
     "name": "Jerky",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd69"
   },
   {
     "id": "juice",
     "name": "Juice",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\udd64"
   },
   {
     "id": "jupiter",
     "name": "Jupiter",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude90"
   },
   {
     "id": "kaiju",
     "name": "Kaiju",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd96"
   },
   {
     "id": "katana",
     "name": "Katana",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udde1\ufe0f"
   },
   {
     "id": "kite",
     "name": "Kite",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude81"
   },
   {
     "id": "knife",
     "name": "Knife",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2a"
   },
   {
     "id": "knight",
     "name": "Knight",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udee1\ufe0f"
   },
   {
     "id": "lake",
     "name": "Lake",
     "level": 3,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\u2744\ufe0f"
   },
   {
     "id": "lamp",
     "name": "Lamp",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca1"
   },
   {
     "id": "land",
     "name": "Land",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf40"
   },
   {
     "id": "laptop",
     "name": "Laptop",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\udcbb"
   },
   {
     "id": "lasso",
     "name": "Lasso",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea2"
   },
   {
     "id": "lava",
     "name": "Lava",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83c\udf0b"
+    "emoji": "\ud83d\udeb9"
   },
   {
     "id": "lava lamp",
     "name": "Lava Lamp",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\ude94"
   },
   {
     "id": "lawn",
     "name": "Lawn",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf31"
   },
   {
     "id": "lawn mower",
     "name": "Lawn Mower",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\uddd1\u200d\u2696\ufe0f"
   },
   {
     "id": "leaf",
     "name": "Leaf",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83c\udf31"
+    "emoji": "\ud83c\udf3f"
   },
   {
     "id": "leather",
     "name": "Leather",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc55"
+    "emoji": "\ud83c\udf7d\ufe0f"
   },
   {
     "id": "legend",
     "name": "Legend",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddb5"
   },
   {
     "id": "lens",
@@ -2477,21 +2477,21 @@ const GRAPH_DATA = {
     "name": "Letter",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udcd6"
+    "emoji": "\u2709\ufe0f"
   },
   {
     "id": "librarian",
     "name": "Librarian",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2696\ufe0f"
   },
   {
     "id": "library",
     "name": "Library",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcd5"
   },
   {
     "id": "life",
@@ -2505,630 +2505,630 @@ const GRAPH_DATA = {
     "name": "Light",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udca1"
+    "emoji": "\ud83c\udf83"
   },
   {
     "id": "light bulb",
     "name": "Light Bulb",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf83"
   },
   {
     "id": "light sword",
     "name": "Light Sword",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd3a"
   },
   {
     "id": "lighthouse",
     "name": "Lighthouse",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83c\udfd8\ufe0f"
   },
   {
     "id": "lightning",
     "name": "Lightning",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26c8\ufe0f"
   },
   {
     "id": "lion",
     "name": "Lion",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd81"
   },
   {
     "id": "liquid",
     "name": "Liquid",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udeb0"
   },
   {
     "id": "little alchemy",
     "name": "Little Alchemy",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd0f"
   },
   {
     "id": "livestock",
     "name": "Livestock",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc04"
   },
   {
     "id": "lizard",
     "name": "Lizard",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc0a"
   },
   {
     "id": "log cabin",
     "name": "Log cabin",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\uddd1\ufe0f"
   },
   {
     "id": "love",
     "name": "Love",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd70"
   },
   {
     "id": "lumberjack",
     "name": "Lumberjack",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udeb5"
   },
   {
     "id": "mac and cheese",
     "name": "Mac and Cheese",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83c\udf4e"
   },
   {
     "id": "machine",
     "name": "Machine",
     "level": 9,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\udd16"
   },
   {
     "id": "magic",
     "name": "Magic",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83e\ude84"
+    "emoji": "\ud83d\udcab"
   },
   {
     "id": "magma",
     "name": "Magma",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd0d"
   },
   {
     "id": "mail truck",
     "name": "Mail truck",
     "level": 15,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83d\udc8c"
   },
   {
     "id": "mailbox",
     "name": "Mailbox",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcee"
   },
   {
     "id": "mailman",
     "name": "Mailman",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc8c"
   },
   {
     "id": "manatee",
     "name": "Manatee",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc66"
   },
   {
     "id": "map",
     "name": "Map",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\uddfa\ufe0f"
   },
   {
     "id": "maple syrup",
     "name": "Maple Syrup",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udccd"
   },
   {
     "id": "mars",
     "name": "Mars",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2642\ufe0f"
   },
   {
     "id": "marshmallows",
     "name": "Marshmallows",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfec"
   },
   {
     "id": "mayonnaise",
     "name": "Mayonnaise",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf6f"
   },
   {
     "id": "meat",
     "name": "Meat",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83c\udf57"
   },
   {
     "id": "medusa",
     "name": "Medusa",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\uddfa\ud83c\uddf8"
   },
   {
     "id": "mercury",
     "name": "Mercury",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude90"
   },
   {
     "id": "mermaid",
     "name": "Mermaid",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udddc"
   },
   {
     "id": "metal",
     "name": "Metal",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd29"
+    "emoji": "\ud83e\udd18"
   },
   {
     "id": "meteor",
     "name": "Meteor",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf20"
   },
   {
     "id": "meteoroid",
     "name": "Meteoroid",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf20"
   },
   {
     "id": "microscope",
     "name": "Microscope",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc53"
+    "emoji": "\ud83d\udd2c"
   },
   {
     "id": "milk",
     "name": "Milk",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd31"
   },
   {
     "id": "milk shake",
     "name": "Milk Shake",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd1d"
   },
   {
     "id": "mineral",
     "name": "Mineral",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea8"
   },
   {
     "id": "minotaur",
     "name": "Minotaur",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude48"
   },
   {
     "id": "mirror",
     "name": "Mirror",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude9e"
   },
   {
     "id": "mist",
     "name": "Mist",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\udd2c"
   },
   {
     "id": "mold",
     "name": "Mold",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc68\u200d\ud83e\uddb3"
   },
   {
     "id": "monarch",
     "name": "Monarch",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udec5"
   },
   {
     "id": "money",
     "name": "Money",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcb5"
   },
   {
     "id": "monkey",
     "name": "Monkey",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude48"
   },
   {
     "id": "monster",
     "name": "monster",
     "level": null,
     "source": "dataset",
-    "emoji": "\ud83d\udc79"
+    "emoji": "\ud83d\udc80"
   },
   {
     "id": "moon",
     "name": "Moon",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83c\udf19"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude80"
   },
   {
     "id": "moon rover",
     "name": "Moon Rover",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2c"
   },
   {
     "id": "moss",
     "name": "Moss",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf31"
+    "emoji": "\ud83c\udf3f"
   },
   {
     "id": "moth",
     "name": "Moth",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd31"
   },
   {
     "id": "motion",
     "name": "Motion",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfc3"
   },
   {
     "id": "motorcycle",
     "name": "Motorcycle",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfcd\ufe0f"
   },
   {
     "id": "mountain",
     "name": "Mountain",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83c\udfd4\ufe0f"
+    "emoji": "\u26f0\ufe0f"
   },
   {
     "id": "mountain goat",
     "name": "Mountain Goat",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc10"
   },
   {
     "id": "mountain range",
     "name": "Mountain Range",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26f0\ufe0f"
   },
   {
     "id": "mouse",
     "name": "Mouse",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc01"
   },
   {
     "id": "mousetrap",
     "name": "Mousetrap",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea4"
   },
   {
     "id": "mud",
     "name": "Mud",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udca9"
+    "emoji": "\ud83c\udde7\ud83c\uddf2"
   },
   {
     "id": "mummy",
     "name": "Mummy",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udddf"
   },
   {
     "id": "music",
     "name": "Music",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udfa4"
   },
   {
     "id": "musician",
     "name": "Musician",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udfa4"
   },
   {
     "id": "narwhal",
     "name": "Narwhal",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc0b"
   },
   {
     "id": "needle",
     "name": "Needle",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddf5"
   },
   {
     "id": "nessie",
     "name": "Nessie",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc09"
   },
   {
     "id": "nest",
     "name": "Nest",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude86"
   },
   {
     "id": "net",
     "name": "Net",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude80"
   },
   {
     "id": "newspaper",
     "name": "Newspaper",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udcd6"
+    "emoji": "\ud83d\udcf0"
   },
   {
     "id": "night",
     "name": "Night",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf19"
   },
   {
     "id": "ninja",
     "name": "Ninja",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd77"
   },
   {
     "id": "ninja turtle",
     "name": "Ninja Turtle",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc22"
   },
   {
     "id": "nuts",
     "name": "Nuts",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd5c"
   },
   {
     "id": "oasis",
     "name": "Oasis",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfdd\ufe0f"
   },
   {
     "id": "obsidian",
     "name": "Obsidian",
     "level": 2,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea8"
   },
   {
     "id": "ocean",
     "name": "Ocean",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83c\udf0a"
+    "emoji": "\ud83c\udfc4\u200d\u2642\ufe0f"
   },
   {
     "id": "oil",
     "name": "Oil",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude94"
   },
   {
     "id": "omelette",
     "name": "Omelette",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf73"
   },
   {
     "id": "optical fiber",
     "name": "Optical Fiber",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcbd"
   },
   {
     "id": "orchard",
     "name": "Orchard",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude13"
   },
   {
     "id": "ore",
     "name": "Ore",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd70"
   },
   {
     "id": "organic matter",
     "name": "Organic Matter",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udde0"
   },
   {
     "id": "origami",
     "name": "Origami",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcc4"
   },
   {
     "id": "ostrich",
     "name": "Ostrich",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd11"
   },
   {
     "id": "owl",
     "name": "Owl",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83e\udd89"
   },
   {
     "id": "oxygen",
     "name": "Oxygen",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "ozone",
     "name": "Ozone",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2a"
   },
   {
     "id": "paint",
     "name": "Paint",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfa8"
   },
   {
     "id": "painter",
     "name": "Painter",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfa8"
   },
   {
     "id": "painting",
     "name": "Painting",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udfa8"
   },
   {
     "id": "paleontologist",
     "name": "Paleontologist",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd81"
   },
   {
     "id": "palm",
     "name": "Palm",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc4b"
   },
   {
     "id": "pan flute",
     "name": "Pan Flute",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf73"
   },
   {
     "id": "paper",
@@ -3142,287 +3142,287 @@ const GRAPH_DATA = {
     "name": "Paper Airplane",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udcd6"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "paper cup",
     "name": "Paper Cup",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udcd6"
+    "emoji": "\ud83e\udda7"
   },
   {
     "id": "parachute",
     "name": "Parachute",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude82"
   },
   {
     "id": "paraglider",
     "name": "Paraglider",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude82"
   },
   {
     "id": "park",
     "name": "Park",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26f2"
   },
   {
     "id": "parrot",
     "name": "Parrot",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd9c"
   },
   {
     "id": "pasta",
     "name": "Pasta",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf5d"
   },
   {
     "id": "peacock",
     "name": "Peacock",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd9a"
   },
   {
     "id": "peanut butter",
     "name": "Peanut Butter",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf51"
   },
   {
     "id": "peat",
     "name": "Peat",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf7d\ufe0f"
   },
   {
     "id": "pebble",
     "name": "Pebble",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea8"
   },
   {
     "id": "pegasus",
     "name": "Pegasus",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude24"
   },
   {
     "id": "pencil",
     "name": "Pencil",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u270f\ufe0f"
   },
   {
     "id": "pencil sharpener",
     "name": "Pencil Sharpener",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u270f\ufe0f"
   },
   {
     "id": "penguin",
     "name": "Penguin",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc27"
   },
   {
     "id": "penicillin",
     "name": "Penicillin",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "perfume",
     "name": "Perfume",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddea"
   },
   {
     "id": "petroleum",
     "name": "Petroleum",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26fd"
   },
   {
     "id": "philosophy",
     "name": "Philosophy",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udde0"
   },
   {
     "id": "phoenix",
     "name": "Phoenix",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc26\u200d\ud83d\udd25"
   },
   {
     "id": "picnic",
     "name": "Picnic",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf49"
   },
   {
     "id": "pie",
     "name": "Pie",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd67"
   },
   {
     "id": "pig",
     "name": "Pig",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc16"
   },
   {
     "id": "pigeon",
     "name": "Pigeon",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83d\udc16"
   },
   {
     "id": "piggy bank",
     "name": "Piggy Bank",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\u270b"
   },
   {
     "id": "pilot",
     "name": "Pilot",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f"
   },
   {
     "id": "pinocchio",
     "name": "Pinocchio",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd25"
   },
   {
     "id": "pipe",
     "name": "Pipe",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude88"
   },
   {
     "id": "piranha",
     "name": "Piranha",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\uddee\ud83c\uddf7"
   },
   {
     "id": "pirate",
     "name": "Pirate",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2620\ufe0f"
   },
   {
     "id": "pirate ship",
     "name": "Pirate Ship",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2620\ufe0f"
   },
   {
     "id": "pitchfork",
     "name": "Pitchfork",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd31"
   },
   {
     "id": "pizza",
     "name": "Pizza",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83c\udf55"
   },
   {
     "id": "planet",
     "name": "Planet",
     "level": 3,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83c\udf0d"
   },
   {
     "id": "plankton",
     "name": "Plankton",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udda0"
   },
   {
     "id": "plant",
     "name": "Plant",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83c\udf31"
+    "emoji": "\ud83d\udc90"
   },
   {
     "id": "plasma",
     "name": "Plasma",
     "level": 3,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26a1"
   },
   {
     "id": "platypus",
     "name": "Platypus",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc3e"
   },
   {
     "id": "plow",
     "name": "Plow",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd09"
   },
   {
     "id": "polar bear",
     "name": "Polar Bear",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f"
   },
   {
     "id": "pollen",
     "name": "Pollen",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf38"
   },
   {
     "id": "pond",
@@ -3436,987 +3436,987 @@ const GRAPH_DATA = {
     "name": "Popsicle",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca2"
   },
   {
     "id": "post office",
     "name": "Post Office",
     "level": 15,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83e\udd76"
   },
   {
     "id": "potato",
     "name": "Potato",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd54"
   },
   {
     "id": "potter",
     "name": "Potter",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udda6"
   },
   {
     "id": "pottery",
     "name": "Pottery",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf6f"
   },
   {
     "id": "pressure",
     "name": "Pressure",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udca8"
+    "emoji": "\ud83d\udcf0"
   },
   {
     "id": "primordial soup",
     "name": "Primordial Soup",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf72"
   },
   {
     "id": "printer",
     "name": "Printer",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udda8\ufe0f"
   },
   {
     "id": "prism",
     "name": "Prism",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc8e"
   },
   {
     "id": "pterodactyl",
     "name": "Pterodactyl",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfa3"
   },
   {
     "id": "puddle",
     "name": "Puddle",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca7"
   },
   {
     "id": "pumpkin",
     "name": "Pumpkin",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf83"
   },
   {
     "id": "pyramid",
     "name": "Pyramid",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83d\udcd0"
   },
   {
     "id": "quicksand",
     "name": "Quicksand",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\uddfb"
   },
   {
     "id": "quicksilver",
     "name": "Quicksilver",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83e\ude99"
+    "emoji": "\ud83e\udd48"
   },
   {
     "id": "rabbit",
     "name": "Rabbit",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc07"
   },
   {
     "id": "rain",
     "name": "Rain",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83c\udf27\ufe0f"
+    "emoji": "\ud83c\udf08"
   },
   {
     "id": "rainbow",
     "name": "Rainbow",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf08"
   },
   {
     "id": "rainforest",
     "name": "Rainforest",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83d\ude2a"
   },
   {
     "id": "rat",
     "name": "Rat",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc00"
   },
   {
     "id": "recipe",
     "name": "Recipe",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcdc"
   },
   {
     "id": "reed",
     "name": "Reed",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf31"
+    "emoji": "\ud83c\udf3f"
   },
   {
     "id": "reindeer",
     "name": "Reindeer",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd8c"
   },
   {
     "id": "restaurant",
     "name": "Restaurant",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83c\udf7d\ufe0f"
   },
   {
     "id": "ring",
     "name": "Ring",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd96"
   },
   {
     "id": "river",
     "name": "River",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83e\ude9b"
   },
   {
     "id": "rivulet",
     "name": "Rivulet",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca7"
   },
   {
     "id": "robot",
     "name": "Robot",
     "level": 12,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\udd16"
   },
   {
     "id": "robot vacuum",
     "name": "Robot Vacuum",
     "level": 14,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\udd16"
   },
   {
     "id": "rock",
     "name": "Rock",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd28"
   },
   {
     "id": "rocket",
     "name": "Rocket",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83d\ude80"
   },
   {
     "id": "roe",
     "name": "Roe",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\uddeb\ud83c\uddf4"
   },
   {
     "id": "roller coaster",
     "name": "Roller Coaster",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude44"
   },
   {
     "id": "rope",
     "name": "Rope",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea2"
   },
   {
     "id": "rose",
     "name": "Rose",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf39"
   },
   {
     "id": "ruins",
     "name": "Ruins",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfda\ufe0f"
   },
   {
     "id": "ruler",
     "name": "Ruler",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udccf"
   },
   {
     "id": "rust",
     "name": "Rust",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd28"
   },
   {
     "id": "rv",
     "name": "RV",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude99"
   },
   {
     "id": "sack",
     "name": "Sack",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf92"
   },
   {
     "id": "saddle",
     "name": "Saddle",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude14"
   },
   {
     "id": "safe",
     "name": "Safe",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd12"
   },
   {
     "id": "safety glasses",
     "name": "Safety Glasses",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udc53"
+    "emoji": "\ud83d\ude0e"
   },
   {
     "id": "sailboat",
     "name": "Sailboat",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26f5"
   },
   {
     "id": "sailor",
     "name": "Sailor",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f"
   },
   {
     "id": "salt",
     "name": "Salt",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddc2"
   },
   {
     "id": "sand",
     "name": "Sand",
     "level": 3,
     "source": "dataset",
-    "emoji": "\u23f3"
+    "emoji": "\ud83c\udfd6\ufe0f"
   },
   {
     "id": "sand castle",
     "name": "Sand Castle",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83d\uddfb"
   },
   {
     "id": "sandpaper",
     "name": "Sandpaper",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udcd6"
+    "emoji": "\ud83e\udda7"
   },
   {
     "id": "sandstone",
     "name": "Sandstone",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2a"
   },
   {
     "id": "sandstorm",
     "name": "Sandstorm",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf2a\ufe0f"
   },
   {
     "id": "sandwich",
     "name": "Sandwich",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd6a"
   },
   {
     "id": "santa",
     "name": "Santa",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83e\udd36"
   },
   {
     "id": "sap",
     "name": "Sap",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd28"
   },
   {
     "id": "saturn",
     "name": "Saturn",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude90"
   },
   {
     "id": "scalpel",
     "name": "Scalpel",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2a"
   },
   {
     "id": "scarecrow",
     "name": "Scarecrow",
     "level": 11,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83d\ude9e"
   },
   {
     "id": "science",
     "name": "Science",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2697\ufe0f"
   },
   {
     "id": "scissors",
     "name": "Scissors",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2702\ufe0f"
   },
   {
     "id": "scorpion",
     "name": "Scorpion",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd82"
   },
   {
     "id": "scuba tank",
     "name": "Scuba Tank",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd3f"
   },
   {
     "id": "scythe",
     "name": "Scythe",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude93"
   },
   {
     "id": "sea",
     "name": "Sea",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83c\udf0a"
+    "emoji": "\ud83e\udddc"
   },
   {
     "id": "seagull",
     "name": "Seagull",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83e\udd85"
+    "emoji": "\ud83e\udddc"
   },
   {
     "id": "seahorse",
     "name": "Seahorse",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83e\udddc"
   },
   {
     "id": "seal",
     "name": "Seal",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83e\uddad"
   },
   {
     "id": "seaplane",
     "name": "Seaplane",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f"
   },
   {
     "id": "seasickness",
     "name": "Seasickness",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "seaweed",
     "name": "Seaweed",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83e\udddc"
   },
   {
     "id": "seed",
     "name": "Seed",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf31"
   },
   {
     "id": "sewing machine",
     "name": "Sewing Machine",
     "level": 11,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83e\udd14"
   },
   {
     "id": "shark",
     "name": "Shark",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83e\udd88"
   },
   {
     "id": "sheep",
     "name": "Sheep",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc0f"
   },
   {
     "id": "sheet music",
     "name": "Sheet Music",
     "level": 16,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udfa4"
   },
   {
     "id": "shovel",
     "name": "Shovel",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd44"
   },
   {
     "id": "shuriken",
     "name": "Shuriken",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfaf"
   },
   {
     "id": "sickness",
     "name": "Sickness",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "silo",
     "name": "Silo",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfe2"
   },
   {
     "id": "skateboard",
     "name": "Skateboard",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udef9"
   },
   {
     "id": "skeleton",
     "name": "Skeleton",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc80"
   },
   {
     "id": "ski goggles",
     "name": "Ski Goggles",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc53"
+    "emoji": "\u26f7\ufe0f"
   },
   {
     "id": "skier",
     "name": "Skier",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u26f7\ufe0f"
   },
   {
     "id": "sky",
     "name": "Sky",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83c\udf0c"
+    "emoji": "\ud83c\udf06"
   },
   {
     "id": "skyscraper",
     "name": "Skyscraper",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca9"
   },
   {
     "id": "sleigh",
     "name": "Sleigh",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udef7"
   },
   {
     "id": "sloth",
     "name": "Sloth",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udda5"
   },
   {
     "id": "small",
     "name": "Small",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2a"
   },
   {
     "id": "smartphone",
     "name": "Smartphone",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcf1"
   },
   {
     "id": "smog",
     "name": "Smog",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfed"
   },
   {
     "id": "smoke",
     "name": "Smoke",
     "level": 1,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "smoke signal",
     "name": "Smoke Signal",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd11"
   },
   {
     "id": "smoothie",
     "name": "Smoothie",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd64"
   },
   {
     "id": "snake",
     "name": "Snake",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc0d"
   },
   {
     "id": "snow",
     "name": "Snow",
     "level": 9,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\u26f7\ufe0f"
   },
   {
     "id": "snow globe",
     "name": "Snow Globe",
     "level": 9,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\u26f7\ufe0f"
   },
   {
     "id": "snowball",
     "name": "Snowball",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\u26f7\ufe0f"
   },
   {
     "id": "snowboard",
     "name": "Snowboard",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83c\udfc2"
   },
   {
     "id": "snowboarder",
     "name": "Snowboarder",
     "level": 11,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\ud83c\udfc2"
   },
   {
     "id": "snowman",
     "name": "Snowman",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\u2603\ufe0f"
   },
   {
     "id": "snowmobile",
     "name": "Snowmobile",
     "level": 12,
     "source": "dataset",
-    "emoji": "\u2744\ufe0f"
+    "emoji": "\u26f7\ufe0f"
   },
   {
     "id": "soap",
     "name": "Soap",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddfc"
   },
   {
     "id": "soda",
     "name": "Soda",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd64"
   },
   {
     "id": "soil",
     "name": "Soil",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude94"
   },
   {
     "id": "solar cell",
     "name": "Solar Cell",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udda0"
   },
   {
     "id": "solar system",
     "name": "Solar System",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf11"
   },
   {
     "id": "solid",
     "name": "Solid",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea8"
   },
   {
     "id": "sound",
     "name": "Sound",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd0a"
+    "emoji": "\ud83d\udc42"
   },
   {
     "id": "space",
     "name": "Space",
     "level": 6,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83d\udc7e"
   },
   {
     "id": "space station",
     "name": "Space Station",
     "level": 5,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83d\udc7e"
   },
   {
     "id": "spaceship",
     "name": "Spaceship",
     "level": 11,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83d\udc7e"
   },
   {
     "id": "spaghetti",
     "name": "Spaghetti",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf5d"
   },
   {
     "id": "sphinx",
     "name": "Sphinx",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd81"
   },
   {
     "id": "spider",
     "name": "Spider",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udc1b"
+    "emoji": "\ud83d\udd77\ufe0f"
   },
   {
     "id": "spoon",
     "name": "Spoon",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd44"
   },
   {
     "id": "spotlight",
     "name": "Spotlight",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf83"
   },
   {
     "id": "sprinkles",
     "name": "Sprinkles",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udda8\ufe0f"
   },
   {
     "id": "squirrel",
     "name": "Squirrel",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc3f\ufe0f"
   },
   {
     "id": "star",
     "name": "Star",
     "level": 7,
     "source": "dataset",
-    "emoji": "\u2b50"
+    "emoji": "\ud83d\udcab"
   },
   {
     "id": "starfish",
     "name": "Starfish",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83d\udcab"
   },
   {
     "id": "statue",
     "name": "Statue",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\uddff"
   },
   {
     "id": "steak",
     "name": "Steak",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83c\udf54"
+    "emoji": "\ud83e\udd69"
   },
   {
     "id": "steam",
     "name": "Steam",
     "level": 1,
     "source": "dataset",
-    "emoji": "\u2601\ufe0f"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "steam engine",
     "name": "Steam Engine",
     "level": 10,
     "source": "dataset",
-    "emoji": "\u2699\ufe0f"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "steamboat",
     "name": "Steamboat",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udea2"
   },
   {
     "id": "steel",
     "name": "Steel",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd29"
+    "emoji": "\ud83d\udc55"
   },
   {
     "id": "steel wool",
     "name": "Steel Wool",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83d\ude2f"
   },
   {
     "id": "stethoscope",
     "name": "Stethoscope",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude7a"
   },
   {
     "id": "stone",
     "name": "Stone",
     "level": 2,
     "source": "dataset",
-    "emoji": "\ud83e\udea8"
+    "emoji": "\ud83d\uddff"
   },
   {
     "id": "storm",
     "name": "Storm",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "story",
     "name": "Story",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfdb\ufe0f"
   },
   {
     "id": "stream",
     "name": "Stream",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83c\udf8f"
   },
   {
     "id": "string phone",
     "name": "String Phone",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2a"
   },
   {
     "id": "stun gun",
     "name": "Stun Gun",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2b"
   },
   {
     "id": "sugar",
     "name": "Sugar",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf6c"
   },
   {
     "id": "sun",
     "name": "Sun",
     "level": 4,
     "source": "dataset",
-    "emoji": "\u2600\ufe0f"
+    "emoji": "\ud83d\ude0e"
   },
   {
     "id": "sundial",
     "name": "Sundial",
     "level": 8,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\u2600\ufe0f"
   },
   {
     "id": "sunflower",
     "name": "Sunflower",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83c\udf31"
+    "emoji": "\ud83c\udf3b"
   },
   {
     "id": "sunglasses",
     "name": "Sunglasses",
     "level": 6,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83d\udd76\ufe0f"
   },
   {
     "id": "supernova",
     "name": "Supernova",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca5"
   },
   {
     "id": "surfer",
     "name": "Surfer",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfc4"
   },
   {
     "id": "sushi",
     "name": "Sushi",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf63"
   },
   {
     "id": "swamp",
@@ -4430,119 +4430,119 @@ const GRAPH_DATA = {
     "name": "Sweater",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udc55"
+    "emoji": "\ud83d\ude05"
   },
   {
     "id": "swim goggles",
     "name": "Swim Goggles",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udc53"
+    "emoji": "\ud83c\udfca"
   },
   {
     "id": "swimmer",
     "name": "Swimmer",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfca"
   },
   {
     "id": "swimming pool",
     "name": "Swimming Pool",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83c\udfca"
   },
   {
     "id": "sword",
     "name": "Sword",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udde1\ufe0f"
   },
   {
     "id": "swordfish",
     "name": "Swordfish",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83e\udd3a"
   },
   {
     "id": "syringe",
     "name": "Syringe",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc89"
   },
   {
     "id": "tablet",
     "name": "Tablet",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc8a"
   },
   {
     "id": "tailor",
     "name": "Tailor",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udea1"
   },
   {
     "id": "tank",
     "name": "Tank",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude9c"
   },
   {
     "id": "tea",
     "name": "Tea",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2615"
   },
   {
     "id": "telescope",
     "name": "Telescope",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udc53"
+    "emoji": "\ud83d\udd2d"
   },
   {
     "id": "tent",
     "name": "Tent",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfd5\ufe0f"
   },
   {
     "id": "the one ring",
     "name": "The One Ring",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2a"
   },
   {
     "id": "thermometer",
     "name": "Thermometer",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd12"
   },
   {
     "id": "thread",
     "name": "Thread",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddf5"
   },
   {
     "id": "tide",
     "name": "Tide",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf0a"
   },
   {
     "id": "time",
@@ -4550,63 +4550,63 @@ const GRAPH_DATA = {
     "level": 0,
     "source": "dataset",
     "unlock_type": "progression",
-    "emoji": "\u23f3"
+    "emoji": "\u231b"
   },
   {
     "id": "titanic",
     "name": "Titanic",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udea2"
   },
   {
     "id": "toast",
     "name": "Toast",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf5e"
   },
   {
     "id": "tobacco",
     "name": "Tobacco",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udeac"
   },
   {
     "id": "tool",
     "name": "Tool",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd2a"
   },
   {
     "id": "toolbox",
     "name": "Toolbox",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddf0"
   },
   {
     "id": "tornado",
     "name": "Tornado",
     "level": 3,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf2a\ufe0f"
   },
   {
     "id": "toucan",
     "name": "Toucan",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd6b"
   },
   {
     "id": "tractor",
     "name": "Tractor",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude9c"
   },
   {
     "id": "train",
@@ -4620,168 +4620,168 @@ const GRAPH_DATA = {
     "name": "Trainyard",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude82"
   },
   {
     "id": "treasure",
     "name": "Treasure",
     "level": 16,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udff4\u200d\u2620\ufe0f"
   },
   {
     "id": "treasure map",
     "name": "Treasure Map",
     "level": 15,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udccd"
   },
   {
     "id": "tree",
     "name": "Tree",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83c\udf33"
+    "emoji": "\ud83c\udf43"
   },
   {
     "id": "treehouse",
     "name": "Treehouse",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83c\udf43"
   },
   {
     "id": "trojan horse",
     "name": "Trojan Horse",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc0e"
   },
   {
     "id": "tsunami",
     "name": "Tsunami",
     "level": 5,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83c\udf0a"
   },
   {
     "id": "tunnel",
     "name": "Tunnel",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd73\ufe0f"
   },
   {
     "id": "turtle",
     "name": "Turtle",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc22"
   },
   {
     "id": "twilight",
     "name": "Twilight",
     "level": 6,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udddb"
   },
   {
     "id": "tyrannosaurus rex",
     "name": "Tyrannosaurus Rex",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd96"
   },
   {
     "id": "ufo",
     "name": "UFO",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc7e"
   },
   {
     "id": "umbrella",
     "name": "Umbrella",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2602\ufe0f"
   },
   {
     "id": "unicorn",
     "name": "Unicorn",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd84"
   },
   {
     "id": "universe",
     "name": "Universe",
     "level": 7,
     "source": "dataset",
-    "emoji": "\u2728"
+    "emoji": "\ud83c\udf0c"
   },
   {
     "id": "vacuum cleaner",
     "name": "Vacuum Cleaner",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udec0"
   },
   {
     "id": "vampire",
     "name": "Vampire",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udddb"
   },
   {
     "id": "vase",
     "name": "Vase",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udffa"
   },
   {
     "id": "vault",
     "name": "Vault",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udfe6"
   },
   {
     "id": "vegetable",
     "name": "Vegetable",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf3a"
   },
   {
     "id": "venus",
     "name": "Venus",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2640\ufe0f"
   },
   {
     "id": "village",
     "name": "Village",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "vine",
     "name": "Vine",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf3f"
   },
   {
     "id": "vinegar",
     "name": "Vinegar",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddea"
   },
   {
     "id": "volcano",
@@ -4802,126 +4802,126 @@ const GRAPH_DATA = {
     "name": "Wagon",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude83"
   },
   {
     "id": "wall",
     "name": "Wall",
     "level": 3,
     "source": "dataset",
-    "emoji": "\ud83c\udfe0"
+    "emoji": "\ud83e\uddf1"
   },
   {
     "id": "wand",
     "name": "Wand",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\uddf7\ud83c\uddfc"
   },
   {
     "id": "warmth",
     "name": "Warmth",
     "level": 3,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83e\udd33"
   },
   {
     "id": "warrior",
     "name": "Warrior",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\ude96"
   },
   {
     "id": "watch",
     "name": "Watch",
     "level": 8,
     "source": "dataset",
-    "emoji": "\u23f0"
+    "emoji": "\u231a"
   },
   {
     "id": "water",
     "name": "Water",
     "level": 0,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83d\udca6"
   },
   {
     "id": "water gun",
     "name": "Water Gun",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83d\udca6"
   },
   {
     "id": "water lily",
     "name": "Water Lily",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83d\udca6"
   },
   {
     "id": "water pipe",
     "name": "Water Pipe",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83d\udca6"
   },
   {
     "id": "waterfall",
     "name": "Waterfall",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udca7"
+    "emoji": "\ud83d\udca6"
   },
   {
     "id": "wave",
     "name": "Wave",
     "level": 4,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udc4b"
   },
   {
     "id": "wax",
     "name": "Wax",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": "web",
     "name": "Web",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf10"
   },
   {
     "id": "werewolf",
     "name": "Werewolf",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc3a"
   },
   {
     "id": "wheat",
     "name": "Wheat",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd25"
+    "emoji": "\ud83c\udf3e"
   },
   {
     "id": "wheel",
     "name": "Wheel",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udc1f"
+    "emoji": "\ud83d\udede"
   },
   {
     "id": "wild boar",
     "name": "Wild Boar",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd2a"
   },
   {
     "id": "wind",
@@ -4935,42 +4935,42 @@ const GRAPH_DATA = {
     "name": "Wind Turbine",
     "level": 7,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "windmill",
     "name": "Windmill",
     "level": 5,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\ude37"
   },
   {
     "id": "windsurfer",
     "name": "Windsurfer",
     "level": 9,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udca8"
   },
   {
     "id": "wine",
     "name": "Wine",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83c\udf77"
   },
   {
     "id": "wire",
     "name": "Wire",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udcfb"
   },
   {
     "id": "witch",
     "name": "Witch",
     "level": 13,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\uddd9\u200d\u2640\ufe0f"
   },
   {
     "id": "wizard",
@@ -4984,56 +4984,56 @@ const GRAPH_DATA = {
     "name": "Wolf",
     "level": 8,
     "source": "dataset",
-    "emoji": "\ud83d\udc3e"
+    "emoji": "\ud83d\udc3a"
   },
   {
     "id": "wood",
     "name": "Wood",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83e\udeb5"
+    "emoji": "\ud83c\udf32"
   },
   {
     "id": "woodpecker",
     "name": "Woodpecker",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83c\udf32"
+    "emoji": "\ud83d\ude2f"
   },
   {
     "id": "wool",
     "name": "Wool",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udc55"
+    "emoji": "\ud83d\udc11"
   },
   {
     "id": "wrapping paper",
     "name": "Wrapping Paper",
     "level": 14,
     "source": "dataset",
-    "emoji": "\ud83d\udcd6"
+    "emoji": "\ud83e\udda7"
   },
   {
     "id": "writer",
     "name": "Writer",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u270d\ufe0f"
   },
   {
     "id": "yeti",
     "name": "Yeti",
     "level": 11,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\u2744\ufe0f"
   },
   {
     "id": "yogurt",
     "name": "Yogurt",
     "level": 12,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83e\udd5b"
   },
   {
     "id": "zombie",
@@ -5047,7 +5047,7 @@ const GRAPH_DATA = {
     "name": "Zoo",
     "level": 10,
     "source": "dataset",
-    "emoji": "\ud83d\udd2e"
+    "emoji": "\ud83d\udd0d"
   }
 ],
   recipes: [
@@ -29207,12 +29207,12 @@ const GRAPH_DATA = {
     "targetId": "acid rain",
     "startingElements": [
       "water",
-      "air",
       "planet",
-      "smoke"
+      "smoke",
+      "air"
     ],
     "targetName": "Acid Rain",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf08",
     "targetLevel": 6,
     "targetCost": 9
   },
@@ -29220,12 +29220,12 @@ const GRAPH_DATA = {
     "targetId": "airplane",
     "startingElements": [
       "human",
+      "bird",
       "tool",
-      "stone",
-      "bird"
+      "stone"
     ],
     "targetName": "Airplane",
-    "targetEmoji": "\u2708\ufe0f",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
     "targetLevel": 10,
     "targetCost": 35
   },
@@ -29234,63 +29234,63 @@ const GRAPH_DATA = {
     "startingElements": [
       "time",
       "sound",
-      "sun",
-      "solar cell"
+      "solar cell",
+      "sun"
     ],
     "targetName": "Alarm Clock",
-    "targetEmoji": "\u23f0",
+    "targetEmoji": "\ud83d\udc93",
     "targetLevel": 8,
     "targetCost": 24
   },
   "alchemist": {
     "targetId": "alchemist",
     "startingElements": [
-      "fire",
       "human",
-      "ore",
-      "sand"
+      "fire",
+      "sand",
+      "ore"
     ],
     "targetName": "Alchemist",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udd2c",
     "targetLevel": 13,
     "targetCost": 31
   },
   "alcohol": {
     "targetId": "alcohol",
     "startingElements": [
-      "time",
       "flower",
       "earth",
+      "time",
       "air"
     ],
     "targetName": "Alcohol",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf7a",
     "targetLevel": 11,
     "targetCost": 25
   },
   "algae": {
     "targetId": "algae",
     "startingElements": [
-      "life",
       "water",
       "earth",
+      "life",
       "air"
     ],
     "targetName": "Algae",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf3f",
     "targetLevel": 9,
     "targetCost": 15
   },
   "alien": {
     "targetId": "alien",
     "startingElements": [
-      "heat",
-      "primordial soup",
       "planet",
-      "time"
+      "time",
+      "primordial soup",
+      "heat"
     ],
     "targetName": "Alien",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc7d",
     "targetLevel": 7,
     "targetCost": 15
   },
@@ -29299,102 +29299,102 @@ const GRAPH_DATA = {
     "startingElements": [
       "life",
       "time",
-      "land",
-      "dust"
+      "dust",
+      "land"
     ],
     "targetName": "Allergy",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd27",
     "targetLevel": 8,
     "targetCost": 11
   },
   "alligator": {
     "targetId": "alligator",
     "startingElements": [
-      "life",
-      "stone",
+      "land",
       "lake",
-      "land"
+      "life",
+      "stone"
     ],
     "targetName": "Alligator",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc0a",
     "targetLevel": 9,
     "targetCost": 15
   },
   "alpaca": {
     "targetId": "alpaca",
     "startingElements": [
-      "livestock",
       "earthquake",
+      "livestock",
       "earth",
       "land"
     ],
     "targetName": "Alpaca",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd99",
     "targetLevel": 12,
     "targetCost": 50
   },
   "ambulance": {
     "targetId": "ambulance",
     "startingElements": [
-      "hospital",
       "wheel",
+      "hospital",
       "air",
       "earth"
     ],
     "targetName": "Ambulance",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude91",
     "targetLevel": 12,
     "targetCost": 66
   },
   "angel": {
     "targetId": "angel",
     "startingElements": [
-      "air",
       "time",
+      "air",
       "animal",
       "earth"
     ],
     "targetName": "Angel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude07",
     "targetLevel": 9,
     "targetCost": 19
   },
   "angler": {
     "targetId": "angler",
     "startingElements": [
-      "fish",
-      "stone",
       "human",
+      "stone",
+      "fish",
       "air"
     ],
     "targetName": "Angler",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfa3",
     "targetLevel": 10,
     "targetCost": 32
   },
   "animal": {
     "targetId": "animal",
     "startingElements": [
-      "time",
       "sea",
       "earth",
+      "time",
       "land"
     ],
     "targetName": "Animal",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\ude3a",
     "targetLevel": 7,
     "targetCost": 8
   },
   "ant": {
     "targetId": "ant",
     "startingElements": [
+      "soil",
       "earth",
       "life",
-      "soil",
       "animal"
     ],
     "targetName": "Ant",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc1c",
     "targetLevel": 10,
     "targetCost": 24
   },
@@ -29403,47 +29403,47 @@ const GRAPH_DATA = {
     "startingElements": [
       "earth",
       "plant",
-      "animal",
-      "glass"
+      "glass",
+      "animal"
     ],
     "targetName": "Ant Farm",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83e\udd33",
     "targetLevel": 11,
     "targetCost": 29
   },
   "antarctica": {
     "targetId": "antarctica",
     "startingElements": [
-      "wind",
-      "human",
       "water",
+      "human",
+      "wind",
       "continent"
     ],
     "targetName": "Antarctica",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83c\udde6\ud83c\uddf6",
     "targetLevel": 10,
     "targetCost": 16
   },
   "anthill": {
     "targetId": "anthill",
     "startingElements": [
+      "earth",
       "plant",
       "animal",
-      "earth",
       "air"
     ],
     "targetName": "Anthill",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc1c",
     "targetLevel": 11,
     "targetCost": 25
   },
   "apron": {
     "targetId": "apron",
     "startingElements": [
-      "tool",
-      "thread",
       "human",
-      "vegetable"
+      "thread",
+      "vegetable",
+      "tool"
     ],
     "targetName": "Apron",
     "targetEmoji": "\ud83d\udc55",
@@ -29453,130 +29453,130 @@ const GRAPH_DATA = {
   "aquarium": {
     "targetId": "aquarium",
     "startingElements": [
-      "air",
+      "water",
       "fire",
       "stone",
-      "water"
+      "air"
     ],
     "targetName": "Aquarium",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc1f",
     "targetLevel": 5,
     "targetCost": 5
   },
   "archeologist": {
     "targetId": "archeologist",
     "startingElements": [
-      "time",
       "human",
       "wall",
+      "time",
       "air"
     ],
     "targetName": "Archeologist",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd96",
     "targetLevel": 8,
     "targetCost": 22
   },
   "archipelago": {
     "targetId": "archipelago",
     "startingElements": [
-      "lake",
-      "sea",
       "volcano",
-      "water"
+      "sea",
+      "water",
+      "lake"
     ],
     "targetName": "Archipelago",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfdd\ufe0f",
     "targetLevel": 6,
     "targetCost": 12
   },
   "arctic": {
     "targetId": "arctic",
     "startingElements": [
+      "time",
       "sea",
-      "animal",
       "wind",
-      "time"
+      "animal"
     ],
     "targetName": "Arctic",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
     "targetLevel": 9,
     "targetCost": 17
   },
   "armadillo": {
     "targetId": "armadillo",
     "startingElements": [
-      "thread",
-      "tool",
       "metal",
+      "tool",
+      "thread",
       "animal"
     ],
     "targetName": "Armadillo",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc3e",
     "targetLevel": 13,
     "targetCost": 75
   },
   "armor": {
     "targetId": "armor",
     "startingElements": [
-      "tool",
       "metal",
       "cotton",
+      "tool",
       "air"
     ],
     "targetName": "Armor",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udee1\ufe0f",
     "targetLevel": 12,
     "targetCost": 66
   },
   "arrow": {
     "targetId": "arrow",
     "startingElements": [
-      "tool",
       "bullet",
       "plant",
-      "big"
+      "big",
+      "tool"
     ],
     "targetName": "Arrow",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd03",
     "targetLevel": 13,
     "targetCost": 81
   },
   "ash": {
     "targetId": "ash",
     "startingElements": [
-      "life",
       "fire",
+      "life",
       "earth",
       "air"
     ],
     "targetName": "Ash",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca6",
     "targetLevel": 9,
     "targetCost": 15
   },
   "astronaut": {
     "targetId": "astronaut",
     "startingElements": [
-      "heat",
-      "time",
       "planet",
-      "animal"
+      "time",
+      "animal",
+      "heat"
     ],
     "targetName": "Astronaut",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
     "targetLevel": 8,
     "targetCost": 18
   },
   "astronomer": {
     "targetId": "astronomer",
     "startingElements": [
-      "time",
       "planet",
-      "animal",
-      "glass"
+      "time",
+      "glass",
+      "animal"
     ],
     "targetName": "Astronomer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
     "targetLevel": 8,
     "targetCost": 20
   },
@@ -29589,33 +29589,33 @@ const GRAPH_DATA = {
       "land"
     ],
     "targetName": "Atmosphere",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf0c",
     "targetLevel": 4,
     "targetCost": 6
   },
   "atomic bomb": {
     "targetId": "atomic bomb",
     "startingElements": [
-      "fire",
       "energy",
+      "fire",
       "dust",
       "air"
     ],
     "targetName": "Atomic Bomb",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca5",
     "targetLevel": 4,
     "targetCost": 5
   },
   "aurora": {
     "targetId": "aurora",
     "startingElements": [
+      "planet",
       "air",
       "fire",
-      "planet",
       "earth"
     ],
     "targetName": "Aurora",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf0c",
     "targetLevel": 5,
     "targetCost": 13
   },
@@ -29623,12 +29623,12 @@ const GRAPH_DATA = {
     "targetId": "avalanche",
     "startingElements": [
       "time",
-      "wave",
       "water",
+      "wave",
       "cold"
     ],
     "targetName": "Avalanche",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfd4\ufe0f",
     "targetLevel": 11,
     "targetCost": 21
   },
@@ -29641,20 +29641,20 @@ const GRAPH_DATA = {
       "idea"
     ],
     "targetName": "Aviary",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd85",
     "targetLevel": 11,
     "targetCost": 53
   },
   "axe": {
     "targetId": "axe",
     "startingElements": [
-      "tool",
-      "stone",
       "plant",
-      "big"
+      "big",
+      "stone",
+      "tool"
     ],
     "targetName": "Axe",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude93",
     "targetLevel": 13,
     "targetCost": 68
   },
@@ -29667,33 +29667,33 @@ const GRAPH_DATA = {
       "land"
     ],
     "targetName": "Bacon",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83e\udd53",
     "targetLevel": 9,
     "targetCost": 11
   },
   "bacteria": {
     "targetId": "bacteria",
     "startingElements": [
-      "time",
-      "mud",
       "sea",
-      "earth"
+      "earth",
+      "time",
+      "mud"
     ],
     "targetName": "Bacteria",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udda0",
     "targetLevel": 7,
     "targetCost": 8
   },
   "baker": {
     "targetId": "baker",
     "startingElements": [
-      "stone",
       "human",
       "water",
+      "stone",
       "wheat"
     ],
     "targetName": "Baker",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
     "targetLevel": 13,
     "targetCost": 43
   },
@@ -29701,12 +29701,12 @@ const GRAPH_DATA = {
     "targetId": "bakery",
     "startingElements": [
       "water",
-      "fire",
+      "flour",
       "house",
-      "flour"
+      "fire"
     ],
     "targetName": "Bakery",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd56",
     "targetLevel": 14,
     "targetCost": 46
   },
@@ -29714,51 +29714,51 @@ const GRAPH_DATA = {
     "targetId": "banana",
     "startingElements": [
       "big",
-      "plant",
       "fruit",
+      "plant",
       "animal"
     ],
     "targetName": "Banana",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc12",
     "targetLevel": 13,
     "targetCost": 85
   },
   "banana bread": {
     "targetId": "banana bread",
     "startingElements": [
-      "dough",
-      "fruit",
       "animal",
-      "tree"
+      "fruit",
+      "tree",
+      "dough"
     ],
     "targetName": "Banana Bread",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\u270b",
     "targetLevel": 14,
     "targetCost": 119
   },
   "bandage": {
     "targetId": "bandage",
     "startingElements": [
-      "tool",
-      "cotton",
       "blade",
+      "cotton",
+      "tool",
       "air"
     ],
     "targetName": "Bandage",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd15",
     "targetLevel": 13,
     "targetCost": 69
   },
   "bank": {
     "targetId": "bank",
     "startingElements": [
-      "fire",
       "house",
-      "ore",
-      "sand"
+      "sand",
+      "fire",
+      "ore"
     ],
     "targetName": "Bank",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfe6",
     "targetLevel": 13,
     "targetCost": 33
   },
@@ -29766,38 +29766,38 @@ const GRAPH_DATA = {
     "targetId": "barn",
     "startingElements": [
       "human",
-      "stone",
       "house",
+      "stone",
       "earth"
     ],
     "targetName": "Barn",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83c\udfda\ufe0f",
     "targetLevel": 10,
     "targetCost": 25
   },
   "barrel": {
     "targetId": "barrel",
     "startingElements": [
-      "philosophy",
       "house",
+      "fruit",
       "alcohol",
-      "fruit"
+      "philosophy"
     ],
     "targetName": "Barrel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf76",
     "targetLevel": 13,
     "targetCost": 93
   },
   "bat": {
     "targetId": "bat",
     "startingElements": [
-      "air",
-      "time",
+      "wall",
       "milk",
-      "wall"
+      "time",
+      "air"
     ],
     "targetName": "Bat",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd87",
     "targetLevel": 14,
     "targetCost": 45
   },
@@ -29805,116 +29805,116 @@ const GRAPH_DATA = {
     "targetId": "batter",
     "startingElements": [
       "water",
-      "livestock",
       "flour",
-      "field"
+      "field",
+      "livestock"
     ],
     "targetName": "Batter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd87",
     "targetLevel": 12,
     "targetCost": 70
   },
   "battery": {
     "targetId": "battery",
     "startingElements": [
-      "earth",
       "organic matter",
+      "earth",
       "sun",
       "solar cell"
     ],
     "targetName": "Battery",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd0b",
     "targetLevel": 10,
     "targetCost": 31
   },
   "bayonet": {
     "targetId": "bayonet",
     "startingElements": [
-      "philosophy",
-      "bullet",
+      "blade",
       "house",
-      "blade"
+      "philosophy",
+      "bullet"
     ],
     "targetName": "Bayonet",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udde1\ufe0f",
     "targetLevel": 13,
     "targetCost": 80
   },
   "bbq": {
     "targetId": "bbq",
     "startingElements": [
-      "tool",
-      "fire",
+      "tree",
       "house",
-      "tree"
+      "fire",
+      "tool"
     ],
     "targetName": "BBQ",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf56",
     "targetLevel": 14,
     "targetCost": 78
   },
   "beach": {
     "targetId": "beach",
     "startingElements": [
-      "air",
       "water",
+      "air",
       "lava",
       "earth"
     ],
     "targetName": "Beach",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude0e",
     "targetLevel": 4,
     "targetCost": 4
   },
   "beaver": {
     "targetId": "beaver",
     "startingElements": [
-      "science",
-      "pond",
       "wind",
-      "animal"
+      "science",
+      "animal",
+      "pond"
     ],
     "targetName": "Beaver",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddab",
     "targetLevel": 11,
     "targetCost": 35
   },
   "bee": {
     "targetId": "bee",
     "startingElements": [
-      "life",
-      "rainbow",
       "soil",
+      "rainbow",
+      "life",
       "animal"
     ],
     "targetName": "Bee",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc1d",
     "targetLevel": 10,
     "targetCost": 31
   },
   "beehive": {
     "targetId": "beehive",
     "startingElements": [
+      "wall",
       "plant",
       "rainbow",
-      "animal",
-      "wall"
+      "animal"
     ],
     "targetName": "Beehive",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc1d",
     "targetLevel": 11,
     "targetCost": 37
   },
   "beekeeper": {
     "targetId": "beekeeper",
     "startingElements": [
-      "plant",
       "human",
+      "plant",
       "rainbow",
       "animal"
     ],
     "targetName": "Beekeeper",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc1d",
     "targetLevel": 11,
     "targetCost": 41
   },
@@ -29922,12 +29922,12 @@ const GRAPH_DATA = {
     "targetId": "beer",
     "startingElements": [
       "time",
-      "field",
       "grass",
-      "juice"
+      "juice",
+      "field"
     ],
     "targetName": "Beer",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83c\udf7a",
     "targetLevel": 12,
     "targetCost": 55
   },
@@ -29940,20 +29940,20 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Bell",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf90",
     "targetLevel": 12,
     "targetCost": 25
   },
   "bicycle": {
     "targetId": "bicycle",
     "startingElements": [
-      "tool",
       "water",
+      "tool",
       "air",
       "earth"
     ],
     "targetName": "Bicycle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udeb4",
     "targetLevel": 10,
     "targetCost": 27
   },
@@ -29961,12 +29961,12 @@ const GRAPH_DATA = {
     "targetId": "big",
     "startingElements": [
       "human",
-      "planet",
       "firefighter",
+      "planet",
       "air"
     ],
     "targetName": "Big",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude06",
     "targetLevel": 10,
     "targetCost": 37
   },
@@ -29979,59 +29979,59 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Binoculars",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc53",
     "targetLevel": 6,
     "targetCost": 19
   },
   "bird": {
     "targetId": "bird",
     "startingElements": [
+      "time",
       "air",
       "primordial soup",
-      "time",
       "land"
     ],
     "targetName": "Bird",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83d\udd95",
     "targetLevel": 8,
     "targetCost": 9
   },
   "birdcage": {
     "targetId": "birdcage",
     "startingElements": [
+      "wall",
       "air",
       "life",
-      "land",
-      "wall"
+      "land"
     ],
     "targetName": "Birdcage",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83d\udd95",
     "targetLevel": 9,
     "targetCost": 15
   },
   "birdhouse": {
     "targetId": "birdhouse",
     "startingElements": [
+      "wall",
       "air",
       "life",
-      "land",
-      "wall"
+      "land"
     ],
     "targetName": "Birdhouse",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83d\udd95",
     "targetLevel": 9,
     "targetCost": 15
   },
   "black hole": {
     "targetId": "black hole",
     "startingElements": [
-      "fire",
       "pressure",
+      "fire",
       "continent",
       "air"
     ],
     "targetName": "Black Hole",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2764\ufe0f",
     "targetLevel": 5,
     "targetCost": 8
   },
@@ -30044,7 +30044,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Blade",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2a",
     "targetLevel": 12,
     "targetCost": 20
   },
@@ -30053,76 +30053,76 @@ const GRAPH_DATA = {
     "startingElements": [
       "fire",
       "stone",
-      "ore",
-      "glass"
+      "glass",
+      "ore"
     ],
     "targetName": "Blender",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2699\ufe0f",
     "targetLevel": 13,
     "targetCost": 25
   },
   "blizzard": {
     "targetId": "blizzard",
     "startingElements": [
-      "steam",
       "human",
       "wind",
+      "steam",
       "air"
     ],
     "targetName": "Blizzard",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2744\ufe0f",
     "targetLevel": 10,
     "targetCost": 17
   },
   "blood": {
     "targetId": "blood",
     "startingElements": [
+      "human",
       "fire",
       "stone",
-      "human",
       "ore"
     ],
     "targetName": "Blood",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udddb",
     "targetLevel": 13,
     "targetCost": 30
   },
   "blood bag": {
     "targetId": "blood bag",
     "startingElements": [
-      "human",
       "house",
-      "idea",
-      "blood"
+      "blood",
+      "human",
+      "idea"
     ],
     "targetName": "Blood Bag",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udddb",
     "targetLevel": 14,
     "targetCost": 74
   },
   "boat": {
     "targetId": "boat",
     "startingElements": [
-      "tool",
-      "plant",
       "water",
-      "big"
+      "big",
+      "plant",
+      "tool"
     ],
     "targetName": "Boat",
-    "targetEmoji": "\u26f5",
+    "targetEmoji": "\u2693",
     "targetLevel": 13,
     "targetCost": 66
   },
   "boiler": {
     "targetId": "boiler",
     "startingElements": [
-      "stone",
       "pressure",
-      "animal",
-      "time"
+      "stone",
+      "time",
+      "animal"
     ],
     "targetName": "Boiler",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude94",
     "targetLevel": 9,
     "targetCost": 14
   },
@@ -30135,7 +30135,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Bone",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddb4",
     "targetLevel": 9,
     "targetCost": 11
   },
@@ -30144,11 +30144,11 @@ const GRAPH_DATA = {
     "startingElements": [
       "planet",
       "plant",
-      "philosophy",
-      "pottery"
+      "pottery",
+      "philosophy"
     ],
     "targetName": "Bonsai Tree",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83c\udf43",
     "targetLevel": 12,
     "targetCost": 70
   },
@@ -30168,73 +30168,73 @@ const GRAPH_DATA = {
   "bottle": {
     "targetId": "bottle",
     "startingElements": [
-      "human",
-      "house",
       "water",
+      "house",
+      "human",
       "idea"
     ],
     "targetName": "Bottle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf76",
     "targetLevel": 11,
     "targetCost": 44
   },
   "boulder": {
     "targetId": "boulder",
     "startingElements": [
-      "stone",
       "human",
       "planet",
+      "stone",
       "idea"
     ],
     "targetName": "Boulder",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea8",
     "targetLevel": 11,
     "targetCost": 40
   },
   "bow": {
     "targetId": "bow",
     "startingElements": [
-      "tool",
+      "big",
       "plant",
       "wire",
-      "big"
+      "tool"
     ],
     "targetName": "Bow",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude4f",
     "targetLevel": 13,
     "targetCost": 99
   },
   "box": {
     "targetId": "box",
     "startingElements": [
-      "philosophy",
       "house",
+      "milk",
       "wheat",
-      "milk"
+      "philosophy"
     ],
     "targetName": "Box",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc9d",
     "targetLevel": 13,
     "targetCost": 111
   },
   "bread": {
     "targetId": "bread",
     "startingElements": [
-      "stone",
+      "water",
       "fire",
-      "wheat",
-      "water"
+      "stone",
+      "wheat"
     ],
     "targetName": "Bread",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83c\udf5e",
     "targetLevel": 13,
     "targetCost": 34
   },
   "brick": {
     "targetId": "brick",
     "startingElements": [
-      "fire",
       "water",
+      "fire",
       "earth",
       "air"
     ],
@@ -30246,65 +30246,65 @@ const GRAPH_DATA = {
   "bridge": {
     "targetId": "bridge",
     "startingElements": [
-      "science",
       "metal",
-      "pond",
-      "wind"
+      "wind",
+      "science",
+      "pond"
     ],
     "targetName": "Bridge",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf01",
     "targetLevel": 12,
     "targetCost": 44
   },
   "broom": {
     "targetId": "broom",
     "startingElements": [
-      "tool",
       "plant",
       "big",
-      "hay"
+      "hay",
+      "tool"
     ],
     "targetName": "Broom",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83e\uddf9",
     "targetLevel": 13,
     "targetCost": 88
   },
   "bucket": {
     "targetId": "bucket",
     "startingElements": [
-      "paint",
       "human",
+      "paint",
       "house",
       "idea"
     ],
     "targetName": "Bucket",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea3",
     "targetLevel": 11,
     "targetCost": 52
   },
   "bullet": {
     "targetId": "bullet",
     "startingElements": [
+      "time",
       "gunpowder",
-      "stone",
       "animal",
-      "time"
+      "stone"
     ],
     "targetName": "Bullet",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2b",
     "targetLevel": 9,
     "targetCost": 15
   },
   "bulletproof vest": {
     "targetId": "bulletproof vest",
     "startingElements": [
-      "metal",
-      "tool",
       "bullet",
-      "thread"
+      "metal",
+      "thread",
+      "tool"
     ],
     "targetName": "Bulletproof Vest",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udee1\ufe0f",
     "targetLevel": 13,
     "targetCost": 82
   },
@@ -30312,12 +30312,12 @@ const GRAPH_DATA = {
     "targetId": "bus",
     "startingElements": [
       "steam engine",
-      "wheel",
       "bicycle",
+      "wheel",
       "air"
     ],
     "targetName": "Bus",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude8c",
     "targetLevel": 12,
     "targetCost": 71
   },
@@ -30326,167 +30326,167 @@ const GRAPH_DATA = {
     "startingElements": [
       "human",
       "smoke",
-      "animal",
-      "mud"
+      "mud",
+      "animal"
     ],
     "targetName": "Butcher",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2a",
     "targetLevel": 10,
     "targetCost": 22
   },
   "butter": {
     "targetId": "butter",
     "startingElements": [
-      "livestock",
-      "water",
       "energy",
-      "field"
+      "water",
+      "field",
+      "livestock"
     ],
     "targetName": "Butter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddc8",
     "targetLevel": 12,
     "targetCost": 39
   },
   "butterfly": {
     "targetId": "butterfly",
     "startingElements": [
-      "life",
       "water",
       "sun",
+      "life",
       "land"
     ],
     "targetName": "Butterfly",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc50",
     "targetLevel": 8,
     "targetCost": 16
   },
   "butterfly net": {
     "targetId": "butterfly net",
     "startingElements": [
-      "butterfly",
-      "thread",
       "fish",
+      "thread",
+      "butterfly",
       "air"
     ],
     "targetName": "Butterfly Net",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc50",
     "targetLevel": 13,
     "targetCost": 98
   },
   "cable car": {
     "targetId": "cable car",
     "startingElements": [
-      "mountain",
       "wheel",
+      "mountain",
       "air",
       "earth"
     ],
     "targetName": "Cable Car",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83d\ude9e",
     "targetLevel": 12,
     "targetCost": 67
   },
   "cactus": {
     "targetId": "cactus",
     "startingElements": [
-      "life",
-      "sand",
       "earth",
+      "sand",
+      "life",
       "air"
     ],
     "targetName": "Cactus",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf35",
     "targetLevel": 9,
     "targetCost": 18
   },
   "cage": {
     "targetId": "cage",
     "startingElements": [
-      "time",
+      "wall",
       "sky",
-      "animal",
-      "wall"
+      "time",
+      "animal"
     ],
     "targetName": "Cage",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd1e",
     "targetLevel": 9,
     "targetCost": 24
   },
   "cake": {
     "targetId": "cake",
     "startingElements": [
-      "water",
-      "fire",
       "sugar",
-      "flour"
+      "flour",
+      "fire",
+      "water"
     ],
     "targetName": "Cake",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf82",
     "targetLevel": 14,
     "targetCost": 59
   },
   "camel": {
     "targetId": "camel",
     "startingElements": [
-      "primordial soup",
-      "desert",
       "time",
-      "land"
+      "land",
+      "primordial soup",
+      "desert"
     ],
     "targetName": "Camel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc2a",
     "targetLevel": 8,
     "targetCost": 14
   },
   "campfire": {
     "targetId": "campfire",
     "startingElements": [
-      "tool",
+      "big",
       "fire",
       "plant",
-      "big"
+      "tool"
     ],
     "targetName": "Campfire",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
     "targetLevel": 13,
     "targetCost": 66
   },
   "candle": {
     "targetId": "candle",
     "startingElements": [
+      "wall",
       "fire",
       "bee",
-      "wall",
       "air"
     ],
     "targetName": "Candle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd6f\ufe0f",
     "targetLevel": 13,
     "targetCost": 44
   },
   "candy cane": {
     "targetId": "candy cane",
     "startingElements": [
+      "sugar",
       "star",
       "plant",
-      "sugar",
       "big"
     ],
     "targetName": "Candy Cane",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd6b",
     "targetLevel": 13,
     "targetCost": 95
   },
   "cannon": {
     "targetId": "cannon",
     "startingElements": [
-      "gunpowder",
-      "house",
       "gun",
+      "house",
+      "gunpowder",
       "sailor"
     ],
     "targetName": "Cannon",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd6b",
     "targetLevel": 14,
     "targetCost": 88
   },
@@ -30494,38 +30494,38 @@ const GRAPH_DATA = {
     "targetId": "canvas",
     "startingElements": [
       "paint",
-      "tool",
       "cotton",
+      "tool",
       "air"
     ],
     "targetName": "Canvas",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\uddbc\ufe0f",
     "targetLevel": 12,
     "targetCost": 57
   },
   "car": {
     "targetId": "car",
     "startingElements": [
-      "tool",
-      "wheel",
       "water",
+      "wheel",
+      "tool",
       "air"
     ],
     "targetName": "Car",
-    "targetEmoji": "\ud83d\ude97",
+    "targetEmoji": "\ud83d\ude9e",
     "targetLevel": 11,
     "targetCost": 41
   },
   "caramel": {
     "targetId": "caramel",
     "startingElements": [
-      "heat",
+      "time",
       "fire",
       "flower",
-      "time"
+      "heat"
     ],
     "targetName": "Caramel",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83c\udf6e",
     "targetLevel": 12,
     "targetCost": 27
   },
@@ -30533,77 +30533,77 @@ const GRAPH_DATA = {
     "targetId": "carbon dioxide",
     "startingElements": [
       "soil",
-      "life",
       "day",
-      "time"
+      "time",
+      "life"
     ],
     "targetName": "Carbon Dioxide",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83d\ude9e",
     "targetLevel": 9,
     "targetCost": 23
   },
   "carrot": {
     "targetId": "carrot",
     "startingElements": [
+      "earth",
       "plant",
       "field",
-      "earth",
       "air"
     ],
     "targetName": "Carrot",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\udd55",
     "targetLevel": 10,
     "targetCost": 44
   },
   "cart": {
     "targetId": "cart",
     "startingElements": [
-      "tool",
+      "big",
       "plant",
       "wheel",
-      "big"
+      "tool"
     ],
     "targetName": "Cart",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa8",
     "targetLevel": 13,
     "targetCost": 79
   },
   "cashmere": {
     "targetId": "cashmere",
     "startingElements": [
-      "tool",
       "mountain",
+      "tool",
       "livestock",
       "air"
     ],
     "targetName": "Cashmere",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfe6",
     "targetLevel": 14,
     "targetCost": 87
   },
   "castle": {
     "targetId": "castle",
     "startingElements": [
-      "metal",
-      "stone",
       "human",
-      "fabric"
+      "fabric",
+      "stone",
+      "metal"
     ],
     "targetName": "Castle",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83c\udff0",
     "targetLevel": 14,
     "targetCost": 79
   },
   "cat": {
     "targetId": "cat",
     "startingElements": [
-      "life",
       "day",
       "time",
+      "life",
       "land"
     ],
     "targetName": "Cat",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc08",
     "targetLevel": 8,
     "targetCost": 17
   },
@@ -30612,50 +30612,50 @@ const GRAPH_DATA = {
     "startingElements": [
       "soil",
       "life",
-      "night",
-      "animal"
+      "animal",
+      "night"
     ],
     "targetName": "Catnip",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc08",
     "targetLevel": 9,
     "targetCost": 32
   },
   "cauldron": {
     "targetId": "cauldron",
     "startingElements": [
-      "clay",
       "tool",
       "fire",
-      "ore"
+      "ore",
+      "clay"
     ],
     "targetName": "Cauldron",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd63",
     "targetLevel": 12,
     "targetCost": 35
   },
   "cave": {
     "targetId": "cave",
     "startingElements": [
+      "wall",
       "moon",
       "animal",
-      "wall",
       "air"
     ],
     "targetName": "Cave",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd73\ufe0f",
     "targetLevel": 9,
     "targetCost": 30
   },
   "caviar": {
     "targetId": "caviar",
     "startingElements": [
-      "phoenix",
       "water",
+      "phoenix",
       "salt",
       "air"
     ],
     "targetName": "Caviar",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc1f",
     "targetLevel": 10,
     "targetCost": 22
   },
@@ -30668,59 +30668,59 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Centaur",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc0e",
     "targetLevel": 9,
     "targetCost": 20
   },
   "cereal": {
     "targetId": "cereal",
     "startingElements": [
-      "livestock",
-      "wheat",
       "water",
-      "field"
+      "wheat",
+      "field",
+      "livestock"
     ],
     "targetName": "Cereal",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd63",
     "targetLevel": 12,
     "targetCost": 67
   },
   "chain": {
     "targetId": "chain",
     "startingElements": [
-      "thread",
-      "tool",
       "metal",
+      "tool",
+      "thread",
       "cotton"
     ],
     "targetName": "Chain",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26d3\ufe0f",
     "targetLevel": 12,
     "targetCost": 89
   },
   "chainsaw": {
     "targetId": "chainsaw",
     "startingElements": [
-      "electricity",
-      "plant",
       "human",
-      "big"
+      "big",
+      "plant",
+      "electricity"
     ],
     "targetName": "Chainsaw",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd17",
     "targetLevel": 13,
     "targetCost": 78
   },
   "chameleon": {
     "targetId": "chameleon",
     "startingElements": [
-      "life",
-      "rainbow",
       "stone",
+      "rainbow",
+      "life",
       "land"
     ],
     "targetName": "Chameleon",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd81",
     "targetLevel": 9,
     "targetCost": 19
   },
@@ -30728,35 +30728,35 @@ const GRAPH_DATA = {
     "targetId": "charcoal",
     "startingElements": [
       "fire",
-      "animal",
       "time",
+      "animal",
       "air"
     ],
     "targetName": "Charcoal",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea8",
     "targetLevel": 9,
     "targetCost": 11
   },
   "cheese": {
     "targetId": "cheese",
     "startingElements": [
-      "livestock",
-      "time",
       "water",
-      "field"
+      "time",
+      "field",
+      "livestock"
     ],
     "targetName": "Cheese",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83e\udd6f",
     "targetLevel": 12,
     "targetCost": 38
   },
   "cheeseburger": {
     "targetId": "cheeseburger",
     "startingElements": [
-      "meat",
-      "bread",
       "time",
-      "milk"
+      "milk",
+      "meat",
+      "bread"
     ],
     "targetName": "Cheeseburger",
     "targetEmoji": "\ud83c\udf54",
@@ -30766,13 +30766,13 @@ const GRAPH_DATA = {
   "chicken": {
     "targetId": "chicken",
     "startingElements": [
-      "air",
       "human",
+      "air",
       "animal",
       "earth"
     ],
     "targetName": "Chicken",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc14",
     "targetLevel": 9,
     "targetCost": 28
   },
@@ -30780,90 +30780,90 @@ const GRAPH_DATA = {
     "targetId": "chicken coop",
     "startingElements": [
       "human",
+      "wall",
       "bird",
-      "animal",
-      "wall"
+      "animal"
     ],
     "targetName": "Chicken Coop",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc14",
     "targetLevel": 10,
     "targetCost": 34
   },
   "chicken soup": {
     "targetId": "chicken soup",
     "startingElements": [
-      "human",
-      "bird",
       "water",
+      "bird",
+      "human",
       "animal"
     ],
     "targetName": "Chicken Soup",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc14",
     "targetLevel": 10,
     "targetCost": 29
   },
   "chicken wing": {
     "targetId": "chicken wing",
     "startingElements": [
-      "human",
-      "bird",
       "bone",
+      "bird",
+      "human",
       "animal"
     ],
     "targetName": "Chicken wing",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc14",
     "targetLevel": 10,
     "targetCost": 40
   },
   "chill": {
     "targetId": "chill",
     "startingElements": [
-      "air",
       "time",
-      "animal",
-      "wind"
+      "wind",
+      "air",
+      "animal"
     ],
     "targetName": "Chill",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udecb\ufe0f",
     "targetLevel": 9,
     "targetCost": 13
   },
   "chimney": {
     "targetId": "chimney",
     "startingElements": [
-      "air",
       "fire",
+      "air",
       "mud",
       "earth"
     ],
     "targetName": "Chimney",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfed",
     "targetLevel": 3,
     "targetCost": 4
   },
   "chocolate": {
     "targetId": "chocolate",
     "startingElements": [
-      "fire",
       "pressure",
-      "sunflower",
-      "fruit"
+      "fire",
+      "fruit",
+      "sunflower"
     ],
     "targetName": "Chocolate",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc9d",
     "targetLevel": 12,
     "targetCost": 48
   },
   "chocolate milk": {
     "targetId": "chocolate milk",
     "startingElements": [
-      "oil",
       "sugar",
+      "water",
       "cow",
-      "water"
+      "oil"
     ],
     "targetName": "Chocolate Milk",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc9d",
     "targetLevel": 13,
     "targetCost": 86
   },
@@ -30871,12 +30871,12 @@ const GRAPH_DATA = {
     "targetId": "christmas stocking",
     "startingElements": [
       "star",
-      "plant",
       "wool",
+      "plant",
       "big"
     ],
     "targetName": "Christmas Stocking",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd34",
     "targetLevel": 13,
     "targetCost": 108
   },
@@ -30884,38 +30884,38 @@ const GRAPH_DATA = {
     "targetId": "christmas tree",
     "startingElements": [
       "star",
+      "planet",
       "plant",
-      "philosophy",
-      "planet"
+      "philosophy"
     ],
     "targetName": "Christmas Tree",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83c\udf43",
     "targetLevel": 12,
     "targetCost": 70
   },
   "cigarette": {
     "targetId": "cigarette",
     "startingElements": [
-      "tobacco",
-      "tool",
+      "water",
       "tree",
-      "water"
+      "tobacco",
+      "tool"
     ],
     "targetName": "Cigarette",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udeac",
     "targetLevel": 14,
     "targetCost": 82
   },
   "circus": {
     "targetId": "circus",
     "startingElements": [
+      "wall",
       "tool",
       "thread",
-      "animal",
-      "wall"
+      "animal"
     ],
     "targetName": "Circus",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc35",
     "targetLevel": 13,
     "targetCost": 63
   },
@@ -30928,7 +30928,7 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "City",
-    "targetEmoji": "\ud83c\udfd9\ufe0f",
+    "targetEmoji": "\ud83c\udfe2",
     "targetLevel": 6,
     "targetCost": 47
   },
@@ -30936,9 +30936,9 @@ const GRAPH_DATA = {
     "targetId": "clay",
     "startingElements": [
       "water",
+      "earth",
       "air",
-      "lava",
-      "earth"
+      "lava"
     ],
     "targetName": "Clay",
     "targetEmoji": "\ud83e\uddf1",
@@ -30948,48 +30948,48 @@ const GRAPH_DATA = {
   "clock": {
     "targetId": "clock",
     "startingElements": [
-      "time",
       "energy",
+      "time",
       "sun",
       "air"
     ],
     "targetName": "Clock",
-    "targetEmoji": "\u23f0",
+    "targetEmoji": "\ud83c\udfeb",
     "targetLevel": 7,
     "targetCost": 16
   },
   "closet": {
     "targetId": "closet",
     "startingElements": [
-      "human",
-      "umbrella",
       "house",
+      "umbrella",
+      "human",
       "idea"
     ],
     "targetName": "Closet",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcd0",
     "targetLevel": 11,
     "targetCost": 65
   },
   "cloud": {
     "targetId": "cloud",
     "startingElements": [
-      "air",
       "water",
+      "air",
       "continent",
       "earth"
     ],
     "targetName": "Cloud",
-    "targetEmoji": "\u2601\ufe0f",
+    "targetEmoji": "\ud83d\udcad",
     "targetLevel": 5,
     "targetCost": 7
   },
   "coal": {
     "targetId": "coal",
     "startingElements": [
-      "life",
       "pressure",
       "time",
+      "life",
       "air"
     ],
     "targetName": "Coal",
@@ -31000,26 +31000,26 @@ const GRAPH_DATA = {
   "coconut": {
     "targetId": "coconut",
     "startingElements": [
-      "beach",
       "life",
+      "soil",
       "field",
-      "soil"
+      "beach"
     ],
     "targetName": "Coconut",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf34",
     "targetLevel": 10,
     "targetCost": 33
   },
   "coconut milk": {
     "targetId": "coconut milk",
     "startingElements": [
-      "tool",
       "plant",
+      "field",
       "beach",
-      "field"
+      "tool"
     ],
     "targetName": "Coconut Milk",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd31",
     "targetLevel": 11,
     "targetCost": 46
   },
@@ -31028,89 +31028,89 @@ const GRAPH_DATA = {
     "startingElements": [
       "human",
       "house",
-      "corpse",
-      "idea"
+      "idea",
+      "corpse"
     ],
     "targetName": "Coffin",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26b0\ufe0f",
     "targetLevel": 11,
     "targetCost": 54
   },
   "cold": {
     "targetId": "cold",
     "startingElements": [
-      "life",
       "time",
       "wind",
+      "life",
       "land"
     ],
     "targetName": "Cold",
-    "targetEmoji": "\ud83e\udd76",
+    "targetEmoji": "\ud83d\ude05",
     "targetLevel": 8,
     "targetCost": 12
   },
   "combustion engine": {
     "targetId": "combustion engine",
     "startingElements": [
-      "tool",
-      "stone",
       "human",
-      "explosion"
+      "explosion",
+      "stone",
+      "tool"
     ],
     "targetName": "Combustion Engine",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83d\udc65",
     "targetLevel": 10,
     "targetCost": 29
   },
   "computer": {
     "targetId": "computer",
     "startingElements": [
-      "stone",
       "human",
+      "stone",
       "glasses",
       "air"
     ],
     "targetName": "Computer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd16",
     "targetLevel": 9,
     "targetCost": 32
   },
   "computer mouse": {
     "targetId": "computer mouse",
     "startingElements": [
+      "glasses",
       "tool",
       "human",
-      "glasses",
       "animal"
     ],
     "targetName": "Computer Mouse",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd16",
     "targetLevel": 10,
     "targetCost": 41
   },
   "confetti": {
     "targetId": "confetti",
     "startingElements": [
-      "tool",
-      "tree",
       "water",
-      "blade"
+      "blade",
+      "tree",
+      "tool"
     ],
     "targetName": "Confetti",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf8a",
     "targetLevel": 14,
     "targetCost": 87
   },
   "constellation": {
     "targetId": "constellation",
     "startingElements": [
-      "night",
       "sky",
+      "night",
       "air",
       "earth"
     ],
     "targetName": "Constellation",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26ce",
     "targetLevel": 8,
     "targetCost": 35
   },
@@ -31118,12 +31118,12 @@ const GRAPH_DATA = {
     "targetId": "container",
     "startingElements": [
       "human",
-      "house",
       "firefighter",
+      "house",
       "air"
     ],
     "targetName": "Container",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd61",
     "targetLevel": 10,
     "targetCost": 43
   },
@@ -31136,98 +31136,98 @@ const GRAPH_DATA = {
       "water"
     ],
     "targetName": "Continent",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd6b",
     "targetLevel": 2,
     "targetCost": 2
   },
   "cook": {
     "targetId": "cook",
     "startingElements": [
-      "soil",
-      "life",
       "human",
-      "field"
+      "soil",
+      "field",
+      "life"
     ],
     "targetName": "Cook",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
     "targetLevel": 10,
     "targetCost": 38
   },
   "cookbook": {
     "targetId": "cookbook",
     "startingElements": [
-      "cook",
-      "philosophy",
       "house",
+      "philosophy",
+      "cook",
       "idea"
     ],
     "targetName": "Cookbook",
-    "targetEmoji": "\ud83d\udcd6",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
     "targetLevel": 12,
     "targetCost": 104
   },
   "cookie": {
     "targetId": "cookie",
     "startingElements": [
-      "water",
-      "fire",
       "sugar",
-      "flour"
+      "flour",
+      "fire",
+      "water"
     ],
     "targetName": "Cookie",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf6a",
     "targetLevel": 14,
     "targetCost": 59
   },
   "cookie cutter": {
     "targetId": "cookie cutter",
     "startingElements": [
-      "stone",
-      "wheat",
       "water",
-      "blade"
+      "blade",
+      "wheat",
+      "stone"
     ],
     "targetName": "Cookie Cutter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
     "targetLevel": 13,
     "targetCost": 54
   },
   "cookie dough": {
     "targetId": "cookie dough",
     "startingElements": [
+      "sugar",
       "water",
       "stone",
-      "wheat",
-      "sugar"
+      "wheat"
     ],
     "targetName": "Cookie Dough",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude12",
     "targetLevel": 13,
     "targetCost": 58
   },
   "coral": {
     "targetId": "coral",
     "startingElements": [
-      "sea",
       "human",
+      "sea",
       "time",
       "air"
     ],
     "targetName": "Coral",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udeb8",
     "targetLevel": 10,
     "targetCost": 16
   },
   "corpse": {
     "targetId": "corpse",
     "startingElements": [
-      "life",
       "time",
+      "life",
       "land",
       "air"
     ],
     "targetName": "Corpse",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc80",
     "targetLevel": 8,
     "targetCost": 10
   },
@@ -31235,25 +31235,25 @@ const GRAPH_DATA = {
     "targetId": "cotton",
     "startingElements": [
       "soil",
-      "life",
+      "atmosphere",
       "water",
-      "atmosphere"
+      "life"
     ],
     "targetName": "Cotton",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2601\ufe0f",
     "targetLevel": 9,
     "targetCost": 22
   },
   "cotton candy": {
     "targetId": "cotton candy",
     "startingElements": [
-      "air",
+      "time",
       "fire",
       "flower",
-      "time"
+      "air"
     ],
     "targetName": "Cotton Candy",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd6b",
     "targetLevel": 12,
     "targetCost": 25
   },
@@ -31266,20 +31266,20 @@ const GRAPH_DATA = {
       "animal"
     ],
     "targetName": "Cow",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc02",
     "targetLevel": 10,
     "targetCost": 36
   },
   "crayon": {
     "targetId": "crayon",
     "startingElements": [
+      "wall",
       "rainbow",
       "bee",
-      "wall",
       "air"
     ],
     "targetName": "Crayon",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd8d\ufe0f",
     "targetLevel": 13,
     "targetCost": 51
   },
@@ -31287,12 +31287,12 @@ const GRAPH_DATA = {
     "targetId": "crow",
     "startingElements": [
       "human",
-      "stone",
+      "earth",
       "bird",
-      "earth"
+      "stone"
     ],
     "targetName": "Crow",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc26\u200d\u2b1b",
     "targetLevel": 10,
     "targetCost": 23
   },
@@ -31305,7 +31305,7 @@ const GRAPH_DATA = {
       "glass"
     ],
     "targetName": "Crystal Ball",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude02",
     "targetLevel": 8,
     "targetCost": 19
   },
@@ -31314,11 +31314,11 @@ const GRAPH_DATA = {
     "startingElements": [
       "time",
       "bird",
-      "sun",
-      "solar cell"
+      "solar cell",
+      "sun"
     ],
     "targetName": "Cuckoo",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd85",
     "targetLevel": 9,
     "targetCost": 26
   },
@@ -31331,85 +31331,85 @@ const GRAPH_DATA = {
       "idea"
     ],
     "targetName": "Cup",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf75",
     "targetLevel": 12,
     "targetCost": 70
   },
   "current": {
     "targetId": "current",
     "startingElements": [
-      "heat",
-      "pond",
       "water",
+      "pond",
+      "heat",
       "air"
     ],
     "targetName": "Current",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26a1",
     "targetLevel": 5,
     "targetCost": 7
   },
   "cutting board": {
     "targetId": "cutting board",
     "startingElements": [
-      "cook",
       "tool",
       "plant",
-      "big"
+      "big",
+      "cook"
     ],
     "targetName": "Cutting Board",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc87",
     "targetLevel": 13,
     "targetCost": 104
   },
   "cyborg": {
     "targetId": "cyborg",
     "startingElements": [
+      "human",
       "fire",
       "life",
-      "human",
       "ore"
     ],
     "targetName": "Cyborg",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd16",
     "targetLevel": 13,
     "targetCost": 34
   },
   "cyclist": {
     "targetId": "cyclist",
     "startingElements": [
-      "stone",
       "human",
       "water",
+      "stone",
       "air"
     ],
     "targetName": "Cyclist",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udeb4",
     "targetLevel": 10,
     "targetCost": 23
   },
   "dam": {
     "targetId": "dam",
     "startingElements": [
-      "science",
-      "pond",
+      "wall",
       "wind",
-      "wall"
+      "science",
+      "pond"
     ],
     "targetName": "Dam",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddab",
     "targetLevel": 11,
     "targetCost": 32
   },
   "darkness": {
     "targetId": "darkness",
     "startingElements": [
-      "air",
+      "day",
       "time",
-      "cloud",
-      "day"
+      "air",
+      "cloud"
     ],
     "targetName": "Darkness",
-    "targetEmoji": "\ud83c\udf11",
+    "targetEmoji": "\ud83d\udda4",
     "targetLevel": 7,
     "targetCost": 17
   },
@@ -31422,7 +31422,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Dawn",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf05",
     "targetLevel": 7,
     "targetCost": 9
   },
@@ -31435,20 +31435,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Day",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2600\ufe0f",
     "targetLevel": 5,
     "targetCost": 7
   },
   "death": {
     "targetId": "death",
     "startingElements": [
-      "time",
       "sea",
       "earth",
+      "time",
       "air"
     ],
     "targetName": "Death",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc80",
     "targetLevel": 7,
     "targetCost": 7
   },
@@ -31461,150 +31461,150 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Desert",
-    "targetEmoji": "\ud83c\udfdc\ufe0f",
+    "targetEmoji": "\ud83d\udc2a",
     "targetLevel": 4,
     "targetCost": 5
   },
   "dew": {
     "targetId": "dew",
     "startingElements": [
-      "time",
       "water",
       "day",
+      "time",
       "air"
     ],
     "targetName": "Dew",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf48",
     "targetLevel": 8,
     "targetCost": 10
   },
   "diamond": {
     "targetId": "diamond",
     "startingElements": [
-      "life",
-      "death",
       "pressure",
+      "death",
+      "life",
       "air"
     ],
     "targetName": "Diamond",
-    "targetEmoji": "\ud83d\udc8e",
+    "targetEmoji": "\ud83d\udc8d",
     "targetLevel": 10,
     "targetCost": 18
   },
   "dinosaur": {
     "targetId": "dinosaur",
     "startingElements": [
-      "life",
+      "land",
       "time",
-      "stone",
-      "land"
+      "life",
+      "stone"
     ],
     "targetName": "Dinosaur",
-    "targetEmoji": "\ud83e\udd96",
+    "targetEmoji": "\ud83e\udd95",
     "targetLevel": 9,
     "targetCost": 12
   },
   "diver": {
     "targetId": "diver",
     "startingElements": [
-      "philosophy",
-      "air",
       "house",
-      "lake"
+      "lake",
+      "air",
+      "philosophy"
     ],
     "targetName": "Diver",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfca",
     "targetLevel": 12,
     "targetCost": 48
   },
   "doctor": {
     "targetId": "doctor",
     "startingElements": [
-      "stone",
       "human",
+      "stone",
       "sound",
       "air"
     ],
     "targetName": "Doctor",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 10,
     "targetCost": 30
   },
   "dog": {
     "targetId": "dog",
     "startingElements": [
-      "time",
-      "corpse",
       "moon",
-      "animal"
+      "time",
+      "animal",
+      "corpse"
     ],
     "targetName": "Dog",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udca9",
     "targetLevel": 9,
     "targetCost": 30
   },
   "doge": {
     "targetId": "doge",
     "startingElements": [
-      "tool",
-      "hacker",
+      "bone",
       "wolf",
-      "bone"
+      "hacker",
+      "tool"
     ],
     "targetName": "Doge",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc15",
     "targetLevel": 10,
     "targetCost": 63
   },
   "doghouse": {
     "targetId": "doghouse",
     "startingElements": [
-      "moon",
       "bone",
-      "animal",
-      "wall"
+      "wall",
+      "moon",
+      "animal"
     ],
     "targetName": "Doghouse",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udca9",
     "targetLevel": 10,
     "targetCost": 36
   },
   "domestication": {
     "targetId": "domestication",
     "startingElements": [
-      "life",
       "time",
+      "life",
       "animal",
       "land"
     ],
     "targetName": "Domestication",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc08",
     "targetLevel": 8,
     "targetCost": 18
   },
   "don quixote": {
     "targetId": "don quixote",
     "startingElements": [
-      "house",
       "human",
-      "lightning",
-      "wind"
+      "house",
+      "wind",
+      "lightning"
     ],
     "targetName": "Don Quixote",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcae",
     "targetLevel": 9,
     "targetCost": 34
   },
   "donut": {
     "targetId": "donut",
     "startingElements": [
-      "stone",
-      "wheel",
       "water",
-      "wheat"
+      "wheat",
+      "stone",
+      "wheel"
     ],
     "targetName": "Donut",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf69",
     "targetLevel": 13,
     "targetCost": 47
   },
@@ -31617,33 +31617,33 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Double Rainbow!",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude4f",
     "targetLevel": 6,
     "targetCost": 15
   },
   "dough": {
     "targetId": "dough",
     "startingElements": [
-      "stone",
       "water",
       "grass",
+      "stone",
       "field"
     ],
     "targetName": "Dough",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf5e",
     "targetLevel": 12,
     "targetCost": 33
   },
   "dragon": {
     "targetId": "dragon",
     "startingElements": [
-      "air",
       "stone",
+      "air",
       "life",
       "land"
     ],
     "targetName": "Dragon",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc09",
     "targetLevel": 9,
     "targetCost": 12
   },
@@ -31651,125 +31651,125 @@ const GRAPH_DATA = {
     "targetId": "drone",
     "startingElements": [
       "tool",
-      "bird",
       "robot",
+      "bird",
       "air"
     ],
     "targetName": "Drone",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2a",
     "targetLevel": 13,
     "targetCost": 60
   },
   "drum": {
     "targetId": "drum",
     "startingElements": [
-      "leather",
       "tool",
       "plant",
-      "big"
+      "big",
+      "leather"
     ],
     "targetName": "Drum",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd41",
     "targetLevel": 13,
     "targetCost": 89
   },
   "drunk": {
     "targetId": "drunk",
     "startingElements": [
-      "time",
       "human",
-      "fruit",
-      "earth"
+      "earth",
+      "time",
+      "fruit"
     ],
     "targetName": "Drunk",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd74",
     "targetLevel": 12,
     "targetCost": 35
   },
   "dry ice": {
     "targetId": "dry ice",
     "startingElements": [
-      "life",
-      "cold",
+      "soil",
       "night",
-      "soil"
+      "life",
+      "cold"
     ],
     "targetName": "Dry Ice",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 10,
     "targetCost": 36
   },
   "duck": {
     "targetId": "duck",
     "startingElements": [
+      "water",
       "air",
       "life",
-      "water",
       "land"
     ],
     "targetName": "Duck",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83d\ude17",
     "targetLevel": 9,
     "targetCost": 10
   },
   "duckling": {
     "targetId": "duckling",
     "startingElements": [
-      "bird",
-      "phoenix",
       "water",
+      "phoenix",
+      "bird",
       "air"
     ],
     "targetName": "Duckling",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83e\udda2",
     "targetLevel": 10,
     "targetCost": 26
   },
   "dune": {
     "targetId": "dune",
     "startingElements": [
-      "air",
-      "stone",
       "pressure",
+      "stone",
+      "air",
       "earth"
     ],
     "targetName": "Dune",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfdc\ufe0f",
     "targetLevel": 4,
     "targetCost": 6
   },
   "dust": {
     "targetId": "dust",
     "startingElements": [
-      "air",
       "earth",
+      "air",
       "fire",
       "water"
     ],
     "targetName": "Dust",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfed",
     "targetLevel": 1,
     "targetCost": 1
   },
   "dynamite": {
     "targetId": "dynamite",
     "startingElements": [
-      "gunpowder",
-      "tool",
+      "plant",
       "fire",
-      "plant"
+      "gunpowder",
+      "tool"
     ],
     "targetName": "Dynamite",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udde8",
     "targetLevel": 11,
     "targetCost": 31
   },
   "eagle": {
     "targetId": "eagle",
     "startingElements": [
-      "bird",
       "motion",
       "earth",
+      "bird",
       "air"
     ],
     "targetName": "Eagle",
@@ -31780,52 +31780,52 @@ const GRAPH_DATA = {
   "earthquake": {
     "targetId": "earthquake",
     "startingElements": [
-      "telescope",
-      "wind",
       "human",
-      "earth"
+      "earth",
+      "wind",
+      "telescope"
     ],
     "targetName": "Earthquake",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udee8",
     "targetLevel": 10,
     "targetCost": 24
   },
   "eclipse": {
     "targetId": "eclipse",
     "startingElements": [
-      "air",
       "time",
-      "cloud",
-      "sun"
+      "sun",
+      "air",
+      "cloud"
     ],
     "targetName": "Eclipse",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf11",
     "targetLevel": 7,
     "targetCost": 16
   },
   "egg": {
     "targetId": "egg",
     "startingElements": [
-      "life",
       "fire",
+      "life",
       "air",
       "earth"
     ],
     "targetName": "Egg",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83d\udc23",
     "targetLevel": 8,
     "targetCost": 15
   },
   "egg timer": {
     "targetId": "egg timer",
     "startingElements": [
-      "electricity",
       "time",
+      "electricity",
       "phoenix",
       "air"
     ],
     "targetName": "Egg Timer",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83d\udc23",
     "targetLevel": 9,
     "targetCost": 32
   },
@@ -31838,7 +31838,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Electric Car",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83d\ude83",
     "targetLevel": 12,
     "targetCost": 50
   },
@@ -31851,7 +31851,7 @@ const GRAPH_DATA = {
       "animal"
     ],
     "targetName": "Electric Eel",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83d\ude83",
     "targetLevel": 9,
     "targetCost": 25
   },
@@ -31864,17 +31864,17 @@ const GRAPH_DATA = {
       "animal"
     ],
     "targetName": "Electrician",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udd27",
     "targetLevel": 8,
     "targetCost": 25
   },
   "electricity": {
     "targetId": "electricity",
     "startingElements": [
-      "fire",
-      "planet",
       "energy",
-      "sun"
+      "fire",
+      "sun",
+      "planet"
     ],
     "targetName": "Electricity",
     "targetEmoji": "\u26a1",
@@ -31886,11 +31886,11 @@ const GRAPH_DATA = {
     "startingElements": [
       "charcoal",
       "electricity",
-      "paper",
-      "wood"
+      "wood",
+      "paper"
     ],
     "targetName": "Email",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc8c",
     "targetLevel": 15,
     "targetCost": 160
   },
@@ -31903,33 +31903,33 @@ const GRAPH_DATA = {
       "water"
     ],
     "targetName": "Energy",
-    "targetEmoji": "\ud83d\udca5",
+    "targetEmoji": "\ud83d\udd0b",
     "targetLevel": 1,
     "targetCost": 1
   },
   "engineer": {
     "targetId": "engineer",
     "startingElements": [
-      "tool",
-      "stone",
       "human",
+      "stone",
+      "tool",
       "air"
     ],
     "targetName": "Engineer",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udd2c",
     "targetLevel": 10,
     "targetCost": 35
   },
   "eruption": {
     "targetId": "eruption",
     "startingElements": [
+      "earth",
       "air",
       "fire",
-      "earth",
       "water"
     ],
     "targetName": "Eruption",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf0b",
     "targetLevel": 2,
     "targetCost": 3
   },
@@ -31942,41 +31942,41 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Excalibur",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udde1\ufe0f",
     "targetLevel": 14,
     "targetCost": 41
   },
   "excavator": {
     "targetId": "excavator",
     "startingElements": [
-      "tool",
       "gardener",
       "philosophy",
-      "planet"
+      "planet",
+      "tool"
     ],
     "targetName": "Excavator",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea3",
     "targetLevel": 12,
     "targetCost": 87
   },
   "explosion": {
     "targetId": "explosion",
     "startingElements": [
-      "air",
       "fire",
+      "air",
       "earth",
       "water"
     ],
     "targetName": "Explosion",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2f",
     "targetLevel": 3,
     "targetCost": 3
   },
   "fabric": {
     "targetId": "fabric",
     "startingElements": [
-      "tool",
       "plant",
+      "tool",
       "cloud",
       "air"
     ],
@@ -31989,12 +31989,12 @@ const GRAPH_DATA = {
     "targetId": "factory",
     "startingElements": [
       "wall",
-      "brick",
       "chimney",
+      "brick",
       "air"
     ],
     "targetName": "Factory",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfed",
     "targetLevel": 5,
     "targetCost": 16
   },
@@ -32007,7 +32007,7 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Fairy Tale",
-    "targetEmoji": "\ud83e\ude84",
+    "targetEmoji": "\ud83d\ude07",
     "targetLevel": 10,
     "targetCost": 42
   },
@@ -32020,20 +32020,20 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Family",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc6a",
     "targetLevel": 8,
     "targetCost": 19
   },
   "family tree": {
     "targetId": "family tree",
     "startingElements": [
-      "time",
       "human",
+      "time",
       "animal",
       "air"
     ],
     "targetName": "Family tree",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83e\udd1f",
     "targetLevel": 9,
     "targetCost": 20
   },
@@ -32041,12 +32041,12 @@ const GRAPH_DATA = {
     "targetId": "farm",
     "startingElements": [
       "human",
-      "life",
       "house",
+      "life",
       "soil"
     ],
     "targetName": "Farm",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude9c",
     "targetLevel": 10,
     "targetCost": 36
   },
@@ -32054,90 +32054,90 @@ const GRAPH_DATA = {
     "targetId": "farmer",
     "startingElements": [
       "soil",
+      "time",
       "life",
-      "animal",
-      "time"
+      "animal"
     ],
     "targetName": "Farmer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf3e",
     "targetLevel": 9,
     "targetCost": 24
   },
   "faun": {
     "targetId": "faun",
     "startingElements": [
-      "earthquake",
       "human",
       "earth",
+      "earthquake",
       "livestock"
     ],
     "targetName": "Faun",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc10",
     "targetLevel": 13,
     "targetCost": 58
   },
   "fence": {
     "targetId": "fence",
     "startingElements": [
-      "stone",
       "human",
+      "wall",
       "earth",
-      "wall"
+      "stone"
     ],
     "targetName": "Fence",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd3a",
     "targetLevel": 10,
     "targetCost": 19
   },
   "field": {
     "targetId": "field",
     "startingElements": [
-      "stone",
-      "animal",
+      "time",
       "earth",
-      "time"
+      "stone",
+      "animal"
     ],
     "targetName": "Field",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf3e",
     "targetLevel": 9,
     "targetCost": 13
   },
   "fire extinguisher": {
     "targetId": "fire extinguisher",
     "startingElements": [
-      "life",
+      "soil",
       "fire",
-      "night",
-      "soil"
+      "life",
+      "night"
     ],
     "targetName": "Fire Extinguisher",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
     "targetLevel": 10,
     "targetCost": 24
   },
   "firefighter": {
     "targetId": "firefighter",
     "startingElements": [
-      "life",
       "fire",
       "time",
+      "life",
       "land"
     ],
     "targetName": "Firefighter",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
     "targetLevel": 8,
     "targetCost": 10
   },
   "fireplace": {
     "targetId": "fireplace",
     "startingElements": [
-      "tool",
-      "fire",
       "tree",
+      "fire",
+      "tool",
       "brick"
     ],
     "targetName": "Fireplace",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
     "targetLevel": 13,
     "targetCost": 69
   },
@@ -32150,7 +32150,7 @@ const GRAPH_DATA = {
       "land"
     ],
     "targetName": "Firestation",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83d\ude2a",
     "targetLevel": 9,
     "targetCost": 12
   },
@@ -32163,7 +32163,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Firetruck",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
     "targetLevel": 12,
     "targetCost": 42
   },
@@ -32176,98 +32176,98 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Firewall",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
     "targetLevel": 4,
     "targetCost": 6
   },
   "fireworks": {
     "targetId": "fireworks",
     "startingElements": [
-      "air",
       "explosion",
+      "air",
       "continent",
       "earth"
     ],
     "targetName": "Fireworks",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83c\udf86",
     "targetLevel": 5,
     "targetCost": 10
   },
   "fish": {
     "targetId": "fish",
     "startingElements": [
-      "primordial soup",
       "water",
       "time",
+      "primordial soup",
       "land"
     ],
     "targetName": "Fish",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83d\udc2c",
     "targetLevel": 8,
     "targetCost": 9
   },
   "fishing rod": {
     "targetId": "fishing rod",
     "startingElements": [
-      "stone",
       "human",
       "water",
+      "stone",
       "animal"
     ],
     "targetName": "Fishing Rod",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83e\udda6",
     "targetLevel": 9,
     "targetCost": 22
   },
   "flamethrower": {
     "targetId": "flamethrower",
     "startingElements": [
-      "philosophy",
-      "fire",
       "house",
-      "bullet"
+      "bullet",
+      "fire",
+      "philosophy"
     ],
     "targetName": "Flamethrower",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd25",
     "targetLevel": 12,
     "targetCost": 60
   },
   "flashlight": {
     "targetId": "flashlight",
     "startingElements": [
-      "tool",
       "sun",
-      "solar cell",
-      "glass"
+      "glass",
+      "tool",
+      "solar cell"
     ],
     "targetName": "Flashlight",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd26",
     "targetLevel": 9,
     "targetCost": 33
   },
   "flood": {
     "targetId": "flood",
     "startingElements": [
+      "wall",
       "sea",
       "explosion",
-      "wall",
       "air"
     ],
     "targetName": "Flood",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udebd",
     "targetLevel": 6,
     "targetCost": 20
   },
   "flour": {
     "targetId": "flour",
     "startingElements": [
-      "stone",
       "plant",
-      "field",
-      "earth"
+      "earth",
+      "stone",
+      "field"
     ],
     "targetName": "Flour",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf3e",
     "targetLevel": 11,
     "targetCost": 32
   },
@@ -32275,90 +32275,90 @@ const GRAPH_DATA = {
     "targetId": "flower",
     "startingElements": [
       "soil",
-      "life",
       "water",
-      "sun"
+      "sun",
+      "life"
     ],
     "targetName": "Flower",
-    "targetEmoji": "\ud83c\udf31",
+    "targetEmoji": "\ud83d\udc90",
     "targetLevel": 9,
     "targetCost": 22
   },
   "flute": {
     "targetId": "flute",
     "startingElements": [
-      "tool",
-      "air",
+      "big",
       "plant",
-      "big"
+      "air",
+      "tool"
     ],
     "targetName": "Flute",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude88",
     "targetLevel": 13,
     "targetCost": 66
   },
   "flying fish": {
     "targetId": "flying fish",
     "startingElements": [
+      "water",
       "air",
       "life",
-      "water",
       "land"
     ],
     "targetName": "Flying Fish",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
     "targetLevel": 9,
     "targetCost": 10
   },
   "flying squirrel": {
     "targetId": "flying squirrel",
     "startingElements": [
-      "air",
+      "wall",
       "plant",
-      "cheese",
-      "wall"
+      "air",
+      "cheese"
     ],
     "targetName": "Flying Squirrel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
     "targetLevel": 14,
     "targetCost": 60
   },
   "fog": {
     "targetId": "fog",
     "startingElements": [
-      "air",
-      "planet",
       "water",
-      "earth"
+      "earth",
+      "air",
+      "planet"
     ],
     "targetName": "Fog",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf01",
     "targetLevel": 6,
     "targetCost": 8
   },
   "force knight": {
     "targetId": "force knight",
     "startingElements": [
+      "human",
       "blade",
       "metal",
-      "human",
       "energy"
     ],
     "targetName": "Force Knight",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude34",
     "targetLevel": 15,
     "targetCost": 50
   },
   "forest": {
     "targetId": "forest",
     "startingElements": [
-      "plant",
-      "philosophy",
       "planet",
-      "earth"
+      "earth",
+      "plant",
+      "philosophy"
     ],
     "targetName": "Forest",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83d\ude2a",
     "targetLevel": 12,
     "targetCost": 53
   },
@@ -32366,51 +32366,51 @@ const GRAPH_DATA = {
     "targetId": "fork",
     "startingElements": [
       "tool",
-      "bacteria",
       "philosophy",
-      "hay"
+      "hay",
+      "bacteria"
     ],
     "targetName": "Fork",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u23f9\ufe0f",
     "targetLevel": 12,
     "targetCost": 76
   },
   "fortune cookie": {
     "targetId": "fortune cookie",
     "startingElements": [
+      "water",
       "tool",
       "tree",
-      "water",
       "gingerbread man"
     ],
     "targetName": "Fortune Cookie",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
     "targetLevel": 14,
     "targetCost": 107
   },
   "fossil": {
     "targetId": "fossil",
     "startingElements": [
-      "time",
       "human",
       "earth",
+      "time",
       "air"
     ],
     "targetName": "Fossil",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddb4",
     "targetLevel": 9,
     "targetCost": 12
   },
   "fountain": {
     "targetId": "fountain",
     "startingElements": [
-      "tool",
-      "stone",
       "water",
+      "stone",
+      "tool",
       "air"
     ],
     "targetName": "Fountain",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26f2",
     "targetLevel": 11,
     "targetCost": 19
   },
@@ -32423,20 +32423,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Fox",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83e\udd8a",
     "targetLevel": 10,
     "targetCost": 37
   },
   "frankenstein's monster": {
     "targetId": "frankenstein's monster",
     "startingElements": [
-      "time",
       "human",
-      "cloud",
-      "energy"
+      "time",
+      "energy",
+      "cloud"
     ],
     "targetName": "Frankenstein's Monster",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc80",
     "targetLevel": 9,
     "targetCost": 20
   },
@@ -32449,20 +32449,20 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "French Fries",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd50",
     "targetLevel": 11,
     "targetCost": 30
   },
   "fridge": {
     "targetId": "fridge",
     "startingElements": [
-      "wind",
       "human",
       "sun",
-      "solar cell"
+      "solar cell",
+      "wind"
     ],
     "targetName": "Fridge",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddca",
     "targetLevel": 9,
     "targetCost": 28
   },
@@ -32470,51 +32470,51 @@ const GRAPH_DATA = {
     "targetId": "frog",
     "startingElements": [
       "puddle",
-      "primordial soup",
       "time",
+      "primordial soup",
       "land"
     ],
     "targetName": "Frog",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc38",
     "targetLevel": 8,
     "targetCost": 10
   },
   "frozen yogurt": {
     "targetId": "frozen yogurt",
     "startingElements": [
+      "water",
       "cow",
-      "cold",
       "bacteria",
-      "water"
+      "cold"
     ],
     "targetName": "Frozen Yogurt",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 13,
     "targetCost": 59
   },
   "fruit": {
     "targetId": "fruit",
     "startingElements": [
-      "life",
+      "soil",
       "time",
       "rainbow",
-      "soil"
+      "life"
     ],
     "targetName": "Fruit",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83c\udf47",
     "targetLevel": 10,
     "targetCost": 23
   },
   "fruit tree": {
     "targetId": "fruit tree",
     "startingElements": [
+      "time",
       "plant",
       "rainbow",
-      "time",
       "air"
     ],
     "targetName": "Fruit Tree",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83c\udf43",
     "targetLevel": 11,
     "targetCost": 38
   },
@@ -32527,7 +32527,7 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Galaxy",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83c\udf0c",
     "targetLevel": 5,
     "targetCost": 23
   },
@@ -32540,20 +32540,20 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Galaxy Cluster",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83c\udf0c",
     "targetLevel": 6,
     "targetCost": 47
   },
   "garage": {
     "targetId": "garage",
     "startingElements": [
-      "wheel",
       "wall",
+      "wheel",
       "air",
       "earth"
     ],
     "targetName": "Garage",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude21",
     "targetLevel": 12,
     "targetCost": 47
   },
@@ -32561,47 +32561,47 @@ const GRAPH_DATA = {
     "targetId": "garden",
     "startingElements": [
       "soil",
-      "life",
       "wall",
+      "life",
       "air"
     ],
     "targetName": "Garden",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc0c",
     "targetLevel": 9,
     "targetCost": 26
   },
   "gardener": {
     "targetId": "gardener",
     "startingElements": [
-      "life",
-      "house",
       "human",
+      "house",
+      "life",
       "soil"
     ],
     "targetName": "Gardener",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf3e",
     "targetLevel": 10,
     "targetCost": 36
   },
   "gas": {
     "targetId": "gas",
     "startingElements": [
-      "air",
       "human",
       "planet",
+      "air",
       "glass"
     ],
     "targetName": "Gas",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude24",
     "targetLevel": 9,
     "targetCost": 21
   },
   "geyser": {
     "targetId": "geyser",
     "startingElements": [
-      "fire",
       "water",
       "earth",
+      "fire",
       "air"
     ],
     "targetName": "Geyser",
@@ -32612,78 +32612,78 @@ const GRAPH_DATA = {
   "ghost": {
     "targetId": "ghost",
     "startingElements": [
+      "time",
       "death",
       "stone",
-      "day",
-      "time"
+      "day"
     ],
     "targetName": "Ghost",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc7b",
     "targetLevel": 9,
     "targetCost": 19
   },
   "gift": {
     "targetId": "gift",
     "startingElements": [
-      "star",
-      "tree",
       "human",
-      "chimney"
+      "star",
+      "chimney",
+      "tree"
     ],
     "targetName": "Gift",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc9d",
     "targetLevel": 14,
     "targetCost": 85
   },
   "gingerbread house": {
     "targetId": "gingerbread house",
     "startingElements": [
-      "stone",
-      "house",
       "water",
+      "house",
+      "stone",
       "wheat"
     ],
     "targetName": "Gingerbread House",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83d\udc68\u200d\ud83e\uddb0",
     "targetLevel": 13,
     "targetCost": 45
   },
   "gingerbread man": {
     "targetId": "gingerbread man",
     "startingElements": [
-      "stone",
-      "life",
+      "water",
       "wheat",
-      "water"
+      "stone",
+      "life"
     ],
     "targetName": "Gingerbread Man",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83d\udc66",
     "targetLevel": 13,
     "targetCost": 40
   },
   "glacier": {
     "targetId": "glacier",
     "startingElements": [
+      "water",
       "time",
       "human",
-      "water",
       "wind"
     ],
     "targetName": "Glacier",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\uddca",
     "targetLevel": 10,
     "targetCost": 14
   },
   "glass": {
     "targetId": "glass",
     "startingElements": [
-      "air",
       "fire",
+      "air",
       "lava",
       "earth"
     ],
     "targetName": "Glass",
-    "targetEmoji": "\ud83e\udd5b",
+    "targetEmoji": "\ud83e\udd42",
     "targetLevel": 4,
     "targetCost": 4
   },
@@ -32703,39 +32703,39 @@ const GRAPH_DATA = {
   "gnome": {
     "targetId": "gnome",
     "startingElements": [
-      "hero",
-      "house",
       "human",
+      "house",
+      "hero",
       "plant"
     ],
     "targetName": "Gnome",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude0b",
     "targetLevel": 10,
     "targetCost": 56
   },
   "goat": {
     "targetId": "goat",
     "startingElements": [
-      "motion",
       "earth",
+      "motion",
       "livestock",
       "air"
     ],
     "targetName": "Goat",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc10",
     "targetLevel": 12,
     "targetCost": 48
   },
   "gold": {
     "targetId": "gold",
     "startingElements": [
-      "fire",
       "hammer",
+      "fire",
       "sand",
       "earth"
     ],
     "targetName": "Gold",
-    "targetEmoji": "\ud83e\ude99",
+    "targetEmoji": "\ud83d\udc9b",
     "targetLevel": 12,
     "targetCost": 21
   },
@@ -32743,33 +32743,33 @@ const GRAPH_DATA = {
     "targetId": "golem",
     "startingElements": [
       "human",
-      "clay",
       "lightning",
+      "clay",
       "air"
     ],
     "targetName": "Golem",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd16",
     "targetLevel": 10,
     "targetCost": 34
   },
   "granite": {
     "targetId": "granite",
     "startingElements": [
+      "earth",
       "air",
       "fire",
-      "earth",
       "water"
     ],
     "targetName": "Granite",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea8",
     "targetLevel": 2,
     "targetCost": 3
   },
   "grass": {
     "targetId": "grass",
     "startingElements": [
-      "life",
       "earth",
+      "life",
       "air",
       "fire"
     ],
@@ -32781,39 +32781,39 @@ const GRAPH_DATA = {
   "grave": {
     "targetId": "grave",
     "startingElements": [
+      "earth",
       "time",
       "animal",
-      "earth",
       "air"
     ],
     "targetName": "Grave",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea6",
     "targetLevel": 9,
     "targetCost": 11
   },
   "gravestone": {
     "targetId": "gravestone",
     "startingElements": [
-      "primordial soup",
-      "stone",
       "time",
+      "stone",
+      "primordial soup",
       "air"
     ],
     "targetName": "Gravestone",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea6",
     "targetLevel": 8,
     "targetCost": 10
   },
   "graveyard": {
     "targetId": "graveyard",
     "startingElements": [
-      "life",
-      "stone",
       "time",
+      "stone",
+      "life",
       "land"
     ],
     "targetName": "Graveyard",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26b0\ufe0f",
     "targetLevel": 9,
     "targetCost": 12
   },
@@ -32826,46 +32826,46 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Greenhouse",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83e\udd22",
     "targetLevel": 9,
     "targetCost": 19
   },
   "grenade": {
     "targetId": "grenade",
     "startingElements": [
-      "hammer",
-      "fire",
       "explosion",
+      "fire",
+      "hammer",
       "earth"
     ],
     "targetName": "Grenade",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca3",
     "targetLevel": 12,
     "targetCost": 21
   },
   "grilled cheese": {
     "targetId": "grilled cheese",
     "startingElements": [
-      "cow",
-      "time",
       "toast",
-      "water"
+      "water",
+      "time",
+      "cow"
     ],
     "targetName": "Grilled Cheese",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 15,
     "targetCost": 74
   },
   "grim reaper": {
     "targetId": "grim reaper",
     "startingElements": [
-      "metal",
+      "grass",
       "death",
       "stone",
-      "grass"
+      "metal"
     ],
     "targetName": "Grim Reaper",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc80",
     "targetLevel": 14,
     "targetCost": 44
   },
@@ -32885,26 +32885,26 @@ const GRAPH_DATA = {
   "gunpowder": {
     "targetId": "gunpowder",
     "startingElements": [
-      "air",
       "fire",
+      "air",
       "earth",
       "water"
     ],
     "targetName": "Gunpowder",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2b",
     "targetLevel": 2,
     "targetCost": 2
   },
   "gust": {
     "targetId": "gust",
     "startingElements": [
+      "human",
       "air",
       "bacteria",
-      "human",
       "idea"
     ],
     "targetName": "Gust",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 11,
     "targetCost": 41
   },
@@ -32912,25 +32912,25 @@ const GRAPH_DATA = {
     "targetId": "hacker",
     "startingElements": [
       "time",
-      "animal",
       "glass",
+      "animal",
       "air"
     ],
     "targetName": "Hacker",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcbb",
     "targetLevel": 8,
     "targetCost": 19
   },
   "hail": {
     "targetId": "hail",
     "startingElements": [
-      "steam",
-      "human",
       "water",
-      "wind"
+      "wind",
+      "human",
+      "steam"
     ],
     "targetName": "Hail",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\uddf9\ud83c\udded",
     "targetLevel": 10,
     "targetCost": 15
   },
@@ -32938,22 +32938,22 @@ const GRAPH_DATA = {
     "targetId": "ham",
     "startingElements": [
       "life",
-      "mud",
       "smoke",
+      "mud",
       "land"
     ],
     "targetName": "Ham",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude33",
     "targetLevel": 9,
     "targetCost": 12
   },
   "hamburger": {
     "targetId": "hamburger",
     "startingElements": [
-      "meat",
-      "fire",
+      "water",
       "flour",
-      "water"
+      "meat",
+      "fire"
     ],
     "targetName": "Hamburger",
     "targetEmoji": "\ud83c\udf54",
@@ -32963,13 +32963,13 @@ const GRAPH_DATA = {
   "hammer": {
     "targetId": "hammer",
     "startingElements": [
+      "time",
       "stone",
       "animal",
-      "time",
       "air"
     ],
     "targetName": "Hammer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd28",
     "targetLevel": 9,
     "targetCost": 15
   },
@@ -32977,25 +32977,25 @@ const GRAPH_DATA = {
     "targetId": "hamster",
     "startingElements": [
       "wind",
-      "steamboat",
       "wheel",
-      "animal"
+      "animal",
+      "steamboat"
     ],
     "targetName": "Hamster",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc39",
     "targetLevel": 14,
     "targetCost": 46
   },
   "hangar": {
     "targetId": "hangar",
     "startingElements": [
-      "tool",
       "atmosphere",
       "wall",
+      "tool",
       "air"
     ],
     "targetName": "Hangar",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude82",
     "targetLevel": 11,
     "targetCost": 38
   },
@@ -33003,25 +33003,25 @@ const GRAPH_DATA = {
     "targetId": "harp",
     "startingElements": [
       "human",
-      "electricity",
       "metal",
-      "bird"
+      "bird",
+      "electricity"
     ],
     "targetName": "Harp",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude89",
     "targetLevel": 13,
     "targetCost": 53
   },
   "hay": {
     "targetId": "hay",
     "startingElements": [
-      "earth",
-      "life",
       "soil",
-      "sun"
+      "earth",
+      "sun",
+      "life"
     ],
     "targetName": "Hay",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf3e",
     "targetLevel": 10,
     "targetCost": 22
   },
@@ -33034,33 +33034,33 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Hay Bale",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf3e",
     "targetLevel": 11,
     "targetCost": 45
   },
   "heat": {
     "targetId": "heat",
     "startingElements": [
-      "air",
       "fire",
+      "air",
       "earth",
       "water"
     ],
     "targetName": "Heat",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\udd75",
     "targetLevel": 2,
     "targetCost": 2
   },
   "hedge": {
     "targetId": "hedge",
     "startingElements": [
-      "life",
-      "earth",
       "wall",
+      "earth",
+      "life",
       "air"
     ],
     "targetName": "Hedge",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udccf",
     "targetLevel": 9,
     "targetCost": 20
   },
@@ -33073,98 +33073,98 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Hedgehog",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd94",
     "targetLevel": 12,
     "targetCost": 57
   },
   "helicopter": {
     "targetId": "helicopter",
     "startingElements": [
-      "tool",
-      "bird",
       "windmill",
+      "bird",
+      "tool",
       "air"
     ],
     "targetName": "Helicopter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude81",
     "targetLevel": 11,
     "targetCost": 50
   },
   "hero": {
     "targetId": "hero",
     "startingElements": [
-      "time",
-      "cloud",
       "energy",
-      "animal"
+      "time",
+      "animal",
+      "cloud"
     ],
     "targetName": "Hero",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddb8",
     "targetLevel": 8,
     "targetCost": 19
   },
   "hill": {
     "targetId": "hill",
     "startingElements": [
-      "stone",
-      "philosophy",
       "planet",
-      "earth"
+      "earth",
+      "stone",
+      "philosophy"
     ],
     "targetName": "Hill",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 12,
     "targetCost": 41
   },
   "hippo": {
     "targetId": "hippo",
     "startingElements": [
-      "life",
       "water",
+      "life",
       "land",
       "air"
     ],
     "targetName": "Hippo",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd9b",
     "targetLevel": 9,
     "targetCost": 11
   },
   "honey": {
     "targetId": "honey",
     "startingElements": [
-      "time",
       "plant",
+      "time",
       "rainbow",
       "animal"
     ],
     "targetName": "Honey",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udda1",
     "targetLevel": 11,
     "targetCost": 32
   },
   "horizon": {
     "targetId": "horizon",
     "startingElements": [
-      "air",
-      "water",
       "atmosphere",
-      "earth"
+      "earth",
+      "air",
+      "water"
     ],
     "targetName": "Horizon",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udea5",
     "targetLevel": 6,
     "targetCost": 9
   },
   "horse": {
     "targetId": "horse",
     "startingElements": [
-      "primordial soup",
       "time",
+      "primordial soup",
       "land",
       "air"
     ],
     "targetName": "Horse",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc0e",
     "targetLevel": 8,
     "targetCost": 10
   },
@@ -33172,51 +33172,51 @@ const GRAPH_DATA = {
     "targetId": "horseshoe",
     "startingElements": [
       "horse",
-      "fire",
       "hammer",
+      "fire",
       "earth"
     ],
     "targetName": "Horseshoe",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83e\uddf2",
     "targetLevel": 12,
     "targetCost": 28
   },
   "hospital": {
     "targetId": "hospital",
     "startingElements": [
-      "bacteria",
+      "wall",
       "time",
       "animal",
-      "wall"
+      "bacteria"
     ],
     "targetName": "Hospital",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2695\ufe0f",
     "targetLevel": 9,
     "targetCost": 24
   },
   "hot chocolate": {
     "targetId": "hot chocolate",
     "startingElements": [
-      "heat",
       "oil",
       "fruit",
-      "fire"
+      "fire",
+      "heat"
     ],
     "targetName": "Hot Chocolate",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude05",
     "targetLevel": 13,
     "targetCost": 51
   },
   "hourglass": {
     "targetId": "hourglass",
     "startingElements": [
-      "air",
       "time",
+      "air",
       "lava",
       "earth"
     ],
     "targetName": "Hourglass",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u23f3",
     "targetLevel": 4,
     "targetCost": 4
   },
@@ -33229,7 +33229,7 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "House",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83c\udfd8\ufe0f",
     "targetLevel": 4,
     "targetCost": 11
   },
@@ -33242,137 +33242,137 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Human",
-    "targetEmoji": "\ud83e\uddd1",
+    "targetEmoji": "\ud83e\uddd3",
     "targetLevel": 7,
     "targetCost": 9
   },
   "hummingbird": {
     "targetId": "hummingbird",
     "startingElements": [
-      "air",
       "rainbow",
+      "air",
       "animal",
       "earth"
     ],
     "targetName": "Hummingbird",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83d\udd95",
     "targetLevel": 9,
     "targetCost": 26
   },
   "hurricane": {
     "targetId": "hurricane",
     "startingElements": [
-      "lake",
       "water",
       "wind",
+      "lake",
       "air"
     ],
     "targetName": "Hurricane",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf00",
     "targetLevel": 5,
     "targetCost": 10
   },
   "husky": {
     "targetId": "husky",
     "startingElements": [
-      "ice",
-      "moon",
       "bone",
-      "animal"
+      "animal",
+      "moon",
+      "ice"
     ],
     "targetName": "Husky",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf06",
     "targetLevel": 10,
     "targetCost": 44
   },
   "ice": {
     "targetId": "ice",
     "startingElements": [
-      "time",
       "water",
-      "animal",
-      "wind"
+      "wind",
+      "time",
+      "animal"
     ],
     "targetName": "Ice",
-    "targetEmoji": "\ud83e\uddca",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 9,
     "targetCost": 13
   },
   "ice cream": {
     "targetId": "ice cream",
     "startingElements": [
-      "livestock",
-      "cold",
       "water",
-      "field"
+      "livestock",
+      "field",
+      "cold"
     ],
     "targetName": "Ice Cream",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 12,
     "targetCost": 50
   },
   "ice cream truck": {
     "targetId": "ice cream truck",
     "startingElements": [
+      "milk",
       "bicycle",
-      "cold",
       "wheel",
-      "milk"
+      "cold"
     ],
     "targetName": "Ice Cream Truck",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 13,
     "targetCost": 92
   },
   "ice sculpture": {
     "targetId": "ice sculpture",
     "startingElements": [
-      "ice",
       "tool",
       "stone",
+      "ice",
       "air"
     ],
     "targetName": "Ice Sculpture",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 11,
     "targetCost": 32
   },
   "iceberg": {
     "targetId": "iceberg",
     "startingElements": [
-      "sea",
-      "human",
       "water",
-      "wind"
+      "sea",
+      "wind",
+      "human"
     ],
     "targetName": "Iceberg",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\uddca",
     "targetLevel": 10,
     "targetCost": 18
   },
   "iced tea": {
     "targetId": "iced tea",
     "startingElements": [
-      "cold",
       "water",
       "flower",
-      "wind"
+      "wind",
+      "cold"
     ],
     "targetName": "Iced Tea",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 12,
     "targetCost": 39
   },
   "idea": {
     "targetId": "idea",
     "startingElements": [
-      "fire",
       "human",
+      "fire",
       "air",
       "earth"
     ],
     "targetName": "Idea",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca1",
     "targetLevel": 8,
     "targetCost": 21
   },
@@ -33380,51 +33380,51 @@ const GRAPH_DATA = {
     "targetId": "igloo",
     "startingElements": [
       "human",
-      "wind",
       "wall",
+      "wind",
       "air"
     ],
     "targetName": "Igloo",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udebd",
     "targetLevel": 9,
     "targetCost": 24
   },
   "internet": {
     "targetId": "internet",
     "startingElements": [
-      "tool",
       "hacker",
+      "tool",
       "air",
       "earth"
     ],
     "targetName": "Internet",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf10",
     "targetLevel": 10,
     "targetCost": 65
   },
   "island": {
     "targetId": "island",
     "startingElements": [
-      "pond",
       "volcano",
       "water",
+      "pond",
       "air"
     ],
     "targetName": "Island",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udde8\ud83c\udde8",
     "targetLevel": 5,
     "targetCost": 7
   },
   "ivy": {
     "targetId": "ivy",
     "startingElements": [
-      "life",
-      "earth",
       "wall",
+      "earth",
+      "life",
       "air"
     ],
     "targetName": "Ivy",
-    "targetEmoji": "\ud83c\udf31",
+    "targetEmoji": "\ud83c\udf3f",
     "targetLevel": 9,
     "targetCost": 20
   },
@@ -33432,64 +33432,64 @@ const GRAPH_DATA = {
     "targetId": "jack-o-lantern",
     "startingElements": [
       "soil",
+      "field",
       "life",
-      "night",
-      "field"
+      "night"
     ],
     "targetName": "Jack-O-Lantern",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udc1c",
     "targetLevel": 10,
     "targetCost": 37
   },
   "jam": {
     "targetId": "jam",
     "startingElements": [
-      "heat",
-      "time",
       "plant",
-      "rainbow"
+      "time",
+      "rainbow",
+      "heat"
     ],
     "targetName": "Jam",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\uddef\ud83c\uddf2",
     "targetLevel": 11,
     "targetCost": 26
   },
   "jar": {
     "targetId": "jar",
     "startingElements": [
-      "heat",
-      "flower",
       "time",
-      "glass"
+      "flower",
+      "glass",
+      "heat"
     ],
     "targetName": "Jar",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udffa",
     "targetLevel": 12,
     "targetCost": 31
   },
   "jerky": {
     "targetId": "jerky",
     "startingElements": [
-      "heat",
-      "stone",
       "human",
-      "animal"
+      "stone",
+      "animal",
+      "heat"
     ],
     "targetName": "Jerky",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd69",
     "targetLevel": 10,
     "targetCost": 24
   },
   "juice": {
     "targetId": "juice",
     "startingElements": [
-      "time",
       "plant",
-      "rainbow",
-      "earth"
+      "earth",
+      "time",
+      "rainbow"
     ],
     "targetName": "Juice",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\udd64",
     "targetLevel": 10,
     "targetCost": 24
   },
@@ -33497,77 +33497,77 @@ const GRAPH_DATA = {
     "targetId": "jupiter",
     "startingElements": [
       "water",
-      "air",
       "planet",
+      "air",
       "earth"
     ],
     "targetName": "Jupiter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude90",
     "targetLevel": 6,
     "targetCost": 13
   },
   "kaiju": {
     "targetId": "kaiju",
     "startingElements": [
-      "house",
-      "cloud",
       "lizard",
-      "time"
+      "house",
+      "time",
+      "cloud"
     ],
     "targetName": "Kaiju",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd96",
     "targetLevel": 10,
     "targetCost": 32
   },
   "katana": {
     "targetId": "katana",
     "startingElements": [
-      "heat",
+      "fire",
       "stone",
       "ore",
-      "fire"
+      "heat"
     ],
     "targetName": "Katana",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udde1\ufe0f",
     "targetLevel": 13,
     "targetCost": 23
   },
   "kite": {
     "targetId": "kite",
     "startingElements": [
-      "tool",
-      "air",
+      "water",
       "tree",
-      "water"
+      "air",
+      "tool"
     ],
     "targetName": "Kite",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude81",
     "targetLevel": 14,
     "targetCost": 67
   },
   "knife": {
     "targetId": "knife",
     "startingElements": [
-      "plant",
       "human",
-      "field",
-      "blade"
+      "blade",
+      "plant",
+      "field"
     ],
     "targetName": "Knife",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2a",
     "targetLevel": 13,
     "targetCost": 59
   },
   "knight": {
     "targetId": "knight",
     "startingElements": [
-      "thread",
-      "tool",
+      "human",
       "metal",
-      "human"
+      "thread",
+      "tool"
     ],
     "targetName": "Knight",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udee1\ufe0f",
     "targetLevel": 13,
     "targetCost": 76
   },
@@ -33580,20 +33580,20 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Lake",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\u2744\ufe0f",
     "targetLevel": 3,
     "targetCost": 3
   },
   "lamp": {
     "targetId": "lamp",
     "startingElements": [
-      "electricity",
       "fire",
+      "electricity",
       "ore",
       "glass"
     ],
     "targetName": "Lamp",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca1",
     "targetLevel": 12,
     "targetCost": 38
   },
@@ -33606,20 +33606,20 @@ const GRAPH_DATA = {
       "water"
     ],
     "targetName": "Land",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf40",
     "targetLevel": 1,
     "targetCost": 1
   },
   "laptop": {
     "targetId": "laptop",
     "startingElements": [
-      "hacker",
       "tool",
-      "bacteria",
-      "philosophy"
+      "philosophy",
+      "hacker",
+      "bacteria"
     ],
     "targetName": "Laptop",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udcbb",
     "targetLevel": 11,
     "targetCost": 73
   },
@@ -33632,20 +33632,20 @@ const GRAPH_DATA = {
       "cotton"
     ],
     "targetName": "Lasso",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea2",
     "targetLevel": 12,
     "targetCost": 82
   },
   "lava": {
     "targetId": "lava",
     "startingElements": [
-      "fire",
       "earth",
+      "fire",
       "air",
       "water"
     ],
     "targetName": "Lava",
-    "targetEmoji": "\ud83c\udf0b",
+    "targetEmoji": "\ud83d\udeb9",
     "targetLevel": 1,
     "targetCost": 1
   },
@@ -33653,12 +33653,12 @@ const GRAPH_DATA = {
     "targetId": "lava lamp",
     "startingElements": [
       "metal",
-      "electricity",
       "fire",
+      "electricity",
       "glass"
     ],
     "targetName": "Lava Lamp",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\ude94",
     "targetLevel": 13,
     "targetCost": 39
   },
@@ -33666,74 +33666,74 @@ const GRAPH_DATA = {
     "targetId": "lawn",
     "startingElements": [
       "soil",
-      "life",
       "house",
+      "life",
       "earth"
     ],
     "targetName": "Lawn",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf31",
     "targetLevel": 10,
     "targetCost": 27
   },
   "lawn mower": {
     "targetId": "lawn mower",
     "startingElements": [
-      "tool",
-      "life",
       "soil",
-      "earth"
+      "earth",
+      "life",
+      "tool"
     ],
     "targetName": "Lawn Mower",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2696\ufe0f",
     "targetLevel": 10,
     "targetCost": 28
   },
   "leaf": {
     "targetId": "leaf",
     "startingElements": [
-      "life",
-      "rainbow",
       "soil",
-      "wind"
+      "wind",
+      "rainbow",
+      "life"
     ],
     "targetName": "Leaf",
-    "targetEmoji": "\ud83c\udf31",
+    "targetEmoji": "\ud83c\udf3f",
     "targetLevel": 10,
     "targetCost": 25
   },
   "leather": {
     "targetId": "leather",
     "startingElements": [
-      "stone",
       "human",
-      "animal",
-      "mud"
+      "stone",
+      "mud",
+      "animal"
     ],
     "targetName": "Leather",
-    "targetEmoji": "\ud83d\udc55",
+    "targetEmoji": "\ud83c\udf7d\ufe0f",
     "targetLevel": 9,
     "targetCost": 23
   },
   "legend": {
     "targetId": "legend",
     "startingElements": [
-      "time",
       "human",
+      "time",
       "lightning",
       "air"
     ],
     "targetName": "Legend",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddb5",
     "targetLevel": 10,
     "targetCost": 30
   },
   "lens": {
     "targetId": "lens",
     "startingElements": [
-      "stone",
       "time",
-      "animal",
-      "glass"
+      "stone",
+      "glass",
+      "animal"
     ],
     "targetName": "Lens",
     "targetEmoji": "\ud83d\udc53",
@@ -33744,48 +33744,48 @@ const GRAPH_DATA = {
     "targetId": "letter",
     "startingElements": [
       "water",
-      "wood",
       "charcoal",
+      "wood",
       "air"
     ],
     "targetName": "Letter",
-    "targetEmoji": "\ud83d\udcd6",
+    "targetEmoji": "\u2709\ufe0f",
     "targetLevel": 14,
     "targetCost": 144
   },
   "librarian": {
     "targetId": "librarian",
     "startingElements": [
-      "philosophy",
-      "house",
       "human",
+      "house",
+      "philosophy",
       "idea"
     ],
     "targetName": "Librarian",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2696\ufe0f",
     "targetLevel": 12,
     "targetCost": 75
   },
   "library": {
     "targetId": "library",
     "startingElements": [
-      "philosophy",
       "house",
+      "philosophy",
       "idea",
       "air"
     ],
     "targetName": "Library",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcd5",
     "targetLevel": 12,
     "targetCost": 77
   },
   "life": {
     "targetId": "life",
     "startingElements": [
-      "time",
-      "lake",
       "water",
-      "earth"
+      "earth",
+      "time",
+      "lake"
     ],
     "targetName": "Life",
     "targetEmoji": "\ud83e\uddec",
@@ -33795,13 +33795,13 @@ const GRAPH_DATA = {
   "light": {
     "targetId": "light",
     "startingElements": [
-      "electricity",
       "sun",
+      "electricity",
       "solar cell",
       "glass"
     ],
     "targetName": "Light",
-    "targetEmoji": "\ud83d\udca1",
+    "targetEmoji": "\ud83c\udf83",
     "targetLevel": 8,
     "targetCost": 36
   },
@@ -33814,72 +33814,72 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Light Bulb",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf83",
     "targetLevel": 7,
     "targetCost": 20
   },
   "light sword": {
     "targetId": "light sword",
     "startingElements": [
+      "energy",
       "metal",
       "stone",
-      "energy",
       "air"
     ],
     "targetName": "Light Sword",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd3a",
     "targetLevel": 14,
     "targetCost": 40
   },
   "lighthouse": {
     "targetId": "lighthouse",
     "startingElements": [
-      "beach",
       "electricity",
+      "beach",
       "glass",
       "air"
     ],
     "targetName": "Lighthouse",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83c\udfd8\ufe0f",
     "targetLevel": 9,
     "targetCost": 41
   },
   "lightning": {
     "targetId": "lightning",
     "startingElements": [
-      "air",
-      "planet",
+      "energy",
       "water",
-      "energy"
+      "air",
+      "planet"
     ],
     "targetName": "Lightning",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26c8\ufe0f",
     "targetLevel": 6,
     "targetCost": 9
   },
   "lion": {
     "targetId": "lion",
     "startingElements": [
+      "land",
       "life",
-      "night",
       "animal",
-      "land"
+      "night"
     ],
     "targetName": "Lion",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd81",
     "targetLevel": 9,
     "targetCost": 26
   },
   "liquid": {
     "targetId": "liquid",
     "startingElements": [
+      "water",
       "planet",
       "human",
-      "water",
       "glass"
     ],
     "targetName": "Liquid",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udeb0",
     "targetLevel": 9,
     "targetCost": 21
   },
@@ -33887,51 +33887,51 @@ const GRAPH_DATA = {
     "targetId": "little alchemy",
     "startingElements": [
       "human",
-      "bacteria",
       "philosophy",
-      "gold"
+      "gold",
+      "bacteria"
     ],
     "targetName": "Little Alchemy",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd0f",
     "targetLevel": 14,
     "targetCost": 72
   },
   "livestock": {
     "targetId": "livestock",
     "startingElements": [
+      "human",
       "earth",
       "stone",
-      "human",
       "animal"
     ],
     "targetName": "Livestock",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc04",
     "targetLevel": 9,
     "targetCost": 22
   },
   "lizard": {
     "targetId": "lizard",
     "startingElements": [
-      "stone",
       "time",
+      "stone",
       "primordial soup",
       "land"
     ],
     "targetName": "Lizard",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc0a",
     "targetLevel": 8,
     "targetCost": 11
   },
   "log cabin": {
     "targetId": "log cabin",
     "startingElements": [
-      "tool",
-      "plant",
+      "big",
       "house",
-      "big"
+      "plant",
+      "tool"
     ],
     "targetName": "Log cabin",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\uddd1\ufe0f",
     "targetLevel": 13,
     "targetCost": 77
   },
@@ -33944,72 +33944,72 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Love",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd70",
     "targetLevel": 8,
     "targetCost": 19
   },
   "lumberjack": {
     "targetId": "lumberjack",
     "startingElements": [
-      "philosophy",
-      "plant",
       "human",
-      "planet"
+      "planet",
+      "plant",
+      "philosophy"
     ],
     "targetName": "Lumberjack",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udeb5",
     "targetLevel": 12,
     "targetCost": 62
   },
   "mac and cheese": {
     "targetId": "mac and cheese",
     "startingElements": [
-      "egg",
       "time",
       "flour",
-      "milk"
+      "milk",
+      "egg"
     ],
     "targetName": "Mac and Cheese",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83c\udf4e",
     "targetLevel": 13,
     "targetCost": 87
   },
   "machine": {
     "targetId": "machine",
     "startingElements": [
-      "stone",
       "human",
+      "stone",
       "air",
       "earth"
     ],
     "targetName": "Machine",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\udd16",
     "targetLevel": 9,
     "targetCost": 25
   },
   "magic": {
     "targetId": "magic",
     "startingElements": [
-      "primordial soup",
       "water",
       "sun",
-      "time"
+      "time",
+      "primordial soup"
     ],
     "targetName": "Magic",
-    "targetEmoji": "\ud83e\ude84",
+    "targetEmoji": "\ud83d\udcab",
     "targetLevel": 7,
     "targetCost": 14
   },
   "magma": {
     "targetId": "magma",
     "startingElements": [
-      "planet",
       "human",
+      "planet",
       "lava",
       "glass"
     ],
     "targetName": "Magma",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd0d",
     "targetLevel": 9,
     "targetCost": 22
   },
@@ -34018,37 +34018,37 @@ const GRAPH_DATA = {
     "startingElements": [
       "charcoal",
       "car",
-      "paper",
-      "wood"
+      "wood",
+      "paper"
     ],
     "targetName": "Mail truck",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83d\udc8c",
     "targetLevel": 15,
     "targetCost": 186
   },
   "mailbox": {
     "targetId": "mailbox",
     "startingElements": [
-      "charcoal",
-      "wood",
       "metal",
+      "wood",
+      "charcoal",
       "paper"
     ],
     "targetName": "Mailbox",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcee",
     "targetLevel": 15,
     "targetCost": 162
   },
   "mailman": {
     "targetId": "mailman",
     "startingElements": [
-      "wood",
       "human",
       "water",
-      "story"
+      "story",
+      "wood"
     ],
     "targetName": "Mailman",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc8c",
     "targetLevel": 15,
     "targetCost": 106
   },
@@ -34061,33 +34061,33 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Manatee",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc66",
     "targetLevel": 11,
     "targetCost": 40
   },
   "map": {
     "targetId": "map",
     "startingElements": [
-      "tool",
-      "tree",
       "water",
+      "tree",
+      "tool",
       "land"
     ],
     "targetName": "Map",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\uddfa\ufe0f",
     "targetLevel": 14,
     "targetCost": 68
   },
   "maple syrup": {
     "targetId": "maple syrup",
     "startingElements": [
-      "heat",
-      "big",
+      "blade",
       "plant",
-      "blade"
+      "big",
+      "heat"
     ],
     "targetName": "Maple Syrup",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udccd",
     "targetLevel": 14,
     "targetCost": 76
   },
@@ -34100,85 +34100,85 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Mars",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2642\ufe0f",
     "targetLevel": 5,
     "targetCost": 11
   },
   "marshmallows": {
     "targetId": "marshmallows",
     "startingElements": [
-      "tool",
-      "fire",
       "sugar",
-      "tree"
+      "tree",
+      "fire",
+      "tool"
     ],
     "targetName": "Marshmallows",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfec",
     "targetLevel": 14,
     "targetCost": 91
   },
   "mayonnaise": {
     "targetId": "mayonnaise",
     "startingElements": [
-      "egg",
-      "plant",
       "pressure",
+      "plant",
+      "egg",
       "sun"
     ],
     "targetName": "Mayonnaise",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf6f",
     "targetLevel": 11,
     "targetCost": 39
   },
   "meat": {
     "targetId": "meat",
     "startingElements": [
+      "time",
       "stone",
       "animal",
-      "time",
       "air"
     ],
     "targetName": "Meat",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83c\udf57",
     "targetLevel": 9,
     "targetCost": 21
   },
   "medusa": {
     "targetId": "medusa",
     "startingElements": [
+      "human",
       "fish",
       "electricity",
-      "human",
       "land"
     ],
     "targetName": "Medusa",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\uddfa\ud83c\uddf8",
     "targetLevel": 11,
     "targetCost": 37
   },
   "mercury": {
     "targetId": "mercury",
     "startingElements": [
-      "air",
       "energy",
+      "air",
       "continent",
       "earth"
     ],
     "targetName": "Mercury",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude90",
     "targetLevel": 4,
     "targetCost": 8
   },
   "mermaid": {
     "targetId": "mermaid",
     "startingElements": [
-      "time",
       "water",
+      "time",
       "animal",
       "air"
     ],
     "targetName": "Mermaid",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udddc",
     "targetLevel": 9,
     "targetCost": 19
   },
@@ -34191,7 +34191,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Metal",
-    "targetEmoji": "\ud83d\udd29",
+    "targetEmoji": "\ud83e\udd18",
     "targetLevel": 11,
     "targetCost": 17
   },
@@ -34199,12 +34199,12 @@ const GRAPH_DATA = {
     "targetId": "meteor",
     "startingElements": [
       "fire",
-      "air",
       "stone",
+      "air",
       "planet"
     ],
     "targetName": "Meteor",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf20",
     "targetLevel": 6,
     "targetCost": 10
   },
@@ -34217,20 +34217,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Meteoroid",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf20",
     "targetLevel": 5,
     "targetCost": 9
   },
   "microscope": {
     "targetId": "microscope",
     "startingElements": [
-      "primordial soup",
       "mud",
       "time",
-      "glass"
+      "glass",
+      "primordial soup"
     ],
     "targetName": "Microscope",
-    "targetEmoji": "\ud83d\udc53",
+    "targetEmoji": "\ud83d\udd2c",
     "targetLevel": 8,
     "targetCost": 13
   },
@@ -34238,38 +34238,38 @@ const GRAPH_DATA = {
     "targetId": "milk",
     "startingElements": [
       "water",
-      "animal",
       "field",
+      "animal",
       "air"
     ],
     "targetName": "Milk",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd31",
     "targetLevel": 11,
     "targetCost": 37
   },
   "milk shake": {
     "targetId": "milk shake",
     "startingElements": [
+      "water",
       "cow",
       "cold",
-      "water",
       "air"
     ],
     "targetName": "Milk Shake",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd1d",
     "targetLevel": 13,
     "targetCost": 51
   },
   "mineral": {
     "targetId": "mineral",
     "startingElements": [
-      "life",
       "earth",
       "time",
+      "life",
       "air"
     ],
     "targetName": "Mineral",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea8",
     "targetLevel": 9,
     "targetCost": 15
   },
@@ -34282,7 +34282,7 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Minotaur",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude48",
     "targetLevel": 11,
     "targetCost": 46
   },
@@ -34291,128 +34291,128 @@ const GRAPH_DATA = {
     "startingElements": [
       "fire",
       "hammer",
-      "earth",
-      "glass"
+      "glass",
+      "earth"
     ],
     "targetName": "Mirror",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude9e",
     "targetLevel": 12,
     "targetCost": 22
   },
   "mist": {
     "targetId": "mist",
     "startingElements": [
-      "air",
       "water",
+      "air",
       "earth",
       "fire"
     ],
     "targetName": "Mist",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udd2c",
     "targetLevel": 1,
     "targetCost": 1
   },
   "mold": {
     "targetId": "mold",
     "startingElements": [
-      "time",
       "plant",
+      "time",
       "rainbow",
       "air"
     ],
     "targetName": "Mold",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc68\u200d\ud83e\uddb3",
     "targetLevel": 10,
     "targetCost": 24
   },
   "monarch": {
     "targetId": "monarch",
     "startingElements": [
-      "metal",
-      "stone",
       "human",
-      "blade"
+      "blade",
+      "stone",
+      "metal"
     ],
     "targetName": "Monarch",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udec5",
     "targetLevel": 15,
     "targetCost": 51
   },
   "money": {
     "targetId": "money",
     "startingElements": [
-      "diamond",
-      "tool",
+      "water",
       "tree",
-      "water"
+      "diamond",
+      "tool"
     ],
     "targetName": "Money",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcb5",
     "targetLevel": 14,
     "targetCost": 85
   },
   "monkey": {
     "targetId": "monkey",
     "startingElements": [
-      "plant",
-      "philosophy",
       "planet",
+      "philosophy",
+      "plant",
       "animal"
     ],
     "targetName": "Monkey",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude48",
     "targetLevel": 12,
     "targetCost": 61
   },
   "moon": {
     "targetId": "moon",
     "startingElements": [
-      "air",
-      "time",
+      "atmosphere",
       "water",
-      "atmosphere"
+      "time",
+      "air"
     ],
     "targetName": "Moon",
-    "targetEmoji": "\ud83c\udf19",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
     "targetLevel": 6,
     "targetCost": 9
   },
   "moon rover": {
     "targetId": "moon rover",
     "startingElements": [
-      "wheel",
       "moon",
+      "wheel",
       "air",
       "earth"
     ],
     "targetName": "Moon Rover",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2c",
     "targetLevel": 12,
     "targetCost": 51
   },
   "moss": {
     "targetId": "moss",
     "startingElements": [
-      "life",
-      "stone",
       "earth",
+      "stone",
+      "life",
       "air"
     ],
     "targetName": "Moss",
-    "targetEmoji": "\ud83c\udf31",
+    "targetEmoji": "\ud83c\udf3f",
     "targetLevel": 9,
     "targetCost": 17
   },
   "moth": {
     "targetId": "moth",
     "startingElements": [
-      "rainbow",
       "day",
-      "animal",
-      "time"
+      "time",
+      "rainbow",
+      "animal"
     ],
     "targetName": "Moth",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd31",
     "targetLevel": 9,
     "targetCost": 25
   },
@@ -34425,46 +34425,46 @@ const GRAPH_DATA = {
       "glass"
     ],
     "targetName": "Motion",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfc3",
     "targetLevel": 9,
     "targetCost": 23
   },
   "motorcycle": {
     "targetId": "motorcycle",
     "startingElements": [
-      "steam",
       "wheel",
+      "steam",
       "air",
       "earth"
     ],
     "targetName": "Motorcycle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfcd\ufe0f",
     "targetLevel": 11,
     "targetCost": 43
   },
   "mountain": {
     "targetId": "mountain",
     "startingElements": [
-      "science",
-      "wind",
       "earth",
+      "wind",
+      "science",
       "air"
     ],
     "targetName": "Mountain",
-    "targetEmoji": "\ud83c\udfd4\ufe0f",
+    "targetEmoji": "\u26f0\ufe0f",
     "targetLevel": 11,
     "targetCost": 25
   },
   "mountain goat": {
     "targetId": "mountain goat",
     "startingElements": [
-      "mountain",
       "earthquake",
       "earth",
+      "mountain",
       "livestock"
     ],
     "targetName": "Mountain Goat",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc10",
     "targetLevel": 13,
     "targetCost": 74
   },
@@ -34477,33 +34477,33 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Mountain Range",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26f0\ufe0f",
     "targetLevel": 12,
     "targetCost": 28
   },
   "mouse": {
     "targetId": "mouse",
     "startingElements": [
-      "cow",
-      "time",
       "water",
-      "wall"
+      "wall",
+      "time",
+      "cow"
     ],
     "targetName": "Mouse",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc01",
     "targetLevel": 13,
     "targetCost": 44
   },
   "mousetrap": {
     "targetId": "mousetrap",
     "startingElements": [
-      "cow",
-      "metal",
       "water",
-      "time"
+      "metal",
+      "time",
+      "cow"
     ],
     "targetName": "Mousetrap",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea4",
     "targetLevel": 13,
     "targetCost": 56
   },
@@ -34516,72 +34516,72 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Mud",
-    "targetEmoji": "\ud83d\udca9",
+    "targetEmoji": "\ud83c\udde7\ud83c\uddf2",
     "targetLevel": 1,
     "targetCost": 1
   },
   "mummy": {
     "targetId": "mummy",
     "startingElements": [
-      "stone",
       "time",
-      "desert",
-      "animal"
+      "stone",
+      "animal",
+      "desert"
     ],
     "targetName": "Mummy",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udddf",
     "targetLevel": 8,
     "targetCost": 18
   },
   "music": {
     "targetId": "music",
     "startingElements": [
-      "air",
       "human",
+      "air",
       "flute",
       "wood"
     ],
     "targetName": "Music",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa4",
     "targetLevel": 15,
     "targetCost": 143
   },
   "musician": {
     "targetId": "musician",
     "startingElements": [
-      "tool",
-      "air",
+      "human",
       "tree",
-      "human"
+      "air",
+      "tool"
     ],
     "targetName": "Musician",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa4",
     "targetLevel": 14,
     "targetCost": 76
   },
   "narwhal": {
     "targetId": "narwhal",
     "startingElements": [
-      "rainbow",
       "water",
+      "rainbow",
       "animal",
       "land"
     ],
     "targetName": "Narwhal",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc0b",
     "targetLevel": 10,
     "targetCost": 19
   },
   "needle": {
     "targetId": "needle",
     "startingElements": [
-      "tool",
       "plant",
+      "tool",
       "cloud",
       "air"
     ],
     "targetName": "Needle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddf5",
     "targetLevel": 11,
     "targetCost": 48
   },
@@ -34594,20 +34594,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Nessie",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc09",
     "targetLevel": 10,
     "targetCost": 33
   },
   "nest": {
     "targetId": "nest",
     "startingElements": [
+      "wall",
       "air",
       "animal",
-      "wall",
       "earth"
     ],
     "targetName": "Nest",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude86",
     "targetLevel": 9,
     "targetCost": 21
   },
@@ -34620,20 +34620,20 @@ const GRAPH_DATA = {
       "cotton"
     ],
     "targetName": "Net",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
     "targetLevel": 12,
     "targetCost": 81
   },
   "newspaper": {
     "targetId": "newspaper",
     "startingElements": [
-      "tool",
+      "water",
       "tree",
       "story",
-      "water"
+      "tool"
     ],
     "targetName": "Newspaper",
-    "targetEmoji": "\ud83d\udcd6",
+    "targetEmoji": "\ud83d\udcf0",
     "targetLevel": 14,
     "targetCost": 96
   },
@@ -34646,33 +34646,33 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Night",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf19",
     "targetLevel": 6,
     "targetCost": 8
   },
   "ninja": {
     "targetId": "ninja",
     "startingElements": [
-      "heat",
-      "metal",
       "human",
-      "stone"
+      "metal",
+      "stone",
+      "heat"
     ],
     "targetName": "Ninja",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd77",
     "targetLevel": 13,
     "targetCost": 33
   },
   "ninja turtle": {
     "targetId": "ninja turtle",
     "startingElements": [
-      "heat",
       "metal",
+      "turtle",
       "stone",
-      "turtle"
+      "heat"
     ],
     "targetName": "Ninja Turtle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc22",
     "targetLevel": 13,
     "targetCost": 37
   },
@@ -34681,167 +34681,167 @@ const GRAPH_DATA = {
     "startingElements": [
       "planet",
       "plant",
-      "philosophy",
-      "field"
+      "field",
+      "philosophy"
     ],
     "targetName": "Nuts",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd5c",
     "targetLevel": 12,
     "targetCost": 66
   },
   "oasis": {
     "targetId": "oasis",
     "startingElements": [
-      "air",
-      "stone",
       "water",
+      "stone",
+      "air",
       "land"
     ],
     "targetName": "Oasis",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfdd\ufe0f",
     "targetLevel": 5,
     "targetCost": 6
   },
   "obsidian": {
     "targetId": "obsidian",
     "startingElements": [
-      "fire",
       "water",
       "earth",
+      "fire",
       "air"
     ],
     "targetName": "Obsidian",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea8",
     "targetLevel": 2,
     "targetCost": 2
   },
   "ocean": {
     "targetId": "ocean",
     "startingElements": [
-      "pond",
       "water",
+      "pond",
       "air",
       "earth"
     ],
     "targetName": "Ocean",
-    "targetEmoji": "\ud83c\udf0a",
+    "targetEmoji": "\ud83c\udfc4\u200d\u2642\ufe0f",
     "targetLevel": 5,
     "targetCost": 5
   },
   "oil": {
     "targetId": "oil",
     "startingElements": [
-      "soil",
-      "life",
       "pressure",
-      "sun"
+      "soil",
+      "sun",
+      "life"
     ],
     "targetName": "Oil",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude94",
     "targetLevel": 10,
     "targetCost": 23
   },
   "omelette": {
     "targetId": "omelette",
     "startingElements": [
-      "life",
       "fire",
       "phoenix",
+      "life",
       "air"
     ],
     "targetName": "Omelette",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf73",
     "targetLevel": 9,
     "targetCost": 16
   },
   "optical fiber": {
     "targetId": "optical fiber",
     "startingElements": [
+      "light bulb",
       "computer",
       "electricity",
-      "light bulb",
       "air"
     ],
     "targetName": "Optical Fiber",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcbd",
     "targetLevel": 11,
     "targetCost": 102
   },
   "orchard": {
     "targetId": "orchard",
     "startingElements": [
-      "plant",
-      "field",
       "flower",
-      "time"
+      "time",
+      "plant",
+      "field"
     ],
     "targetName": "Orchard",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude13",
     "targetLevel": 12,
     "targetCost": 52
   },
   "ore": {
     "targetId": "ore",
     "startingElements": [
-      "stone",
       "human",
       "earth",
+      "stone",
       "air"
     ],
     "targetName": "Ore",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd70",
     "targetLevel": 10,
     "targetCost": 16
   },
   "organic matter": {
     "targetId": "organic matter",
     "startingElements": [
-      "primordial soup",
-      "life",
       "time",
+      "life",
+      "primordial soup",
       "air"
     ],
     "targetName": "Organic Matter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udde0",
     "targetLevel": 8,
     "targetCost": 14
   },
   "origami": {
     "targetId": "origami",
     "startingElements": [
+      "water",
       "tool",
       "tree",
-      "water",
       "animal"
     ],
     "targetName": "Origami",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcc4",
     "targetLevel": 14,
     "targetCost": 75
   },
   "ostrich": {
     "targetId": "ostrich",
     "startingElements": [
+      "earth",
       "air",
       "life",
-      "earth",
       "land"
     ],
     "targetName": "Ostrich",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd11",
     "targetLevel": 9,
     "targetCost": 10
   },
   "owl": {
     "targetId": "owl",
     "startingElements": [
-      "air",
-      "time",
       "day",
+      "time",
+      "air",
       "animal"
     ],
     "targetName": "Owl",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83e\udd89",
     "targetLevel": 9,
     "targetCost": 18
   },
@@ -34849,38 +34849,38 @@ const GRAPH_DATA = {
     "targetId": "oxygen",
     "startingElements": [
       "earth",
-      "life",
       "sun",
+      "life",
       "air"
     ],
     "targetName": "Oxygen",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 9,
     "targetCost": 21
   },
   "ozone": {
     "targetId": "ozone",
     "startingElements": [
-      "air",
       "energy",
       "sun",
+      "air",
       "earth"
     ],
     "targetName": "Ozone",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2a",
     "targetLevel": 7,
     "targetCost": 16
   },
   "paint": {
     "targetId": "paint",
     "startingElements": [
+      "water",
       "fire",
       "planet",
-      "water",
       "air"
     ],
     "targetName": "Paint",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfa8",
     "targetLevel": 6,
     "targetCost": 8
   },
@@ -34893,7 +34893,7 @@ const GRAPH_DATA = {
       "animal"
     ],
     "targetName": "Painter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfa8",
     "targetLevel": 8,
     "targetCost": 18
   },
@@ -34901,38 +34901,38 @@ const GRAPH_DATA = {
     "targetId": "painting",
     "startingElements": [
       "paint",
-      "tool",
       "thread",
+      "tool",
       "air"
     ],
     "targetName": "Painting",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa8",
     "targetLevel": 13,
     "targetCost": 66
   },
   "paleontologist": {
     "targetId": "paleontologist",
     "startingElements": [
-      "time",
       "human",
-      "stone",
-      "animal"
+      "time",
+      "animal",
+      "stone"
     ],
     "targetName": "Paleontologist",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd81",
     "targetLevel": 10,
     "targetCost": 22
   },
   "palm": {
     "targetId": "palm",
     "startingElements": [
-      "plant",
-      "philosophy",
       "planet",
-      "sand"
+      "plant",
+      "sand",
+      "philosophy"
     ],
     "targetName": "Palm",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc4b",
     "targetLevel": 12,
     "targetCost": 56
   },
@@ -34945,17 +34945,17 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Pan Flute",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf73",
     "targetLevel": 14,
     "targetCost": 133
   },
   "paper": {
     "targetId": "paper",
     "startingElements": [
-      "tool",
-      "plant",
       "water",
-      "big"
+      "big",
+      "plant",
+      "tool"
     ],
     "targetName": "Paper",
     "targetEmoji": "\ud83d\udcc4",
@@ -34965,13 +34965,13 @@ const GRAPH_DATA = {
   "paper airplane": {
     "targetId": "paper airplane",
     "startingElements": [
-      "tool",
+      "water",
       "airplane",
       "tree",
-      "water"
+      "tool"
     ],
     "targetName": "Paper Airplane",
-    "targetEmoji": "\ud83d\udcd6",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 14,
     "targetCost": 102
   },
@@ -34979,12 +34979,12 @@ const GRAPH_DATA = {
     "targetId": "paper cup",
     "startingElements": [
       "water",
-      "wood",
+      "container",
       "tea",
-      "container"
+      "wood"
     ],
     "targetName": "Paper Cup",
-    "targetEmoji": "\ud83d\udcd6",
+    "targetEmoji": "\ud83e\udda7",
     "targetLevel": 14,
     "targetCost": 137
   },
@@ -34993,11 +34993,11 @@ const GRAPH_DATA = {
     "startingElements": [
       "atmosphere",
       "stone",
-      "human",
-      "rain"
+      "rain",
+      "human"
     ],
     "targetName": "Parachute",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude82",
     "targetLevel": 10,
     "targetCost": 28
   },
@@ -35010,7 +35010,7 @@ const GRAPH_DATA = {
       "wood"
     ],
     "targetName": "Paraglider",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude82",
     "targetLevel": 15,
     "targetCost": 105
   },
@@ -35023,7 +35023,7 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Park",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26f2",
     "targetLevel": 10,
     "targetCost": 37
   },
@@ -35036,20 +35036,20 @@ const GRAPH_DATA = {
       "sailor"
     ],
     "targetName": "Parrot",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd9c",
     "targetLevel": 13,
     "targetCost": 83
   },
   "pasta": {
     "targetId": "pasta",
     "startingElements": [
+      "grass",
       "egg",
-      "stone",
       "field",
-      "grass"
+      "stone"
     ],
     "targetName": "Pasta",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf5d",
     "targetLevel": 12,
     "targetCost": 48
   },
@@ -35062,163 +35062,163 @@ const GRAPH_DATA = {
       "wind"
     ],
     "targetName": "Peacock",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd9a",
     "targetLevel": 11,
     "targetCost": 35
   },
   "peanut butter": {
     "targetId": "peanut butter",
     "startingElements": [
+      "pressure",
       "big",
       "plant",
-      "pressure",
       "field"
     ],
     "targetName": "Peanut Butter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf51",
     "targetLevel": 13,
     "targetCost": 68
   },
   "peat": {
     "targetId": "peat",
     "startingElements": [
-      "life",
-      "time",
       "soil",
-      "earth"
+      "earth",
+      "time",
+      "life"
     ],
     "targetName": "Peat",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf7d\ufe0f",
     "targetLevel": 10,
     "targetCost": 16
   },
   "pebble": {
     "targetId": "pebble",
     "startingElements": [
-      "bacteria",
       "human",
-      "idea",
-      "earth"
+      "earth",
+      "bacteria",
+      "idea"
     ],
     "targetName": "Pebble",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea8",
     "targetLevel": 11,
     "targetCost": 41
   },
   "pegasus": {
     "targetId": "pegasus",
     "startingElements": [
-      "air",
       "cloud",
+      "air",
       "animal",
       "land"
     ],
     "targetName": "Pegasus",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude24",
     "targetLevel": 9,
     "targetCost": 19
   },
   "pencil": {
     "targetId": "pencil",
     "startingElements": [
-      "tool",
-      "plant",
       "charcoal",
-      "big"
+      "plant",
+      "big",
+      "tool"
     ],
     "targetName": "Pencil",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u270f\ufe0f",
     "targetLevel": 13,
     "targetCost": 77
   },
   "pencil sharpener": {
     "targetId": "pencil sharpener",
     "startingElements": [
-      "tool",
+      "blade",
       "tree",
-      "charcoal",
-      "blade"
+      "tool",
+      "charcoal"
     ],
     "targetName": "Pencil Sharpener",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u270f\ufe0f",
     "targetLevel": 14,
     "targetCost": 98
   },
   "penguin": {
     "targetId": "penguin",
     "startingElements": [
-      "air",
       "human",
-      "animal",
-      "wind"
+      "wind",
+      "air",
+      "animal"
     ],
     "targetName": "Penguin",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc27",
     "targetLevel": 9,
     "targetCost": 22
   },
   "penicillin": {
     "targetId": "penicillin",
     "startingElements": [
-      "science",
-      "time",
       "flower",
+      "time",
+      "science",
       "air"
     ],
     "targetName": "Penicillin",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 11,
     "targetCost": 45
   },
   "perfume": {
     "targetId": "perfume",
     "startingElements": [
-      "soil",
-      "life",
       "water",
-      "sun"
+      "soil",
+      "sun",
+      "life"
     ],
     "targetName": "Perfume",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddea",
     "targetLevel": 10,
     "targetCost": 22
   },
   "petroleum": {
     "targetId": "petroleum",
     "startingElements": [
+      "earth",
       "time",
       "corpse",
-      "earth",
       "air"
     ],
     "targetName": "Petroleum",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26fd",
     "targetLevel": 10,
     "targetCost": 13
   },
   "philosophy": {
     "targetId": "philosophy",
     "startingElements": [
-      "fire",
       "human",
       "firefighter",
+      "fire",
       "air"
     ],
     "targetName": "Philosophy",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udde0",
     "targetLevel": 9,
     "targetCost": 31
   },
   "phoenix": {
     "targetId": "phoenix",
     "startingElements": [
-      "earth",
-      "fire",
       "sea",
-      "time"
+      "fire",
+      "time",
+      "earth"
     ],
     "targetName": "Phoenix",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc26\u200d\ud83d\udd25",
     "targetLevel": 7,
     "targetCost": 7
   },
@@ -35227,76 +35227,76 @@ const GRAPH_DATA = {
     "startingElements": [
       "fire",
       "beach",
-      "dough",
-      "bacon"
+      "bacon",
+      "dough"
     ],
     "targetName": "Picnic",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf49",
     "targetLevel": 15,
     "targetCost": 51
   },
   "pie": {
     "targetId": "pie",
     "startingElements": [
+      "water",
       "meat",
       "stone",
-      "wheat",
-      "water"
+      "wheat"
     ],
     "targetName": "Pie",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd67",
     "targetLevel": 13,
     "targetCost": 55
   },
   "pig": {
     "targetId": "pig",
     "startingElements": [
-      "primordial soup",
-      "mud",
       "time",
+      "mud",
+      "primordial soup",
       "land"
     ],
     "targetName": "Pig",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc16",
     "targetLevel": 8,
     "targetCost": 10
   },
   "pigeon": {
     "targetId": "pigeon",
     "startingElements": [
+      "wall",
       "bird",
       "cloud",
-      "wall",
       "air"
     ],
     "targetName": "Pigeon",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83d\udc16",
     "targetLevel": 9,
     "targetCost": 29
   },
   "piggy bank": {
     "targetId": "piggy bank",
     "startingElements": [
-      "stone",
       "human",
+      "pig",
       "clay",
-      "pig"
+      "stone"
     ],
     "targetName": "Piggy Bank",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\u270b",
     "targetLevel": 10,
     "targetCost": 28
   },
   "pilot": {
     "targetId": "pilot",
     "startingElements": [
-      "tool",
-      "bird",
       "human",
+      "bird",
+      "tool",
       "air"
     ],
     "targetName": "Pilot",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
     "targetLevel": 11,
     "targetCost": 45
   },
@@ -35309,20 +35309,20 @@ const GRAPH_DATA = {
       "clay"
     ],
     "targetName": "Pinocchio",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd25",
     "targetLevel": 11,
     "targetCost": 64
   },
   "pipe": {
     "targetId": "pipe",
     "startingElements": [
-      "tool",
-      "fire",
       "soil",
-      "life"
+      "fire",
+      "life",
+      "tool"
     ],
     "targetName": "Pipe",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude88",
     "targetLevel": 10,
     "targetCost": 28
   },
@@ -35335,20 +35335,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Piranha",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\uddee\ud83c\uddf7",
     "targetLevel": 9,
     "targetCost": 28
   },
   "pirate": {
     "targetId": "pirate",
     "startingElements": [
-      "philosophy",
       "bullet",
       "house",
+      "philosophy",
       "sailor"
     ],
     "targetName": "Pirate",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2620\ufe0f",
     "targetLevel": 12,
     "targetCost": 73
   },
@@ -35361,33 +35361,33 @@ const GRAPH_DATA = {
       "sailor"
     ],
     "targetName": "Pirate Ship",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2620\ufe0f",
     "targetLevel": 13,
     "targetCost": 85
   },
   "pitchfork": {
     "targetId": "pitchfork",
     "startingElements": [
-      "earth",
-      "tool",
       "plant",
-      "sun"
+      "earth",
+      "sun",
+      "tool"
     ],
     "targetName": "Pitchfork",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd31",
     "targetLevel": 11,
     "targetCost": 35
   },
   "pizza": {
     "targetId": "pizza",
     "startingElements": [
-      "cow",
+      "water",
       "time",
       "wheel",
-      "water"
+      "cow"
     ],
     "targetName": "Pizza",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83c\udf55",
     "targetLevel": 13,
     "targetCost": 52
   },
@@ -35400,85 +35400,85 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Planet",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83c\udf0d",
     "targetLevel": 3,
     "targetCost": 5
   },
   "plankton": {
     "targetId": "plankton",
     "startingElements": [
-      "time",
       "water",
       "sea",
-      "earth"
+      "earth",
+      "time"
     ],
     "targetName": "Plankton",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udda0",
     "targetLevel": 7,
     "targetCost": 7
   },
   "plant": {
     "targetId": "plant",
     "startingElements": [
-      "primordial soup",
-      "life",
       "earth",
-      "time"
+      "time",
+      "life",
+      "primordial soup"
     ],
     "targetName": "Plant",
-    "targetEmoji": "\ud83c\udf31",
+    "targetEmoji": "\ud83d\udc90",
     "targetLevel": 8,
     "targetCost": 14
   },
   "plasma": {
     "targetId": "plasma",
     "startingElements": [
-      "air",
       "energy",
+      "air",
       "earth",
       "fire"
     ],
     "targetName": "Plasma",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26a1",
     "targetLevel": 3,
     "targetCost": 4
   },
   "platypus": {
     "targetId": "platypus",
     "startingElements": [
-      "pond",
-      "bird",
       "motion",
-      "animal"
+      "bird",
+      "animal",
+      "pond"
     ],
     "targetName": "Platypus",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc3e",
     "targetLevel": 12,
     "targetCost": 45
   },
   "plow": {
     "targetId": "plow",
     "startingElements": [
-      "tool",
-      "stone",
       "human",
-      "earth"
+      "earth",
+      "stone",
+      "tool"
     ],
     "targetName": "Plow",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd09",
     "targetLevel": 10,
     "targetCost": 26
   },
   "polar bear": {
     "targetId": "polar bear",
     "startingElements": [
+      "water",
       "wind",
       "human",
-      "water",
       "animal"
     ],
     "targetName": "Polar Bear",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
     "targetLevel": 10,
     "targetCost": 22
   },
@@ -35491,7 +35491,7 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Pollen",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf38",
     "targetLevel": 9,
     "targetCost": 16
   },
@@ -35511,13 +35511,13 @@ const GRAPH_DATA = {
   "popsicle": {
     "targetId": "popsicle",
     "startingElements": [
-      "cold",
-      "flower",
+      "time",
       "earth",
-      "time"
+      "flower",
+      "cold"
     ],
     "targetName": "Popsicle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca2",
     "targetLevel": 11,
     "targetCost": 37
   },
@@ -35525,12 +35525,12 @@ const GRAPH_DATA = {
     "targetId": "post office",
     "startingElements": [
       "human",
-      "paper",
+      "wall",
       "story",
-      "wall"
+      "paper"
     ],
     "targetName": "Post Office",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83e\udd76",
     "targetLevel": 15,
     "targetCost": 112
   },
@@ -35538,38 +35538,38 @@ const GRAPH_DATA = {
     "targetId": "potato",
     "startingElements": [
       "soil",
-      "life",
+      "earth",
       "field",
-      "earth"
+      "life"
     ],
     "targetName": "Potato",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd54",
     "targetLevel": 10,
     "targetCost": 29
   },
   "potter": {
     "targetId": "potter",
     "startingElements": [
-      "life",
       "time",
+      "life",
       "clay",
       "land"
     ],
     "targetName": "Potter",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udda6",
     "targetLevel": 8,
     "targetCost": 14
   },
   "pottery": {
     "targetId": "pottery",
     "startingElements": [
-      "stone",
-      "clay",
+      "time",
       "animal",
-      "time"
+      "stone",
+      "clay"
     ],
     "targetName": "Pottery",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf6f",
     "targetLevel": 9,
     "targetCost": 17
   },
@@ -35582,59 +35582,59 @@ const GRAPH_DATA = {
       "water"
     ],
     "targetName": "Pressure",
-    "targetEmoji": "\ud83d\udca8",
+    "targetEmoji": "\ud83d\udcf0",
     "targetLevel": 1,
     "targetCost": 1
   },
   "primordial soup": {
     "targetId": "primordial soup",
     "startingElements": [
-      "pond",
       "water",
       "earth",
+      "pond",
       "air"
     ],
     "targetName": "Primordial Soup",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf72",
     "targetLevel": 5,
     "targetCost": 5
   },
   "printer": {
     "targetId": "printer",
     "startingElements": [
-      "tool",
-      "computer",
+      "water",
       "tree",
-      "water"
+      "computer",
+      "tool"
     ],
     "targetName": "Printer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udda8\ufe0f",
     "targetLevel": 14,
     "targetCost": 99
   },
   "prism": {
     "targetId": "prism",
     "startingElements": [
-      "fire",
-      "planet",
       "water",
-      "glass"
+      "fire",
+      "glass",
+      "planet"
     ],
     "targetName": "Prism",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc8e",
     "targetLevel": 6,
     "targetCost": 12
   },
   "pterodactyl": {
     "targetId": "pterodactyl",
     "startingElements": [
-      "air",
       "time",
-      "stone",
-      "animal"
+      "air",
+      "animal",
+      "stone"
     ],
     "targetName": "Pterodactyl",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfa3",
     "targetLevel": 10,
     "targetCost": 13
   },
@@ -35647,7 +35647,7 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Puddle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca7",
     "targetLevel": 1,
     "targetCost": 1
   },
@@ -35655,90 +35655,90 @@ const GRAPH_DATA = {
     "targetId": "pumpkin",
     "startingElements": [
       "soil",
-      "life",
       "field",
+      "life",
       "air"
     ],
     "targetName": "Pumpkin",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf83",
     "targetLevel": 10,
     "targetCost": 42
   },
   "pyramid": {
     "targetId": "pyramid",
     "startingElements": [
-      "air",
       "stone",
+      "air",
       "land",
       "earth"
     ],
     "targetName": "Pyramid",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83d\udcd0",
     "targetLevel": 5,
     "targetCost": 8
   },
   "quicksand": {
     "targetId": "quicksand",
     "startingElements": [
+      "earth",
       "plant",
-      "mud",
       "sand",
-      "earth"
+      "mud"
     ],
     "targetName": "Quicksand",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\uddfb",
     "targetLevel": 11,
     "targetCost": 21
   },
   "quicksilver": {
     "targetId": "quicksilver",
     "startingElements": [
-      "telescope",
+      "water",
       "metal",
       "human",
-      "water"
+      "telescope"
     ],
     "targetName": "Quicksilver",
-    "targetEmoji": "\ud83e\ude99",
+    "targetEmoji": "\ud83e\udd48",
     "targetLevel": 12,
     "targetCost": 39
   },
   "rabbit": {
     "targetId": "rabbit",
     "startingElements": [
+      "grass",
       "plant",
       "field",
-      "grass",
       "animal"
     ],
     "targetName": "Rabbit",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc07",
     "targetLevel": 11,
     "targetCost": 53
   },
   "rain": {
     "targetId": "rain",
     "startingElements": [
-      "air",
-      "planet",
       "water",
+      "planet",
+      "air",
       "earth"
     ],
     "targetName": "Rain",
-    "targetEmoji": "\ud83c\udf27\ufe0f",
+    "targetEmoji": "\ud83c\udf08",
     "targetLevel": 6,
     "targetCost": 8
   },
   "rainbow": {
     "targetId": "rainbow",
     "startingElements": [
-      "fire",
       "water",
+      "fire",
       "continent",
       "air"
     ],
     "targetName": "Rainbow",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf08",
     "targetLevel": 5,
     "targetCost": 7
   },
@@ -35746,12 +35746,12 @@ const GRAPH_DATA = {
     "targetId": "rainforest",
     "startingElements": [
       "big",
-      "plant",
       "earth",
+      "plant",
       "rain"
     ],
     "targetName": "Rainforest",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83d\ude2a",
     "targetLevel": 13,
     "targetCost": 62
   },
@@ -35759,25 +35759,25 @@ const GRAPH_DATA = {
     "targetId": "rat",
     "startingElements": [
       "steam engine",
-      "wind",
       "sea",
+      "wind",
       "animal"
     ],
     "targetName": "Rat",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc00",
     "targetLevel": 13,
     "targetCost": 32
   },
   "recipe": {
     "targetId": "recipe",
     "startingElements": [
-      "meat",
-      "tool",
+      "water",
       "tree",
-      "water"
+      "meat",
+      "tool"
     ],
     "targetName": "Recipe",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcdc",
     "targetLevel": 14,
     "targetCost": 88
   },
@@ -35785,12 +35785,12 @@ const GRAPH_DATA = {
     "targetId": "reed",
     "startingElements": [
       "puddle",
-      "life",
       "earth",
+      "life",
       "air"
     ],
     "targetName": "Reed",
-    "targetEmoji": "\ud83c\udf31",
+    "targetEmoji": "\ud83c\udf3f",
     "targetLevel": 9,
     "targetCost": 16
   },
@@ -35799,11 +35799,11 @@ const GRAPH_DATA = {
     "startingElements": [
       "star",
       "plant",
-      "animal",
-      "big"
+      "big",
+      "animal"
     ],
     "targetName": "Reindeer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd8c",
     "targetLevel": 13,
     "targetCost": 79
   },
@@ -35811,25 +35811,25 @@ const GRAPH_DATA = {
     "targetId": "restaurant",
     "startingElements": [
       "human",
-      "plant",
       "house",
+      "plant",
       "field"
     ],
     "targetName": "Restaurant",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83c\udf7d\ufe0f",
     "targetLevel": 11,
     "targetCost": 50
   },
   "ring": {
     "targetId": "ring",
     "startingElements": [
+      "coal",
       "fire",
       "pressure",
-      "ore",
-      "coal"
+      "ore"
     ],
     "targetName": "Ring",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd96",
     "targetLevel": 11,
     "targetCost": 36
   },
@@ -35837,25 +35837,25 @@ const GRAPH_DATA = {
     "targetId": "river",
     "startingElements": [
       "human",
-      "telescope",
       "lake",
+      "telescope",
       "wind"
     ],
     "targetName": "River",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83e\ude9b",
     "targetLevel": 10,
     "targetCost": 27
   },
   "rivulet": {
     "targetId": "rivulet",
     "startingElements": [
-      "puddle",
-      "telescope",
       "human",
-      "wind"
+      "puddle",
+      "wind",
+      "telescope"
     ],
     "targetName": "Rivulet",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca7",
     "targetLevel": 10,
     "targetCost": 25
   },
@@ -35863,25 +35863,25 @@ const GRAPH_DATA = {
     "targetId": "robot",
     "startingElements": [
       "fire",
-      "life",
       "hammer",
+      "life",
       "earth"
     ],
     "targetName": "Robot",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\udd16",
     "targetLevel": 12,
     "targetCost": 24
   },
   "robot vacuum": {
     "targetId": "robot vacuum",
     "startingElements": [
-      "tool",
       "tree",
       "robot",
-      "hay"
+      "hay",
+      "tool"
     ],
     "targetName": "Robot Vacuum",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\udd16",
     "targetLevel": 14,
     "targetCost": 113
   },
@@ -35889,38 +35889,38 @@ const GRAPH_DATA = {
     "targetId": "rock",
     "startingElements": [
       "big",
+      "earth",
       "bacteria",
-      "philosophy",
-      "earth"
+      "philosophy"
     ],
     "targetName": "Rock",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd28",
     "targetLevel": 12,
     "targetCost": 79
   },
   "rocket": {
     "targetId": "rocket",
     "startingElements": [
-      "tool",
       "atmosphere",
       "stone",
-      "human"
+      "human",
+      "tool"
     ],
     "targetName": "Rocket",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
     "targetLevel": 10,
     "targetCost": 32
   },
   "roe": {
     "targetId": "roe",
     "startingElements": [
-      "life",
+      "water",
       "fire",
       "phoenix",
-      "water"
+      "life"
     ],
     "targetName": "Roe",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\uddeb\ud83c\uddf4",
     "targetLevel": 9,
     "targetCost": 16
   },
@@ -35933,72 +35933,72 @@ const GRAPH_DATA = {
       "village"
     ],
     "targetName": "Roller Coaster",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude44",
     "targetLevel": 12,
     "targetCost": 67
   },
   "rope": {
     "targetId": "rope",
     "startingElements": [
-      "tool",
       "cotton",
+      "tool",
       "air",
       "earth"
     ],
     "targetName": "Rope",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea2",
     "targetLevel": 11,
     "targetCost": 71
   },
   "rose": {
     "targetId": "rose",
     "startingElements": [
+      "human",
       "soil",
       "life",
-      "human",
       "air"
     ],
     "targetName": "Rose",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf39",
     "targetLevel": 9,
     "targetCost": 34
   },
   "ruins": {
     "targetId": "ruins",
     "startingElements": [
-      "brick",
-      "time",
       "wall",
+      "time",
+      "brick",
       "air"
     ],
     "targetName": "Ruins",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfda\ufe0f",
     "targetLevel": 5,
     "targetCost": 12
   },
   "ruler": {
     "targetId": "ruler",
     "startingElements": [
-      "tool",
-      "wood",
+      "charcoal",
       "tree",
-      "charcoal"
+      "tool",
+      "wood"
     ],
     "targetName": "Ruler",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udccf",
     "targetLevel": 14,
     "targetCost": 143
   },
   "rust": {
     "targetId": "rust",
     "startingElements": [
-      "air",
-      "fire",
       "hammer",
+      "fire",
+      "air",
       "earth"
     ],
     "targetName": "Rust",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd28",
     "targetLevel": 12,
     "targetCost": 18
   },
@@ -36011,7 +36011,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "RV",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude99",
     "targetLevel": 12,
     "targetCost": 53
   },
@@ -36020,50 +36020,50 @@ const GRAPH_DATA = {
     "startingElements": [
       "human",
       "house",
-      "idea",
-      "salt"
+      "salt",
+      "idea"
     ],
     "targetName": "Sack",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf92",
     "targetLevel": 11,
     "targetCost": 49
   },
   "saddle": {
     "targetId": "saddle",
     "startingElements": [
-      "stone",
       "human",
+      "stone",
       "animal",
       "land"
     ],
     "targetName": "Saddle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude14",
     "targetLevel": 9,
     "targetCost": 23
   },
   "safe": {
     "targetId": "safe",
     "startingElements": [
-      "fire",
       "metal",
-      "ore",
-      "sand"
+      "fire",
+      "sand",
+      "ore"
     ],
     "targetName": "Safe",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd12",
     "targetLevel": 12,
     "targetCost": 39
   },
   "safety glasses": {
     "targetId": "safety glasses",
     "startingElements": [
-      "fire",
       "explosion",
+      "fire",
       "sand",
       "glass"
     ],
     "targetName": "Safety Glasses",
-    "targetEmoji": "\ud83d\udc53",
+    "targetEmoji": "\ud83d\ude0e",
     "targetLevel": 6,
     "targetCost": 13
   },
@@ -36071,103 +36071,103 @@ const GRAPH_DATA = {
     "targetId": "sailboat",
     "startingElements": [
       "sea",
+      "wind",
       "wheel",
-      "steam",
-      "wind"
+      "steam"
     ],
     "targetName": "Sailboat",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26f5",
     "targetLevel": 12,
     "targetCost": 23
   },
   "sailor": {
     "targetId": "sailor",
     "startingElements": [
-      "life",
       "time",
       "lake",
+      "life",
       "land"
     ],
     "targetName": "Sailor",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
     "targetLevel": 8,
     "targetCost": 13
   },
   "salt": {
     "targetId": "salt",
     "startingElements": [
-      "pond",
-      "fire",
       "water",
+      "fire",
+      "pond",
       "air"
     ],
     "targetName": "Salt",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddc2",
     "targetLevel": 5,
     "targetCost": 5
   },
   "sand": {
     "targetId": "sand",
     "startingElements": [
+      "earth",
       "air",
       "fire",
-      "earth",
       "water"
     ],
     "targetName": "Sand",
-    "targetEmoji": "\u23f3",
+    "targetEmoji": "\ud83c\udfd6\ufe0f",
     "targetLevel": 3,
     "targetCost": 3
   },
   "sand castle": {
     "targetId": "sand castle",
     "startingElements": [
-      "armor",
-      "stone",
       "human",
-      "sand"
+      "stone",
+      "sand",
+      "armor"
     ],
     "targetName": "Sand Castle",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83d\uddfb",
     "targetLevel": 15,
     "targetCost": 83
   },
   "sandpaper": {
     "targetId": "sandpaper",
     "startingElements": [
-      "tool",
       "cotton",
       "sand",
+      "tool",
       "air"
     ],
     "targetName": "Sandpaper",
-    "targetEmoji": "\ud83d\udcd6",
+    "targetEmoji": "\ud83e\udda7",
     "targetLevel": 12,
     "targetCost": 52
   },
   "sandstone": {
     "targetId": "sandstone",
     "startingElements": [
+      "earth",
       "air",
       "lava",
-      "earth",
       "fire"
     ],
     "targetName": "Sandstone",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2a",
     "targetLevel": 4,
     "targetCost": 4
   },
   "sandstorm": {
     "targetId": "sandstorm",
     "startingElements": [
+      "wind",
       "air",
       "stone",
-      "wind",
       "land"
     ],
     "targetName": "Sandstorm",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf2a\ufe0f",
     "targetLevel": 4,
     "targetCost": 8
   },
@@ -36175,90 +36175,90 @@ const GRAPH_DATA = {
     "targetId": "sandwich",
     "startingElements": [
       "water",
-      "fire",
       "flour",
+      "fire",
       "bacon"
     ],
     "targetName": "Sandwich",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd6a",
     "targetLevel": 14,
     "targetCost": 46
   },
   "santa": {
     "targetId": "santa",
     "startingElements": [
+      "human",
       "star",
       "plant",
-      "human",
       "big"
     ],
     "targetName": "Santa",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83e\udd36",
     "targetLevel": 13,
     "targetCost": 80
   },
   "sap": {
     "targetId": "sap",
     "startingElements": [
-      "plant",
-      "philosophy",
+      "blade",
       "planet",
-      "blade"
+      "plant",
+      "philosophy"
     ],
     "targetName": "Sap",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd28",
     "targetLevel": 13,
     "targetCost": 73
   },
   "saturn": {
     "targetId": "saturn",
     "startingElements": [
+      "coal",
       "metal",
-      "pressure",
       "planet",
-      "coal"
+      "pressure"
     ],
     "targetName": "Saturn",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude90",
     "targetLevel": 11,
     "targetCost": 42
   },
   "scalpel": {
     "targetId": "scalpel",
     "startingElements": [
-      "metal",
+      "wall",
       "stone",
-      "sickness",
-      "wall"
+      "metal",
+      "sickness"
     ],
     "targetName": "Scalpel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2a",
     "targetLevel": 13,
     "targetCost": 45
   },
   "scarecrow": {
     "targetId": "scarecrow",
     "startingElements": [
-      "earth",
-      "plant",
       "human",
-      "sun"
+      "earth",
+      "sun",
+      "plant"
     ],
     "targetName": "Scarecrow",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83d\ude9e",
     "targetLevel": 11,
     "targetCost": 32
   },
   "science": {
     "targetId": "science",
     "startingElements": [
-      "time",
       "planet",
-      "animal",
-      "glass"
+      "time",
+      "glass",
+      "animal"
     ],
     "targetName": "Science",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2697\ufe0f",
     "targetLevel": 8,
     "targetCost": 20
   },
@@ -36271,20 +36271,20 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Scissors",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2702\ufe0f",
     "targetLevel": 13,
     "targetCost": 41
   },
   "scorpion": {
     "targetId": "scorpion",
     "startingElements": [
-      "primordial soup",
-      "sand",
       "time",
+      "sand",
+      "primordial soup",
       "land"
     ],
     "targetName": "Scorpion",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd82",
     "targetLevel": 8,
     "targetCost": 12
   },
@@ -36292,64 +36292,64 @@ const GRAPH_DATA = {
     "targetId": "scuba tank",
     "startingElements": [
       "human",
-      "air",
       "house",
+      "air",
       "idea"
     ],
     "targetName": "Scuba Tank",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd3f",
     "targetLevel": 11,
     "targetCost": 44
   },
   "scythe": {
     "targetId": "scythe",
     "startingElements": [
+      "grass",
       "fire",
       "stone",
-      "ore",
-      "grass"
+      "ore"
     ],
     "targetName": "Scythe",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude93",
     "targetLevel": 13,
     "targetCost": 36
   },
   "sea": {
     "targetId": "sea",
     "startingElements": [
-      "puddle",
       "water",
+      "puddle",
       "air",
       "earth"
     ],
     "targetName": "Sea",
-    "targetEmoji": "\ud83c\udf0a",
+    "targetEmoji": "\ud83e\udddc",
     "targetLevel": 4,
     "targetCost": 4
   },
   "seagull": {
     "targetId": "seagull",
     "startingElements": [
-      "beach",
       "life",
       "air",
+      "beach",
       "land"
     ],
     "targetName": "Seagull",
-    "targetEmoji": "\ud83e\udd85",
+    "targetEmoji": "\ud83e\udddc",
     "targetLevel": 9,
     "targetCost": 14
   },
   "seahorse": {
     "targetId": "seahorse",
     "startingElements": [
-      "life",
       "water",
+      "life",
       "land",
       "air"
     ],
     "targetName": "Seahorse",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83e\udddc",
     "targetLevel": 9,
     "targetCost": 11
   },
@@ -36357,77 +36357,77 @@ const GRAPH_DATA = {
     "targetId": "seal",
     "startingElements": [
       "water",
-      "bone",
       "animal",
-      "moon"
+      "moon",
+      "bone"
     ],
     "targetName": "Seal",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83e\uddad",
     "targetLevel": 10,
     "targetCost": 31
   },
   "seaplane": {
     "targetId": "seaplane",
     "startingElements": [
-      "tool",
-      "bird",
       "water",
+      "bird",
+      "tool",
       "air"
     ],
     "targetName": "Seaplane",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
     "targetLevel": 11,
     "targetCost": 36
   },
   "seasickness": {
     "targetId": "seasickness",
     "startingElements": [
-      "bacteria",
-      "lake",
+      "time",
       "animal",
-      "time"
+      "lake",
+      "bacteria"
     ],
     "targetName": "Seasickness",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 9,
     "targetCost": 22
   },
   "seaweed": {
     "targetId": "seaweed",
     "startingElements": [
-      "life",
-      "lake",
       "earth",
+      "lake",
+      "life",
       "air"
     ],
     "targetName": "Seaweed",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83e\udddc",
     "targetLevel": 9,
     "targetCost": 18
   },
   "seed": {
     "targetId": "seed",
     "startingElements": [
-      "life",
+      "soil",
       "time",
       "rainbow",
-      "soil"
+      "life"
     ],
     "targetName": "Seed",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf31",
     "targetLevel": 10,
     "targetCost": 23
   },
   "sewing machine": {
     "targetId": "sewing machine",
     "startingElements": [
-      "tool",
-      "electricity",
       "plant",
+      "electricity",
+      "tool",
       "cloud"
     ],
     "targetName": "Sewing Machine",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83e\udd14",
     "targetLevel": 11,
     "targetCost": 51
   },
@@ -36436,11 +36436,11 @@ const GRAPH_DATA = {
     "startingElements": [
       "sea",
       "sky",
-      "animal",
-      "time"
+      "time",
+      "animal"
     ],
     "targetName": "Shark",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83e\udd88",
     "targetLevel": 9,
     "targetCost": 23
   },
@@ -36453,7 +36453,7 @@ const GRAPH_DATA = {
       "land"
     ],
     "targetName": "Sheep",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc0f",
     "targetLevel": 10,
     "targetCost": 24
   },
@@ -36466,20 +36466,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Sheet Music",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa4",
     "targetLevel": 16,
     "targetCost": 209
   },
   "shovel": {
     "targetId": "shovel",
     "startingElements": [
-      "tool",
-      "house",
       "human",
-      "plant"
+      "house",
+      "plant",
+      "tool"
     ],
     "targetName": "Shovel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd44",
     "targetLevel": 11,
     "targetCost": 49
   },
@@ -36487,51 +36487,51 @@ const GRAPH_DATA = {
     "targetId": "shuriken",
     "startingElements": [
       "fire",
-      "ore",
       "sky",
+      "ore",
       "night"
     ],
     "targetName": "Shuriken",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfaf",
     "targetLevel": 12,
     "targetCost": 35
   },
   "sickness": {
     "targetId": "sickness",
     "startingElements": [
-      "life",
-      "time",
       "mud",
+      "time",
+      "life",
       "animal"
     ],
     "targetName": "Sickness",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 8,
     "targetCost": 18
   },
   "silo": {
     "targetId": "silo",
     "startingElements": [
-      "plant",
-      "field",
+      "wall",
       "earth",
-      "wall"
+      "plant",
+      "field"
     ],
     "targetName": "Silo",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfe2",
     "targetLevel": 11,
     "targetCost": 35
   },
   "skateboard": {
     "targetId": "skateboard",
     "startingElements": [
-      "tool",
-      "cold",
       "water",
-      "glasses"
+      "tool",
+      "glasses",
+      "cold"
     ],
     "targetName": "Skateboard",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udef9",
     "targetLevel": 10,
     "targetCost": 36
   },
@@ -36544,7 +36544,7 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Skeleton",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc80",
     "targetLevel": 9,
     "targetCost": 11
   },
@@ -36557,7 +36557,7 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Ski Goggles",
-    "targetEmoji": "\ud83d\udc53",
+    "targetEmoji": "\u26f7\ufe0f",
     "targetLevel": 9,
     "targetCost": 22
   },
@@ -36565,25 +36565,25 @@ const GRAPH_DATA = {
     "targetId": "skier",
     "startingElements": [
       "human",
-      "glasses",
       "wind",
+      "glasses",
       "air"
     ],
     "targetName": "Skier",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u26f7\ufe0f",
     "targetLevel": 10,
     "targetCost": 32
   },
   "sky": {
     "targetId": "sky",
     "startingElements": [
-      "air",
-      "planet",
       "water",
+      "planet",
+      "air",
       "earth"
     ],
     "targetName": "Sky",
-    "targetEmoji": "\ud83c\udf0c",
+    "targetEmoji": "\ud83c\udf06",
     "targetLevel": 5,
     "targetCost": 8
   },
@@ -36591,25 +36591,25 @@ const GRAPH_DATA = {
     "targetId": "skyscraper",
     "startingElements": [
       "atmosphere",
-      "water",
       "wall",
+      "water",
       "air"
     ],
     "targetName": "Skyscraper",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca9",
     "targetLevel": 6,
     "targetCost": 19
   },
   "sleigh": {
     "targetId": "sleigh",
     "startingElements": [
-      "ice",
       "tool",
       "tree",
-      "wheel"
+      "wheel",
+      "ice"
     ],
     "targetName": "Sleigh",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udef7",
     "targetLevel": 14,
     "targetCost": 93
   },
@@ -36622,20 +36622,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Sloth",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udda5",
     "targetLevel": 8,
     "targetCost": 9
   },
   "small": {
     "targetId": "small",
     "startingElements": [
-      "bacteria",
       "human",
       "firefighter",
+      "bacteria",
       "air"
     ],
     "targetName": "Small",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2a",
     "targetLevel": 10,
     "targetCost": 40
   },
@@ -36648,59 +36648,59 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Smartphone",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcf1",
     "targetLevel": 13,
     "targetCost": 155
   },
   "smog": {
     "targetId": "smog",
     "startingElements": [
-      "water",
       "atmosphere",
+      "earth",
       "smoke",
-      "earth"
+      "water"
     ],
     "targetName": "Smog",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfed",
     "targetLevel": 7,
     "targetCost": 10
   },
   "smoke": {
     "targetId": "smoke",
     "startingElements": [
-      "air",
       "fire",
+      "air",
       "earth",
       "water"
     ],
     "targetName": "Smoke",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 1,
     "targetCost": 1
   },
   "smoke signal": {
     "targetId": "smoke signal",
     "startingElements": [
-      "tool",
-      "smoke",
       "cotton",
+      "smoke",
+      "tool",
       "air"
     ],
     "targetName": "Smoke Signal",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd11",
     "targetLevel": 12,
     "targetCost": 50
   },
   "smoothie": {
     "targetId": "smoothie",
     "startingElements": [
-      "cold",
       "plant",
+      "time",
       "rainbow",
-      "time"
+      "cold"
     ],
     "targetName": "Smoothie",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd64",
     "targetLevel": 11,
     "targetCost": 36
   },
@@ -36713,150 +36713,150 @@ const GRAPH_DATA = {
       "land"
     ],
     "targetName": "Snake",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc0d",
     "targetLevel": 10,
     "targetCost": 27
   },
   "snow": {
     "targetId": "snow",
     "startingElements": [
-      "steam",
+      "time",
       "animal",
       "wind",
-      "time"
+      "steam"
     ],
     "targetName": "Snow",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\u26f7\ufe0f",
     "targetLevel": 9,
     "targetCost": 14
   },
   "snow globe": {
     "targetId": "snow globe",
     "startingElements": [
-      "steam",
       "human",
       "wind",
-      "glass"
+      "glass",
+      "steam"
     ],
     "targetName": "Snow Globe",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\u26f7\ufe0f",
     "targetLevel": 9,
     "targetCost": 19
   },
   "snowball": {
     "targetId": "snowball",
     "startingElements": [
-      "wind",
-      "steam",
       "human",
-      "earth"
+      "earth",
+      "wind",
+      "steam"
     ],
     "targetName": "Snowball",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\u26f7\ufe0f",
     "targetLevel": 10,
     "targetCost": 15
   },
   "snowboard": {
     "targetId": "snowboard",
     "startingElements": [
-      "beach",
-      "cold",
       "human",
-      "water"
+      "water",
+      "beach",
+      "cold"
     ],
     "targetName": "Snowboard",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83c\udfc2",
     "targetLevel": 10,
     "targetCost": 28
   },
   "snowboarder": {
     "targetId": "snowboarder",
     "startingElements": [
-      "ice",
-      "beach",
       "human",
+      "beach",
+      "ice",
       "air"
     ],
     "targetName": "Snowboarder",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\ud83c\udfc2",
     "targetLevel": 11,
     "targetCost": 38
   },
   "snowman": {
     "targetId": "snowman",
     "startingElements": [
-      "steam",
       "human",
       "wind",
+      "steam",
       "air"
     ],
     "targetName": "Snowman",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\u2603\ufe0f",
     "targetLevel": 10,
     "targetCost": 24
   },
   "snowmobile": {
     "targetId": "snowmobile",
     "startingElements": [
-      "ice",
       "wheel",
+      "ice",
       "air",
       "earth"
     ],
     "targetName": "Snowmobile",
-    "targetEmoji": "\u2744\ufe0f",
+    "targetEmoji": "\u26f7\ufe0f",
     "targetLevel": 12,
     "targetCost": 55
   },
   "soap": {
     "targetId": "soap",
     "startingElements": [
-      "plant",
       "pressure",
+      "plant",
       "clay",
       "sun"
     ],
     "targetName": "Soap",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddfc",
     "targetLevel": 11,
     "targetCost": 28
   },
   "soda": {
     "targetId": "soda",
     "startingElements": [
+      "water",
       "soil",
       "life",
-      "water",
       "night"
     ],
     "targetName": "Soda",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd64",
     "targetLevel": 10,
     "targetCost": 24
   },
   "soil": {
     "targetId": "soil",
     "startingElements": [
-      "time",
       "sea",
       "earth",
+      "time",
       "air"
     ],
     "targetName": "Soil",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude94",
     "targetLevel": 7,
     "targetCost": 7
   },
   "solar cell": {
     "targetId": "solar cell",
     "startingElements": [
-      "fire",
       "energy",
+      "fire",
       "continent",
       "air"
     ],
     "targetName": "Solar Cell",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udda0",
     "targetLevel": 5,
     "targetCost": 8
   },
@@ -36869,7 +36869,7 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Solar System",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf11",
     "targetLevel": 4,
     "targetCost": 11
   },
@@ -36877,77 +36877,77 @@ const GRAPH_DATA = {
     "targetId": "solid",
     "startingElements": [
       "human",
-      "planet",
       "earth",
-      "glass"
+      "glass",
+      "planet"
     ],
     "targetName": "Solid",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea8",
     "targetLevel": 9,
     "targetCost": 21
   },
   "sound": {
     "targetId": "sound",
     "startingElements": [
-      "air",
-      "pond",
       "water",
-      "wind"
+      "wind",
+      "air",
+      "pond"
     ],
     "targetName": "Sound",
-    "targetEmoji": "\ud83d\udd0a",
+    "targetEmoji": "\ud83d\udc42",
     "targetLevel": 5,
     "targetCost": 7
   },
   "space": {
     "targetId": "space",
     "startingElements": [
-      "time",
       "planet",
+      "time",
       "day",
       "air"
     ],
     "targetName": "Space",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83d\udc7e",
     "targetLevel": 6,
     "targetCost": 20
   },
   "space station": {
     "targetId": "space station",
     "startingElements": [
-      "air",
       "planet",
+      "air",
       "brick",
       "earth"
     ],
     "targetName": "Space Station",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83d\udc7e",
     "targetLevel": 5,
     "targetCost": 12
   },
   "spaceship": {
     "targetId": "spaceship",
     "startingElements": [
-      "solar system",
       "fire",
-      "night",
-      "ore"
+      "solar system",
+      "ore",
+      "night"
     ],
     "targetName": "Spaceship",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83d\udc7e",
     "targetLevel": 11,
     "targetCost": 38
   },
   "spaghetti": {
     "targetId": "spaghetti",
     "startingElements": [
+      "flour",
       "egg",
-      "electricity",
       "metal",
-      "flour"
+      "electricity"
     ],
     "targetName": "Spaghetti",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf5d",
     "targetLevel": 13,
     "targetCost": 82
   },
@@ -36955,12 +36955,12 @@ const GRAPH_DATA = {
     "targetId": "sphinx",
     "startingElements": [
       "stone",
-      "night",
       "animal",
+      "night",
       "air"
     ],
     "targetName": "Sphinx",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd81",
     "targetLevel": 10,
     "targetCost": 29
   },
@@ -36969,76 +36969,76 @@ const GRAPH_DATA = {
     "startingElements": [
       "tool",
       "plant",
-      "cloud",
-      "animal"
+      "animal",
+      "cloud"
     ],
     "targetName": "Spider",
-    "targetEmoji": "\ud83d\udc1b",
+    "targetEmoji": "\ud83d\udd77\ufe0f",
     "targetLevel": 11,
     "targetCost": 44
   },
   "spoon": {
     "targetId": "spoon",
     "startingElements": [
-      "tool",
       "gardener",
       "philosophy",
-      "bacteria"
+      "bacteria",
+      "tool"
     ],
     "targetName": "Spoon",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd44",
     "targetLevel": 12,
     "targetCost": 90
   },
   "spotlight": {
     "targetId": "spotlight",
     "startingElements": [
-      "tool",
-      "electricity",
       "light bulb",
+      "electricity",
+      "tool",
       "air"
     ],
     "targetName": "Spotlight",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf83",
     "targetLevel": 10,
     "targetCost": 62
   },
   "sprinkles": {
     "targetId": "sprinkles",
     "startingElements": [
+      "time",
       "fire",
-      "rainbow",
       "flower",
-      "time"
+      "rainbow"
     ],
     "targetName": "Sprinkles",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udda8\ufe0f",
     "targetLevel": 12,
     "targetCost": 32
   },
   "squirrel": {
     "targetId": "squirrel",
     "startingElements": [
-      "plant",
-      "milk",
       "time",
-      "wall"
+      "wall",
+      "milk",
+      "plant"
     ],
     "targetName": "Squirrel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc3f\ufe0f",
     "targetLevel": 13,
     "targetCost": 59
   },
   "star": {
     "targetId": "star",
     "startingElements": [
-      "air",
+      "day",
       "time",
-      "cloud",
-      "day"
+      "air",
+      "cloud"
     ],
     "targetName": "Star",
-    "targetEmoji": "\u2b50",
+    "targetEmoji": "\ud83d\udcab",
     "targetLevel": 7,
     "targetCost": 17
   },
@@ -37046,220 +37046,220 @@ const GRAPH_DATA = {
     "targetId": "starfish",
     "startingElements": [
       "sea",
-      "day",
       "sky",
-      "time"
+      "time",
+      "day"
     ],
     "targetName": "Starfish",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83d\udcab",
     "targetLevel": 8,
     "targetCost": 22
   },
   "statue": {
     "targetId": "statue",
     "startingElements": [
-      "stone",
       "human",
+      "stone",
       "air",
       "earth"
     ],
     "targetName": "Statue",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\uddff",
     "targetLevel": 10,
     "targetCost": 18
   },
   "steak": {
     "targetId": "steak",
     "startingElements": [
-      "fire",
       "human",
+      "fire",
       "stone",
       "animal"
     ],
     "targetName": "Steak",
-    "targetEmoji": "\ud83c\udf54",
+    "targetEmoji": "\ud83e\udd69",
     "targetLevel": 10,
     "targetCost": 22
   },
   "steam": {
     "targetId": "steam",
     "startingElements": [
-      "fire",
       "water",
+      "fire",
       "air",
       "earth"
     ],
     "targetName": "Steam",
-    "targetEmoji": "\u2601\ufe0f",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 1,
     "targetCost": 1
   },
   "steam engine": {
     "targetId": "steam engine",
     "startingElements": [
+      "water",
       "stone",
-      "steam",
       "human",
-      "water"
+      "steam"
     ],
     "targetName": "Steam Engine",
-    "targetEmoji": "\u2699\ufe0f",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 10,
     "targetCost": 15
   },
   "steamboat": {
     "targetId": "steamboat",
     "startingElements": [
-      "tool",
-      "sea",
       "water",
+      "sea",
+      "tool",
       "steam"
     ],
     "targetName": "Steamboat",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udea2",
     "targetLevel": 11,
     "targetCost": 20
   },
   "steel": {
     "targetId": "steel",
     "startingElements": [
-      "hammer",
-      "fire",
       "charcoal",
+      "fire",
+      "hammer",
       "earth"
     ],
     "targetName": "Steel",
-    "targetEmoji": "\ud83d\udd29",
+    "targetEmoji": "\ud83d\udc55",
     "targetLevel": 12,
     "targetCost": 29
   },
   "steel wool": {
     "targetId": "steel wool",
     "startingElements": [
+      "metal",
       "livestock",
       "tool",
-      "metal",
       "land"
     ],
     "targetName": "Steel Wool",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83d\ude2f",
     "targetLevel": 12,
     "targetCost": 55
   },
   "stethoscope": {
     "targetId": "stethoscope",
     "startingElements": [
+      "time",
       "stone",
       "sound",
-      "animal",
-      "time"
+      "animal"
     ],
     "targetName": "Stethoscope",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude7a",
     "targetLevel": 9,
     "targetCost": 20
   },
   "stone": {
     "targetId": "stone",
     "startingElements": [
+      "earth",
       "air",
       "fire",
-      "earth",
       "water"
     ],
     "targetName": "Stone",
-    "targetEmoji": "\ud83e\udea8",
+    "targetEmoji": "\ud83d\uddff",
     "targetLevel": 2,
     "targetCost": 2
   },
   "storm": {
     "targetId": "storm",
     "startingElements": [
-      "atmosphere",
       "water",
+      "atmosphere",
       "wind",
       "air"
     ],
     "targetName": "Storm",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 6,
     "targetCost": 11
   },
   "story": {
     "targetId": "story",
     "startingElements": [
-      "time",
       "human",
-      "lightning",
-      "animal"
+      "animal",
+      "time",
+      "lightning"
     ],
     "targetName": "Story",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfdb\ufe0f",
     "targetLevel": 9,
     "targetCost": 29
   },
   "stream": {
     "targetId": "stream",
     "startingElements": [
-      "telescope",
-      "pond",
       "human",
-      "wind"
+      "wind",
+      "telescope",
+      "pond"
     ],
     "targetName": "Stream",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83c\udf8f",
     "targetLevel": 10,
     "targetCost": 26
   },
   "string phone": {
     "targetId": "string phone",
     "startingElements": [
-      "philosophy",
       "house",
       "tea",
-      "wire"
+      "wire",
+      "philosophy"
     ],
     "targetName": "String Phone",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2a",
     "targetLevel": 13,
     "targetCost": 104
   },
   "stun gun": {
     "targetId": "stun gun",
     "startingElements": [
-      "philosophy",
+      "energy",
       "bullet",
       "house",
-      "energy"
+      "philosophy"
     ],
     "targetName": "Stun Gun",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2b",
     "targetLevel": 12,
     "targetCost": 61
   },
   "sugar": {
     "targetId": "sugar",
     "startingElements": [
-      "fire",
       "plant",
-      "rainbow",
-      "time"
+      "fire",
+      "time",
+      "rainbow"
     ],
     "targetName": "Sugar",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf6c",
     "targetLevel": 11,
     "targetCost": 24
   },
   "sun": {
     "targetId": "sun",
     "startingElements": [
-      "earth",
       "fire",
       "continent",
+      "earth",
       "land"
     ],
     "targetName": "Sun",
-    "targetEmoji": "\u2600\ufe0f",
+    "targetEmoji": "\ud83d\ude0e",
     "targetLevel": 4,
     "targetCost": 6
   },
@@ -37267,12 +37267,12 @@ const GRAPH_DATA = {
     "targetId": "sundial",
     "startingElements": [
       "time",
-      "solar cell",
       "sun",
+      "solar cell",
       "air"
     ],
     "targetName": "Sundial",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\u2600\ufe0f",
     "targetLevel": 8,
     "targetCost": 23
   },
@@ -37280,12 +37280,12 @@ const GRAPH_DATA = {
     "targetId": "sunflower",
     "startingElements": [
       "earth",
-      "life",
       "sun",
+      "life",
       "air"
     ],
     "targetName": "Sunflower",
-    "targetEmoji": "\ud83c\udf31",
+    "targetEmoji": "\ud83c\udf3b",
     "targetLevel": 9,
     "targetCost": 21
   },
@@ -37298,33 +37298,33 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Sunglasses",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83d\udd76\ufe0f",
     "targetLevel": 6,
     "targetCost": 14
   },
   "supernova": {
     "targetId": "supernova",
     "startingElements": [
-      "fire",
       "explosion",
+      "fire",
       "continent",
       "air"
     ],
     "targetName": "Supernova",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca5",
     "targetLevel": 5,
     "targetCost": 10
   },
   "surfer": {
     "targetId": "surfer",
     "startingElements": [
-      "beach",
-      "time",
       "life",
+      "time",
+      "beach",
       "land"
     ],
     "targetName": "Surfer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfc4",
     "targetLevel": 8,
     "targetCost": 14
   },
@@ -37333,21 +37333,21 @@ const GRAPH_DATA = {
     "startingElements": [
       "fish",
       "soil",
-      "life",
-      "lake"
+      "lake",
+      "life"
     ],
     "targetName": "Sushi",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf63",
     "targetLevel": 10,
     "targetCost": 28
   },
   "swamp": {
     "targetId": "swamp",
     "startingElements": [
-      "soil",
       "life",
+      "earth",
       "mud",
-      "earth"
+      "soil"
     ],
     "targetName": "Swamp",
     "targetEmoji": "\ud83d\udc0a",
@@ -37357,65 +37357,65 @@ const GRAPH_DATA = {
   "sweater": {
     "targetId": "sweater",
     "startingElements": [
+      "human",
       "livestock",
       "tool",
-      "human",
       "land"
     ],
     "targetName": "Sweater",
-    "targetEmoji": "\ud83d\udc55",
+    "targetEmoji": "\ud83d\ude05",
     "targetLevel": 12,
     "targetCost": 47
   },
   "swim goggles": {
     "targetId": "swim goggles",
     "startingElements": [
-      "fire",
       "water",
+      "fire",
       "sand",
       "glass"
     ],
     "targetName": "Swim Goggles",
-    "targetEmoji": "\ud83d\udc53",
+    "targetEmoji": "\ud83c\udfca",
     "targetLevel": 6,
     "targetCost": 10
   },
   "swimmer": {
     "targetId": "swimmer",
     "startingElements": [
-      "life",
-      "time",
       "water",
+      "time",
+      "life",
       "land"
     ],
     "targetName": "Swimmer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfca",
     "targetLevel": 8,
     "targetCost": 10
   },
   "swimming pool": {
     "targetId": "swimming pool",
     "startingElements": [
-      "brick",
-      "lake",
       "wall",
+      "lake",
+      "brick",
       "air"
     ],
     "targetName": "Swimming Pool",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83c\udfca",
     "targetLevel": 5,
     "targetCost": 15
   },
   "sword": {
     "targetId": "sword",
     "startingElements": [
-      "fire",
       "metal",
+      "fire",
       "stone",
       "ore"
     ],
     "targetName": "Sword",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udde1\ufe0f",
     "targetLevel": 13,
     "targetCost": 38
   },
@@ -37423,25 +37423,25 @@ const GRAPH_DATA = {
     "targetId": "swordfish",
     "startingElements": [
       "fish",
+      "fire",
       "stone",
-      "ore",
-      "fire"
+      "ore"
     ],
     "targetName": "Swordfish",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83e\udd3a",
     "targetLevel": 13,
     "targetCost": 30
   },
   "syringe": {
     "targetId": "syringe",
     "startingElements": [
-      "tool",
       "cotton",
+      "tool",
       "air",
       "earth"
     ],
     "targetName": "Syringe",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc89",
     "targetLevel": 12,
     "targetCost": 61
   },
@@ -37450,24 +37450,24 @@ const GRAPH_DATA = {
     "startingElements": [
       "computer",
       "bacteria",
-      "philosophy",
-      "small"
+      "small",
+      "philosophy"
     ],
     "targetName": "Tablet",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc8a",
     "targetLevel": 12,
     "targetCost": 114
   },
   "tailor": {
     "targetId": "tailor",
     "startingElements": [
-      "tool",
-      "plant",
       "human",
+      "plant",
+      "tool",
       "cloud"
     ],
     "targetName": "Tailor",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udea1",
     "targetLevel": 11,
     "targetCost": 45
   },
@@ -37480,20 +37480,20 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Tank",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude9c",
     "targetLevel": 12,
     "targetCost": 59
   },
   "tea": {
     "targetId": "tea",
     "startingElements": [
-      "rainbow",
-      "plant",
       "water",
-      "wind"
+      "plant",
+      "wind",
+      "rainbow"
     ],
     "targetName": "Tea",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2615",
     "targetLevel": 11,
     "targetCost": 26
   },
@@ -37506,33 +37506,33 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Telescope",
-    "targetEmoji": "\ud83d\udc53",
+    "targetEmoji": "\ud83d\udd2d",
     "targetLevel": 5,
     "targetCost": 10
   },
   "tent": {
     "targetId": "tent",
     "startingElements": [
-      "tool",
-      "cotton",
       "wall",
+      "cotton",
+      "tool",
       "air"
     ],
     "targetName": "Tent",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfd5\ufe0f",
     "targetLevel": 12,
     "targetCost": 54
   },
   "the one ring": {
     "targetId": "the one ring",
     "startingElements": [
-      "pressure",
-      "metal",
       "volcano",
+      "metal",
+      "pressure",
       "coal"
     ],
     "targetName": "The One Ring",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2a",
     "targetLevel": 12,
     "targetCost": 39
   },
@@ -37545,33 +37545,33 @@ const GRAPH_DATA = {
       "glass"
     ],
     "targetName": "Thermometer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd12",
     "targetLevel": 13,
     "targetCost": 44
   },
   "thread": {
     "targetId": "thread",
     "startingElements": [
-      "tool",
+      "soil",
       "life",
-      "cloud",
-      "soil"
+      "tool",
+      "cloud"
     ],
     "targetName": "Thread",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddf5",
     "targetLevel": 10,
     "targetCost": 35
   },
   "tide": {
     "targetId": "tide",
     "startingElements": [
-      "pond",
-      "time",
       "water",
+      "time",
+      "pond",
       "air"
     ],
     "targetName": "Tide",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf0a",
     "targetLevel": 5,
     "targetCost": 5
   },
@@ -37584,7 +37584,7 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Titanic",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udea2",
     "targetLevel": 11,
     "targetCost": 39
   },
@@ -37592,38 +37592,38 @@ const GRAPH_DATA = {
     "targetId": "toast",
     "startingElements": [
       "water",
-      "fire",
       "flour",
+      "fire",
       "air"
     ],
     "targetName": "Toast",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf5e",
     "targetLevel": 14,
     "targetCost": 35
   },
   "tobacco": {
     "targetId": "tobacco",
     "startingElements": [
-      "life",
       "fire",
+      "life",
       "earth",
       "air"
     ],
     "targetName": "Tobacco",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udeac",
     "targetLevel": 9,
     "targetCost": 15
   },
   "tool": {
     "targetId": "tool",
     "startingElements": [
-      "life",
-      "stone",
       "time",
+      "stone",
+      "life",
       "land"
     ],
     "targetName": "Tool",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd2a",
     "targetLevel": 8,
     "targetCost": 12
   },
@@ -37631,38 +37631,38 @@ const GRAPH_DATA = {
     "targetId": "toolbox",
     "startingElements": [
       "human",
-      "tool",
       "house",
+      "tool",
       "idea"
     ],
     "targetName": "Toolbox",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddf0",
     "targetLevel": 11,
     "targetCost": 56
   },
   "tornado": {
     "targetId": "tornado",
     "startingElements": [
-      "air",
       "pressure",
+      "air",
       "earth",
       "fire"
     ],
     "targetName": "Tornado",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf2a\ufe0f",
     "targetLevel": 3,
     "targetCost": 5
   },
   "toucan": {
     "targetId": "toucan",
     "startingElements": [
-      "air",
-      "rainbow",
       "life",
+      "rainbow",
+      "air",
       "land"
     ],
     "targetName": "Toucan",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd6b",
     "targetLevel": 9,
     "targetCost": 17
   },
@@ -37675,17 +37675,17 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Tractor",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude9c",
     "targetLevel": 12,
     "targetCost": 55
   },
   "train": {
     "targetId": "train",
     "startingElements": [
+      "water",
       "tool",
-      "steam",
       "wheel",
-      "water"
+      "steam"
     ],
     "targetName": "Train",
     "targetEmoji": "\ud83d\ude82",
@@ -37695,13 +37695,13 @@ const GRAPH_DATA = {
   "trainyard": {
     "targetId": "trainyard",
     "startingElements": [
-      "steam",
-      "wheel",
       "wall",
+      "wheel",
+      "steam",
       "air"
     ],
     "targetName": "Trainyard",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude82",
     "targetLevel": 12,
     "targetCost": 35
   },
@@ -37714,72 +37714,72 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Treasure",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udff4\u200d\u2620\ufe0f",
     "targetLevel": 16,
     "targetCost": 84
   },
   "treasure map": {
     "targetId": "treasure map",
     "startingElements": [
-      "wood",
       "water",
+      "wood",
       "island",
       "land"
     ],
     "targetName": "Treasure Map",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udccd",
     "targetLevel": 15,
     "targetCost": 76
   },
   "tree": {
     "targetId": "tree",
     "startingElements": [
-      "plant",
       "human",
       "planet",
+      "plant",
       "idea"
     ],
     "targetName": "Tree",
-    "targetEmoji": "\ud83c\udf33",
+    "targetEmoji": "\ud83c\udf43",
     "targetLevel": 11,
     "targetCost": 52
   },
   "treehouse": {
     "targetId": "treehouse",
     "startingElements": [
-      "philosophy",
-      "plant",
+      "planet",
       "house",
-      "planet"
+      "plant",
+      "philosophy"
     ],
     "targetName": "Treehouse",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83c\udf43",
     "targetLevel": 12,
     "targetCost": 64
   },
   "trojan horse": {
     "targetId": "trojan horse",
     "startingElements": [
-      "tool",
       "horse",
       "stone",
+      "tool",
       "air"
     ],
     "targetName": "Trojan Horse",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc0e",
     "targetLevel": 10,
     "targetCost": 29
   },
   "tsunami": {
     "targetId": "tsunami",
     "startingElements": [
+      "water",
       "gunpowder",
       "fire",
-      "lake",
-      "water"
+      "lake"
     ],
     "targetName": "Tsunami",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83c\udf0a",
     "targetLevel": 5,
     "targetCost": 8
   },
@@ -37787,25 +37787,25 @@ const GRAPH_DATA = {
     "targetId": "tunnel",
     "startingElements": [
       "steam engine",
-      "earthquake",
+      "earth",
       "wheel",
-      "earth"
+      "earthquake"
     ],
     "targetName": "Tunnel",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd73\ufe0f",
     "targetLevel": 12,
     "targetCost": 55
   },
   "turtle": {
     "targetId": "turtle",
     "startingElements": [
+      "time",
       "beach",
       "primordial soup",
-      "time",
       "land"
     ],
     "targetName": "Turtle",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc22",
     "targetLevel": 8,
     "targetCost": 13
   },
@@ -37818,7 +37818,7 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Twilight",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udddb",
     "targetLevel": 6,
     "targetCost": 8
   },
@@ -37831,46 +37831,46 @@ const GRAPH_DATA = {
       "animal"
     ],
     "targetName": "Tyrannosaurus Rex",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd96",
     "targetLevel": 10,
     "targetCost": 34
   },
   "ufo": {
     "targetId": "ufo",
     "startingElements": [
+      "mercury",
       "air",
       "life",
-      "cloud",
-      "mercury"
+      "cloud"
     ],
     "targetName": "UFO",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc7e",
     "targetLevel": 8,
     "targetCost": 24
   },
   "umbrella": {
     "targetId": "umbrella",
     "startingElements": [
-      "stone",
       "time",
-      "animal",
-      "rain"
+      "stone",
+      "rain",
+      "animal"
     ],
     "targetName": "Umbrella",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2602\ufe0f",
     "targetLevel": 9,
     "targetCost": 21
   },
   "unicorn": {
     "targetId": "unicorn",
     "startingElements": [
-      "life",
       "rainbow",
+      "life",
       "land",
       "air"
     ],
     "targetName": "Unicorn",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd84",
     "targetLevel": 9,
     "targetCost": 18
   },
@@ -37883,85 +37883,85 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Universe",
-    "targetEmoji": "\u2728",
+    "targetEmoji": "\ud83c\udf0c",
     "targetLevel": 7,
     "targetCost": 95
   },
   "vacuum cleaner": {
     "targetId": "vacuum cleaner",
     "startingElements": [
-      "tool",
-      "electricity",
       "tree",
-      "hay"
+      "hay",
+      "electricity",
+      "tool"
     ],
     "targetName": "Vacuum Cleaner",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udec0",
     "targetLevel": 14,
     "targetCost": 104
   },
   "vampire": {
     "targetId": "vampire",
     "startingElements": [
-      "metal",
       "human",
+      "metal",
       "stone",
       "air"
     ],
     "targetName": "Vampire",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udddb",
     "targetLevel": 14,
     "targetCost": 40
   },
   "vase": {
     "targetId": "vase",
     "startingElements": [
+      "soil",
       "tool",
       "life",
-      "clay",
-      "soil"
+      "clay"
     ],
     "targetName": "Vase",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udffa",
     "targetLevel": 10,
     "targetCost": 32
   },
   "vault": {
     "targetId": "vault",
     "startingElements": [
-      "philosophy",
       "metal",
+      "planet",
       "gold",
-      "planet"
+      "philosophy"
     ],
     "targetName": "Vault",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udfe6",
     "targetLevel": 13,
     "targetCost": 77
   },
   "vegetable": {
     "targetId": "vegetable",
     "startingElements": [
-      "tool",
       "soil",
+      "earth",
       "life",
-      "earth"
+      "tool"
     ],
     "targetName": "Vegetable",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf3a",
     "targetLevel": 9,
     "targetCost": 28
   },
   "venus": {
     "targetId": "venus",
     "startingElements": [
-      "earth",
       "lava",
+      "earth",
       "continent",
       "air"
     ],
     "targetName": "Venus",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2640\ufe0f",
     "targetLevel": 4,
     "targetCost": 8
   },
@@ -37974,41 +37974,41 @@ const GRAPH_DATA = {
       "fire"
     ],
     "targetName": "Village",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 5,
     "targetCost": 23
   },
   "vine": {
     "targetId": "vine",
     "startingElements": [
-      "tree",
-      "wire",
       "earth",
-      "rain"
+      "rain",
+      "wire",
+      "tree"
     ],
     "targetName": "Vine",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf3f",
     "targetLevel": 14,
     "targetCost": 96
   },
   "vinegar": {
     "targetId": "vinegar",
     "startingElements": [
-      "air",
       "time",
       "fruit",
-      "juice"
+      "juice",
+      "air"
     ],
     "targetName": "Vinegar",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddea",
     "targetLevel": 13,
     "targetCost": 50
   },
   "volcano": {
     "targetId": "volcano",
     "startingElements": [
-      "fire",
       "earth",
+      "fire",
       "air",
       "water"
     ],
@@ -38020,10 +38020,10 @@ const GRAPH_DATA = {
   "vulture": {
     "targetId": "vulture",
     "startingElements": [
+      "land",
       "air",
       "life",
-      "desert",
-      "land"
+      "desert"
     ],
     "targetName": "Vulture",
     "targetEmoji": "\ud83e\udd85",
@@ -38033,13 +38033,13 @@ const GRAPH_DATA = {
   "wagon": {
     "targetId": "wagon",
     "startingElements": [
-      "tool",
+      "wall",
       "tree",
       "wheel",
-      "wall"
+      "tool"
     ],
     "targetName": "Wagon",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude83",
     "targetLevel": 14,
     "targetCost": 85
   },
@@ -38052,137 +38052,137 @@ const GRAPH_DATA = {
       "earth"
     ],
     "targetName": "Wall",
-    "targetEmoji": "\ud83c\udfe0",
+    "targetEmoji": "\ud83e\uddf1",
     "targetLevel": 3,
     "targetCost": 5
   },
   "wand": {
     "targetId": "wand",
     "startingElements": [
-      "rainbow",
       "human",
       "stone",
+      "rainbow",
       "air"
     ],
     "targetName": "Wand",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\uddf7\ud83c\uddfc",
     "targetLevel": 9,
     "targetCost": 30
   },
   "warmth": {
     "targetId": "warmth",
     "startingElements": [
-      "air",
       "fire",
+      "air",
       "earth",
       "water"
     ],
     "targetName": "Warmth",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83e\udd33",
     "targetLevel": 3,
     "targetCost": 3
   },
   "warrior": {
     "targetId": "warrior",
     "startingElements": [
-      "metal",
       "human",
+      "metal",
       "stone",
       "air"
     ],
     "targetName": "Warrior",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\ude96",
     "targetLevel": 14,
     "targetCost": 48
   },
   "watch": {
     "targetId": "watch",
     "startingElements": [
-      "time",
       "human",
-      "sun",
-      "solar cell"
+      "time",
+      "solar cell",
+      "sun"
     ],
     "targetName": "Watch",
-    "targetEmoji": "\u23f0",
+    "targetEmoji": "\u231a",
     "targetLevel": 8,
     "targetCost": 26
   },
   "water gun": {
     "targetId": "water gun",
     "startingElements": [
-      "philosophy",
+      "water",
       "bullet",
       "house",
-      "water"
+      "philosophy"
     ],
     "targetName": "Water Gun",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83d\udca6",
     "targetLevel": 12,
     "targetCost": 60
   },
   "water lily": {
     "targetId": "water lily",
     "startingElements": [
+      "soil",
       "puddle",
-      "life",
       "rainbow",
-      "soil"
+      "life"
     ],
     "targetName": "Water Lily",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83d\udca6",
     "targetLevel": 10,
     "targetCost": 24
   },
   "water pipe": {
     "targetId": "water pipe",
     "startingElements": [
-      "tool",
+      "water",
       "fire",
       "plant",
-      "water"
+      "tool"
     ],
     "targetName": "Water Pipe",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83d\udca6",
     "targetLevel": 11,
     "targetCost": 29
   },
   "waterfall": {
     "targetId": "waterfall",
     "startingElements": [
-      "lake",
       "motion",
       "earth",
+      "lake",
       "air"
     ],
     "targetName": "Waterfall",
-    "targetEmoji": "\ud83d\udca7",
+    "targetEmoji": "\ud83d\udca6",
     "targetLevel": 12,
     "targetCost": 29
   },
   "wave": {
     "targetId": "wave",
     "startingElements": [
-      "air",
-      "pond",
+      "water",
       "pressure",
-      "water"
+      "air",
+      "pond"
     ],
     "targetName": "Wave",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udc4b",
     "targetLevel": 4,
     "targetCost": 6
   },
   "wax": {
     "targetId": "wax",
     "startingElements": [
+      "wall",
       "flower",
       "animal",
-      "wall",
       "air"
     ],
     "targetName": "Wax",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd6f\ufe0f",
     "targetLevel": 12,
     "targetCost": 43
   },
@@ -38195,20 +38195,20 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Web",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf10",
     "targetLevel": 12,
     "targetCost": 67
   },
   "werewolf": {
     "targetId": "werewolf",
     "startingElements": [
-      "time",
       "moon",
+      "time",
       "animal",
       "air"
     ],
     "targetName": "Werewolf",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc3a",
     "targetLevel": 9,
     "targetCost": 28
   },
@@ -38216,25 +38216,25 @@ const GRAPH_DATA = {
     "targetId": "wheat",
     "startingElements": [
       "soil",
-      "life",
+      "earth",
       "field",
-      "earth"
+      "life"
     ],
     "targetName": "Wheat",
-    "targetEmoji": "\ud83d\udd25",
+    "targetEmoji": "\ud83c\udf3e",
     "targetLevel": 10,
     "targetCost": 29
   },
   "wheel": {
     "targetId": "wheel",
     "startingElements": [
-      "stone",
       "water",
-      "animal",
-      "time"
+      "stone",
+      "time",
+      "animal"
     ],
     "targetName": "Wheel",
-    "targetEmoji": "\ud83d\udc1f",
+    "targetEmoji": "\ud83d\udede",
     "targetLevel": 9,
     "targetCost": 13
   },
@@ -38247,7 +38247,7 @@ const GRAPH_DATA = {
       "land"
     ],
     "targetName": "Wild Boar",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd2a",
     "targetLevel": 9,
     "targetCost": 19
   },
@@ -38268,86 +38268,86 @@ const GRAPH_DATA = {
     "targetId": "wind turbine",
     "startingElements": [
       "energy",
-      "sun",
       "wind",
+      "sun",
       "air"
     ],
     "targetName": "Wind Turbine",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 7,
     "targetCost": 18
   },
   "windmill": {
     "targetId": "windmill",
     "startingElements": [
-      "brick",
-      "wind",
       "wall",
+      "wind",
+      "brick",
       "air"
     ],
     "targetName": "Windmill",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\ude37",
     "targetLevel": 5,
     "targetCost": 14
   },
   "windsurfer": {
     "targetId": "windsurfer",
     "startingElements": [
-      "beach",
       "time",
-      "animal",
-      "wind"
+      "wind",
+      "beach",
+      "animal"
     ],
     "targetName": "Windsurfer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udca8",
     "targetLevel": 9,
     "targetCost": 17
   },
   "wine": {
     "targetId": "wine",
     "startingElements": [
-      "time",
       "fruit",
+      "time",
       "earth",
       "air"
     ],
     "targetName": "Wine",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83c\udf77",
     "targetLevel": 12,
     "targetCost": 49
   },
   "wire": {
     "targetId": "wire",
     "startingElements": [
-      "electricity",
       "fire",
       "hammer",
+      "electricity",
       "earth"
     ],
     "targetName": "Wire",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udcfb",
     "targetLevel": 12,
     "targetCost": 33
   },
   "witch": {
     "targetId": "witch",
     "startingElements": [
-      "hero",
-      "metal",
       "human",
+      "metal",
+      "hero",
       "pottery"
     ],
     "targetName": "Witch",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\uddd9\u200d\u2640\ufe0f",
     "targetLevel": 13,
     "targetCost": 65
   },
   "wizard": {
     "targetId": "wizard",
     "startingElements": [
-      "life",
-      "rainbow",
       "time",
+      "rainbow",
+      "life",
       "land"
     ],
     "targetName": "Wizard",
@@ -38358,78 +38358,78 @@ const GRAPH_DATA = {
   "wolf": {
     "targetId": "wolf",
     "startingElements": [
-      "life",
-      "time",
       "sky",
+      "time",
+      "life",
       "land"
     ],
     "targetName": "Wolf",
-    "targetEmoji": "\ud83d\udc3e",
+    "targetEmoji": "\ud83d\udc3a",
     "targetLevel": 8,
     "targetCost": 18
   },
   "wood": {
     "targetId": "wood",
     "startingElements": [
-      "tool",
-      "plant",
+      "planet",
       "philosophy",
-      "planet"
+      "plant",
+      "tool"
     ],
     "targetName": "Wood",
-    "targetEmoji": "\ud83e\udeb5",
+    "targetEmoji": "\ud83c\udf32",
     "targetLevel": 12,
     "targetCost": 65
   },
   "woodpecker": {
     "targetId": "woodpecker",
     "startingElements": [
-      "philosophy",
       "plant",
+      "planet",
       "bird",
-      "planet"
+      "philosophy"
     ],
     "targetName": "Woodpecker",
-    "targetEmoji": "\ud83c\udf32",
+    "targetEmoji": "\ud83d\ude2f",
     "targetLevel": 12,
     "targetCost": 62
   },
   "wool": {
     "targetId": "wool",
     "startingElements": [
-      "tool",
-      "field",
       "animal",
+      "field",
+      "tool",
       "land"
     ],
     "targetName": "Wool",
-    "targetEmoji": "\ud83d\udc55",
+    "targetEmoji": "\ud83d\udc11",
     "targetLevel": 11,
     "targetCost": 37
   },
   "wrapping paper": {
     "targetId": "wrapping paper",
     "startingElements": [
+      "water",
       "star",
       "tree",
-      "water",
       "wood"
     ],
     "targetName": "Wrapping Paper",
-    "targetEmoji": "\ud83d\udcd6",
+    "targetEmoji": "\ud83e\udda7",
     "targetLevel": 14,
     "targetCost": 137
   },
   "writer": {
     "targetId": "writer",
     "startingElements": [
-      "philosophy",
-      "house",
       "human",
+      "house",
+      "philosophy",
       "idea"
     ],
     "targetName": "Writer",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u270d\ufe0f",
     "targetLevel": 12,
     "targetCost": 75
   },
@@ -38442,29 +38442,29 @@ const GRAPH_DATA = {
       "air"
     ],
     "targetName": "Yeti",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\u2744\ufe0f",
     "targetLevel": 11,
     "targetCost": 44
   },
   "yogurt": {
     "targetId": "yogurt",
     "startingElements": [
-      "livestock",
-      "bacteria",
       "water",
-      "field"
+      "field",
+      "bacteria",
+      "livestock"
     ],
     "targetName": "Yogurt",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83e\udd5b",
     "targetLevel": 12,
     "targetCost": 46
   },
   "zombie": {
     "targetId": "zombie",
     "startingElements": [
+      "time",
       "life",
       "animal",
-      "time",
       "air"
     ],
     "targetName": "Zombie",
@@ -38475,13 +38475,13 @@ const GRAPH_DATA = {
   "zoo": {
     "targetId": "zoo",
     "startingElements": [
+      "wall",
       "moon",
       "animal",
-      "wall",
       "air"
     ],
     "targetName": "Zoo",
-    "targetEmoji": "\ud83d\udd2e",
+    "targetEmoji": "\ud83d\udd0d",
     "targetLevel": 10,
     "targetCost": 33
   }

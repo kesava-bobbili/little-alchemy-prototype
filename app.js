@@ -100,6 +100,37 @@ function populatePracticeSelector() {
   });
 }
 
+function populateCatalog() {
+  const container = document.getElementById("catalog-list");
+  if (container.children.length > 0) return; // Only populate once
+  
+  const sorted = GRAPH_DATA.elements
+    .filter(elem => elem.id !== "deity" && elem.id !== "monster")
+    .sort((a, b) => a.name.localeCompare(b.name));
+    
+  sorted.forEach(elem => {
+    const item = document.createElement("div");
+    item.className = "catalog-item";
+    item.style.display = "flex";
+    item.style.alignItems = "center";
+    item.style.gap = "8px";
+    item.style.padding = "8px";
+    item.style.borderRadius = "8px";
+    item.style.background = "rgba(255,255,255,0.05)";
+    item.style.border = "1px solid var(--panel-border)";
+    
+    item.innerHTML = `
+      <span style="font-size: 1.4rem;">${elem.emoji}</span>
+      <div>
+        <div class="catalog-name" style="font-weight: 600; color: #fff; font-size: 0.9rem;">${elem.name}</div>
+        <div style="font-size: 0.72rem; color: var(--text-muted);">Level ${elem.level !== null ? elem.level : 0}</div>
+      </div>
+    `;
+    
+    container.appendChild(item);
+  });
+}
+
 function setupPracticeChallenge() {
   const select = document.getElementById("practice-target-select");
   const targetId = select.value;
@@ -643,6 +674,31 @@ function setupEventListeners() {
   // Close Recipe Modal
   document.getElementById("close-recipe-btn").addEventListener("click", () => {
     document.getElementById("recipe-modal").style.display = "none";
+  });
+  
+  // Open Catalog Modal
+  document.getElementById("open-catalog-btn").addEventListener("click", () => {
+    populateCatalog();
+    document.getElementById("catalog-modal").style.display = "flex";
+  });
+  
+  // Close Catalog Modal (X button)
+  document.getElementById("close-catalog-x").addEventListener("click", () => {
+    document.getElementById("catalog-modal").style.display = "none";
+  });
+  
+  // Close Catalog Modal (Close button)
+  document.getElementById("close-catalog-btn").addEventListener("click", () => {
+    document.getElementById("catalog-modal").style.display = "none";
+  });
+  
+  // Search Catalog Filter
+  document.getElementById("catalog-search").addEventListener("input", (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    document.querySelectorAll(".catalog-item").forEach(item => {
+      const name = item.querySelector(".catalog-name").textContent.toLowerCase();
+      item.style.display = name.includes(query) ? "flex" : "none";
+    });
   });
 }
 

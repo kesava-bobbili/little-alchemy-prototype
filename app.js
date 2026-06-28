@@ -70,26 +70,25 @@ function switchMode(mode) {
 
 // 4. Daily Puzzle Generator
 function setupDailyChallenge() {
-  // Get all craftable elements with valid paths
-  const eligible = GRAPH_DATA.elements.filter(elem => {
-    return elem.level > 0 && GRAPH_DATA.paths[elem.id]?.paths.length > 0;
-  });
+  const eligible = Object.keys(GRAPH_DATA.puzzles);
+  if (eligible.length === 0) return;
   
   // Deterministic select based on date
   const today = new Date();
   const index = (today.getFullYear() * 367 + today.getMonth() * 31 + today.getDate()) % eligible.length;
-  const target = eligible[index];
+  const targetId = eligible[index];
   
-  currentTargetId = target.id;
-  generatePuzzle(target.id, "Daily Challenge");
+  currentTargetId = targetId;
+  generatePuzzle(targetId, "Daily Challenge");
 }
 
 function populatePracticeSelector() {
   const select = document.getElementById("practice-target-select");
   if (select.children.length > 1) return; // Already populated
   
-  const eligible = GRAPH_DATA.elements
-    .filter(elem => elem.level > 0 && GRAPH_DATA.paths[elem.id]?.paths.length > 0)
+  const eligible = Object.keys(GRAPH_DATA.puzzles)
+    .map(id => elementsMap[id])
+    .filter(Boolean)
     .sort((a, b) => a.name.localeCompare(b.name));
     
   eligible.forEach(elem => {
@@ -113,74 +112,24 @@ function setupPracticeChallenge() {
   generatePuzzle(currentTargetId, "Practice Mode");
 }
 
-// 5. Backward Replacement Solver (Phase 3 Engine)
+// 5. Pre-generated Puzzle Loader
 function generatePuzzle(targetId, title) {
-  const path = GRAPH_DATA.paths[targetId]?.paths[0];
-  if (!path) return;
-  
-  // Start set S = {targetId}
-  let S = [targetId];
-  let queue = [{ id: targetId, path: path }];
-  
-  // Iterative replacement to find 4 starting elements
-  while (queue.length < 4) {
-    let expandIndex = -1;
-    let maxCost = -1;
-    for (let i = 0; i < queue.length; i++) {
-      if (queue[i].path.recipe !== null && queue[i].path.cost > maxCost) {
-        maxCost = queue[i].path.cost;
-        expandIndex = i;
-      }
-    }
-    
-    if (expandIndex === -1) break; // All leaves are primitives
-    
-    const node = queue[expandIndex];
-    const recipe = node.path.recipe;
-    const children = node.path.children;
-    
-    // Remove the expanded node
-    queue.splice(expandIndex, 1);
-    
-    // Push its children
-    const in_a = recipe[0];
-    const in_b = recipe[1];
-    
-    const path_a = children[in_a] || { cost: 0, recipe: null, children: null };
-    const path_b = children[in_b] || { cost: 0, recipe: null, children: null };
-    
-    queue.push({ id: in_a, path: path_a });
-    queue.push({ id: in_b, path: path_b });
-  }
-  
-  // Extract and deduplicate IDs
-  let startingIds = queue.map(node => node.id);
-  startingIds = [...new Set(startingIds)];
-  
-  // Pad with Level 0 primitives
-  const primitives = ["air", "earth", "fire", "water"];
-  for (let prim of primitives) {
-    if (startingIds.length >= 4) break;
-    if (!startingIds.includes(prim)) {
-      startingIds.push(prim);
-    }
-  }
-  
-  startingIds = startingIds.slice(0, 4);
+  const puzzle = GRAPH_DATA.puzzles[targetId];
+  if (!puzzle) return;
   
   // Setup active puzzle details
   activePuzzle = {
     title: title,
     targetId: targetId,
-    startingElements: startingIds,
-    targetName: elementsMap[targetId].name,
-    targetEmoji: elementsMap[targetId].emoji,
-    targetLevel: elementsMap[targetId].level,
-    targetCost: path.cost
+    startingElements: puzzle.startingElements,
+    targetName: puzzle.targetName,
+    targetEmoji: puzzle.targetEmoji,
+    targetLevel: puzzle.targetLevel,
+    targetCost: puzzle.targetCost
   };
   
   // Set puzzle starting elements as the ONLY unlocked elements in this puzzle mode
-  unlockedElements = new Set(startingIds);
+  unlockedElements = new Set(puzzle.startingElements);
   saveGameState();
   
   // Update UI Panels

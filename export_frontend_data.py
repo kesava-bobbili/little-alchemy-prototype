@@ -117,6 +117,60 @@ def get_emoji(name_lower):
     
     return "🔮" # Default mystical icon
 
+def generate_puzzle_for_element(target_id, elements_map, paths_data):
+    path_info = paths_data.get(target_id)
+    if not path_info or not path_info.get("paths"):
+        return None
+        
+    path = path_info["paths"][0]
+    
+    # S = {target_id}
+    queue = [{"id": target_id, "path": path}]
+    
+    while len(queue) < 4:
+        expand_idx = -1
+        max_cost = -1
+        for i, node in enumerate(queue):
+            if node["path"].get("recipe") is not None and node["path"].get("cost", 0) > max_cost:
+                max_cost = node["path"]["cost"]
+                expand_idx = i
+                
+        if expand_idx == -1:
+            break
+            
+        node = queue.pop(expand_idx)
+        recipe = node["path"]["recipe"]
+        children = node["path"].get("children") or {}
+        
+        in_a, in_b = recipe[0], recipe[1]
+        
+        path_a = children.get(in_a) or {"cost": 0, "recipe": None, "children": None}
+        path_b = children.get(in_b) or {"cost": 0, "recipe": None, "children": None}
+        
+        queue.append({"id": in_a, "path": path_a})
+        queue.append({"id": in_b, "path": path_b})
+        
+    starting_ids = list(set([node["id"] for node in queue]))
+    
+    primitives = ["air", "earth", "fire", "water"]
+    for prim in primitives:
+        if len(starting_ids) >= 4:
+            break
+        if prim not in starting_ids:
+            starting_ids.append(prim)
+            
+    starting_ids = starting_ids[:4]
+    
+    elem = elements_map[target_id]
+    return {
+        "targetId": target_id,
+        "startingElements": starting_ids,
+        "targetName": elem["name"],
+        "targetEmoji": elem["emoji"],
+        "targetLevel": elem["level"],
+        "targetCost": path["cost"]
+    }
+
 def main():
     if not os.path.exists("elements.json") or not os.path.exists("recipes.json") or not os.path.exists("paths_cache.json"):
         print("Error: Required JSON files not found in the current directory.")
@@ -132,15 +186,25 @@ def main():
         paths_data = json.load(f)
         
     # Map emojis to elements
+    elements_map = {}
     for elem in elements_data:
         elem["emoji"] = get_emoji(elem["id"])
+        elements_map[elem["id"]] = elem
         
-    # Export JavaScript structure
+    # Pre-generate puzzles for all craftable elements
+    puzzles_map = {}
+    for elem in elements_data:
+        if elem["level"] is not None and elem["level"] > 0:
+            puzzle = generate_puzzle_for_element(elem["id"], elements_map, paths_data)
+            if puzzle:
+                puzzles_map[elem["id"]] = puzzle
+                
+    # Export Javascript structure
     js_content = f"""// Auto-generated data file for client-side rendering
 const GRAPH_DATA = {{
   elements: {json.dumps(elements_data, indent=2)},
   recipes: {json.dumps(recipes_data, indent=2)},
-  paths: {json.dumps(paths_data, indent=2)}
+  puzzles: {json.dumps(puzzles_map, indent=2)}
 }};
 """
     

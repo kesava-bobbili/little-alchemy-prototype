@@ -26,7 +26,7 @@ iframe {
 }
 </style>
 """
-st.markdown(hide_st_style, unsafe_allow_allowed_html=True if "unsafe_allow_allowed_html" in st.markdown.__code__.co_varnames else None, unsafe_allow_html=True)
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 def compile_game():
     # Load raw assets

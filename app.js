@@ -568,4 +568,8 @@ function clearWorkspace() {
 }
 
 // Start game loop when script is loaded
-window.addEventListener("DOMContentLoaded", initGame);
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initGame);
+} else {
+  initGame();
+}

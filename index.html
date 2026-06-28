@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlcheMix — Alchemy Graph Game</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Game Header -->
+    <header class="game-header">
+      <div class="logo">
+        <span class="logo-icon">🧪</span>
+        <h1>AlcheMix</h1>
+      </div>
+      
+      <!-- Mode Selection -->
+      <div class="mode-selector">
+        <button class="mode-btn active" data-mode="daily">📅 Daily Challenge</button>
+        <button class="mode-btn" data-mode="practice">🎯 Practice Mode</button>
+        <button class="mode-btn" data-mode="sandbox">⏳ Sandbox Mode</button>
+      </div>
+      
+      <!-- General Action Buttons -->
+      <div class="header-actions">
+        <button id="clear-workspace-btn" class="action-btn header-btn">🧹 Clear Canvas</button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="game-layout">
+      
+      <!-- Left Panel: Canvas Workspace -->
+      <section class="workspace-area">
+        <!-- Target Info Overlay (For puzzle modes) -->
+        <div id="puzzle-panel" class="puzzle-overlay glass-panel">
+          <div id="practice-selector-container" class="selector-box" style="display: none;">
+            <label for="practice-target-select">Choose Target:</label>
+            <select id="practice-target-select">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+          
+          <div class="target-title">Target Element:</div>
+          <div class="target-card">
+            <span id="target-display-emoji" class="target-emoji">🔮</span>
+            <div>
+              <div id="target-display-name" class="target-name">Loading...</div>
+              <div class="target-meta">
+                <span id="target-display-level">Level: -</span> | 
+                <span id="target-display-steps">Steps: -</span>
+              </div>
+            </div>
+          </div>
+          <div class="puzzle-actions">
+            <button id="reset-puzzle-btn" class="action-btn puzzle-btn">🔄 Reset Puzzle</button>
+          </div>
+        </div>
+        
+        <!-- Drag and Drop Canvas Playground -->
+        <div id="canvas-workspace" class="canvas-playground">
+          <div class="canvas-hint">Drag elements from the sidebar here. Overlay identical or matching cards to synthesize new ones.</div>
+        </div>
+      </section>
+
+      <!-- Right Panel: Inventory Sidebar -->
+      <aside class="sidebar-inventory glass-panel">
+        <div class="sidebar-header">
+          <h2>Inventory</h2>
+          <input type="text" id="inventory-search" placeholder="Search unlocked elements..." class="search-input">
+        </div>
+        
+        <!-- Inventory elements list container -->
+        <div id="inventory-list" class="inventory-items-grid">
+          <!-- Dynamically populated elements -->
+        </div>
+      </aside>
+      
+    </main>
+
+    <!-- Overlay Notifications -->
+    <div id="discovery-notifier" class="discovery-notification glass-panel">
+      🌟 New Element Discovered: <strong>🔥 Fire</strong>!
+    </div>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal-overlay" style="display: none;">
+      <div class="success-card glass-panel pop-in">
+        <div class="success-icon">🎉</div>
+        <h2>Puzzle Solved!</h2>
+        <p>You successfully crafted the target element:</p>
+        <div class="modal-target-preview">
+          <span id="modal-target-emoji" class="modal-emoji">🔮</span>
+          <span id="modal-target-name" class="modal-name">Element</span>
+        </div>
+        <p class="congrats-text">Outstanding job! Try a different element in Practice Mode, or return tomorrow for a new Daily Challenge.</p>
+        <button id="close-modal-btn" class="modal-btn">Dismiss</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="frontend_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

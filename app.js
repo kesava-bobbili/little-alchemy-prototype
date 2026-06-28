@@ -407,38 +407,105 @@ function renderInventory() {
   const container = document.getElementById("inventory-list");
   container.innerHTML = "";
   
-  // Sort unlocked elements alphabetically by display name
-  const sorted = Array.from(unlockedElements)
-    .map(id => elementsMap[id])
-    .filter(Boolean)
-    .sort((a, b) => a.name.localeCompare(b.name));
+  const showAll = document.getElementById("show-all-toggle")?.checked || false;
+  let itemsToRender = [];
+  
+  if (showAll) {
+    // Render all elements, mark locked ones
+    itemsToRender = GRAPH_DATA.elements
+      .filter(elem => elem.id !== "deity" && elem.id !== "monster")
+      .sort((a, b) => a.name.localeCompare(b.name));
+  } else {
+    // Render only unlocked elements
+    itemsToRender = Array.from(unlockedElements)
+      .map(id => elementsMap[id])
+      .filter(Boolean)
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }
     
-  sorted.forEach(elem => {
+  itemsToRender.forEach(elem => {
+    const isLocked = showAll && !unlockedElements.has(elem.id);
     const item = document.createElement("div");
     item.className = "inventory-item";
-    item.draggable = true;
+    item.draggable = !isLocked;
     item.dataset.id = elem.id;
     
-    // Color glow class
-    const group = getElementColorGroup(elem.id);
-    item.classList.add(group);
+    if (isLocked) {
+      item.classList.add("locked");
+    } else {
+      // Color glow class
+      const group = getElementColorGroup(elem.id);
+      item.classList.add(group);
+    }
     
     item.innerHTML = `<span class="item-emoji">${elem.emoji}</span> <span class="item-name">${elem.name}</span>`;
     
-    // Spawn element onto canvas when clicked inside inventory sidebar
-    item.addEventListener("click", () => {
-      const canvas = document.getElementById("canvas-workspace");
-      const rect = canvas.getBoundingClientRect();
-      
-      // Spawn at random offset near center to avoid perfect stack overlaps
-      const rx = (Math.random() - 0.5) * 80;
-      const ry = (Math.random() - 0.5) * 80;
-      
-      createElementCard(elem.id, rect.width / 2 + rx - 50, rect.height / 2 + ry - 20);
-    });
+    if (!isLocked) {
+      // Spawn element onto canvas when clicked inside inventory sidebar
+      item.addEventListener("click", () => {
+        const canvas = document.getElementById("canvas-workspace");
+        const rect = canvas.getBoundingClientRect();
+        
+        // Spawn at random offset near center to avoid perfect stack overlaps
+        const rx = (Math.random() - 0.5) * 80;
+        const ry = (Math.random() - 0.5) * 80;
+        
+        createElementCard(elem.id, rect.width / 2 + rx - 50, rect.height / 2 + ry - 20);
+      });
+    }
     
     container.appendChild(item);
   });
+}
+
+// 9.5 Recipe Solution Path Solver
+function findSolutionPath(targetId, startingSet) {
+  let currentSet = new Set(startingSet);
+  let parentRecipe = {}; // maps elementId -> { input_a, input_b }
+  let discoveredInRound = true;
+  
+  while (discoveredInRound && !currentSet.has(targetId)) {
+    discoveredInRound = false;
+    let currentList = Array.from(currentSet);
+    let newDiscoveries = {};
+    
+    for (let i = 0; i < currentList.length; i++) {
+      for (let j = i; j < currentList.length; j++) {
+        const key = [currentList[i], currentList[j]].sort().join("+");
+        const output = recipeMap[key];
+        if (output && !currentSet.has(output) && !newDiscoveries[output]) {
+          newDiscoveries[output] = { input_a: currentList[i], input_b: currentList[j] };
+          discoveredInRound = true;
+        }
+      }
+    }
+    
+    for (let output in newDiscoveries) {
+      currentSet.add(output);
+      parentRecipe[output] = newDiscoveries[output];
+    }
+  }
+  
+  if (!currentSet.has(targetId)) return null;
+  
+  let steps = [];
+  function trace(id) {
+    if (startingSet.includes(id)) return;
+    const parent = parentRecipe[id];
+    if (!parent) return;
+    
+    trace(parent.input_a);
+    trace(parent.input_b);
+    
+    const stepStr = `<div class="recipe-step-line"><span>${elementsMap[parent.input_a].emoji} ${elementsMap[parent.input_a].name}</span> + <span>${elementsMap[parent.input_b].emoji} ${elementsMap[parent.input_b].name}</span> ➔ <strong>${elementsMap[id].emoji} ${elementsMap[id].name}</strong></div>`;
+    
+    if (!steps.includes(stepStr)) {
+      steps.push(stepStr);
+    }
+  }
+  
+  trace(targetId);
+  return steps;
 }
 
 // 10. Local Storage Persistence
@@ -484,6 +551,11 @@ function setupEventListeners() {
     setupPracticeChallenge();
   });
   
+  // Show all toggle change
+  document.getElementById("show-all-toggle").addEventListener("change", () => {
+    renderInventory();
+  });
+  
   // Reset and Clear Workspace buttons
   document.getElementById("clear-workspace-btn").addEventListener("click", clearWorkspace);
   document.getElementById("reset-puzzle-btn").addEventListener("click", () => {
@@ -508,6 +580,26 @@ function setupEventListeners() {
   // Close success modal
   document.getElementById("close-modal-btn").addEventListener("click", () => {
     document.getElementById("success-modal").style.display = "none";
+  });
+  
+  // Show Solution / Recipe Modal
+  document.getElementById("show-recipe-btn").addEventListener("click", () => {
+    if (!currentTargetId || !activePuzzle) return;
+    const steps = findSolutionPath(currentTargetId, activePuzzle.startingElements);
+    const container = document.getElementById("recipe-steps-list");
+    
+    if (steps && steps.length > 0) {
+      container.innerHTML = steps.join("");
+    } else {
+      container.innerHTML = "<div style='color: var(--text-muted);'>No solution path required (target already in starting set!).</div>";
+    }
+    
+    document.getElementById("recipe-modal").style.display = "flex";
+  });
+  
+  // Close Recipe Modal
+  document.getElementById("close-recipe-btn").addEventListener("click", () => {
+    document.getElementById("recipe-modal").style.display = "none";
   });
 }
 

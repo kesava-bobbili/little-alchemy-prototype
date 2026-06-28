@@ -517,3 +517,26 @@ body {
   from { transform: translateY(0); }
   to { transform: translateY(-8px); }
 }
+
+/* Locked elements formatting */
+.inventory-item.locked {
+  opacity: 0.35;
+  filter: grayscale(100%);
+  cursor: not-allowed;
+  border-color: #2b3139 !important;
+  box-shadow: none !important;
+}
+
+.inventory-item.locked:hover {
+  transform: none;
+  background-color: #161b22;
+}
+
+/* Scrollbar customization for recipe modal */
+#recipe-steps-list::-webkit-scrollbar {
+  width: 6px;
+}
+#recipe-steps-list::-webkit-scrollbar-thumb {
+  background-color: var(--panel-border);
+  border-radius: 3px;
+}

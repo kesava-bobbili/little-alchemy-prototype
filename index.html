@@ -61,6 +61,7 @@
           </div>
           <div class="puzzle-actions">
             <button id="reset-puzzle-btn" class="action-btn puzzle-btn">🔄 Reset Puzzle</button>
+            <button id="show-recipe-btn" class="action-btn recipe-btn" style="background-color: #21262d; color: var(--text-main); border: 1px solid var(--panel-border); margin-top: 8px; width: 100%; padding: 8px; border-radius: 6px;">📖 Show Recipe</button>
           </div>
         </div>
         
@@ -74,7 +75,10 @@
       <aside class="sidebar-inventory glass-panel">
         <div class="sidebar-header">
           <h2>Inventory</h2>
-          <input type="text" id="inventory-search" placeholder="Search unlocked elements..." class="search-input">
+          <input type="text" id="inventory-search" placeholder="Search elements..." class="search-input">
+          <label class="toggle-container" style="font-size: 0.78rem; color: var(--text-muted); display: flex; align-items: center; gap: 6px; cursor: pointer; margin-top: 4px; user-select: none;">
+            <input type="checkbox" id="show-all-toggle" style="cursor: pointer;"> Show All 720 Elements
+          </label>
         </div>
         
         <!-- Inventory elements list container -->
@@ -102,6 +106,19 @@
         </div>
         <p class="congrats-text">Outstanding job! Try a different element in Practice Mode, or return tomorrow for a new Daily Challenge.</p>
         <button id="close-modal-btn" class="modal-btn">Dismiss</button>
+      </div>
+    </div>
+
+    <!-- Recipe Modal -->
+    <div id="recipe-modal" class="modal-overlay" style="display: none;">
+      <div class="success-card glass-panel pop-in" style="width: 450px;">
+        <div class="success-icon">📖</div>
+        <h2>Crafting Solution</h2>
+        <p>Steps to craft the target element from your starting deck:</p>
+        <div id="recipe-steps-list" style="text-align: left; width: 100%; margin: 16px 0; background: rgba(0,0,0,0.35); padding: 16px; border-radius: 8px; border: 1px solid var(--panel-border); font-family: var(--font-primary); font-size: 0.9rem; max-height: 250px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; line-height: 1.4;">
+          <!-- Steps dynamically populated -->
+        </div>
+        <button id="close-recipe-btn" class="modal-btn">Close</button>
       </div>
     </div>
 

@@ -65,6 +65,7 @@ function switchMode(mode) {
     unlockedElements = new Set(["air", "earth", "fire", "water"]);
     saveGameState();
     renderInventory();
+    spawnSandboxStartingElements();
   }
 }
 
@@ -160,6 +161,26 @@ function spawnStartingElements() {
   
   activePuzzle.startingElements.forEach((id, idx) => {
     const elem = elementsMap[id];
+    const offset = offsets[idx];
+    createElementCard(id, centerX + offset.x, centerY + offset.y);
+  });
+}
+
+function spawnSandboxStartingElements() {
+  const canvas = document.getElementById("canvas-workspace");
+  const rect = canvas.getBoundingClientRect();
+  const centerX = rect.width / 2;
+  const centerY = rect.height / 2;
+  
+  const offsets = [
+    { x: -100, y: -50 },
+    { x: 100, y: -50 },
+    { x: -100, y: 80 },
+    { x: 100, y: 80 }
+  ];
+  
+  const basePrimitives = ["air", "earth", "fire", "water"];
+  basePrimitives.forEach((id, idx) => {
     const offset = offsets[idx];
     createElementCard(id, centerX + offset.x, centerY + offset.y);
   });
@@ -452,6 +473,11 @@ function renderInventory() {
         
         createElementCard(elem.id, rect.width / 2 + rx - 50, rect.height / 2 + ry - 20);
       });
+      
+      // HTML5 Drag Start listener
+      item.addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("text/plain", elem.id);
+      });
     }
     
     container.appendChild(item);
@@ -539,6 +565,23 @@ function loadGameState() {
 
 // 11. Helper Event Listeners
 function setupEventListeners() {
+  // HTML5 Drag & Drop listeners on Canvas Playground
+  const canvas = document.getElementById("canvas-workspace");
+  canvas.addEventListener("dragover", (e) => {
+    e.preventDefault();
+  });
+  canvas.addEventListener("drop", (e) => {
+    e.preventDefault();
+    const id = e.dataTransfer.getData("text/plain");
+    if (!id || !elementsMap[id]) return;
+    
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left - 50;
+    const y = e.clientY - rect.top - 20;
+    
+    createElementCard(id, x, y);
+  });
+
   // Mode selection buttons
   document.querySelectorAll(".mode-btn").forEach(btn => {
     btn.addEventListener("click", (e) => {

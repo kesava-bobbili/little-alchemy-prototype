@@ -24149,6 +24149,34 @@
       "input_b": "container",
       "output": "zoo",
       "source": "dataset"
+    },
+    {
+      "id": "r3451",
+      "input_a": "bacteria",
+      "input_b": "corpse",
+      "output": "zombie",
+      "source": "RECIPIES.doc"
+    },
+    {
+      "id": "r3452",
+      "input_a": "heat",
+      "input_b": "ice",
+      "output": "water",
+      "source": "RECIPIES.doc"
+    },
+    {
+      "id": "r3453",
+      "input_a": "heat",
+      "input_b": "snow",
+      "output": "water",
+      "source": "RECIPIES.doc"
+    },
+    {
+      "id": "r3454",
+      "input_a": "fire",
+      "input_b": "mist",
+      "output": "air",
+      "source": "RECIPIES.doc"
     }
   ]
 }

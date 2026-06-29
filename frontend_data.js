@@ -29200,16 +29200,44 @@ const GRAPH_DATA = {
     "input_b": "container",
     "output": "zoo",
     "source": "dataset"
+  },
+  {
+    "id": "r3451",
+    "input_a": "bacteria",
+    "input_b": "corpse",
+    "output": "zombie",
+    "source": "RECIPIES.doc"
+  },
+  {
+    "id": "r3452",
+    "input_a": "heat",
+    "input_b": "ice",
+    "output": "water",
+    "source": "RECIPIES.doc"
+  },
+  {
+    "id": "r3453",
+    "input_a": "heat",
+    "input_b": "snow",
+    "output": "water",
+    "source": "RECIPIES.doc"
+  },
+  {
+    "id": "r3454",
+    "input_a": "fire",
+    "input_b": "mist",
+    "output": "air",
+    "source": "RECIPIES.doc"
   }
 ],
   puzzles: {
   "acid rain": {
     "targetId": "acid rain",
     "startingElements": [
-      "water",
-      "planet",
       "smoke",
-      "air"
+      "air",
+      "planet",
+      "water"
     ],
     "targetName": "Acid Rain",
     "targetEmoji": "\ud83c\udf08",
@@ -29219,9 +29247,9 @@ const GRAPH_DATA = {
   "airplane": {
     "targetId": "airplane",
     "startingElements": [
-      "human",
       "bird",
       "tool",
+      "human",
       "stone"
     ],
     "targetName": "Airplane",
@@ -29232,9 +29260,9 @@ const GRAPH_DATA = {
   "alarm clock": {
     "targetId": "alarm clock",
     "startingElements": [
-      "time",
       "sound",
       "solar cell",
+      "time",
       "sun"
     ],
     "targetName": "Alarm Clock",
@@ -29245,10 +29273,10 @@ const GRAPH_DATA = {
   "alchemist": {
     "targetId": "alchemist",
     "startingElements": [
+      "ore",
       "human",
-      "fire",
       "sand",
-      "ore"
+      "fire"
     ],
     "targetName": "Alchemist",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udd2c",
@@ -29258,8 +29286,8 @@ const GRAPH_DATA = {
   "alcohol": {
     "targetId": "alcohol",
     "startingElements": [
-      "flower",
       "earth",
+      "flower",
       "time",
       "air"
     ],
@@ -29271,9 +29299,9 @@ const GRAPH_DATA = {
   "algae": {
     "targetId": "algae",
     "startingElements": [
-      "water",
       "earth",
       "life",
+      "water",
       "air"
     ],
     "targetName": "Algae",
@@ -29284,10 +29312,10 @@ const GRAPH_DATA = {
   "alien": {
     "targetId": "alien",
     "startingElements": [
-      "planet",
-      "time",
+      "heat",
       "primordial soup",
-      "heat"
+      "time",
+      "planet"
     ],
     "targetName": "Alien",
     "targetEmoji": "\ud83d\udc7d",
@@ -29297,10 +29325,10 @@ const GRAPH_DATA = {
   "allergy": {
     "targetId": "allergy",
     "startingElements": [
-      "life",
-      "time",
       "dust",
-      "land"
+      "land",
+      "life",
+      "time"
     ],
     "targetName": "Allergy",
     "targetEmoji": "\ud83e\udd27",
@@ -29310,10 +29338,10 @@ const GRAPH_DATA = {
   "alligator": {
     "targetId": "alligator",
     "startingElements": [
-      "land",
       "lake",
-      "life",
-      "stone"
+      "land",
+      "stone",
+      "life"
     ],
     "targetName": "Alligator",
     "targetEmoji": "\ud83d\udc0a",
@@ -29323,10 +29351,10 @@ const GRAPH_DATA = {
   "alpaca": {
     "targetId": "alpaca",
     "startingElements": [
-      "earthquake",
-      "livestock",
       "earth",
-      "land"
+      "land",
+      "earthquake",
+      "livestock"
     ],
     "targetName": "Alpaca",
     "targetEmoji": "\ud83e\udd99",
@@ -29336,8 +29364,8 @@ const GRAPH_DATA = {
   "ambulance": {
     "targetId": "ambulance",
     "startingElements": [
-      "wheel",
       "hospital",
+      "wheel",
       "air",
       "earth"
     ],
@@ -29349,9 +29377,9 @@ const GRAPH_DATA = {
   "angel": {
     "targetId": "angel",
     "startingElements": [
-      "time",
-      "air",
       "animal",
+      "air",
+      "time",
       "earth"
     ],
     "targetName": "Angel",
@@ -29362,9 +29390,9 @@ const GRAPH_DATA = {
   "angler": {
     "targetId": "angler",
     "startingElements": [
+      "fish",
       "human",
       "stone",
-      "fish",
       "air"
     ],
     "targetName": "Angler",
@@ -29375,10 +29403,10 @@ const GRAPH_DATA = {
   "animal": {
     "targetId": "animal",
     "startingElements": [
-      "sea",
       "earth",
-      "time",
-      "land"
+      "land",
+      "sea",
+      "time"
     ],
     "targetName": "Animal",
     "targetEmoji": "\ud83d\ude3a",
@@ -29388,10 +29416,10 @@ const GRAPH_DATA = {
   "ant": {
     "targetId": "ant",
     "startingElements": [
-      "soil",
-      "earth",
+      "animal",
       "life",
-      "animal"
+      "earth",
+      "soil"
     ],
     "targetName": "Ant",
     "targetEmoji": "\ud83d\udc1c",
@@ -29401,10 +29429,10 @@ const GRAPH_DATA = {
   "ant farm": {
     "targetId": "ant farm",
     "startingElements": [
-      "earth",
-      "plant",
+      "animal",
       "glass",
-      "animal"
+      "earth",
+      "plant"
     ],
     "targetName": "Ant Farm",
     "targetEmoji": "\ud83e\udd33",
@@ -29414,10 +29442,10 @@ const GRAPH_DATA = {
   "antarctica": {
     "targetId": "antarctica",
     "startingElements": [
-      "water",
-      "human",
+      "continent",
       "wind",
-      "continent"
+      "water",
+      "human"
     ],
     "targetName": "Antarctica",
     "targetEmoji": "\ud83c\udde6\ud83c\uddf6",
@@ -29428,8 +29456,8 @@ const GRAPH_DATA = {
     "targetId": "anthill",
     "startingElements": [
       "earth",
-      "plant",
       "animal",
+      "plant",
       "air"
     ],
     "targetName": "Anthill",
@@ -29440,10 +29468,10 @@ const GRAPH_DATA = {
   "apron": {
     "targetId": "apron",
     "startingElements": [
-      "human",
       "thread",
+      "tool",
       "vegetable",
-      "tool"
+      "human"
     ],
     "targetName": "Apron",
     "targetEmoji": "\ud83d\udc55",
@@ -29453,10 +29481,10 @@ const GRAPH_DATA = {
   "aquarium": {
     "targetId": "aquarium",
     "startingElements": [
+      "air",
       "water",
-      "fire",
       "stone",
-      "air"
+      "fire"
     ],
     "targetName": "Aquarium",
     "targetEmoji": "\ud83d\udc1f",
@@ -29466,8 +29494,8 @@ const GRAPH_DATA = {
   "archeologist": {
     "targetId": "archeologist",
     "startingElements": [
-      "human",
       "wall",
+      "human",
       "time",
       "air"
     ],
@@ -29479,10 +29507,10 @@ const GRAPH_DATA = {
   "archipelago": {
     "targetId": "archipelago",
     "startingElements": [
-      "volcano",
+      "lake",
       "sea",
-      "water",
-      "lake"
+      "volcano",
+      "water"
     ],
     "targetName": "Archipelago",
     "targetEmoji": "\ud83c\udfdd\ufe0f",
@@ -29492,10 +29520,10 @@ const GRAPH_DATA = {
   "arctic": {
     "targetId": "arctic",
     "startingElements": [
-      "time",
-      "sea",
+      "animal",
       "wind",
-      "animal"
+      "sea",
+      "time"
     ],
     "targetName": "Arctic",
     "targetEmoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
@@ -29505,10 +29533,10 @@ const GRAPH_DATA = {
   "armadillo": {
     "targetId": "armadillo",
     "startingElements": [
-      "metal",
-      "tool",
+      "animal",
       "thread",
-      "animal"
+      "tool",
+      "metal"
     ],
     "targetName": "Armadillo",
     "targetEmoji": "\ud83d\udc3e",
@@ -29518,9 +29546,9 @@ const GRAPH_DATA = {
   "armor": {
     "targetId": "armor",
     "startingElements": [
-      "metal",
-      "cotton",
       "tool",
+      "cotton",
+      "metal",
       "air"
     ],
     "targetName": "Armor",
@@ -29532,9 +29560,9 @@ const GRAPH_DATA = {
     "targetId": "arrow",
     "startingElements": [
       "bullet",
+      "tool",
       "plant",
-      "big",
-      "tool"
+      "big"
     ],
     "targetName": "Arrow",
     "targetEmoji": "\ud83d\udd03",
@@ -29544,9 +29572,9 @@ const GRAPH_DATA = {
   "ash": {
     "targetId": "ash",
     "startingElements": [
-      "fire",
-      "life",
       "earth",
+      "life",
+      "fire",
       "air"
     ],
     "targetName": "Ash",
@@ -29557,10 +29585,10 @@ const GRAPH_DATA = {
   "astronaut": {
     "targetId": "astronaut",
     "startingElements": [
-      "planet",
-      "time",
       "animal",
-      "heat"
+      "heat",
+      "time",
+      "planet"
     ],
     "targetName": "Astronaut",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
@@ -29570,10 +29598,10 @@ const GRAPH_DATA = {
   "astronomer": {
     "targetId": "astronomer",
     "startingElements": [
-      "planet",
-      "time",
+      "animal",
       "glass",
-      "animal"
+      "planet",
+      "time"
     ],
     "targetName": "Astronomer",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
@@ -29583,9 +29611,9 @@ const GRAPH_DATA = {
   "atmosphere": {
     "targetId": "atmosphere",
     "startingElements": [
-      "earth",
-      "air",
       "continent",
+      "air",
+      "earth",
       "land"
     ],
     "targetName": "Atmosphere",
@@ -29596,9 +29624,9 @@ const GRAPH_DATA = {
   "atomic bomb": {
     "targetId": "atomic bomb",
     "startingElements": [
+      "dust",
       "energy",
       "fire",
-      "dust",
       "air"
     ],
     "targetName": "Atomic Bomb",
@@ -29609,8 +29637,8 @@ const GRAPH_DATA = {
   "aurora": {
     "targetId": "aurora",
     "startingElements": [
-      "planet",
       "air",
+      "planet",
       "fire",
       "earth"
     ],
@@ -29622,10 +29650,10 @@ const GRAPH_DATA = {
   "avalanche": {
     "targetId": "avalanche",
     "startingElements": [
-      "time",
-      "water",
+      "cold",
       "wave",
-      "cold"
+      "water",
+      "time"
     ],
     "targetName": "Avalanche",
     "targetEmoji": "\ud83c\udfd4\ufe0f",
@@ -29635,10 +29663,10 @@ const GRAPH_DATA = {
   "aviary": {
     "targetId": "aviary",
     "startingElements": [
-      "human",
       "planet",
-      "birdcage",
-      "idea"
+      "human",
+      "idea",
+      "birdcage"
     ],
     "targetName": "Aviary",
     "targetEmoji": "\ud83e\udd85",
@@ -29648,10 +29676,10 @@ const GRAPH_DATA = {
   "axe": {
     "targetId": "axe",
     "startingElements": [
-      "plant",
-      "big",
+      "tool",
       "stone",
-      "tool"
+      "plant",
+      "big"
     ],
     "targetName": "Axe",
     "targetEmoji": "\ud83e\ude93",
@@ -29661,10 +29689,10 @@ const GRAPH_DATA = {
   "bacon": {
     "targetId": "bacon",
     "startingElements": [
-      "life",
-      "fire",
       "mud",
-      "land"
+      "life",
+      "land",
+      "fire"
     ],
     "targetName": "Bacon",
     "targetEmoji": "\ud83e\udd53",
@@ -29674,8 +29702,8 @@ const GRAPH_DATA = {
   "bacteria": {
     "targetId": "bacteria",
     "startingElements": [
-      "sea",
       "earth",
+      "sea",
       "time",
       "mud"
     ],
@@ -29687,10 +29715,10 @@ const GRAPH_DATA = {
   "baker": {
     "targetId": "baker",
     "startingElements": [
-      "human",
+      "wheat",
       "water",
-      "stone",
-      "wheat"
+      "human",
+      "stone"
     ],
     "targetName": "Baker",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
@@ -29700,8 +29728,8 @@ const GRAPH_DATA = {
   "bakery": {
     "targetId": "bakery",
     "startingElements": [
-      "water",
       "flour",
+      "water",
       "house",
       "fire"
     ],
@@ -29713,10 +29741,10 @@ const GRAPH_DATA = {
   "banana": {
     "targetId": "banana",
     "startingElements": [
+      "animal",
       "big",
-      "fruit",
       "plant",
-      "animal"
+      "fruit"
     ],
     "targetName": "Banana",
     "targetEmoji": "\ud83d\udc12",
@@ -29727,9 +29755,9 @@ const GRAPH_DATA = {
     "targetId": "banana bread",
     "startingElements": [
       "animal",
-      "fruit",
+      "dough",
       "tree",
-      "dough"
+      "fruit"
     ],
     "targetName": "Banana Bread",
     "targetEmoji": "\u270b",
@@ -29739,9 +29767,9 @@ const GRAPH_DATA = {
   "bandage": {
     "targetId": "bandage",
     "startingElements": [
+      "tool",
       "blade",
       "cotton",
-      "tool",
       "air"
     ],
     "targetName": "Bandage",
@@ -29752,10 +29780,10 @@ const GRAPH_DATA = {
   "bank": {
     "targetId": "bank",
     "startingElements": [
+      "ore",
       "house",
       "sand",
-      "fire",
-      "ore"
+      "fire"
     ],
     "targetName": "Bank",
     "targetEmoji": "\ud83c\udfe6",
@@ -29765,10 +29793,10 @@ const GRAPH_DATA = {
   "barn": {
     "targetId": "barn",
     "startingElements": [
-      "human",
-      "house",
+      "earth",
       "stone",
-      "earth"
+      "house",
+      "human"
     ],
     "targetName": "Barn",
     "targetEmoji": "\ud83c\udfda\ufe0f",
@@ -29778,10 +29806,10 @@ const GRAPH_DATA = {
   "barrel": {
     "targetId": "barrel",
     "startingElements": [
-      "house",
-      "fruit",
       "alcohol",
-      "philosophy"
+      "philosophy",
+      "house",
+      "fruit"
     ],
     "targetName": "Barrel",
     "targetEmoji": "\ud83c\udf76",
@@ -29791,10 +29819,10 @@ const GRAPH_DATA = {
   "bat": {
     "targetId": "bat",
     "startingElements": [
-      "wall",
+      "air",
       "milk",
-      "time",
-      "air"
+      "wall",
+      "time"
     ],
     "targetName": "Bat",
     "targetEmoji": "\ud83e\udd87",
@@ -29804,10 +29832,10 @@ const GRAPH_DATA = {
   "batter": {
     "targetId": "batter",
     "startingElements": [
-      "water",
       "flour",
-      "field",
-      "livestock"
+      "water",
+      "livestock",
+      "field"
     ],
     "targetName": "Batter",
     "targetEmoji": "\ud83e\udd87",
@@ -29817,10 +29845,10 @@ const GRAPH_DATA = {
   "battery": {
     "targetId": "battery",
     "startingElements": [
-      "organic matter",
       "earth",
-      "sun",
-      "solar cell"
+      "organic matter",
+      "solar cell",
+      "sun"
     ],
     "targetName": "Battery",
     "targetEmoji": "\ud83d\udd0b",
@@ -29830,10 +29858,10 @@ const GRAPH_DATA = {
   "bayonet": {
     "targetId": "bayonet",
     "startingElements": [
+      "bullet",
       "blade",
       "house",
-      "philosophy",
-      "bullet"
+      "philosophy"
     ],
     "targetName": "Bayonet",
     "targetEmoji": "\ud83d\udde1\ufe0f",
@@ -29843,10 +29871,10 @@ const GRAPH_DATA = {
   "bbq": {
     "targetId": "bbq",
     "startingElements": [
+      "tool",
       "tree",
       "house",
-      "fire",
-      "tool"
+      "fire"
     ],
     "targetName": "BBQ",
     "targetEmoji": "\ud83c\udf56",
@@ -29856,9 +29884,9 @@ const GRAPH_DATA = {
   "beach": {
     "targetId": "beach",
     "startingElements": [
-      "water",
       "air",
       "lava",
+      "water",
       "earth"
     ],
     "targetName": "Beach",
@@ -29869,10 +29897,10 @@ const GRAPH_DATA = {
   "beaver": {
     "targetId": "beaver",
     "startingElements": [
-      "wind",
-      "science",
       "animal",
-      "pond"
+      "wind",
+      "pond",
+      "science"
     ],
     "targetName": "Beaver",
     "targetEmoji": "\ud83e\uddab",
@@ -29882,10 +29910,10 @@ const GRAPH_DATA = {
   "bee": {
     "targetId": "bee",
     "startingElements": [
-      "soil",
-      "rainbow",
+      "animal",
       "life",
-      "animal"
+      "soil",
+      "rainbow"
     ],
     "targetName": "Bee",
     "targetEmoji": "\ud83d\udc1d",
@@ -29895,10 +29923,10 @@ const GRAPH_DATA = {
   "beehive": {
     "targetId": "beehive",
     "startingElements": [
+      "animal",
       "wall",
       "plant",
-      "rainbow",
-      "animal"
+      "rainbow"
     ],
     "targetName": "Beehive",
     "targetEmoji": "\ud83d\udc1d",
@@ -29908,10 +29936,10 @@ const GRAPH_DATA = {
   "beekeeper": {
     "targetId": "beekeeper",
     "startingElements": [
+      "animal",
       "human",
       "plant",
-      "rainbow",
-      "animal"
+      "rainbow"
     ],
     "targetName": "Beekeeper",
     "targetEmoji": "\ud83d\udc1d",
@@ -29921,10 +29949,10 @@ const GRAPH_DATA = {
   "beer": {
     "targetId": "beer",
     "startingElements": [
-      "time",
       "grass",
+      "field",
       "juice",
-      "field"
+      "time"
     ],
     "targetName": "Beer",
     "targetEmoji": "\ud83c\udf7a",
@@ -29934,10 +29962,10 @@ const GRAPH_DATA = {
   "bell": {
     "targetId": "bell",
     "startingElements": [
-      "hammer",
-      "fire",
       "sound",
-      "earth"
+      "hammer",
+      "earth",
+      "fire"
     ],
     "targetName": "Bell",
     "targetEmoji": "\ud83c\udf90",
@@ -29947,8 +29975,8 @@ const GRAPH_DATA = {
   "bicycle": {
     "targetId": "bicycle",
     "startingElements": [
-      "water",
       "tool",
+      "water",
       "air",
       "earth"
     ],
@@ -29960,9 +29988,9 @@ const GRAPH_DATA = {
   "big": {
     "targetId": "big",
     "startingElements": [
-      "human",
       "firefighter",
       "planet",
+      "human",
       "air"
     ],
     "targetName": "Big",
@@ -29986,10 +30014,10 @@ const GRAPH_DATA = {
   "bird": {
     "targetId": "bird",
     "startingElements": [
-      "time",
       "air",
+      "land",
       "primordial soup",
-      "land"
+      "time"
     ],
     "targetName": "Bird",
     "targetEmoji": "\ud83d\udd95",
@@ -29999,10 +30027,10 @@ const GRAPH_DATA = {
   "birdcage": {
     "targetId": "birdcage",
     "startingElements": [
-      "wall",
       "air",
-      "life",
-      "land"
+      "land",
+      "wall",
+      "life"
     ],
     "targetName": "Birdcage",
     "targetEmoji": "\ud83d\udd95",
@@ -30012,10 +30040,10 @@ const GRAPH_DATA = {
   "birdhouse": {
     "targetId": "birdhouse",
     "startingElements": [
-      "wall",
       "air",
-      "life",
-      "land"
+      "land",
+      "wall",
+      "life"
     ],
     "targetName": "Birdhouse",
     "targetEmoji": "\ud83d\udd95",
@@ -30026,8 +30054,8 @@ const GRAPH_DATA = {
     "targetId": "black hole",
     "startingElements": [
       "pressure",
-      "fire",
       "continent",
+      "fire",
       "air"
     ],
     "targetName": "Black Hole",
@@ -30038,10 +30066,10 @@ const GRAPH_DATA = {
   "blade": {
     "targetId": "blade",
     "startingElements": [
-      "fire",
-      "stone",
+      "earth",
       "hammer",
-      "earth"
+      "stone",
+      "fire"
     ],
     "targetName": "Blade",
     "targetEmoji": "\ud83d\udd2a",
@@ -30051,10 +30079,10 @@ const GRAPH_DATA = {
   "blender": {
     "targetId": "blender",
     "startingElements": [
-      "fire",
-      "stone",
       "glass",
-      "ore"
+      "ore",
+      "stone",
+      "fire"
     ],
     "targetName": "Blender",
     "targetEmoji": "\u2699\ufe0f",
@@ -30064,8 +30092,8 @@ const GRAPH_DATA = {
   "blizzard": {
     "targetId": "blizzard",
     "startingElements": [
-      "human",
       "wind",
+      "human",
       "steam",
       "air"
     ],
@@ -30077,10 +30105,10 @@ const GRAPH_DATA = {
   "blood": {
     "targetId": "blood",
     "startingElements": [
-      "human",
       "fire",
-      "stone",
-      "ore"
+      "ore",
+      "human",
+      "stone"
     ],
     "targetName": "Blood",
     "targetEmoji": "\ud83e\udddb",
@@ -30090,10 +30118,10 @@ const GRAPH_DATA = {
   "blood bag": {
     "targetId": "blood bag",
     "startingElements": [
-      "house",
       "blood",
-      "human",
-      "idea"
+      "house",
+      "idea",
+      "human"
     ],
     "targetName": "Blood Bag",
     "targetEmoji": "\ud83e\udddb",
@@ -30103,10 +30131,10 @@ const GRAPH_DATA = {
   "boat": {
     "targetId": "boat",
     "startingElements": [
+      "tool",
       "water",
-      "big",
       "plant",
-      "tool"
+      "big"
     ],
     "targetName": "Boat",
     "targetEmoji": "\u2693",
@@ -30117,9 +30145,9 @@ const GRAPH_DATA = {
     "targetId": "boiler",
     "startingElements": [
       "pressure",
+      "animal",
       "stone",
-      "time",
-      "animal"
+      "time"
     ],
     "targetName": "Boiler",
     "targetEmoji": "\ud83e\ude94",
@@ -30129,8 +30157,8 @@ const GRAPH_DATA = {
   "bone": {
     "targetId": "bone",
     "startingElements": [
-      "time",
       "animal",
+      "time",
       "air",
       "earth"
     ],
@@ -30142,10 +30170,10 @@ const GRAPH_DATA = {
   "bonsai tree": {
     "targetId": "bonsai tree",
     "startingElements": [
-      "planet",
-      "plant",
       "pottery",
-      "philosophy"
+      "planet",
+      "philosophy",
+      "plant"
     ],
     "targetName": "Bonsai Tree",
     "targetEmoji": "\ud83c\udf43",
@@ -30155,9 +30183,9 @@ const GRAPH_DATA = {
   "book": {
     "targetId": "book",
     "startingElements": [
-      "human",
       "house",
       "idea",
+      "human",
       "air"
     ],
     "targetName": "Book",
@@ -30170,8 +30198,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "water",
       "house",
-      "human",
-      "idea"
+      "idea",
+      "human"
     ],
     "targetName": "Bottle",
     "targetEmoji": "\ud83c\udf76",
@@ -30181,10 +30209,10 @@ const GRAPH_DATA = {
   "boulder": {
     "targetId": "boulder",
     "startingElements": [
-      "human",
       "planet",
       "stone",
-      "idea"
+      "idea",
+      "human"
     ],
     "targetName": "Boulder",
     "targetEmoji": "\ud83e\udea8",
@@ -30194,10 +30222,10 @@ const GRAPH_DATA = {
   "bow": {
     "targetId": "bow",
     "startingElements": [
-      "big",
-      "plant",
       "wire",
-      "tool"
+      "plant",
+      "tool",
+      "big"
     ],
     "targetName": "Bow",
     "targetEmoji": "\ud83d\ude4f",
@@ -30207,10 +30235,10 @@ const GRAPH_DATA = {
   "box": {
     "targetId": "box",
     "startingElements": [
-      "house",
-      "milk",
       "wheat",
-      "philosophy"
+      "milk",
+      "philosophy",
+      "house"
     ],
     "targetName": "Box",
     "targetEmoji": "\ud83d\udc9d",
@@ -30220,10 +30248,10 @@ const GRAPH_DATA = {
   "bread": {
     "targetId": "bread",
     "startingElements": [
+      "wheat",
       "water",
-      "fire",
       "stone",
-      "wheat"
+      "fire"
     ],
     "targetName": "Bread",
     "targetEmoji": "\ud83c\udf5e",
@@ -30233,9 +30261,9 @@ const GRAPH_DATA = {
   "brick": {
     "targetId": "brick",
     "startingElements": [
+      "earth",
       "water",
       "fire",
-      "earth",
       "air"
     ],
     "targetName": "Brick",
@@ -30246,10 +30274,10 @@ const GRAPH_DATA = {
   "bridge": {
     "targetId": "bridge",
     "startingElements": [
-      "metal",
       "wind",
-      "science",
-      "pond"
+      "pond",
+      "metal",
+      "science"
     ],
     "targetName": "Bridge",
     "targetEmoji": "\ud83c\udf01",
@@ -30259,10 +30287,10 @@ const GRAPH_DATA = {
   "broom": {
     "targetId": "broom",
     "startingElements": [
-      "plant",
-      "big",
+      "tool",
       "hay",
-      "tool"
+      "plant",
+      "big"
     ],
     "targetName": "Broom",
     "targetEmoji": "\ud83e\uddf9",
@@ -30272,10 +30300,10 @@ const GRAPH_DATA = {
   "bucket": {
     "targetId": "bucket",
     "startingElements": [
-      "human",
       "paint",
       "house",
-      "idea"
+      "idea",
+      "human"
     ],
     "targetName": "Bucket",
     "targetEmoji": "\ud83e\udea3",
@@ -30285,10 +30313,10 @@ const GRAPH_DATA = {
   "bullet": {
     "targetId": "bullet",
     "startingElements": [
-      "time",
       "gunpowder",
       "animal",
-      "stone"
+      "stone",
+      "time"
     ],
     "targetName": "Bullet",
     "targetEmoji": "\ud83d\udd2b",
@@ -30298,10 +30326,10 @@ const GRAPH_DATA = {
   "bulletproof vest": {
     "targetId": "bulletproof vest",
     "startingElements": [
-      "bullet",
-      "metal",
       "thread",
-      "tool"
+      "bullet",
+      "tool",
+      "metal"
     ],
     "targetName": "Bulletproof Vest",
     "targetEmoji": "\ud83d\udee1\ufe0f",
@@ -30311,8 +30339,8 @@ const GRAPH_DATA = {
   "bus": {
     "targetId": "bus",
     "startingElements": [
-      "steam engine",
       "bicycle",
+      "steam engine",
       "wheel",
       "air"
     ],
@@ -30324,10 +30352,10 @@ const GRAPH_DATA = {
   "butcher": {
     "targetId": "butcher",
     "startingElements": [
-      "human",
       "smoke",
-      "mud",
-      "animal"
+      "animal",
+      "human",
+      "mud"
     ],
     "targetName": "Butcher",
     "targetEmoji": "\ud83d\udd2a",
@@ -30337,10 +30365,10 @@ const GRAPH_DATA = {
   "butter": {
     "targetId": "butter",
     "startingElements": [
-      "energy",
       "water",
-      "field",
-      "livestock"
+      "energy",
+      "livestock",
+      "field"
     ],
     "targetName": "Butter",
     "targetEmoji": "\ud83e\uddc8",
@@ -30350,10 +30378,10 @@ const GRAPH_DATA = {
   "butterfly": {
     "targetId": "butterfly",
     "startingElements": [
-      "water",
-      "sun",
       "life",
-      "land"
+      "land",
+      "water",
+      "sun"
     ],
     "targetName": "Butterfly",
     "targetEmoji": "\ud83d\udc50",
@@ -30363,8 +30391,8 @@ const GRAPH_DATA = {
   "butterfly net": {
     "targetId": "butterfly net",
     "startingElements": [
-      "fish",
       "thread",
+      "fish",
       "butterfly",
       "air"
     ],
@@ -30376,8 +30404,8 @@ const GRAPH_DATA = {
   "cable car": {
     "targetId": "cable car",
     "startingElements": [
-      "wheel",
       "mountain",
+      "wheel",
       "air",
       "earth"
     ],
@@ -30390,8 +30418,8 @@ const GRAPH_DATA = {
     "targetId": "cactus",
     "startingElements": [
       "earth",
-      "sand",
       "life",
+      "sand",
       "air"
     ],
     "targetName": "Cactus",
@@ -30402,10 +30430,10 @@ const GRAPH_DATA = {
   "cage": {
     "targetId": "cage",
     "startingElements": [
-      "wall",
+      "animal",
       "sky",
-      "time",
-      "animal"
+      "wall",
+      "time"
     ],
     "targetName": "Cage",
     "targetEmoji": "\ud83d\udd1e",
@@ -30415,10 +30443,10 @@ const GRAPH_DATA = {
   "cake": {
     "targetId": "cake",
     "startingElements": [
-      "sugar",
       "flour",
-      "fire",
-      "water"
+      "water",
+      "sugar",
+      "fire"
     ],
     "targetName": "Cake",
     "targetEmoji": "\ud83c\udf82",
@@ -30428,10 +30456,10 @@ const GRAPH_DATA = {
   "camel": {
     "targetId": "camel",
     "startingElements": [
-      "time",
-      "land",
+      "desert",
       "primordial soup",
-      "desert"
+      "time",
+      "land"
     ],
     "targetName": "Camel",
     "targetEmoji": "\ud83d\udc2a",
@@ -30441,10 +30469,10 @@ const GRAPH_DATA = {
   "campfire": {
     "targetId": "campfire",
     "startingElements": [
-      "big",
-      "fire",
+      "tool",
       "plant",
-      "tool"
+      "fire",
+      "big"
     ],
     "targetName": "Campfire",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
@@ -30455,8 +30483,8 @@ const GRAPH_DATA = {
     "targetId": "candle",
     "startingElements": [
       "wall",
-      "fire",
       "bee",
+      "fire",
       "air"
     ],
     "targetName": "Candle",
@@ -30467,10 +30495,10 @@ const GRAPH_DATA = {
   "candy cane": {
     "targetId": "candy cane",
     "startingElements": [
+      "big",
       "sugar",
-      "star",
       "plant",
-      "big"
+      "star"
     ],
     "targetName": "Candy Cane",
     "targetEmoji": "\ud83e\udd6b",
@@ -30480,10 +30508,10 @@ const GRAPH_DATA = {
   "cannon": {
     "targetId": "cannon",
     "startingElements": [
-      "gun",
-      "house",
       "gunpowder",
-      "sailor"
+      "gun",
+      "sailor",
+      "house"
     ],
     "targetName": "Cannon",
     "targetEmoji": "\ud83e\udd6b",
@@ -30506,9 +30534,9 @@ const GRAPH_DATA = {
   "car": {
     "targetId": "car",
     "startingElements": [
+      "tool",
       "water",
       "wheel",
-      "tool",
       "air"
     ],
     "targetName": "Car",
@@ -30519,10 +30547,10 @@ const GRAPH_DATA = {
   "caramel": {
     "targetId": "caramel",
     "startingElements": [
-      "time",
-      "fire",
       "flower",
-      "heat"
+      "heat",
+      "time",
+      "fire"
     ],
     "targetName": "Caramel",
     "targetEmoji": "\ud83c\udf6e",
@@ -30533,9 +30561,9 @@ const GRAPH_DATA = {
     "targetId": "carbon dioxide",
     "startingElements": [
       "soil",
-      "day",
+      "life",
       "time",
-      "life"
+      "day"
     ],
     "targetName": "Carbon Dioxide",
     "targetEmoji": "\ud83d\ude9e",
@@ -30546,8 +30574,8 @@ const GRAPH_DATA = {
     "targetId": "carrot",
     "startingElements": [
       "earth",
-      "plant",
       "field",
+      "plant",
       "air"
     ],
     "targetName": "Carrot",
@@ -30558,10 +30586,10 @@ const GRAPH_DATA = {
   "cart": {
     "targetId": "cart",
     "startingElements": [
+      "tool",
       "big",
       "plant",
-      "wheel",
-      "tool"
+      "wheel"
     ],
     "targetName": "Cart",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa8",
@@ -30571,9 +30599,9 @@ const GRAPH_DATA = {
   "cashmere": {
     "targetId": "cashmere",
     "startingElements": [
-      "mountain",
       "tool",
       "livestock",
+      "mountain",
       "air"
     ],
     "targetName": "Cashmere",
@@ -30584,10 +30612,10 @@ const GRAPH_DATA = {
   "castle": {
     "targetId": "castle",
     "startingElements": [
-      "human",
       "fabric",
       "stone",
-      "metal"
+      "metal",
+      "human"
     ],
     "targetName": "Castle",
     "targetEmoji": "\ud83c\udff0",
@@ -30598,9 +30626,9 @@ const GRAPH_DATA = {
     "targetId": "cat",
     "startingElements": [
       "day",
-      "time",
       "life",
-      "land"
+      "land",
+      "time"
     ],
     "targetName": "Cat",
     "targetEmoji": "\ud83d\udc08",
@@ -30610,10 +30638,10 @@ const GRAPH_DATA = {
   "catnip": {
     "targetId": "catnip",
     "startingElements": [
-      "soil",
-      "life",
       "animal",
-      "night"
+      "night",
+      "life",
+      "soil"
     ],
     "targetName": "Catnip",
     "targetEmoji": "\ud83d\udc08",
@@ -30624,8 +30652,8 @@ const GRAPH_DATA = {
     "targetId": "cauldron",
     "startingElements": [
       "tool",
-      "fire",
       "ore",
+      "fire",
       "clay"
     ],
     "targetName": "Cauldron",
@@ -30636,9 +30664,9 @@ const GRAPH_DATA = {
   "cave": {
     "targetId": "cave",
     "startingElements": [
+      "animal",
       "wall",
       "moon",
-      "animal",
       "air"
     ],
     "targetName": "Cave",
@@ -30649,9 +30677,9 @@ const GRAPH_DATA = {
   "caviar": {
     "targetId": "caviar",
     "startingElements": [
+      "salt",
       "water",
       "phoenix",
-      "salt",
       "air"
     ],
     "targetName": "Caviar",
@@ -30662,9 +30690,9 @@ const GRAPH_DATA = {
   "centaur": {
     "targetId": "centaur",
     "startingElements": [
-      "time",
       "animal",
       "land",
+      "time",
       "air"
     ],
     "targetName": "Centaur",
@@ -30675,10 +30703,10 @@ const GRAPH_DATA = {
   "cereal": {
     "targetId": "cereal",
     "startingElements": [
-      "water",
       "wheat",
-      "field",
-      "livestock"
+      "water",
+      "livestock",
+      "field"
     ],
     "targetName": "Cereal",
     "targetEmoji": "\ud83e\udd63",
@@ -30688,10 +30716,10 @@ const GRAPH_DATA = {
   "chain": {
     "targetId": "chain",
     "startingElements": [
-      "metal",
-      "tool",
       "thread",
-      "cotton"
+      "cotton",
+      "tool",
+      "metal"
     ],
     "targetName": "Chain",
     "targetEmoji": "\u26d3\ufe0f",
@@ -30701,10 +30729,10 @@ const GRAPH_DATA = {
   "chainsaw": {
     "targetId": "chainsaw",
     "startingElements": [
-      "human",
-      "big",
       "plant",
-      "electricity"
+      "human",
+      "electricity",
+      "big"
     ],
     "targetName": "Chainsaw",
     "targetEmoji": "\ud83d\udd17",
@@ -30714,10 +30742,10 @@ const GRAPH_DATA = {
   "chameleon": {
     "targetId": "chameleon",
     "startingElements": [
-      "stone",
-      "rainbow",
       "life",
-      "land"
+      "land",
+      "stone",
+      "rainbow"
     ],
     "targetName": "Chameleon",
     "targetEmoji": "\ud83e\udd81",
@@ -30727,9 +30755,9 @@ const GRAPH_DATA = {
   "charcoal": {
     "targetId": "charcoal",
     "startingElements": [
-      "fire",
-      "time",
       "animal",
+      "time",
+      "fire",
       "air"
     ],
     "targetName": "Charcoal",
@@ -30740,9 +30768,9 @@ const GRAPH_DATA = {
   "cheese": {
     "targetId": "cheese",
     "startingElements": [
+      "field",
       "water",
       "time",
-      "field",
       "livestock"
     ],
     "targetName": "Cheese",
@@ -30766,9 +30794,9 @@ const GRAPH_DATA = {
   "chicken": {
     "targetId": "chicken",
     "startingElements": [
-      "human",
-      "air",
       "animal",
+      "air",
+      "human",
       "earth"
     ],
     "targetName": "Chicken",
@@ -30779,10 +30807,10 @@ const GRAPH_DATA = {
   "chicken coop": {
     "targetId": "chicken coop",
     "startingElements": [
-      "human",
-      "wall",
       "bird",
-      "animal"
+      "animal",
+      "wall",
+      "human"
     ],
     "targetName": "Chicken Coop",
     "targetEmoji": "\ud83d\udc14",
@@ -30792,10 +30820,10 @@ const GRAPH_DATA = {
   "chicken soup": {
     "targetId": "chicken soup",
     "startingElements": [
-      "water",
       "bird",
-      "human",
-      "animal"
+      "animal",
+      "water",
+      "human"
     ],
     "targetName": "Chicken Soup",
     "targetEmoji": "\ud83d\udc14",
@@ -30805,10 +30833,10 @@ const GRAPH_DATA = {
   "chicken wing": {
     "targetId": "chicken wing",
     "startingElements": [
-      "bone",
       "bird",
-      "human",
-      "animal"
+      "animal",
+      "bone",
+      "human"
     ],
     "targetName": "Chicken wing",
     "targetEmoji": "\ud83d\udc14",
@@ -30818,10 +30846,10 @@ const GRAPH_DATA = {
   "chill": {
     "targetId": "chill",
     "startingElements": [
-      "time",
-      "wind",
+      "animal",
       "air",
-      "animal"
+      "wind",
+      "time"
     ],
     "targetName": "Chill",
     "targetEmoji": "\ud83d\udecb\ufe0f",
@@ -30831,9 +30859,9 @@ const GRAPH_DATA = {
   "chimney": {
     "targetId": "chimney",
     "startingElements": [
-      "fire",
-      "air",
       "mud",
+      "air",
+      "fire",
       "earth"
     ],
     "targetName": "Chimney",
@@ -30845,9 +30873,9 @@ const GRAPH_DATA = {
     "targetId": "chocolate",
     "startingElements": [
       "pressure",
+      "sunflower",
       "fire",
-      "fruit",
-      "sunflower"
+      "fruit"
     ],
     "targetName": "Chocolate",
     "targetEmoji": "\ud83d\udc9d",
@@ -30857,10 +30885,10 @@ const GRAPH_DATA = {
   "chocolate milk": {
     "targetId": "chocolate milk",
     "startingElements": [
-      "sugar",
+      "oil",
       "water",
-      "cow",
-      "oil"
+      "sugar",
+      "cow"
     ],
     "targetName": "Chocolate Milk",
     "targetEmoji": "\ud83d\udc9d",
@@ -30870,10 +30898,10 @@ const GRAPH_DATA = {
   "christmas stocking": {
     "targetId": "christmas stocking",
     "startingElements": [
-      "star",
+      "big",
       "wool",
       "plant",
-      "big"
+      "star"
     ],
     "targetName": "Christmas Stocking",
     "targetEmoji": "\ud83e\udd34",
@@ -30883,10 +30911,10 @@ const GRAPH_DATA = {
   "christmas tree": {
     "targetId": "christmas tree",
     "startingElements": [
-      "star",
+      "philosophy",
       "planet",
       "plant",
-      "philosophy"
+      "star"
     ],
     "targetName": "Christmas Tree",
     "targetEmoji": "\ud83c\udf43",
@@ -30896,10 +30924,10 @@ const GRAPH_DATA = {
   "cigarette": {
     "targetId": "cigarette",
     "startingElements": [
+      "tool",
       "water",
       "tree",
-      "tobacco",
-      "tool"
+      "tobacco"
     ],
     "targetName": "Cigarette",
     "targetEmoji": "\ud83d\udeac",
@@ -30909,10 +30937,10 @@ const GRAPH_DATA = {
   "circus": {
     "targetId": "circus",
     "startingElements": [
-      "wall",
-      "tool",
+      "animal",
       "thread",
-      "animal"
+      "tool",
+      "wall"
     ],
     "targetName": "Circus",
     "targetEmoji": "\ud83d\udc35",
@@ -30935,10 +30963,10 @@ const GRAPH_DATA = {
   "clay": {
     "targetId": "clay",
     "startingElements": [
-      "water",
       "earth",
       "air",
-      "lava"
+      "lava",
+      "water"
     ],
     "targetName": "Clay",
     "targetEmoji": "\ud83e\uddf1",
@@ -30961,10 +30989,10 @@ const GRAPH_DATA = {
   "closet": {
     "targetId": "closet",
     "startingElements": [
-      "house",
       "umbrella",
+      "idea",
       "human",
-      "idea"
+      "house"
     ],
     "targetName": "Closet",
     "targetEmoji": "\ud83d\udcd0",
@@ -30974,9 +31002,9 @@ const GRAPH_DATA = {
   "cloud": {
     "targetId": "cloud",
     "startingElements": [
-      "water",
-      "air",
       "continent",
+      "air",
+      "water",
       "earth"
     ],
     "targetName": "Cloud",
@@ -30988,8 +31016,8 @@ const GRAPH_DATA = {
     "targetId": "coal",
     "startingElements": [
       "pressure",
-      "time",
       "life",
+      "time",
       "air"
     ],
     "targetName": "Coal",
@@ -31000,10 +31028,10 @@ const GRAPH_DATA = {
   "coconut": {
     "targetId": "coconut",
     "startingElements": [
-      "life",
-      "soil",
+      "beach",
       "field",
-      "beach"
+      "life",
+      "soil"
     ],
     "targetName": "Coconut",
     "targetEmoji": "\ud83c\udf34",
@@ -31013,10 +31041,10 @@ const GRAPH_DATA = {
   "coconut milk": {
     "targetId": "coconut milk",
     "startingElements": [
-      "plant",
-      "field",
       "beach",
-      "tool"
+      "field",
+      "tool",
+      "plant"
     ],
     "targetName": "Coconut Milk",
     "targetEmoji": "\ud83e\udd31",
@@ -31026,10 +31054,10 @@ const GRAPH_DATA = {
   "coffin": {
     "targetId": "coffin",
     "startingElements": [
-      "human",
-      "house",
       "idea",
-      "corpse"
+      "house",
+      "corpse",
+      "human"
     ],
     "targetName": "Coffin",
     "targetEmoji": "\u26b0\ufe0f",
@@ -31039,10 +31067,10 @@ const GRAPH_DATA = {
   "cold": {
     "targetId": "cold",
     "startingElements": [
-      "time",
       "wind",
+      "land",
       "life",
-      "land"
+      "time"
     ],
     "targetName": "Cold",
     "targetEmoji": "\ud83d\ude05",
@@ -31052,10 +31080,10 @@ const GRAPH_DATA = {
   "combustion engine": {
     "targetId": "combustion engine",
     "startingElements": [
-      "human",
+      "tool",
       "explosion",
-      "stone",
-      "tool"
+      "human",
+      "stone"
     ],
     "targetName": "Combustion Engine",
     "targetEmoji": "\ud83d\udc65",
@@ -31066,8 +31094,8 @@ const GRAPH_DATA = {
     "targetId": "computer",
     "startingElements": [
       "human",
-      "stone",
       "glasses",
+      "stone",
       "air"
     ],
     "targetName": "Computer",
@@ -31078,10 +31106,10 @@ const GRAPH_DATA = {
   "computer mouse": {
     "targetId": "computer mouse",
     "startingElements": [
-      "glasses",
+      "animal",
       "tool",
       "human",
-      "animal"
+      "glasses"
     ],
     "targetName": "Computer Mouse",
     "targetEmoji": "\ud83e\udd16",
@@ -31092,9 +31120,9 @@ const GRAPH_DATA = {
     "targetId": "confetti",
     "startingElements": [
       "water",
+      "tool",
       "blade",
-      "tree",
-      "tool"
+      "tree"
     ],
     "targetName": "Confetti",
     "targetEmoji": "\ud83c\udf8a",
@@ -31104,8 +31132,8 @@ const GRAPH_DATA = {
   "constellation": {
     "targetId": "constellation",
     "startingElements": [
-      "sky",
       "night",
+      "sky",
       "air",
       "earth"
     ],
@@ -31117,9 +31145,9 @@ const GRAPH_DATA = {
   "container": {
     "targetId": "container",
     "startingElements": [
-      "human",
       "firefighter",
       "house",
+      "human",
       "air"
     ],
     "targetName": "Container",
@@ -31143,10 +31171,10 @@ const GRAPH_DATA = {
   "cook": {
     "targetId": "cook",
     "startingElements": [
-      "human",
       "soil",
       "field",
-      "life"
+      "life",
+      "human"
     ],
     "targetName": "Cook",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
@@ -31156,10 +31184,10 @@ const GRAPH_DATA = {
   "cookbook": {
     "targetId": "cookbook",
     "startingElements": [
-      "house",
       "philosophy",
-      "cook",
-      "idea"
+      "house",
+      "idea",
+      "cook"
     ],
     "targetName": "Cookbook",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf73",
@@ -31169,10 +31197,10 @@ const GRAPH_DATA = {
   "cookie": {
     "targetId": "cookie",
     "startingElements": [
-      "sugar",
       "flour",
-      "fire",
-      "water"
+      "water",
+      "sugar",
+      "fire"
     ],
     "targetName": "Cookie",
     "targetEmoji": "\ud83c\udf6a",
@@ -31183,8 +31211,8 @@ const GRAPH_DATA = {
     "targetId": "cookie cutter",
     "startingElements": [
       "water",
-      "blade",
       "wheat",
+      "blade",
       "stone"
     ],
     "targetName": "Cookie Cutter",
@@ -31195,10 +31223,10 @@ const GRAPH_DATA = {
   "cookie dough": {
     "targetId": "cookie dough",
     "startingElements": [
-      "sugar",
+      "wheat",
       "water",
-      "stone",
-      "wheat"
+      "sugar",
+      "stone"
     ],
     "targetName": "Cookie Dough",
     "targetEmoji": "\ud83d\ude12",
@@ -31208,8 +31236,8 @@ const GRAPH_DATA = {
   "coral": {
     "targetId": "coral",
     "startingElements": [
-      "human",
       "sea",
+      "human",
       "time",
       "air"
     ],
@@ -31221,9 +31249,9 @@ const GRAPH_DATA = {
   "corpse": {
     "targetId": "corpse",
     "startingElements": [
-      "time",
       "life",
       "land",
+      "time",
       "air"
     ],
     "targetName": "Corpse",
@@ -31235,9 +31263,9 @@ const GRAPH_DATA = {
     "targetId": "cotton",
     "startingElements": [
       "soil",
-      "atmosphere",
+      "life",
       "water",
-      "life"
+      "atmosphere"
     ],
     "targetName": "Cotton",
     "targetEmoji": "\u2601\ufe0f",
@@ -31247,10 +31275,10 @@ const GRAPH_DATA = {
   "cotton candy": {
     "targetId": "cotton candy",
     "startingElements": [
-      "time",
-      "fire",
+      "air",
       "flower",
-      "air"
+      "time",
+      "fire"
     ],
     "targetName": "Cotton Candy",
     "targetEmoji": "\ud83e\udd6b",
@@ -31260,10 +31288,10 @@ const GRAPH_DATA = {
   "cow": {
     "targetId": "cow",
     "startingElements": [
-      "tool",
-      "earth",
+      "animal",
       "field",
-      "animal"
+      "earth",
+      "tool"
     ],
     "targetName": "Cow",
     "targetEmoji": "\ud83d\udc02",
@@ -31274,8 +31302,8 @@ const GRAPH_DATA = {
     "targetId": "crayon",
     "startingElements": [
       "wall",
-      "rainbow",
       "bee",
+      "rainbow",
       "air"
     ],
     "targetName": "Crayon",
@@ -31286,9 +31314,9 @@ const GRAPH_DATA = {
   "crow": {
     "targetId": "crow",
     "startingElements": [
-      "human",
-      "earth",
       "bird",
+      "earth",
+      "human",
       "stone"
     ],
     "targetName": "Crow",
@@ -31299,10 +31327,10 @@ const GRAPH_DATA = {
   "crystal ball": {
     "targetId": "crystal ball",
     "startingElements": [
+      "glass",
       "life",
       "water",
-      "sun",
-      "glass"
+      "sun"
     ],
     "targetName": "Crystal Ball",
     "targetEmoji": "\ud83d\ude02",
@@ -31312,9 +31340,9 @@ const GRAPH_DATA = {
   "cuckoo": {
     "targetId": "cuckoo",
     "startingElements": [
-      "time",
       "bird",
       "solar cell",
+      "time",
       "sun"
     ],
     "targetName": "Cuckoo",
@@ -31325,10 +31353,10 @@ const GRAPH_DATA = {
   "cup": {
     "targetId": "cup",
     "startingElements": [
-      "human",
-      "house",
       "tea",
-      "idea"
+      "house",
+      "idea",
+      "human"
     ],
     "targetName": "Cup",
     "targetEmoji": "\ud83c\udf75",
@@ -31338,9 +31366,9 @@ const GRAPH_DATA = {
   "current": {
     "targetId": "current",
     "startingElements": [
+      "heat",
       "water",
       "pond",
-      "heat",
       "air"
     ],
     "targetName": "Current",
@@ -31353,8 +31381,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "tool",
       "plant",
-      "big",
-      "cook"
+      "cook",
+      "big"
     ],
     "targetName": "Cutting Board",
     "targetEmoji": "\ud83d\udc87",
@@ -31364,10 +31392,10 @@ const GRAPH_DATA = {
   "cyborg": {
     "targetId": "cyborg",
     "startingElements": [
-      "human",
-      "fire",
       "life",
-      "ore"
+      "ore",
+      "human",
+      "fire"
     ],
     "targetName": "Cyborg",
     "targetEmoji": "\ud83e\udd16",
@@ -31377,8 +31405,8 @@ const GRAPH_DATA = {
   "cyclist": {
     "targetId": "cyclist",
     "startingElements": [
-      "human",
       "water",
+      "human",
       "stone",
       "air"
     ],
@@ -31390,10 +31418,10 @@ const GRAPH_DATA = {
   "dam": {
     "targetId": "dam",
     "startingElements": [
-      "wall",
       "wind",
-      "science",
-      "pond"
+      "pond",
+      "wall",
+      "science"
     ],
     "targetName": "Dam",
     "targetEmoji": "\ud83e\uddab",
@@ -31404,9 +31432,9 @@ const GRAPH_DATA = {
     "targetId": "darkness",
     "startingElements": [
       "day",
-      "time",
       "air",
-      "cloud"
+      "cloud",
+      "time"
     ],
     "targetName": "Darkness",
     "targetEmoji": "\ud83d\udda4",
@@ -31429,9 +31457,9 @@ const GRAPH_DATA = {
   "day": {
     "targetId": "day",
     "startingElements": [
-      "fire",
-      "time",
       "continent",
+      "time",
+      "fire",
       "air"
     ],
     "targetName": "Day",
@@ -31442,8 +31470,8 @@ const GRAPH_DATA = {
   "death": {
     "targetId": "death",
     "startingElements": [
-      "sea",
       "earth",
+      "sea",
       "time",
       "air"
     ],
@@ -31455,8 +31483,8 @@ const GRAPH_DATA = {
   "desert": {
     "targetId": "desert",
     "startingElements": [
-      "air",
       "lava",
+      "air",
       "land",
       "earth"
     ],
@@ -31468,8 +31496,8 @@ const GRAPH_DATA = {
   "dew": {
     "targetId": "dew",
     "startingElements": [
-      "water",
       "day",
+      "water",
       "time",
       "air"
     ],
@@ -31494,10 +31522,10 @@ const GRAPH_DATA = {
   "dinosaur": {
     "targetId": "dinosaur",
     "startingElements": [
-      "land",
-      "time",
       "life",
-      "stone"
+      "land",
+      "stone",
+      "time"
     ],
     "targetName": "Dinosaur",
     "targetEmoji": "\ud83e\udd95",
@@ -31507,10 +31535,10 @@ const GRAPH_DATA = {
   "diver": {
     "targetId": "diver",
     "startingElements": [
-      "house",
       "lake",
-      "air",
-      "philosophy"
+      "house",
+      "philosophy",
+      "air"
     ],
     "targetName": "Diver",
     "targetEmoji": "\ud83c\udfca",
@@ -31520,9 +31548,9 @@ const GRAPH_DATA = {
   "doctor": {
     "targetId": "doctor",
     "startingElements": [
+      "sound",
       "human",
       "stone",
-      "sound",
       "air"
     ],
     "targetName": "Doctor",
@@ -31533,10 +31561,10 @@ const GRAPH_DATA = {
   "dog": {
     "targetId": "dog",
     "startingElements": [
-      "moon",
-      "time",
       "animal",
-      "corpse"
+      "corpse",
+      "moon",
+      "time"
     ],
     "targetName": "Dog",
     "targetEmoji": "\ud83d\udca9",
@@ -31546,10 +31574,10 @@ const GRAPH_DATA = {
   "doge": {
     "targetId": "doge",
     "startingElements": [
+      "tool",
       "bone",
       "wolf",
-      "hacker",
-      "tool"
+      "hacker"
     ],
     "targetName": "Doge",
     "targetEmoji": "\ud83d\udc15",
@@ -31559,10 +31587,10 @@ const GRAPH_DATA = {
   "doghouse": {
     "targetId": "doghouse",
     "startingElements": [
+      "animal",
       "bone",
       "wall",
-      "moon",
-      "animal"
+      "moon"
     ],
     "targetName": "Doghouse",
     "targetEmoji": "\ud83d\udca9",
@@ -31572,10 +31600,10 @@ const GRAPH_DATA = {
   "domestication": {
     "targetId": "domestication",
     "startingElements": [
-      "time",
-      "life",
       "animal",
-      "land"
+      "life",
+      "land",
+      "time"
     ],
     "targetName": "Domestication",
     "targetEmoji": "\ud83d\udc08",
@@ -31585,9 +31613,9 @@ const GRAPH_DATA = {
   "don quixote": {
     "targetId": "don quixote",
     "startingElements": [
+      "wind",
       "human",
       "house",
-      "wind",
       "lightning"
     ],
     "targetName": "Don Quixote",
@@ -31598,8 +31626,8 @@ const GRAPH_DATA = {
   "donut": {
     "targetId": "donut",
     "startingElements": [
-      "water",
       "wheat",
+      "water",
       "stone",
       "wheel"
     ],
@@ -31624,10 +31652,10 @@ const GRAPH_DATA = {
   "dough": {
     "targetId": "dough",
     "startingElements": [
-      "water",
       "grass",
-      "stone",
-      "field"
+      "field",
+      "water",
+      "stone"
     ],
     "targetName": "Dough",
     "targetEmoji": "\ud83c\udf5e",
@@ -31637,10 +31665,10 @@ const GRAPH_DATA = {
   "dragon": {
     "targetId": "dragon",
     "startingElements": [
-      "stone",
       "air",
-      "life",
-      "land"
+      "land",
+      "stone",
+      "life"
     ],
     "targetName": "Dragon",
     "targetEmoji": "\ud83d\udc09",
@@ -31650,9 +31678,9 @@ const GRAPH_DATA = {
   "drone": {
     "targetId": "drone",
     "startingElements": [
-      "tool",
       "robot",
       "bird",
+      "tool",
       "air"
     ],
     "targetName": "Drone",
@@ -31663,10 +31691,10 @@ const GRAPH_DATA = {
   "drum": {
     "targetId": "drum",
     "startingElements": [
+      "leather",
       "tool",
       "plant",
-      "big",
-      "leather"
+      "big"
     ],
     "targetName": "Drum",
     "targetEmoji": "\ud83e\udd41",
@@ -31676,8 +31704,8 @@ const GRAPH_DATA = {
   "drunk": {
     "targetId": "drunk",
     "startingElements": [
-      "human",
       "earth",
+      "human",
       "time",
       "fruit"
     ],
@@ -31689,10 +31717,10 @@ const GRAPH_DATA = {
   "dry ice": {
     "targetId": "dry ice",
     "startingElements": [
-      "soil",
+      "cold",
       "night",
       "life",
-      "cold"
+      "soil"
     ],
     "targetName": "Dry Ice",
     "targetEmoji": "\ud83e\udd76",
@@ -31702,10 +31730,10 @@ const GRAPH_DATA = {
   "duck": {
     "targetId": "duck",
     "startingElements": [
-      "water",
       "air",
-      "life",
-      "land"
+      "land",
+      "water",
+      "life"
     ],
     "targetName": "Duck",
     "targetEmoji": "\ud83d\ude17",
@@ -31715,9 +31743,9 @@ const GRAPH_DATA = {
   "duckling": {
     "targetId": "duckling",
     "startingElements": [
-      "water",
-      "phoenix",
       "bird",
+      "phoenix",
+      "water",
       "air"
     ],
     "targetName": "Duckling",
@@ -31729,8 +31757,8 @@ const GRAPH_DATA = {
     "targetId": "dune",
     "startingElements": [
       "pressure",
-      "stone",
       "air",
+      "stone",
       "earth"
     ],
     "targetName": "Dune",
@@ -31754,10 +31782,10 @@ const GRAPH_DATA = {
   "dynamite": {
     "targetId": "dynamite",
     "startingElements": [
-      "plant",
-      "fire",
       "gunpowder",
-      "tool"
+      "tool",
+      "plant",
+      "fire"
     ],
     "targetName": "Dynamite",
     "targetEmoji": "\ud83e\udde8",
@@ -31767,9 +31795,9 @@ const GRAPH_DATA = {
   "eagle": {
     "targetId": "eagle",
     "startingElements": [
-      "motion",
-      "earth",
       "bird",
+      "earth",
+      "motion",
       "air"
     ],
     "targetName": "Eagle",
@@ -31780,9 +31808,9 @@ const GRAPH_DATA = {
   "earthquake": {
     "targetId": "earthquake",
     "startingElements": [
-      "human",
       "earth",
       "wind",
+      "human",
       "telescope"
     ],
     "targetName": "Earthquake",
@@ -31793,10 +31821,10 @@ const GRAPH_DATA = {
   "eclipse": {
     "targetId": "eclipse",
     "startingElements": [
-      "time",
-      "sun",
       "air",
-      "cloud"
+      "cloud",
+      "time",
+      "sun"
     ],
     "targetName": "Eclipse",
     "targetEmoji": "\ud83c\udf11",
@@ -31806,8 +31834,8 @@ const GRAPH_DATA = {
   "egg": {
     "targetId": "egg",
     "startingElements": [
-      "fire",
       "life",
+      "fire",
       "air",
       "earth"
     ],
@@ -31819,9 +31847,9 @@ const GRAPH_DATA = {
   "egg timer": {
     "targetId": "egg timer",
     "startingElements": [
+      "phoenix",
       "time",
       "electricity",
-      "phoenix",
       "air"
     ],
     "targetName": "Egg Timer",
@@ -31832,8 +31860,8 @@ const GRAPH_DATA = {
   "electric car": {
     "targetId": "electric car",
     "startingElements": [
-      "wheel",
       "solar cell",
+      "wheel",
       "air",
       "earth"
     ],
@@ -31845,10 +31873,10 @@ const GRAPH_DATA = {
   "electric eel": {
     "targetId": "electric eel",
     "startingElements": [
+      "animal",
       "water",
-      "sun",
       "solar cell",
-      "animal"
+      "sun"
     ],
     "targetName": "Electric Eel",
     "targetEmoji": "\ud83d\ude83",
@@ -31858,10 +31886,10 @@ const GRAPH_DATA = {
   "electrician": {
     "targetId": "electrician",
     "startingElements": [
+      "animal",
       "time",
-      "sun",
       "solar cell",
-      "animal"
+      "sun"
     ],
     "targetName": "Electrician",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udd27",
@@ -31871,10 +31899,10 @@ const GRAPH_DATA = {
   "electricity": {
     "targetId": "electricity",
     "startingElements": [
-      "energy",
       "fire",
-      "sun",
-      "planet"
+      "energy",
+      "planet",
+      "sun"
     ],
     "targetName": "Electricity",
     "targetEmoji": "\u26a1",
@@ -31884,10 +31912,10 @@ const GRAPH_DATA = {
   "email": {
     "targetId": "email",
     "startingElements": [
-      "charcoal",
-      "electricity",
       "wood",
-      "paper"
+      "charcoal",
+      "paper",
+      "electricity"
     ],
     "targetName": "Email",
     "targetEmoji": "\ud83d\udc8c",
@@ -31910,9 +31938,9 @@ const GRAPH_DATA = {
   "engineer": {
     "targetId": "engineer",
     "startingElements": [
+      "tool",
       "human",
       "stone",
-      "tool",
       "air"
     ],
     "targetName": "Engineer",
@@ -31936,8 +31964,8 @@ const GRAPH_DATA = {
   "excalibur": {
     "targetId": "excalibur",
     "startingElements": [
-      "metal",
       "stone",
+      "metal",
       "air",
       "earth"
     ],
@@ -31951,8 +31979,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "gardener",
       "philosophy",
-      "planet",
-      "tool"
+      "tool",
+      "planet"
     ],
     "targetName": "Excavator",
     "targetEmoji": "\ud83e\udea3",
@@ -31962,9 +31990,9 @@ const GRAPH_DATA = {
   "explosion": {
     "targetId": "explosion",
     "startingElements": [
-      "fire",
-      "air",
       "earth",
+      "air",
+      "fire",
       "water"
     ],
     "targetName": "Explosion",
@@ -31975,9 +32003,9 @@ const GRAPH_DATA = {
   "fabric": {
     "targetId": "fabric",
     "startingElements": [
-      "plant",
       "tool",
       "cloud",
+      "plant",
       "air"
     ],
     "targetName": "Fabric",
@@ -31988,9 +32016,9 @@ const GRAPH_DATA = {
   "factory": {
     "targetId": "factory",
     "startingElements": [
-      "wall",
       "chimney",
       "brick",
+      "wall",
       "air"
     ],
     "targetName": "Factory",
@@ -32001,9 +32029,9 @@ const GRAPH_DATA = {
   "fairy tale": {
     "targetId": "fairy tale",
     "startingElements": [
+      "dragon",
       "human",
       "lightning",
-      "dragon",
       "air"
     ],
     "targetName": "Fairy Tale",
@@ -32014,8 +32042,8 @@ const GRAPH_DATA = {
   "family": {
     "targetId": "family",
     "startingElements": [
-      "time",
       "animal",
+      "time",
       "air",
       "earth"
     ],
@@ -32027,9 +32055,9 @@ const GRAPH_DATA = {
   "family tree": {
     "targetId": "family tree",
     "startingElements": [
+      "animal",
       "human",
       "time",
-      "animal",
       "air"
     ],
     "targetName": "Family tree",
@@ -32040,10 +32068,10 @@ const GRAPH_DATA = {
   "farm": {
     "targetId": "farm",
     "startingElements": [
-      "human",
-      "house",
+      "soil",
       "life",
-      "soil"
+      "house",
+      "human"
     ],
     "targetName": "Farm",
     "targetEmoji": "\ud83d\ude9c",
@@ -32054,9 +32082,9 @@ const GRAPH_DATA = {
     "targetId": "farmer",
     "startingElements": [
       "soil",
-      "time",
       "life",
-      "animal"
+      "animal",
+      "time"
     ],
     "targetName": "Farmer",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf3e",
@@ -32066,10 +32094,10 @@ const GRAPH_DATA = {
   "faun": {
     "targetId": "faun",
     "startingElements": [
-      "human",
       "earth",
       "earthquake",
-      "livestock"
+      "livestock",
+      "human"
     ],
     "targetName": "Faun",
     "targetEmoji": "\ud83d\udc10",
@@ -32079,10 +32107,10 @@ const GRAPH_DATA = {
   "fence": {
     "targetId": "fence",
     "startingElements": [
-      "human",
-      "wall",
       "earth",
-      "stone"
+      "stone",
+      "wall",
+      "human"
     ],
     "targetName": "Fence",
     "targetEmoji": "\ud83e\udd3a",
@@ -32092,10 +32120,10 @@ const GRAPH_DATA = {
   "field": {
     "targetId": "field",
     "startingElements": [
-      "time",
       "earth",
+      "animal",
       "stone",
-      "animal"
+      "time"
     ],
     "targetName": "Field",
     "targetEmoji": "\ud83c\udf3e",
@@ -32106,9 +32134,9 @@ const GRAPH_DATA = {
     "targetId": "fire extinguisher",
     "startingElements": [
       "soil",
-      "fire",
+      "night",
       "life",
-      "night"
+      "fire"
     ],
     "targetName": "Fire Extinguisher",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
@@ -32118,10 +32146,10 @@ const GRAPH_DATA = {
   "firefighter": {
     "targetId": "firefighter",
     "startingElements": [
-      "fire",
-      "time",
       "life",
-      "land"
+      "land",
+      "time",
+      "fire"
     ],
     "targetName": "Firefighter",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
@@ -32131,10 +32159,10 @@ const GRAPH_DATA = {
   "fireplace": {
     "targetId": "fireplace",
     "startingElements": [
-      "tree",
-      "fire",
       "tool",
-      "brick"
+      "brick",
+      "tree",
+      "fire"
     ],
     "targetName": "Fireplace",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude92",
@@ -32144,10 +32172,10 @@ const GRAPH_DATA = {
   "firestation": {
     "targetId": "firestation",
     "startingElements": [
-      "fire",
-      "time",
       "animal",
-      "land"
+      "land",
+      "time",
+      "fire"
     ],
     "targetName": "Firestation",
     "targetEmoji": "\ud83d\ude2a",
@@ -32170,9 +32198,9 @@ const GRAPH_DATA = {
   "firewall": {
     "targetId": "firewall",
     "startingElements": [
-      "fire",
       "mud",
       "brick",
+      "fire",
       "air"
     ],
     "targetName": "Firewall",
@@ -32183,9 +32211,9 @@ const GRAPH_DATA = {
   "fireworks": {
     "targetId": "fireworks",
     "startingElements": [
-      "explosion",
-      "air",
       "continent",
+      "air",
+      "explosion",
       "earth"
     ],
     "targetName": "Fireworks",
@@ -32196,10 +32224,10 @@ const GRAPH_DATA = {
   "fish": {
     "targetId": "fish",
     "startingElements": [
+      "land",
       "water",
-      "time",
       "primordial soup",
-      "land"
+      "time"
     ],
     "targetName": "Fish",
     "targetEmoji": "\ud83d\udc2c",
@@ -32209,10 +32237,10 @@ const GRAPH_DATA = {
   "fishing rod": {
     "targetId": "fishing rod",
     "startingElements": [
-      "human",
+      "animal",
       "water",
-      "stone",
-      "animal"
+      "human",
+      "stone"
     ],
     "targetName": "Fishing Rod",
     "targetEmoji": "\ud83e\udda6",
@@ -32222,10 +32250,10 @@ const GRAPH_DATA = {
   "flamethrower": {
     "targetId": "flamethrower",
     "startingElements": [
-      "house",
       "bullet",
-      "fire",
-      "philosophy"
+      "house",
+      "philosophy",
+      "fire"
     ],
     "targetName": "Flamethrower",
     "targetEmoji": "\ud83d\udd25",
@@ -32235,10 +32263,10 @@ const GRAPH_DATA = {
   "flashlight": {
     "targetId": "flashlight",
     "startingElements": [
-      "sun",
       "glass",
       "tool",
-      "solar cell"
+      "solar cell",
+      "sun"
     ],
     "targetName": "Flashlight",
     "targetEmoji": "\ud83d\udd26",
@@ -32248,9 +32276,9 @@ const GRAPH_DATA = {
   "flood": {
     "targetId": "flood",
     "startingElements": [
+      "explosion",
       "wall",
       "sea",
-      "explosion",
       "air"
     ],
     "targetName": "Flood",
@@ -32261,10 +32289,10 @@ const GRAPH_DATA = {
   "flour": {
     "targetId": "flour",
     "startingElements": [
-      "plant",
       "earth",
+      "field",
       "stone",
-      "field"
+      "plant"
     ],
     "targetName": "Flour",
     "targetEmoji": "\ud83c\udf3e",
@@ -32275,9 +32303,9 @@ const GRAPH_DATA = {
     "targetId": "flower",
     "startingElements": [
       "soil",
+      "life",
       "water",
-      "sun",
-      "life"
+      "sun"
     ],
     "targetName": "Flower",
     "targetEmoji": "\ud83d\udc90",
@@ -32287,10 +32315,10 @@ const GRAPH_DATA = {
   "flute": {
     "targetId": "flute",
     "startingElements": [
-      "big",
-      "plant",
       "air",
-      "tool"
+      "tool",
+      "plant",
+      "big"
     ],
     "targetName": "Flute",
     "targetEmoji": "\ud83e\ude88",
@@ -32300,10 +32328,10 @@ const GRAPH_DATA = {
   "flying fish": {
     "targetId": "flying fish",
     "startingElements": [
-      "water",
       "air",
-      "life",
-      "land"
+      "land",
+      "water",
+      "life"
     ],
     "targetName": "Flying Fish",
     "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
@@ -32313,10 +32341,10 @@ const GRAPH_DATA = {
   "flying squirrel": {
     "targetId": "flying squirrel",
     "startingElements": [
-      "wall",
-      "plant",
       "air",
-      "cheese"
+      "cheese",
+      "wall",
+      "plant"
     ],
     "targetName": "Flying Squirrel",
     "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
@@ -32326,10 +32354,10 @@ const GRAPH_DATA = {
   "fog": {
     "targetId": "fog",
     "startingElements": [
-      "water",
       "earth",
       "air",
-      "planet"
+      "planet",
+      "water"
     ],
     "targetName": "Fog",
     "targetEmoji": "\ud83c\udf01",
@@ -32339,10 +32367,10 @@ const GRAPH_DATA = {
   "force knight": {
     "targetId": "force knight",
     "startingElements": [
-      "human",
       "blade",
-      "metal",
-      "energy"
+      "energy",
+      "human",
+      "metal"
     ],
     "targetName": "Force Knight",
     "targetEmoji": "\ud83d\ude34",
@@ -32352,10 +32380,10 @@ const GRAPH_DATA = {
   "forest": {
     "targetId": "forest",
     "startingElements": [
-      "planet",
       "earth",
-      "plant",
-      "philosophy"
+      "philosophy",
+      "planet",
+      "plant"
     ],
     "targetName": "Forest",
     "targetEmoji": "\ud83d\ude2a",
@@ -32365,10 +32393,10 @@ const GRAPH_DATA = {
   "fork": {
     "targetId": "fork",
     "startingElements": [
-      "tool",
       "philosophy",
+      "bacteria",
       "hay",
-      "bacteria"
+      "tool"
     ],
     "targetName": "Fork",
     "targetEmoji": "\u23f9\ufe0f",
@@ -32378,8 +32406,8 @@ const GRAPH_DATA = {
   "fortune cookie": {
     "targetId": "fortune cookie",
     "startingElements": [
-      "water",
       "tool",
+      "water",
       "tree",
       "gingerbread man"
     ],
@@ -32391,8 +32419,8 @@ const GRAPH_DATA = {
   "fossil": {
     "targetId": "fossil",
     "startingElements": [
-      "human",
       "earth",
+      "human",
       "time",
       "air"
     ],
@@ -32404,9 +32432,9 @@ const GRAPH_DATA = {
   "fountain": {
     "targetId": "fountain",
     "startingElements": [
+      "tool",
       "water",
       "stone",
-      "tool",
       "air"
     ],
     "targetName": "Fountain",
@@ -32417,9 +32445,9 @@ const GRAPH_DATA = {
   "fox": {
     "targetId": "fox",
     "startingElements": [
-      "human",
-      "bird",
       "animal",
+      "bird",
+      "human",
       "air"
     ],
     "targetName": "Fox",
@@ -32430,10 +32458,10 @@ const GRAPH_DATA = {
   "frankenstein's monster": {
     "targetId": "frankenstein's monster",
     "startingElements": [
-      "human",
-      "time",
+      "cloud",
       "energy",
-      "cloud"
+      "human",
+      "time"
     ],
     "targetName": "Frankenstein's Monster",
     "targetEmoji": "\ud83d\udc80",
@@ -32443,10 +32471,10 @@ const GRAPH_DATA = {
   "french fries": {
     "targetId": "french fries",
     "startingElements": [
-      "fire",
-      "plant",
+      "earth",
       "field",
-      "earth"
+      "plant",
+      "fire"
     ],
     "targetName": "French Fries",
     "targetEmoji": "\ud83e\udd50",
@@ -32456,10 +32484,10 @@ const GRAPH_DATA = {
   "fridge": {
     "targetId": "fridge",
     "startingElements": [
+      "wind",
       "human",
-      "sun",
       "solar cell",
-      "wind"
+      "sun"
     ],
     "targetName": "Fridge",
     "targetEmoji": "\ud83e\uddca",
@@ -32470,9 +32498,9 @@ const GRAPH_DATA = {
     "targetId": "frog",
     "startingElements": [
       "puddle",
-      "time",
+      "land",
       "primordial soup",
-      "land"
+      "time"
     ],
     "targetName": "Frog",
     "targetEmoji": "\ud83d\udc38",
@@ -32482,10 +32510,10 @@ const GRAPH_DATA = {
   "frozen yogurt": {
     "targetId": "frozen yogurt",
     "startingElements": [
-      "water",
-      "cow",
+      "cold",
       "bacteria",
-      "cold"
+      "water",
+      "cow"
     ],
     "targetName": "Frozen Yogurt",
     "targetEmoji": "\ud83e\udd76",
@@ -32496,9 +32524,9 @@ const GRAPH_DATA = {
     "targetId": "fruit",
     "startingElements": [
       "soil",
+      "life",
       "time",
-      "rainbow",
-      "life"
+      "rainbow"
     ],
     "targetName": "Fruit",
     "targetEmoji": "\ud83c\udf47",
@@ -32561,8 +32589,8 @@ const GRAPH_DATA = {
     "targetId": "garden",
     "startingElements": [
       "soil",
-      "wall",
       "life",
+      "wall",
       "air"
     ],
     "targetName": "Garden",
@@ -32573,10 +32601,10 @@ const GRAPH_DATA = {
   "gardener": {
     "targetId": "gardener",
     "startingElements": [
-      "human",
-      "house",
+      "soil",
       "life",
-      "soil"
+      "human",
+      "house"
     ],
     "targetName": "Gardener",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udf3e",
@@ -32586,10 +32614,10 @@ const GRAPH_DATA = {
   "gas": {
     "targetId": "gas",
     "startingElements": [
-      "human",
-      "planet",
+      "glass",
       "air",
-      "glass"
+      "planet",
+      "human"
     ],
     "targetName": "Gas",
     "targetEmoji": "\ud83d\ude24",
@@ -32599,8 +32627,8 @@ const GRAPH_DATA = {
   "geyser": {
     "targetId": "geyser",
     "startingElements": [
-      "water",
       "earth",
+      "water",
       "fire",
       "air"
     ],
@@ -32612,10 +32640,10 @@ const GRAPH_DATA = {
   "ghost": {
     "targetId": "ghost",
     "startingElements": [
-      "time",
+      "day",
       "death",
       "stone",
-      "day"
+      "time"
     ],
     "targetName": "Ghost",
     "targetEmoji": "\ud83d\udc7b",
@@ -32625,10 +32653,10 @@ const GRAPH_DATA = {
   "gift": {
     "targetId": "gift",
     "startingElements": [
-      "human",
-      "star",
       "chimney",
-      "tree"
+      "human",
+      "tree",
+      "star"
     ],
     "targetName": "Gift",
     "targetEmoji": "\ud83d\udc9d",
@@ -32638,10 +32666,10 @@ const GRAPH_DATA = {
   "gingerbread house": {
     "targetId": "gingerbread house",
     "startingElements": [
+      "wheat",
       "water",
       "house",
-      "stone",
-      "wheat"
+      "stone"
     ],
     "targetName": "Gingerbread House",
     "targetEmoji": "\ud83d\udc68\u200d\ud83e\uddb0",
@@ -32651,10 +32679,10 @@ const GRAPH_DATA = {
   "gingerbread man": {
     "targetId": "gingerbread man",
     "startingElements": [
-      "water",
+      "life",
       "wheat",
-      "stone",
-      "life"
+      "water",
+      "stone"
     ],
     "targetName": "Gingerbread Man",
     "targetEmoji": "\ud83d\udc66",
@@ -32664,10 +32692,10 @@ const GRAPH_DATA = {
   "glacier": {
     "targetId": "glacier",
     "startingElements": [
+      "wind",
       "water",
-      "time",
       "human",
-      "wind"
+      "time"
     ],
     "targetName": "Glacier",
     "targetEmoji": "\ud83e\uddca",
@@ -32677,9 +32705,9 @@ const GRAPH_DATA = {
   "glass": {
     "targetId": "glass",
     "startingElements": [
-      "fire",
       "air",
       "lava",
+      "fire",
       "earth"
     ],
     "targetName": "Glass",
@@ -32690,8 +32718,8 @@ const GRAPH_DATA = {
   "glasses": {
     "targetId": "glasses",
     "startingElements": [
-      "fire",
       "sand",
+      "fire",
       "air",
       "earth"
     ],
@@ -32703,10 +32731,10 @@ const GRAPH_DATA = {
   "gnome": {
     "targetId": "gnome",
     "startingElements": [
-      "human",
-      "house",
       "hero",
-      "plant"
+      "human",
+      "plant",
+      "house"
     ],
     "targetName": "Gnome",
     "targetEmoji": "\ud83d\ude0b",
@@ -32729,10 +32757,10 @@ const GRAPH_DATA = {
   "gold": {
     "targetId": "gold",
     "startingElements": [
+      "earth",
       "hammer",
-      "fire",
       "sand",
-      "earth"
+      "fire"
     ],
     "targetName": "Gold",
     "targetEmoji": "\ud83d\udc9b",
@@ -32742,9 +32770,9 @@ const GRAPH_DATA = {
   "golem": {
     "targetId": "golem",
     "startingElements": [
+      "clay",
       "human",
       "lightning",
-      "clay",
       "air"
     ],
     "targetName": "Golem",
@@ -32782,8 +32810,8 @@ const GRAPH_DATA = {
     "targetId": "grave",
     "startingElements": [
       "earth",
-      "time",
       "animal",
+      "time",
       "air"
     ],
     "targetName": "Grave",
@@ -32794,9 +32822,9 @@ const GRAPH_DATA = {
   "gravestone": {
     "targetId": "gravestone",
     "startingElements": [
-      "time",
-      "stone",
       "primordial soup",
+      "stone",
+      "time",
       "air"
     ],
     "targetName": "Gravestone",
@@ -32807,10 +32835,10 @@ const GRAPH_DATA = {
   "graveyard": {
     "targetId": "graveyard",
     "startingElements": [
-      "time",
-      "stone",
       "life",
-      "land"
+      "land",
+      "stone",
+      "time"
     ],
     "targetName": "Graveyard",
     "targetEmoji": "\u26b0\ufe0f",
@@ -32820,9 +32848,9 @@ const GRAPH_DATA = {
   "greenhouse": {
     "targetId": "greenhouse",
     "startingElements": [
-      "life",
       "earth",
       "glass",
+      "life",
       "air"
     ],
     "targetName": "Greenhouse",
@@ -32833,10 +32861,10 @@ const GRAPH_DATA = {
   "grenade": {
     "targetId": "grenade",
     "startingElements": [
-      "explosion",
-      "fire",
+      "earth",
       "hammer",
-      "earth"
+      "explosion",
+      "fire"
     ],
     "targetName": "Grenade",
     "targetEmoji": "\ud83d\udca3",
@@ -32846,10 +32874,10 @@ const GRAPH_DATA = {
   "grilled cheese": {
     "targetId": "grilled cheese",
     "startingElements": [
-      "toast",
+      "cow",
       "water",
-      "time",
-      "cow"
+      "toast",
+      "time"
     ],
     "targetName": "Grilled Cheese",
     "targetEmoji": "\ud83d\ude37",
@@ -32872,10 +32900,10 @@ const GRAPH_DATA = {
   "gun": {
     "targetId": "gun",
     "startingElements": [
-      "human",
       "bullet",
       "house",
-      "idea"
+      "idea",
+      "human"
     ],
     "targetName": "Gun",
     "targetEmoji": "\ud83d\udd2b",
@@ -32885,9 +32913,9 @@ const GRAPH_DATA = {
   "gunpowder": {
     "targetId": "gunpowder",
     "startingElements": [
-      "fire",
-      "air",
       "earth",
+      "air",
+      "fire",
       "water"
     ],
     "targetName": "Gunpowder",
@@ -32898,9 +32926,9 @@ const GRAPH_DATA = {
   "gust": {
     "targetId": "gust",
     "startingElements": [
-      "human",
       "air",
       "bacteria",
+      "human",
       "idea"
     ],
     "targetName": "Gust",
@@ -32911,9 +32939,9 @@ const GRAPH_DATA = {
   "hacker": {
     "targetId": "hacker",
     "startingElements": [
-      "time",
-      "glass",
       "animal",
+      "glass",
+      "time",
       "air"
     ],
     "targetName": "Hacker",
@@ -32924,8 +32952,8 @@ const GRAPH_DATA = {
   "hail": {
     "targetId": "hail",
     "startingElements": [
-      "water",
       "wind",
+      "water",
       "human",
       "steam"
     ],
@@ -32937,10 +32965,10 @@ const GRAPH_DATA = {
   "ham": {
     "targetId": "ham",
     "startingElements": [
-      "life",
       "smoke",
-      "mud",
-      "land"
+      "life",
+      "land",
+      "mud"
     ],
     "targetName": "Ham",
     "targetEmoji": "\ud83d\ude33",
@@ -32950,8 +32978,8 @@ const GRAPH_DATA = {
   "hamburger": {
     "targetId": "hamburger",
     "startingElements": [
-      "water",
       "flour",
+      "water",
       "meat",
       "fire"
     ],
@@ -32963,9 +32991,9 @@ const GRAPH_DATA = {
   "hammer": {
     "targetId": "hammer",
     "startingElements": [
-      "time",
-      "stone",
       "animal",
+      "stone",
+      "time",
       "air"
     ],
     "targetName": "Hammer",
@@ -32976,10 +33004,10 @@ const GRAPH_DATA = {
   "hamster": {
     "targetId": "hamster",
     "startingElements": [
-      "wind",
-      "wheel",
       "animal",
-      "steamboat"
+      "wind",
+      "steamboat",
+      "wheel"
     ],
     "targetName": "Hamster",
     "targetEmoji": "\ud83d\udc39",
@@ -32989,9 +33017,9 @@ const GRAPH_DATA = {
   "hangar": {
     "targetId": "hangar",
     "startingElements": [
-      "atmosphere",
-      "wall",
       "tool",
+      "wall",
+      "atmosphere",
       "air"
     ],
     "targetName": "Hangar",
@@ -33002,9 +33030,9 @@ const GRAPH_DATA = {
   "harp": {
     "targetId": "harp",
     "startingElements": [
-      "human",
-      "metal",
       "bird",
+      "metal",
+      "human",
       "electricity"
     ],
     "targetName": "Harp",
@@ -33015,10 +33043,10 @@ const GRAPH_DATA = {
   "hay": {
     "targetId": "hay",
     "startingElements": [
-      "soil",
       "earth",
-      "sun",
-      "life"
+      "life",
+      "soil",
+      "sun"
     ],
     "targetName": "Hay",
     "targetEmoji": "\ud83c\udf3e",
@@ -33041,8 +33069,8 @@ const GRAPH_DATA = {
   "heat": {
     "targetId": "heat",
     "startingElements": [
-      "fire",
       "air",
+      "fire",
       "earth",
       "water"
     ],
@@ -33054,9 +33082,9 @@ const GRAPH_DATA = {
   "hedge": {
     "targetId": "hedge",
     "startingElements": [
-      "wall",
       "earth",
       "life",
+      "wall",
       "air"
     ],
     "targetName": "Hedge",
@@ -33067,9 +33095,9 @@ const GRAPH_DATA = {
   "hedgehog": {
     "targetId": "hedgehog",
     "startingElements": [
+      "animal",
       "tool",
       "cotton",
-      "animal",
       "air"
     ],
     "targetName": "Hedgehog",
@@ -33080,9 +33108,9 @@ const GRAPH_DATA = {
   "helicopter": {
     "targetId": "helicopter",
     "startingElements": [
-      "windmill",
       "bird",
       "tool",
+      "windmill",
       "air"
     ],
     "targetName": "Helicopter",
@@ -33093,10 +33121,10 @@ const GRAPH_DATA = {
   "hero": {
     "targetId": "hero",
     "startingElements": [
-      "energy",
-      "time",
       "animal",
-      "cloud"
+      "energy",
+      "cloud",
+      "time"
     ],
     "targetName": "Hero",
     "targetEmoji": "\ud83e\uddb8",
@@ -33106,10 +33134,10 @@ const GRAPH_DATA = {
   "hill": {
     "targetId": "hill",
     "startingElements": [
-      "planet",
       "earth",
-      "stone",
-      "philosophy"
+      "philosophy",
+      "planet",
+      "stone"
     ],
     "targetName": "Hill",
     "targetEmoji": "\ud83d\ude37",
@@ -33119,9 +33147,9 @@ const GRAPH_DATA = {
   "hippo": {
     "targetId": "hippo",
     "startingElements": [
-      "water",
       "life",
       "land",
+      "water",
       "air"
     ],
     "targetName": "Hippo",
@@ -33132,10 +33160,10 @@ const GRAPH_DATA = {
   "honey": {
     "targetId": "honey",
     "startingElements": [
-      "plant",
+      "animal",
       "time",
-      "rainbow",
-      "animal"
+      "plant",
+      "rainbow"
     ],
     "targetName": "Honey",
     "targetEmoji": "\ud83e\udda1",
@@ -33145,10 +33173,10 @@ const GRAPH_DATA = {
   "horizon": {
     "targetId": "horizon",
     "startingElements": [
-      "atmosphere",
       "earth",
       "air",
-      "water"
+      "water",
+      "atmosphere"
     ],
     "targetName": "Horizon",
     "targetEmoji": "\ud83d\udea5",
@@ -33158,9 +33186,9 @@ const GRAPH_DATA = {
   "horse": {
     "targetId": "horse",
     "startingElements": [
-      "time",
-      "primordial soup",
       "land",
+      "primordial soup",
+      "time",
       "air"
     ],
     "targetName": "Horse",
@@ -33173,8 +33201,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "horse",
       "hammer",
-      "fire",
-      "earth"
+      "earth",
+      "fire"
     ],
     "targetName": "Horseshoe",
     "targetEmoji": "\ud83e\uddf2",
@@ -33184,10 +33212,10 @@ const GRAPH_DATA = {
   "hospital": {
     "targetId": "hospital",
     "startingElements": [
-      "wall",
-      "time",
       "animal",
-      "bacteria"
+      "bacteria",
+      "wall",
+      "time"
     ],
     "targetName": "Hospital",
     "targetEmoji": "\ud83e\uddd1\u200d\u2695\ufe0f",
@@ -33197,10 +33225,10 @@ const GRAPH_DATA = {
   "hot chocolate": {
     "targetId": "hot chocolate",
     "startingElements": [
+      "heat",
       "oil",
-      "fruit",
       "fire",
-      "heat"
+      "fruit"
     ],
     "targetName": "Hot Chocolate",
     "targetEmoji": "\ud83d\ude05",
@@ -33210,9 +33238,9 @@ const GRAPH_DATA = {
   "hourglass": {
     "targetId": "hourglass",
     "startingElements": [
-      "time",
       "air",
       "lava",
+      "time",
       "earth"
     ],
     "targetName": "Hourglass",
@@ -33236,9 +33264,9 @@ const GRAPH_DATA = {
   "human": {
     "targetId": "human",
     "startingElements": [
-      "time",
-      "primordial soup",
       "land",
+      "primordial soup",
+      "time",
       "air"
     ],
     "targetName": "Human",
@@ -33249,9 +33277,9 @@ const GRAPH_DATA = {
   "hummingbird": {
     "targetId": "hummingbird",
     "startingElements": [
-      "rainbow",
-      "air",
       "animal",
+      "air",
+      "rainbow",
       "earth"
     ],
     "targetName": "Hummingbird",
@@ -33262,8 +33290,8 @@ const GRAPH_DATA = {
   "hurricane": {
     "targetId": "hurricane",
     "startingElements": [
-      "water",
       "wind",
+      "water",
       "lake",
       "air"
     ],
@@ -33275,10 +33303,10 @@ const GRAPH_DATA = {
   "husky": {
     "targetId": "husky",
     "startingElements": [
-      "bone",
+      "ice",
       "animal",
-      "moon",
-      "ice"
+      "bone",
+      "moon"
     ],
     "targetName": "Husky",
     "targetEmoji": "\ud83c\udf06",
@@ -33288,10 +33316,10 @@ const GRAPH_DATA = {
   "ice": {
     "targetId": "ice",
     "startingElements": [
-      "water",
+      "animal",
       "wind",
-      "time",
-      "animal"
+      "water",
+      "time"
     ],
     "targetName": "Ice",
     "targetEmoji": "\ud83e\udd76",
@@ -33301,10 +33329,10 @@ const GRAPH_DATA = {
   "ice cream": {
     "targetId": "ice cream",
     "startingElements": [
-      "water",
-      "livestock",
+      "cold",
       "field",
-      "cold"
+      "water",
+      "livestock"
     ],
     "targetName": "Ice Cream",
     "targetEmoji": "\ud83e\udd76",
@@ -33314,10 +33342,10 @@ const GRAPH_DATA = {
   "ice cream truck": {
     "targetId": "ice cream truck",
     "startingElements": [
-      "milk",
+      "cold",
       "bicycle",
-      "wheel",
-      "cold"
+      "milk",
+      "wheel"
     ],
     "targetName": "Ice Cream Truck",
     "targetEmoji": "\ud83e\udd76",
@@ -33327,9 +33355,9 @@ const GRAPH_DATA = {
   "ice sculpture": {
     "targetId": "ice sculpture",
     "startingElements": [
+      "ice",
       "tool",
       "stone",
-      "ice",
       "air"
     ],
     "targetName": "Ice Sculpture",
@@ -33342,8 +33370,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "water",
       "sea",
-      "wind",
-      "human"
+      "human",
+      "wind"
     ],
     "targetName": "Iceberg",
     "targetEmoji": "\ud83e\uddca",
@@ -33353,10 +33381,10 @@ const GRAPH_DATA = {
   "iced tea": {
     "targetId": "iced tea",
     "startingElements": [
-      "water",
+      "cold",
       "flower",
-      "wind",
-      "cold"
+      "water",
+      "wind"
     ],
     "targetName": "Iced Tea",
     "targetEmoji": "\ud83e\udd76",
@@ -33379,9 +33407,9 @@ const GRAPH_DATA = {
   "igloo": {
     "targetId": "igloo",
     "startingElements": [
-      "human",
-      "wall",
       "wind",
+      "wall",
+      "human",
       "air"
     ],
     "targetName": "Igloo",
@@ -33392,8 +33420,8 @@ const GRAPH_DATA = {
   "internet": {
     "targetId": "internet",
     "startingElements": [
-      "hacker",
       "tool",
+      "hacker",
       "air",
       "earth"
     ],
@@ -33405,9 +33433,9 @@ const GRAPH_DATA = {
   "island": {
     "targetId": "island",
     "startingElements": [
-      "volcano",
-      "water",
       "pond",
+      "water",
+      "volcano",
       "air"
     ],
     "targetName": "Island",
@@ -33418,9 +33446,9 @@ const GRAPH_DATA = {
   "ivy": {
     "targetId": "ivy",
     "startingElements": [
-      "wall",
       "earth",
       "life",
+      "wall",
       "air"
     ],
     "targetName": "Ivy",
@@ -33432,9 +33460,9 @@ const GRAPH_DATA = {
     "targetId": "jack-o-lantern",
     "startingElements": [
       "soil",
-      "field",
+      "night",
       "life",
-      "night"
+      "field"
     ],
     "targetName": "Jack-O-Lantern",
     "targetEmoji": "\ud83d\udc1c",
@@ -33444,10 +33472,10 @@ const GRAPH_DATA = {
   "jam": {
     "targetId": "jam",
     "startingElements": [
-      "plant",
+      "heat",
       "time",
-      "rainbow",
-      "heat"
+      "plant",
+      "rainbow"
     ],
     "targetName": "Jam",
     "targetEmoji": "\ud83c\uddef\ud83c\uddf2",
@@ -33457,10 +33485,10 @@ const GRAPH_DATA = {
   "jar": {
     "targetId": "jar",
     "startingElements": [
-      "time",
-      "flower",
       "glass",
-      "heat"
+      "heat",
+      "flower",
+      "time"
     ],
     "targetName": "Jar",
     "targetEmoji": "\ud83c\udffa",
@@ -33470,10 +33498,10 @@ const GRAPH_DATA = {
   "jerky": {
     "targetId": "jerky",
     "startingElements": [
-      "human",
-      "stone",
       "animal",
-      "heat"
+      "heat",
+      "human",
+      "stone"
     ],
     "targetName": "Jerky",
     "targetEmoji": "\ud83e\udd69",
@@ -33483,9 +33511,9 @@ const GRAPH_DATA = {
   "juice": {
     "targetId": "juice",
     "startingElements": [
-      "plant",
       "earth",
       "time",
+      "plant",
       "rainbow"
     ],
     "targetName": "Juice",
@@ -33496,9 +33524,9 @@ const GRAPH_DATA = {
   "jupiter": {
     "targetId": "jupiter",
     "startingElements": [
-      "water",
-      "planet",
       "air",
+      "planet",
+      "water",
       "earth"
     ],
     "targetName": "Jupiter",
@@ -33509,10 +33537,10 @@ const GRAPH_DATA = {
   "kaiju": {
     "targetId": "kaiju",
     "startingElements": [
+      "cloud",
       "lizard",
-      "house",
       "time",
-      "cloud"
+      "house"
     ],
     "targetName": "Kaiju",
     "targetEmoji": "\ud83e\udd96",
@@ -33522,10 +33550,10 @@ const GRAPH_DATA = {
   "katana": {
     "targetId": "katana",
     "startingElements": [
-      "fire",
-      "stone",
+      "heat",
       "ore",
-      "heat"
+      "stone",
+      "fire"
     ],
     "targetName": "Katana",
     "targetEmoji": "\ud83d\udde1\ufe0f",
@@ -33535,10 +33563,10 @@ const GRAPH_DATA = {
   "kite": {
     "targetId": "kite",
     "startingElements": [
-      "water",
-      "tree",
       "air",
-      "tool"
+      "tool",
+      "water",
+      "tree"
     ],
     "targetName": "Kite",
     "targetEmoji": "\ud83e\ude81",
@@ -33548,10 +33576,10 @@ const GRAPH_DATA = {
   "knife": {
     "targetId": "knife",
     "startingElements": [
-      "human",
+      "field",
       "blade",
-      "plant",
-      "field"
+      "human",
+      "plant"
     ],
     "targetName": "Knife",
     "targetEmoji": "\ud83d\udd2a",
@@ -33561,10 +33589,10 @@ const GRAPH_DATA = {
   "knight": {
     "targetId": "knight",
     "startingElements": [
-      "human",
-      "metal",
       "thread",
-      "tool"
+      "tool",
+      "human",
+      "metal"
     ],
     "targetName": "Knight",
     "targetEmoji": "\ud83d\udee1\ufe0f",
@@ -33587,10 +33615,10 @@ const GRAPH_DATA = {
   "lamp": {
     "targetId": "lamp",
     "startingElements": [
+      "glass",
       "fire",
-      "electricity",
       "ore",
-      "glass"
+      "electricity"
     ],
     "targetName": "Lamp",
     "targetEmoji": "\ud83d\udca1",
@@ -33613,10 +33641,10 @@ const GRAPH_DATA = {
   "laptop": {
     "targetId": "laptop",
     "startingElements": [
-      "tool",
       "philosophy",
-      "hacker",
-      "bacteria"
+      "bacteria",
+      "tool",
+      "hacker"
     ],
     "targetName": "Laptop",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\udcbb",
@@ -33626,10 +33654,10 @@ const GRAPH_DATA = {
   "lasso": {
     "targetId": "lasso",
     "startingElements": [
-      "tool",
       "horse",
       "thread",
-      "cotton"
+      "cotton",
+      "tool"
     ],
     "targetName": "Lasso",
     "targetEmoji": "\ud83e\udea2",
@@ -33652,10 +33680,10 @@ const GRAPH_DATA = {
   "lava lamp": {
     "targetId": "lava lamp",
     "startingElements": [
-      "metal",
-      "fire",
       "electricity",
-      "glass"
+      "metal",
+      "glass",
+      "fire"
     ],
     "targetName": "Lava Lamp",
     "targetEmoji": "\ud83e\ude94",
@@ -33665,10 +33693,10 @@ const GRAPH_DATA = {
   "lawn": {
     "targetId": "lawn",
     "startingElements": [
-      "soil",
-      "house",
+      "earth",
       "life",
-      "earth"
+      "soil",
+      "house"
     ],
     "targetName": "Lawn",
     "targetEmoji": "\ud83c\udf31",
@@ -33678,10 +33706,10 @@ const GRAPH_DATA = {
   "lawn mower": {
     "targetId": "lawn mower",
     "startingElements": [
-      "soil",
       "earth",
       "life",
-      "tool"
+      "tool",
+      "soil"
     ],
     "targetName": "Lawn Mower",
     "targetEmoji": "\ud83e\uddd1\u200d\u2696\ufe0f",
@@ -33693,8 +33721,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "soil",
       "wind",
-      "rainbow",
-      "life"
+      "life",
+      "rainbow"
     ],
     "targetName": "Leaf",
     "targetEmoji": "\ud83c\udf3f",
@@ -33704,10 +33732,10 @@ const GRAPH_DATA = {
   "leather": {
     "targetId": "leather",
     "startingElements": [
+      "animal",
       "human",
       "stone",
-      "mud",
-      "animal"
+      "mud"
     ],
     "targetName": "Leather",
     "targetEmoji": "\ud83c\udf7d\ufe0f",
@@ -33730,10 +33758,10 @@ const GRAPH_DATA = {
   "lens": {
     "targetId": "lens",
     "startingElements": [
-      "time",
-      "stone",
+      "animal",
       "glass",
-      "animal"
+      "stone",
+      "time"
     ],
     "targetName": "Lens",
     "targetEmoji": "\ud83d\udc53",
@@ -33743,9 +33771,9 @@ const GRAPH_DATA = {
   "letter": {
     "targetId": "letter",
     "startingElements": [
+      "wood",
       "water",
       "charcoal",
-      "wood",
       "air"
     ],
     "targetName": "Letter",
@@ -33756,10 +33784,10 @@ const GRAPH_DATA = {
   "librarian": {
     "targetId": "librarian",
     "startingElements": [
-      "human",
-      "house",
       "philosophy",
-      "idea"
+      "human",
+      "idea",
+      "house"
     ],
     "targetName": "Librarian",
     "targetEmoji": "\u2696\ufe0f",
@@ -33769,8 +33797,8 @@ const GRAPH_DATA = {
   "library": {
     "targetId": "library",
     "startingElements": [
-      "house",
       "philosophy",
+      "house",
       "idea",
       "air"
     ],
@@ -33782,10 +33810,10 @@ const GRAPH_DATA = {
   "life": {
     "targetId": "life",
     "startingElements": [
-      "water",
       "earth",
-      "time",
-      "lake"
+      "lake",
+      "water",
+      "time"
     ],
     "targetName": "Life",
     "targetEmoji": "\ud83e\uddec",
@@ -33795,10 +33823,10 @@ const GRAPH_DATA = {
   "light": {
     "targetId": "light",
     "startingElements": [
-      "sun",
-      "electricity",
+      "glass",
       "solar cell",
-      "glass"
+      "electricity",
+      "sun"
     ],
     "targetName": "Light",
     "targetEmoji": "\ud83c\udf83",
@@ -33808,9 +33836,9 @@ const GRAPH_DATA = {
   "light bulb": {
     "targetId": "light bulb",
     "startingElements": [
+      "glass",
       "energy",
       "sun",
-      "glass",
       "air"
     ],
     "targetName": "Light Bulb",
@@ -33822,8 +33850,8 @@ const GRAPH_DATA = {
     "targetId": "light sword",
     "startingElements": [
       "energy",
-      "metal",
       "stone",
+      "metal",
       "air"
     ],
     "targetName": "Light Sword",
@@ -33834,9 +33862,9 @@ const GRAPH_DATA = {
   "lighthouse": {
     "targetId": "lighthouse",
     "startingElements": [
-      "electricity",
       "beach",
       "glass",
+      "electricity",
       "air"
     ],
     "targetName": "Lighthouse",
@@ -33847,10 +33875,10 @@ const GRAPH_DATA = {
   "lightning": {
     "targetId": "lightning",
     "startingElements": [
-      "energy",
       "water",
-      "air",
-      "planet"
+      "planet",
+      "energy",
+      "air"
     ],
     "targetName": "Lightning",
     "targetEmoji": "\u26c8\ufe0f",
@@ -33860,10 +33888,10 @@ const GRAPH_DATA = {
   "lion": {
     "targetId": "lion",
     "startingElements": [
-      "land",
-      "life",
       "animal",
-      "night"
+      "night",
+      "land",
+      "life"
     ],
     "targetName": "Lion",
     "targetEmoji": "\ud83e\udd81",
@@ -33873,10 +33901,10 @@ const GRAPH_DATA = {
   "liquid": {
     "targetId": "liquid",
     "startingElements": [
-      "water",
+      "glass",
       "planet",
-      "human",
-      "glass"
+      "water",
+      "human"
     ],
     "targetName": "Liquid",
     "targetEmoji": "\ud83d\udeb0",
@@ -33886,10 +33914,10 @@ const GRAPH_DATA = {
   "little alchemy": {
     "targetId": "little alchemy",
     "startingElements": [
-      "human",
-      "philosophy",
       "gold",
-      "bacteria"
+      "philosophy",
+      "bacteria",
+      "human"
     ],
     "targetName": "Little Alchemy",
     "targetEmoji": "\ud83e\udd0f",
@@ -33899,10 +33927,10 @@ const GRAPH_DATA = {
   "livestock": {
     "targetId": "livestock",
     "startingElements": [
-      "human",
+      "animal",
       "earth",
-      "stone",
-      "animal"
+      "human",
+      "stone"
     ],
     "targetName": "Livestock",
     "targetEmoji": "\ud83d\udc04",
@@ -33912,10 +33940,10 @@ const GRAPH_DATA = {
   "lizard": {
     "targetId": "lizard",
     "startingElements": [
-      "time",
+      "land",
       "stone",
-      "primordial soup",
-      "land"
+      "time",
+      "primordial soup"
     ],
     "targetName": "Lizard",
     "targetEmoji": "\ud83d\udc0a",
@@ -33925,10 +33953,10 @@ const GRAPH_DATA = {
   "log cabin": {
     "targetId": "log cabin",
     "startingElements": [
-      "big",
+      "tool",
       "house",
       "plant",
-      "tool"
+      "big"
     ],
     "targetName": "Log cabin",
     "targetEmoji": "\ud83d\uddd1\ufe0f",
@@ -33938,8 +33966,8 @@ const GRAPH_DATA = {
   "love": {
     "targetId": "love",
     "startingElements": [
-      "time",
       "animal",
+      "time",
       "air",
       "earth"
     ],
@@ -33951,10 +33979,10 @@ const GRAPH_DATA = {
   "lumberjack": {
     "targetId": "lumberjack",
     "startingElements": [
-      "human",
+      "philosophy",
       "planet",
-      "plant",
-      "philosophy"
+      "human",
+      "plant"
     ],
     "targetName": "Lumberjack",
     "targetEmoji": "\ud83e\udeb5",
@@ -33964,10 +33992,10 @@ const GRAPH_DATA = {
   "mac and cheese": {
     "targetId": "mac and cheese",
     "startingElements": [
-      "time",
       "flour",
+      "egg",
       "milk",
-      "egg"
+      "time"
     ],
     "targetName": "Mac and Cheese",
     "targetEmoji": "\ud83c\udf4e",
@@ -33991,9 +34019,9 @@ const GRAPH_DATA = {
     "targetId": "magic",
     "startingElements": [
       "water",
-      "sun",
+      "primordial soup",
       "time",
-      "primordial soup"
+      "sun"
     ],
     "targetName": "Magic",
     "targetEmoji": "\ud83d\udcab",
@@ -34003,10 +34031,10 @@ const GRAPH_DATA = {
   "magma": {
     "targetId": "magma",
     "startingElements": [
-      "human",
-      "planet",
+      "glass",
       "lava",
-      "glass"
+      "human",
+      "planet"
     ],
     "targetName": "Magma",
     "targetEmoji": "\ud83d\udd0d",
@@ -34016,10 +34044,10 @@ const GRAPH_DATA = {
   "mail truck": {
     "targetId": "mail truck",
     "startingElements": [
-      "charcoal",
-      "car",
       "wood",
-      "paper"
+      "charcoal",
+      "paper",
+      "car"
     ],
     "targetName": "Mail truck",
     "targetEmoji": "\ud83d\udc8c",
@@ -34029,10 +34057,10 @@ const GRAPH_DATA = {
   "mailbox": {
     "targetId": "mailbox",
     "startingElements": [
-      "metal",
       "wood",
       "charcoal",
-      "paper"
+      "paper",
+      "metal"
     ],
     "targetName": "Mailbox",
     "targetEmoji": "\ud83d\udcee",
@@ -34042,10 +34070,10 @@ const GRAPH_DATA = {
   "mailman": {
     "targetId": "mailman",
     "startingElements": [
-      "human",
-      "water",
       "story",
-      "wood"
+      "wood",
+      "water",
+      "human"
     ],
     "targetName": "Mailman",
     "targetEmoji": "\ud83d\udc8c",
@@ -34055,9 +34083,9 @@ const GRAPH_DATA = {
   "manatee": {
     "targetId": "manatee",
     "startingElements": [
+      "animal",
       "lake",
       "field",
-      "animal",
       "air"
     ],
     "targetName": "Manatee",
@@ -34068,10 +34096,10 @@ const GRAPH_DATA = {
   "map": {
     "targetId": "map",
     "startingElements": [
+      "land",
       "water",
       "tree",
-      "tool",
-      "land"
+      "tool"
     ],
     "targetName": "Map",
     "targetEmoji": "\ud83d\uddfa\ufe0f",
@@ -34081,10 +34109,10 @@ const GRAPH_DATA = {
   "maple syrup": {
     "targetId": "maple syrup",
     "startingElements": [
+      "heat",
       "blade",
       "plant",
-      "big",
-      "heat"
+      "big"
     ],
     "targetName": "Maple Syrup",
     "targetEmoji": "\ud83d\udccd",
@@ -34094,9 +34122,9 @@ const GRAPH_DATA = {
   "mars": {
     "targetId": "mars",
     "startingElements": [
-      "sand",
       "continent",
       "land",
+      "sand",
       "air"
     ],
     "targetName": "Mars",
@@ -34107,10 +34135,10 @@ const GRAPH_DATA = {
   "marshmallows": {
     "targetId": "marshmallows",
     "startingElements": [
-      "sugar",
+      "tool",
       "tree",
-      "fire",
-      "tool"
+      "sugar",
+      "fire"
     ],
     "targetName": "Marshmallows",
     "targetEmoji": "\ud83c\udfec",
@@ -34121,8 +34149,8 @@ const GRAPH_DATA = {
     "targetId": "mayonnaise",
     "startingElements": [
       "pressure",
-      "plant",
       "egg",
+      "plant",
       "sun"
     ],
     "targetName": "Mayonnaise",
@@ -34133,9 +34161,9 @@ const GRAPH_DATA = {
   "meat": {
     "targetId": "meat",
     "startingElements": [
-      "time",
-      "stone",
       "animal",
+      "stone",
+      "time",
       "air"
     ],
     "targetName": "Meat",
@@ -34146,10 +34174,10 @@ const GRAPH_DATA = {
   "medusa": {
     "targetId": "medusa",
     "startingElements": [
+      "land",
       "human",
-      "fish",
       "electricity",
-      "land"
+      "fish"
     ],
     "targetName": "Medusa",
     "targetEmoji": "\ud83c\uddfa\ud83c\uddf8",
@@ -34159,9 +34187,9 @@ const GRAPH_DATA = {
   "mercury": {
     "targetId": "mercury",
     "startingElements": [
-      "energy",
-      "air",
       "continent",
+      "air",
+      "energy",
       "earth"
     ],
     "targetName": "Mercury",
@@ -34172,9 +34200,9 @@ const GRAPH_DATA = {
   "mermaid": {
     "targetId": "mermaid",
     "startingElements": [
+      "animal",
       "water",
       "time",
-      "animal",
       "air"
     ],
     "targetName": "Mermaid",
@@ -34185,10 +34213,10 @@ const GRAPH_DATA = {
   "metal": {
     "targetId": "metal",
     "startingElements": [
+      "earth",
       "tool",
-      "fire",
       "stone",
-      "earth"
+      "fire"
     ],
     "targetName": "Metal",
     "targetEmoji": "\ud83e\udd18",
@@ -34198,10 +34226,10 @@ const GRAPH_DATA = {
   "meteor": {
     "targetId": "meteor",
     "startingElements": [
-      "fire",
-      "stone",
       "air",
-      "planet"
+      "planet",
+      "stone",
+      "fire"
     ],
     "targetName": "Meteor",
     "targetEmoji": "\ud83c\udf20",
@@ -34211,9 +34239,9 @@ const GRAPH_DATA = {
   "meteoroid": {
     "targetId": "meteoroid",
     "startingElements": [
-      "fire",
-      "stone",
       "continent",
+      "stone",
+      "fire",
       "air"
     ],
     "targetName": "Meteoroid",
@@ -34224,10 +34252,10 @@ const GRAPH_DATA = {
   "microscope": {
     "targetId": "microscope",
     "startingElements": [
-      "mud",
-      "time",
       "glass",
-      "primordial soup"
+      "primordial soup",
+      "time",
+      "mud"
     ],
     "targetName": "Microscope",
     "targetEmoji": "\ud83d\udd2c",
@@ -34237,9 +34265,9 @@ const GRAPH_DATA = {
   "milk": {
     "targetId": "milk",
     "startingElements": [
-      "water",
-      "field",
       "animal",
+      "field",
+      "water",
       "air"
     ],
     "targetName": "Milk",
@@ -34250,9 +34278,9 @@ const GRAPH_DATA = {
   "milk shake": {
     "targetId": "milk shake",
     "startingElements": [
+      "cold",
       "water",
       "cow",
-      "cold",
       "air"
     ],
     "targetName": "Milk Shake",
@@ -34264,8 +34292,8 @@ const GRAPH_DATA = {
     "targetId": "mineral",
     "startingElements": [
       "earth",
-      "time",
       "life",
+      "time",
       "air"
     ],
     "targetName": "Mineral",
@@ -34276,9 +34304,9 @@ const GRAPH_DATA = {
   "minotaur": {
     "targetId": "minotaur",
     "startingElements": [
-      "human",
-      "field",
       "animal",
+      "field",
+      "human",
       "air"
     ],
     "targetName": "Minotaur",
@@ -34289,10 +34317,10 @@ const GRAPH_DATA = {
   "mirror": {
     "targetId": "mirror",
     "startingElements": [
-      "fire",
-      "hammer",
+      "earth",
       "glass",
-      "earth"
+      "hammer",
+      "fire"
     ],
     "targetName": "Mirror",
     "targetEmoji": "\ud83e\ude9e",
@@ -34302,8 +34330,8 @@ const GRAPH_DATA = {
   "mist": {
     "targetId": "mist",
     "startingElements": [
-      "water",
       "air",
+      "water",
       "earth",
       "fire"
     ],
@@ -34315,8 +34343,8 @@ const GRAPH_DATA = {
   "mold": {
     "targetId": "mold",
     "startingElements": [
-      "plant",
       "time",
+      "plant",
       "rainbow",
       "air"
     ],
@@ -34328,10 +34356,10 @@ const GRAPH_DATA = {
   "monarch": {
     "targetId": "monarch",
     "startingElements": [
-      "human",
       "blade",
-      "stone",
-      "metal"
+      "human",
+      "metal",
+      "stone"
     ],
     "targetName": "Monarch",
     "targetEmoji": "\ud83e\udec5",
@@ -34341,10 +34369,10 @@ const GRAPH_DATA = {
   "money": {
     "targetId": "money",
     "startingElements": [
+      "tool",
       "water",
-      "tree",
       "diamond",
-      "tool"
+      "tree"
     ],
     "targetName": "Money",
     "targetEmoji": "\ud83d\udcb5",
@@ -34354,10 +34382,10 @@ const GRAPH_DATA = {
   "monkey": {
     "targetId": "monkey",
     "startingElements": [
-      "planet",
+      "animal",
       "philosophy",
-      "plant",
-      "animal"
+      "planet",
+      "plant"
     ],
     "targetName": "Monkey",
     "targetEmoji": "\ud83d\ude48",
@@ -34367,10 +34395,10 @@ const GRAPH_DATA = {
   "moon": {
     "targetId": "moon",
     "startingElements": [
-      "atmosphere",
+      "air",
       "water",
       "time",
-      "air"
+      "atmosphere"
     ],
     "targetName": "Moon",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
@@ -34394,8 +34422,8 @@ const GRAPH_DATA = {
     "targetId": "moss",
     "startingElements": [
       "earth",
-      "stone",
       "life",
+      "stone",
       "air"
     ],
     "targetName": "Moss",
@@ -34406,10 +34434,10 @@ const GRAPH_DATA = {
   "moth": {
     "targetId": "moth",
     "startingElements": [
+      "animal",
       "day",
       "time",
-      "rainbow",
-      "animal"
+      "rainbow"
     ],
     "targetName": "Moth",
     "targetEmoji": "\ud83e\udd31",
@@ -34419,10 +34447,10 @@ const GRAPH_DATA = {
   "motion": {
     "targetId": "motion",
     "startingElements": [
-      "human",
-      "planet",
+      "glass",
       "wind",
-      "glass"
+      "planet",
+      "human"
     ],
     "targetName": "Motion",
     "targetEmoji": "\ud83c\udfc3",
@@ -34432,8 +34460,8 @@ const GRAPH_DATA = {
   "motorcycle": {
     "targetId": "motorcycle",
     "startingElements": [
-      "wheel",
       "steam",
+      "wheel",
       "air",
       "earth"
     ],
@@ -34458,10 +34486,10 @@ const GRAPH_DATA = {
   "mountain goat": {
     "targetId": "mountain goat",
     "startingElements": [
-      "earthquake",
       "earth",
-      "mountain",
-      "livestock"
+      "earthquake",
+      "livestock",
+      "mountain"
     ],
     "targetName": "Mountain Goat",
     "targetEmoji": "\ud83d\udc10",
@@ -34471,9 +34499,9 @@ const GRAPH_DATA = {
   "mountain range": {
     "targetId": "mountain range",
     "startingElements": [
+      "continent",
       "earth",
       "motion",
-      "continent",
       "air"
     ],
     "targetName": "Mountain Range",
@@ -34484,10 +34512,10 @@ const GRAPH_DATA = {
   "mouse": {
     "targetId": "mouse",
     "startingElements": [
+      "cow",
       "water",
       "wall",
-      "time",
-      "cow"
+      "time"
     ],
     "targetName": "Mouse",
     "targetEmoji": "\ud83d\udc01",
@@ -34497,10 +34525,10 @@ const GRAPH_DATA = {
   "mousetrap": {
     "targetId": "mousetrap",
     "startingElements": [
+      "cow",
       "water",
-      "metal",
       "time",
-      "cow"
+      "metal"
     ],
     "targetName": "Mousetrap",
     "targetEmoji": "\ud83e\udea4",
@@ -34510,8 +34538,8 @@ const GRAPH_DATA = {
   "mud": {
     "targetId": "mud",
     "startingElements": [
-      "water",
       "earth",
+      "water",
       "air",
       "fire"
     ],
@@ -34523,10 +34551,10 @@ const GRAPH_DATA = {
   "mummy": {
     "targetId": "mummy",
     "startingElements": [
-      "time",
-      "stone",
       "animal",
-      "desert"
+      "desert",
+      "stone",
+      "time"
     ],
     "targetName": "Mummy",
     "targetEmoji": "\ud83e\udddf",
@@ -34536,10 +34564,10 @@ const GRAPH_DATA = {
   "music": {
     "targetId": "music",
     "startingElements": [
-      "human",
       "air",
-      "flute",
-      "wood"
+      "wood",
+      "human",
+      "flute"
     ],
     "targetName": "Music",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa4",
@@ -34549,10 +34577,10 @@ const GRAPH_DATA = {
   "musician": {
     "targetId": "musician",
     "startingElements": [
-      "human",
-      "tree",
       "air",
-      "tool"
+      "tool",
+      "human",
+      "tree"
     ],
     "targetName": "Musician",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83c\udfa4",
@@ -34562,10 +34590,10 @@ const GRAPH_DATA = {
   "narwhal": {
     "targetId": "narwhal",
     "startingElements": [
-      "water",
-      "rainbow",
       "animal",
-      "land"
+      "land",
+      "water",
+      "rainbow"
     ],
     "targetName": "Narwhal",
     "targetEmoji": "\ud83d\udc0b",
@@ -34575,9 +34603,9 @@ const GRAPH_DATA = {
   "needle": {
     "targetId": "needle",
     "startingElements": [
-      "plant",
       "tool",
       "cloud",
+      "plant",
       "air"
     ],
     "targetName": "Needle",
@@ -34588,8 +34616,8 @@ const GRAPH_DATA = {
   "nessie": {
     "targetId": "nessie",
     "startingElements": [
-      "human",
       "lake",
+      "human",
       "lightning",
       "air"
     ],
@@ -34601,9 +34629,9 @@ const GRAPH_DATA = {
   "nest": {
     "targetId": "nest",
     "startingElements": [
-      "wall",
-      "air",
       "animal",
+      "air",
+      "wall",
       "earth"
     ],
     "targetName": "Nest",
@@ -34614,9 +34642,9 @@ const GRAPH_DATA = {
   "net": {
     "targetId": "net",
     "startingElements": [
+      "thread",
       "fish",
       "tool",
-      "thread",
       "cotton"
     ],
     "targetName": "Net",
@@ -34627,10 +34655,10 @@ const GRAPH_DATA = {
   "newspaper": {
     "targetId": "newspaper",
     "startingElements": [
-      "water",
-      "tree",
       "story",
-      "tool"
+      "tool",
+      "water",
+      "tree"
     ],
     "targetName": "Newspaper",
     "targetEmoji": "\ud83d\udcf0",
@@ -34640,9 +34668,9 @@ const GRAPH_DATA = {
   "night": {
     "targetId": "night",
     "startingElements": [
-      "fire",
-      "time",
       "planet",
+      "time",
+      "fire",
       "air"
     ],
     "targetName": "Night",
@@ -34653,10 +34681,10 @@ const GRAPH_DATA = {
   "ninja": {
     "targetId": "ninja",
     "startingElements": [
-      "human",
-      "metal",
+      "heat",
       "stone",
-      "heat"
+      "human",
+      "metal"
     ],
     "targetName": "Ninja",
     "targetEmoji": "\ud83e\udd77",
@@ -34666,10 +34694,10 @@ const GRAPH_DATA = {
   "ninja turtle": {
     "targetId": "ninja turtle",
     "startingElements": [
+      "heat",
       "metal",
-      "turtle",
       "stone",
-      "heat"
+      "turtle"
     ],
     "targetName": "Ninja Turtle",
     "targetEmoji": "\ud83d\udc22",
@@ -34679,10 +34707,10 @@ const GRAPH_DATA = {
   "nuts": {
     "targetId": "nuts",
     "startingElements": [
-      "planet",
-      "plant",
       "field",
-      "philosophy"
+      "planet",
+      "philosophy",
+      "plant"
     ],
     "targetName": "Nuts",
     "targetEmoji": "\ud83e\udd5c",
@@ -34692,10 +34720,10 @@ const GRAPH_DATA = {
   "oasis": {
     "targetId": "oasis",
     "startingElements": [
-      "water",
-      "stone",
       "air",
-      "land"
+      "land",
+      "water",
+      "stone"
     ],
     "targetName": "Oasis",
     "targetEmoji": "\ud83c\udfdd\ufe0f",
@@ -34705,8 +34733,8 @@ const GRAPH_DATA = {
   "obsidian": {
     "targetId": "obsidian",
     "startingElements": [
-      "water",
       "earth",
+      "water",
       "fire",
       "air"
     ],
@@ -34718,8 +34746,8 @@ const GRAPH_DATA = {
   "ocean": {
     "targetId": "ocean",
     "startingElements": [
-      "water",
       "pond",
+      "water",
       "air",
       "earth"
     ],
@@ -34732,9 +34760,9 @@ const GRAPH_DATA = {
     "targetId": "oil",
     "startingElements": [
       "pressure",
+      "life",
       "soil",
-      "sun",
-      "life"
+      "sun"
     ],
     "targetName": "Oil",
     "targetEmoji": "\ud83e\ude94",
@@ -34744,9 +34772,9 @@ const GRAPH_DATA = {
   "omelette": {
     "targetId": "omelette",
     "startingElements": [
-      "fire",
-      "phoenix",
       "life",
+      "phoenix",
+      "fire",
       "air"
     ],
     "targetName": "Omelette",
@@ -34757,8 +34785,8 @@ const GRAPH_DATA = {
   "optical fiber": {
     "targetId": "optical fiber",
     "startingElements": [
-      "light bulb",
       "computer",
+      "light bulb",
       "electricity",
       "air"
     ],
@@ -34770,10 +34798,10 @@ const GRAPH_DATA = {
   "orchard": {
     "targetId": "orchard",
     "startingElements": [
+      "field",
       "flower",
       "time",
-      "plant",
-      "field"
+      "plant"
     ],
     "targetName": "Orchard",
     "targetEmoji": "\ud83d\ude13",
@@ -34783,9 +34811,9 @@ const GRAPH_DATA = {
   "ore": {
     "targetId": "ore",
     "startingElements": [
-      "human",
       "earth",
       "stone",
+      "human",
       "air"
     ],
     "targetName": "Ore",
@@ -34796,9 +34824,9 @@ const GRAPH_DATA = {
   "organic matter": {
     "targetId": "organic matter",
     "startingElements": [
-      "time",
       "life",
       "primordial soup",
+      "time",
       "air"
     ],
     "targetName": "Organic Matter",
@@ -34809,10 +34837,10 @@ const GRAPH_DATA = {
   "origami": {
     "targetId": "origami",
     "startingElements": [
-      "water",
+      "animal",
       "tool",
-      "tree",
-      "animal"
+      "water",
+      "tree"
     ],
     "targetName": "Origami",
     "targetEmoji": "\ud83d\udcc4",
@@ -34824,8 +34852,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "earth",
       "air",
-      "life",
-      "land"
+      "land",
+      "life"
     ],
     "targetName": "Ostrich",
     "targetEmoji": "\ud83e\udd11",
@@ -34835,10 +34863,10 @@ const GRAPH_DATA = {
   "owl": {
     "targetId": "owl",
     "startingElements": [
-      "day",
-      "time",
+      "animal",
       "air",
-      "animal"
+      "time",
+      "day"
     ],
     "targetName": "Owl",
     "targetEmoji": "\ud83e\udd89",
@@ -34849,8 +34877,8 @@ const GRAPH_DATA = {
     "targetId": "oxygen",
     "startingElements": [
       "earth",
-      "sun",
       "life",
+      "sun",
       "air"
     ],
     "targetName": "Oxygen",
@@ -34861,9 +34889,9 @@ const GRAPH_DATA = {
   "ozone": {
     "targetId": "ozone",
     "startingElements": [
+      "air",
       "energy",
       "sun",
-      "air",
       "earth"
     ],
     "targetName": "Ozone",
@@ -34874,9 +34902,9 @@ const GRAPH_DATA = {
   "paint": {
     "targetId": "paint",
     "startingElements": [
+      "planet",
       "water",
       "fire",
-      "planet",
       "air"
     ],
     "targetName": "Paint",
@@ -34887,10 +34915,10 @@ const GRAPH_DATA = {
   "painter": {
     "targetId": "painter",
     "startingElements": [
+      "animal",
       "water",
       "time",
-      "rainbow",
-      "animal"
+      "rainbow"
     ],
     "targetName": "Painter",
     "targetEmoji": "\ud83c\udfa8",
@@ -34900,8 +34928,8 @@ const GRAPH_DATA = {
   "painting": {
     "targetId": "painting",
     "startingElements": [
-      "paint",
       "thread",
+      "paint",
       "tool",
       "air"
     ],
@@ -34913,9 +34941,9 @@ const GRAPH_DATA = {
   "paleontologist": {
     "targetId": "paleontologist",
     "startingElements": [
+      "animal",
       "human",
       "time",
-      "animal",
       "stone"
     ],
     "targetName": "Paleontologist",
@@ -34926,10 +34954,10 @@ const GRAPH_DATA = {
   "palm": {
     "targetId": "palm",
     "startingElements": [
+      "philosophy",
       "planet",
-      "plant",
       "sand",
-      "philosophy"
+      "plant"
     ],
     "targetName": "Palm",
     "targetEmoji": "\ud83d\udc4b",
@@ -34952,10 +34980,10 @@ const GRAPH_DATA = {
   "paper": {
     "targetId": "paper",
     "startingElements": [
+      "tool",
       "water",
-      "big",
       "plant",
-      "tool"
+      "big"
     ],
     "targetName": "Paper",
     "targetEmoji": "\ud83d\udcc4",
@@ -34965,10 +34993,10 @@ const GRAPH_DATA = {
   "paper airplane": {
     "targetId": "paper airplane",
     "startingElements": [
+      "tool",
       "water",
-      "airplane",
       "tree",
-      "tool"
+      "airplane"
     ],
     "targetName": "Paper Airplane",
     "targetEmoji": "\ud83d\udca8",
@@ -34978,10 +35006,10 @@ const GRAPH_DATA = {
   "paper cup": {
     "targetId": "paper cup",
     "startingElements": [
-      "water",
-      "container",
       "tea",
-      "wood"
+      "container",
+      "wood",
+      "water"
     ],
     "targetName": "Paper Cup",
     "targetEmoji": "\ud83e\udda7",
@@ -34991,10 +35019,10 @@ const GRAPH_DATA = {
   "parachute": {
     "targetId": "parachute",
     "startingElements": [
-      "atmosphere",
-      "stone",
       "rain",
-      "human"
+      "human",
+      "atmosphere",
+      "stone"
     ],
     "targetName": "Parachute",
     "targetEmoji": "\ud83e\ude82",
@@ -35004,10 +35032,10 @@ const GRAPH_DATA = {
   "paraglider": {
     "targetId": "paraglider",
     "startingElements": [
-      "water",
-      "big",
       "air",
-      "wood"
+      "wood",
+      "water",
+      "big"
     ],
     "targetName": "Paraglider",
     "targetEmoji": "\ud83e\ude82",
@@ -35017,9 +35045,9 @@ const GRAPH_DATA = {
   "park": {
     "targetId": "park",
     "startingElements": [
+      "earth",
       "tool",
       "house",
-      "earth",
       "air"
     ],
     "targetName": "Park",
@@ -35030,10 +35058,10 @@ const GRAPH_DATA = {
   "parrot": {
     "targetId": "parrot",
     "startingElements": [
-      "bullet",
       "bird",
-      "container",
-      "sailor"
+      "bullet",
+      "sailor",
+      "container"
     ],
     "targetName": "Parrot",
     "targetEmoji": "\ud83e\udd9c",
@@ -35044,8 +35072,8 @@ const GRAPH_DATA = {
     "targetId": "pasta",
     "startingElements": [
       "grass",
-      "egg",
       "field",
+      "egg",
       "stone"
     ],
     "targetName": "Pasta",
@@ -35056,10 +35084,10 @@ const GRAPH_DATA = {
   "peacock": {
     "targetId": "peacock",
     "startingElements": [
-      "plant",
       "bird",
-      "rainbow",
-      "wind"
+      "wind",
+      "plant",
+      "rainbow"
     ],
     "targetName": "Peacock",
     "targetEmoji": "\ud83e\udd9a",
@@ -35070,9 +35098,9 @@ const GRAPH_DATA = {
     "targetId": "peanut butter",
     "startingElements": [
       "pressure",
-      "big",
+      "field",
       "plant",
-      "field"
+      "big"
     ],
     "targetName": "Peanut Butter",
     "targetEmoji": "\ud83c\udf51",
@@ -35082,10 +35110,10 @@ const GRAPH_DATA = {
   "peat": {
     "targetId": "peat",
     "startingElements": [
-      "soil",
       "earth",
-      "time",
-      "life"
+      "life",
+      "soil",
+      "time"
     ],
     "targetName": "Peat",
     "targetEmoji": "\ud83c\udf7d\ufe0f",
@@ -35095,9 +35123,9 @@ const GRAPH_DATA = {
   "pebble": {
     "targetId": "pebble",
     "startingElements": [
-      "human",
       "earth",
       "bacteria",
+      "human",
       "idea"
     ],
     "targetName": "Pebble",
@@ -35108,10 +35136,10 @@ const GRAPH_DATA = {
   "pegasus": {
     "targetId": "pegasus",
     "startingElements": [
-      "cloud",
-      "air",
       "animal",
-      "land"
+      "air",
+      "land",
+      "cloud"
     ],
     "targetName": "Pegasus",
     "targetEmoji": "\ud83d\ude24",
@@ -35121,10 +35149,10 @@ const GRAPH_DATA = {
   "pencil": {
     "targetId": "pencil",
     "startingElements": [
+      "tool",
       "charcoal",
       "plant",
-      "big",
-      "tool"
+      "big"
     ],
     "targetName": "Pencil",
     "targetEmoji": "\u270f\ufe0f",
@@ -35134,10 +35162,10 @@ const GRAPH_DATA = {
   "pencil sharpener": {
     "targetId": "pencil sharpener",
     "startingElements": [
-      "blade",
-      "tree",
       "tool",
-      "charcoal"
+      "blade",
+      "charcoal",
+      "tree"
     ],
     "targetName": "Pencil Sharpener",
     "targetEmoji": "\u270f\ufe0f",
@@ -35147,10 +35175,10 @@ const GRAPH_DATA = {
   "penguin": {
     "targetId": "penguin",
     "startingElements": [
-      "human",
+      "animal",
       "wind",
-      "air",
-      "animal"
+      "human",
+      "air"
     ],
     "targetName": "Penguin",
     "targetEmoji": "\ud83d\udc27",
@@ -35173,10 +35201,10 @@ const GRAPH_DATA = {
   "perfume": {
     "targetId": "perfume",
     "startingElements": [
-      "water",
       "soil",
-      "sun",
-      "life"
+      "life",
+      "water",
+      "sun"
     ],
     "targetName": "Perfume",
     "targetEmoji": "\ud83e\uddea",
@@ -35187,8 +35215,8 @@ const GRAPH_DATA = {
     "targetId": "petroleum",
     "startingElements": [
       "earth",
-      "time",
       "corpse",
+      "time",
       "air"
     ],
     "targetName": "Petroleum",
@@ -35199,8 +35227,8 @@ const GRAPH_DATA = {
   "philosophy": {
     "targetId": "philosophy",
     "startingElements": [
-      "human",
       "firefighter",
+      "human",
       "fire",
       "air"
     ],
@@ -35212,10 +35240,10 @@ const GRAPH_DATA = {
   "phoenix": {
     "targetId": "phoenix",
     "startingElements": [
+      "earth",
       "sea",
-      "fire",
       "time",
-      "earth"
+      "fire"
     ],
     "targetName": "Phoenix",
     "targetEmoji": "\ud83d\udc26\u200d\ud83d\udd25",
@@ -35225,10 +35253,10 @@ const GRAPH_DATA = {
   "picnic": {
     "targetId": "picnic",
     "startingElements": [
-      "fire",
       "beach",
+      "dough",
       "bacon",
-      "dough"
+      "fire"
     ],
     "targetName": "Picnic",
     "targetEmoji": "\ud83c\udf49",
@@ -35238,10 +35266,10 @@ const GRAPH_DATA = {
   "pie": {
     "targetId": "pie",
     "startingElements": [
+      "wheat",
       "water",
-      "meat",
       "stone",
-      "wheat"
+      "meat"
     ],
     "targetName": "Pie",
     "targetEmoji": "\ud83e\udd67",
@@ -35251,10 +35279,10 @@ const GRAPH_DATA = {
   "pig": {
     "targetId": "pig",
     "startingElements": [
-      "time",
-      "mud",
+      "land",
       "primordial soup",
-      "land"
+      "time",
+      "mud"
     ],
     "targetName": "Pig",
     "targetEmoji": "\ud83d\udc16",
@@ -35264,8 +35292,8 @@ const GRAPH_DATA = {
   "pigeon": {
     "targetId": "pigeon",
     "startingElements": [
-      "wall",
       "bird",
+      "wall",
       "cloud",
       "air"
     ],
@@ -35277,10 +35305,10 @@ const GRAPH_DATA = {
   "piggy bank": {
     "targetId": "piggy bank",
     "startingElements": [
-      "human",
+      "stone",
       "pig",
-      "clay",
-      "stone"
+      "human",
+      "clay"
     ],
     "targetName": "Piggy Bank",
     "targetEmoji": "\u270b",
@@ -35290,9 +35318,9 @@ const GRAPH_DATA = {
   "pilot": {
     "targetId": "pilot",
     "startingElements": [
-      "human",
       "bird",
       "tool",
+      "human",
       "air"
     ],
     "targetName": "Pilot",
@@ -35303,10 +35331,10 @@ const GRAPH_DATA = {
   "pinocchio": {
     "targetId": "pinocchio",
     "startingElements": [
-      "human",
-      "hero",
       "story",
-      "clay"
+      "hero",
+      "clay",
+      "human"
     ],
     "targetName": "Pinocchio",
     "targetEmoji": "\ud83e\udd25",
@@ -35317,9 +35345,9 @@ const GRAPH_DATA = {
     "targetId": "pipe",
     "startingElements": [
       "soil",
-      "fire",
       "life",
-      "tool"
+      "tool",
+      "fire"
     ],
     "targetName": "Pipe",
     "targetEmoji": "\ud83e\ude88",
@@ -35329,9 +35357,9 @@ const GRAPH_DATA = {
   "piranha": {
     "targetId": "piranha",
     "startingElements": [
+      "animal",
       "water",
       "moon",
-      "animal",
       "air"
     ],
     "targetName": "Piranha",
@@ -35343,9 +35371,9 @@ const GRAPH_DATA = {
     "targetId": "pirate",
     "startingElements": [
       "bullet",
+      "sailor",
       "house",
-      "philosophy",
-      "sailor"
+      "philosophy"
     ],
     "targetName": "Pirate",
     "targetEmoji": "\u2620\ufe0f",
@@ -35356,9 +35384,9 @@ const GRAPH_DATA = {
     "targetId": "pirate ship",
     "startingElements": [
       "bullet",
+      "sailor",
       "house",
-      "container",
-      "sailor"
+      "container"
     ],
     "targetName": "Pirate Ship",
     "targetEmoji": "\u2620\ufe0f",
@@ -35368,10 +35396,10 @@ const GRAPH_DATA = {
   "pitchfork": {
     "targetId": "pitchfork",
     "startingElements": [
-      "plant",
       "earth",
-      "sun",
-      "tool"
+      "tool",
+      "plant",
+      "sun"
     ],
     "targetName": "Pitchfork",
     "targetEmoji": "\ud83d\udd31",
@@ -35381,10 +35409,10 @@ const GRAPH_DATA = {
   "pizza": {
     "targetId": "pizza",
     "startingElements": [
+      "cow",
       "water",
       "time",
-      "wheel",
-      "cow"
+      "wheel"
     ],
     "targetName": "Pizza",
     "targetEmoji": "\ud83c\udf55",
@@ -35407,9 +35435,9 @@ const GRAPH_DATA = {
   "plankton": {
     "targetId": "plankton",
     "startingElements": [
+      "earth",
       "water",
       "sea",
-      "earth",
       "time"
     ],
     "targetName": "Plankton",
@@ -35421,9 +35449,9 @@ const GRAPH_DATA = {
     "targetId": "plant",
     "startingElements": [
       "earth",
-      "time",
       "life",
-      "primordial soup"
+      "primordial soup",
+      "time"
     ],
     "targetName": "Plant",
     "targetEmoji": "\ud83d\udc90",
@@ -35433,8 +35461,8 @@ const GRAPH_DATA = {
   "plasma": {
     "targetId": "plasma",
     "startingElements": [
-      "energy",
       "air",
+      "energy",
       "earth",
       "fire"
     ],
@@ -35446,9 +35474,9 @@ const GRAPH_DATA = {
   "platypus": {
     "targetId": "platypus",
     "startingElements": [
-      "motion",
       "bird",
       "animal",
+      "motion",
       "pond"
     ],
     "targetName": "Platypus",
@@ -35459,10 +35487,10 @@ const GRAPH_DATA = {
   "plow": {
     "targetId": "plow",
     "startingElements": [
-      "human",
       "earth",
-      "stone",
-      "tool"
+      "tool",
+      "human",
+      "stone"
     ],
     "targetName": "Plow",
     "targetEmoji": "\ud83d\udd09",
@@ -35472,10 +35500,10 @@ const GRAPH_DATA = {
   "polar bear": {
     "targetId": "polar bear",
     "startingElements": [
-      "water",
+      "animal",
       "wind",
-      "human",
-      "animal"
+      "water",
+      "human"
     ],
     "targetName": "Polar Bear",
     "targetEmoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
@@ -35485,9 +35513,9 @@ const GRAPH_DATA = {
   "pollen": {
     "targetId": "pollen",
     "startingElements": [
-      "life",
       "earth",
       "dust",
+      "life",
       "air"
     ],
     "targetName": "Pollen",
@@ -35511,10 +35539,10 @@ const GRAPH_DATA = {
   "popsicle": {
     "targetId": "popsicle",
     "startingElements": [
-      "time",
-      "earth",
+      "cold",
       "flower",
-      "cold"
+      "earth",
+      "time"
     ],
     "targetName": "Popsicle",
     "targetEmoji": "\ud83d\udca2",
@@ -35524,10 +35552,10 @@ const GRAPH_DATA = {
   "post office": {
     "targetId": "post office",
     "startingElements": [
-      "human",
-      "wall",
       "story",
-      "paper"
+      "wall",
+      "paper",
+      "human"
     ],
     "targetName": "Post Office",
     "targetEmoji": "\ud83e\udd76",
@@ -35537,10 +35565,10 @@ const GRAPH_DATA = {
   "potato": {
     "targetId": "potato",
     "startingElements": [
-      "soil",
       "earth",
       "field",
-      "life"
+      "life",
+      "soil"
     ],
     "targetName": "Potato",
     "targetEmoji": "\ud83e\udd54",
@@ -35550,10 +35578,10 @@ const GRAPH_DATA = {
   "potter": {
     "targetId": "potter",
     "startingElements": [
-      "time",
       "life",
+      "land",
       "clay",
-      "land"
+      "time"
     ],
     "targetName": "Potter",
     "targetEmoji": "\ud83e\udda6",
@@ -35563,10 +35591,10 @@ const GRAPH_DATA = {
   "pottery": {
     "targetId": "pottery",
     "startingElements": [
-      "time",
       "animal",
+      "clay",
       "stone",
-      "clay"
+      "time"
     ],
     "targetName": "Pottery",
     "targetEmoji": "\ud83c\udf6f",
@@ -35589,9 +35617,9 @@ const GRAPH_DATA = {
   "primordial soup": {
     "targetId": "primordial soup",
     "startingElements": [
-      "water",
       "earth",
       "pond",
+      "water",
       "air"
     ],
     "targetName": "Primordial Soup",
@@ -35602,10 +35630,10 @@ const GRAPH_DATA = {
   "printer": {
     "targetId": "printer",
     "startingElements": [
-      "water",
-      "tree",
       "computer",
-      "tool"
+      "tool",
+      "water",
+      "tree"
     ],
     "targetName": "Printer",
     "targetEmoji": "\ud83d\udda8\ufe0f",
@@ -35615,10 +35643,10 @@ const GRAPH_DATA = {
   "prism": {
     "targetId": "prism",
     "startingElements": [
-      "water",
-      "fire",
       "glass",
-      "planet"
+      "planet",
+      "water",
+      "fire"
     ],
     "targetName": "Prism",
     "targetEmoji": "\ud83d\udc8e",
@@ -35628,10 +35656,10 @@ const GRAPH_DATA = {
   "pterodactyl": {
     "targetId": "pterodactyl",
     "startingElements": [
-      "time",
-      "air",
       "animal",
-      "stone"
+      "air",
+      "stone",
+      "time"
     ],
     "targetName": "Pterodactyl",
     "targetEmoji": "\ud83c\udfa3",
@@ -35667,9 +35695,9 @@ const GRAPH_DATA = {
   "pyramid": {
     "targetId": "pyramid",
     "startingElements": [
-      "stone",
       "air",
       "land",
+      "stone",
       "earth"
     ],
     "targetName": "Pyramid",
@@ -35693,10 +35721,10 @@ const GRAPH_DATA = {
   "quicksilver": {
     "targetId": "quicksilver",
     "startingElements": [
+      "telescope",
       "water",
-      "metal",
       "human",
-      "telescope"
+      "metal"
     ],
     "targetName": "Quicksilver",
     "targetEmoji": "\ud83e\udd48",
@@ -35706,10 +35734,10 @@ const GRAPH_DATA = {
   "rabbit": {
     "targetId": "rabbit",
     "startingElements": [
-      "grass",
-      "plant",
+      "animal",
       "field",
-      "animal"
+      "grass",
+      "plant"
     ],
     "targetName": "Rabbit",
     "targetEmoji": "\ud83d\udc07",
@@ -35719,9 +35747,9 @@ const GRAPH_DATA = {
   "rain": {
     "targetId": "rain",
     "startingElements": [
-      "water",
-      "planet",
       "air",
+      "planet",
+      "water",
       "earth"
     ],
     "targetName": "Rain",
@@ -35732,9 +35760,9 @@ const GRAPH_DATA = {
   "rainbow": {
     "targetId": "rainbow",
     "startingElements": [
+      "continent",
       "water",
       "fire",
-      "continent",
       "air"
     ],
     "targetName": "Rainbow",
@@ -35745,10 +35773,10 @@ const GRAPH_DATA = {
   "rainforest": {
     "targetId": "rainforest",
     "startingElements": [
-      "big",
+      "rain",
       "earth",
       "plant",
-      "rain"
+      "big"
     ],
     "targetName": "Rainforest",
     "targetEmoji": "\ud83d\ude2a",
@@ -35758,10 +35786,10 @@ const GRAPH_DATA = {
   "rat": {
     "targetId": "rat",
     "startingElements": [
-      "steam engine",
-      "sea",
+      "animal",
       "wind",
-      "animal"
+      "sea",
+      "steam engine"
     ],
     "targetName": "Rat",
     "targetEmoji": "\ud83d\udc00",
@@ -35771,10 +35799,10 @@ const GRAPH_DATA = {
   "recipe": {
     "targetId": "recipe",
     "startingElements": [
+      "tool",
       "water",
       "tree",
-      "meat",
-      "tool"
+      "meat"
     ],
     "targetName": "Recipe",
     "targetEmoji": "\ud83d\udcdc",
@@ -35784,8 +35812,8 @@ const GRAPH_DATA = {
   "reed": {
     "targetId": "reed",
     "startingElements": [
-      "puddle",
       "earth",
+      "puddle",
       "life",
       "air"
     ],
@@ -35797,10 +35825,10 @@ const GRAPH_DATA = {
   "reindeer": {
     "targetId": "reindeer",
     "startingElements": [
-      "star",
-      "plant",
+      "animal",
       "big",
-      "animal"
+      "plant",
+      "star"
     ],
     "targetName": "Reindeer",
     "targetEmoji": "\ud83e\udd8c",
@@ -35810,10 +35838,10 @@ const GRAPH_DATA = {
   "restaurant": {
     "targetId": "restaurant",
     "startingElements": [
-      "human",
-      "house",
+      "field",
       "plant",
-      "field"
+      "house",
+      "human"
     ],
     "targetName": "Restaurant",
     "targetEmoji": "\ud83c\udf7d\ufe0f",
@@ -35824,9 +35852,9 @@ const GRAPH_DATA = {
     "targetId": "ring",
     "startingElements": [
       "coal",
-      "fire",
       "pressure",
-      "ore"
+      "ore",
+      "fire"
     ],
     "targetName": "Ring",
     "targetEmoji": "\ud83d\udd96",
@@ -35836,10 +35864,10 @@ const GRAPH_DATA = {
   "river": {
     "targetId": "river",
     "startingElements": [
-      "human",
       "lake",
-      "telescope",
-      "wind"
+      "wind",
+      "human",
+      "telescope"
     ],
     "targetName": "River",
     "targetEmoji": "\ud83e\ude9b",
@@ -35849,9 +35877,9 @@ const GRAPH_DATA = {
   "rivulet": {
     "targetId": "rivulet",
     "startingElements": [
-      "human",
       "puddle",
       "wind",
+      "human",
       "telescope"
     ],
     "targetName": "Rivulet",
@@ -35862,10 +35890,10 @@ const GRAPH_DATA = {
   "robot": {
     "targetId": "robot",
     "startingElements": [
-      "fire",
-      "hammer",
+      "earth",
       "life",
-      "earth"
+      "hammer",
+      "fire"
     ],
     "targetName": "Robot",
     "targetEmoji": "\ud83e\udd16",
@@ -35875,10 +35903,10 @@ const GRAPH_DATA = {
   "robot vacuum": {
     "targetId": "robot vacuum",
     "startingElements": [
-      "tree",
       "robot",
-      "hay",
-      "tool"
+      "tool",
+      "tree",
+      "hay"
     ],
     "targetName": "Robot Vacuum",
     "targetEmoji": "\ud83e\udd16",
@@ -35888,10 +35916,10 @@ const GRAPH_DATA = {
   "rock": {
     "targetId": "rock",
     "startingElements": [
-      "big",
       "earth",
+      "philosophy",
       "bacteria",
-      "philosophy"
+      "big"
     ],
     "targetName": "Rock",
     "targetEmoji": "\ud83e\udd28",
@@ -35901,10 +35929,10 @@ const GRAPH_DATA = {
   "rocket": {
     "targetId": "rocket",
     "startingElements": [
-      "atmosphere",
-      "stone",
+      "tool",
       "human",
-      "tool"
+      "atmosphere",
+      "stone"
     ],
     "targetName": "Rocket",
     "targetEmoji": "\ud83e\uddd1\u200d\ud83d\ude80",
@@ -35914,10 +35942,10 @@ const GRAPH_DATA = {
   "roe": {
     "targetId": "roe",
     "startingElements": [
-      "water",
-      "fire",
+      "life",
       "phoenix",
-      "life"
+      "water",
+      "fire"
     ],
     "targetName": "Roe",
     "targetEmoji": "\ud83c\uddeb\ud83c\uddf4",
@@ -35928,9 +35956,9 @@ const GRAPH_DATA = {
     "targetId": "roller coaster",
     "startingElements": [
       "steam engine",
-      "wheel",
       "field",
-      "village"
+      "village",
+      "wheel"
     ],
     "targetName": "Roller Coaster",
     "targetEmoji": "\ud83d\ude44",
@@ -35953,9 +35981,9 @@ const GRAPH_DATA = {
   "rose": {
     "targetId": "rose",
     "startingElements": [
-      "human",
       "soil",
       "life",
+      "human",
       "air"
     ],
     "targetName": "Rose",
@@ -35966,9 +35994,9 @@ const GRAPH_DATA = {
   "ruins": {
     "targetId": "ruins",
     "startingElements": [
+      "brick",
       "wall",
       "time",
-      "brick",
       "air"
     ],
     "targetName": "Ruins",
@@ -35979,10 +36007,10 @@ const GRAPH_DATA = {
   "ruler": {
     "targetId": "ruler",
     "startingElements": [
-      "charcoal",
+      "wood",
       "tree",
-      "tool",
-      "wood"
+      "charcoal",
+      "tool"
     ],
     "targetName": "Ruler",
     "targetEmoji": "\ud83d\udccf",
@@ -35992,10 +36020,10 @@ const GRAPH_DATA = {
   "rust": {
     "targetId": "rust",
     "startingElements": [
-      "hammer",
-      "fire",
+      "earth",
       "air",
-      "earth"
+      "hammer",
+      "fire"
     ],
     "targetName": "Rust",
     "targetEmoji": "\ud83e\udd28",
@@ -36018,10 +36046,10 @@ const GRAPH_DATA = {
   "sack": {
     "targetId": "sack",
     "startingElements": [
-      "human",
-      "house",
       "salt",
-      "idea"
+      "house",
+      "idea",
+      "human"
     ],
     "targetName": "Sack",
     "targetEmoji": "\ud83c\udf92",
@@ -36031,10 +36059,10 @@ const GRAPH_DATA = {
   "saddle": {
     "targetId": "saddle",
     "startingElements": [
-      "human",
-      "stone",
       "animal",
-      "land"
+      "land",
+      "human",
+      "stone"
     ],
     "targetName": "Saddle",
     "targetEmoji": "\ud83d\ude14",
@@ -36044,10 +36072,10 @@ const GRAPH_DATA = {
   "safe": {
     "targetId": "safe",
     "startingElements": [
-      "metal",
       "fire",
+      "ore",
       "sand",
-      "ore"
+      "metal"
     ],
     "targetName": "Safe",
     "targetEmoji": "\ud83d\udd12",
@@ -36057,10 +36085,10 @@ const GRAPH_DATA = {
   "safety glasses": {
     "targetId": "safety glasses",
     "startingElements": [
+      "glass",
       "explosion",
-      "fire",
       "sand",
-      "glass"
+      "fire"
     ],
     "targetName": "Safety Glasses",
     "targetEmoji": "\ud83d\ude0e",
@@ -36070,10 +36098,10 @@ const GRAPH_DATA = {
   "sailboat": {
     "targetId": "sailboat",
     "startingElements": [
-      "sea",
       "wind",
-      "wheel",
-      "steam"
+      "sea",
+      "steam",
+      "wheel"
     ],
     "targetName": "Sailboat",
     "targetEmoji": "\u26f5",
@@ -36083,10 +36111,10 @@ const GRAPH_DATA = {
   "sailor": {
     "targetId": "sailor",
     "startingElements": [
-      "time",
       "lake",
+      "land",
       "life",
-      "land"
+      "time"
     ],
     "targetName": "Sailor",
     "targetEmoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
@@ -36096,9 +36124,9 @@ const GRAPH_DATA = {
   "salt": {
     "targetId": "salt",
     "startingElements": [
+      "pond",
       "water",
       "fire",
-      "pond",
       "air"
     ],
     "targetName": "Salt",
@@ -36122,9 +36150,9 @@ const GRAPH_DATA = {
   "sand castle": {
     "targetId": "sand castle",
     "startingElements": [
-      "human",
       "stone",
       "sand",
+      "human",
       "armor"
     ],
     "targetName": "Sand Castle",
@@ -36135,9 +36163,9 @@ const GRAPH_DATA = {
   "sandpaper": {
     "targetId": "sandpaper",
     "startingElements": [
-      "cotton",
-      "sand",
       "tool",
+      "sand",
+      "cotton",
       "air"
     ],
     "targetName": "Sandpaper",
@@ -36162,9 +36190,9 @@ const GRAPH_DATA = {
     "targetId": "sandstorm",
     "startingElements": [
       "wind",
-      "air",
+      "land",
       "stone",
-      "land"
+      "air"
     ],
     "targetName": "Sandstorm",
     "targetEmoji": "\ud83c\udf2a\ufe0f",
@@ -36174,10 +36202,10 @@ const GRAPH_DATA = {
   "sandwich": {
     "targetId": "sandwich",
     "startingElements": [
-      "water",
       "flour",
-      "fire",
-      "bacon"
+      "bacon",
+      "water",
+      "fire"
     ],
     "targetName": "Sandwich",
     "targetEmoji": "\ud83e\udd6a",
@@ -36187,10 +36215,10 @@ const GRAPH_DATA = {
   "santa": {
     "targetId": "santa",
     "startingElements": [
+      "big",
       "human",
-      "star",
       "plant",
-      "big"
+      "star"
     ],
     "targetName": "Santa",
     "targetEmoji": "\ud83e\udd36",
@@ -36200,10 +36228,10 @@ const GRAPH_DATA = {
   "sap": {
     "targetId": "sap",
     "startingElements": [
-      "blade",
+      "philosophy",
       "planet",
-      "plant",
-      "philosophy"
+      "blade",
+      "plant"
     ],
     "targetName": "Sap",
     "targetEmoji": "\ud83e\udd28",
@@ -36214,9 +36242,9 @@ const GRAPH_DATA = {
     "targetId": "saturn",
     "startingElements": [
       "coal",
-      "metal",
       "planet",
-      "pressure"
+      "pressure",
+      "metal"
     ],
     "targetName": "Saturn",
     "targetEmoji": "\ud83e\ude90",
@@ -36226,10 +36254,10 @@ const GRAPH_DATA = {
   "scalpel": {
     "targetId": "scalpel",
     "startingElements": [
-      "wall",
       "stone",
-      "metal",
-      "sickness"
+      "wall",
+      "sickness",
+      "metal"
     ],
     "targetName": "Scalpel",
     "targetEmoji": "\ud83d\udd2a",
@@ -36239,10 +36267,10 @@ const GRAPH_DATA = {
   "scarecrow": {
     "targetId": "scarecrow",
     "startingElements": [
-      "human",
       "earth",
-      "sun",
-      "plant"
+      "plant",
+      "human",
+      "sun"
     ],
     "targetName": "Scarecrow",
     "targetEmoji": "\ud83d\ude9e",
@@ -36252,10 +36280,10 @@ const GRAPH_DATA = {
   "science": {
     "targetId": "science",
     "startingElements": [
-      "planet",
-      "time",
+      "animal",
       "glass",
-      "animal"
+      "planet",
+      "time"
     ],
     "targetName": "Science",
     "targetEmoji": "\u2697\ufe0f",
@@ -36265,8 +36293,8 @@ const GRAPH_DATA = {
   "scissors": {
     "targetId": "scissors",
     "startingElements": [
-      "metal",
       "stone",
+      "metal",
       "air",
       "earth"
     ],
@@ -36278,10 +36306,10 @@ const GRAPH_DATA = {
   "scorpion": {
     "targetId": "scorpion",
     "startingElements": [
-      "time",
-      "sand",
+      "land",
       "primordial soup",
-      "land"
+      "sand",
+      "time"
     ],
     "targetName": "Scorpion",
     "targetEmoji": "\ud83e\udd82",
@@ -36291,10 +36319,10 @@ const GRAPH_DATA = {
   "scuba tank": {
     "targetId": "scuba tank",
     "startingElements": [
-      "human",
-      "house",
       "air",
-      "idea"
+      "house",
+      "idea",
+      "human"
     ],
     "targetName": "Scuba Tank",
     "targetEmoji": "\ud83e\udd3f",
@@ -36305,9 +36333,9 @@ const GRAPH_DATA = {
     "targetId": "scythe",
     "startingElements": [
       "grass",
-      "fire",
+      "ore",
       "stone",
-      "ore"
+      "fire"
     ],
     "targetName": "Scythe",
     "targetEmoji": "\ud83e\ude93",
@@ -36317,8 +36345,8 @@ const GRAPH_DATA = {
   "sea": {
     "targetId": "sea",
     "startingElements": [
-      "water",
       "puddle",
+      "water",
       "air",
       "earth"
     ],
@@ -36330,10 +36358,10 @@ const GRAPH_DATA = {
   "seagull": {
     "targetId": "seagull",
     "startingElements": [
-      "life",
-      "air",
       "beach",
-      "land"
+      "air",
+      "land",
+      "life"
     ],
     "targetName": "Seagull",
     "targetEmoji": "\ud83e\udddc",
@@ -36343,9 +36371,9 @@ const GRAPH_DATA = {
   "seahorse": {
     "targetId": "seahorse",
     "startingElements": [
-      "water",
       "life",
       "land",
+      "water",
       "air"
     ],
     "targetName": "Seahorse",
@@ -36356,10 +36384,10 @@ const GRAPH_DATA = {
   "seal": {
     "targetId": "seal",
     "startingElements": [
-      "water",
       "animal",
-      "moon",
-      "bone"
+      "water",
+      "bone",
+      "moon"
     ],
     "targetName": "Seal",
     "targetEmoji": "\ud83e\uddad",
@@ -36369,9 +36397,9 @@ const GRAPH_DATA = {
   "seaplane": {
     "targetId": "seaplane",
     "startingElements": [
-      "water",
       "bird",
       "tool",
+      "water",
       "air"
     ],
     "targetName": "Seaplane",
@@ -36382,10 +36410,10 @@ const GRAPH_DATA = {
   "seasickness": {
     "targetId": "seasickness",
     "startingElements": [
-      "time",
       "animal",
       "lake",
-      "bacteria"
+      "bacteria",
+      "time"
     ],
     "targetName": "Seasickness",
     "targetEmoji": "\ud83d\ude37",
@@ -36409,9 +36437,9 @@ const GRAPH_DATA = {
     "targetId": "seed",
     "startingElements": [
       "soil",
+      "life",
       "time",
-      "rainbow",
-      "life"
+      "rainbow"
     ],
     "targetName": "Seed",
     "targetEmoji": "\ud83c\udf31",
@@ -36421,10 +36449,10 @@ const GRAPH_DATA = {
   "sewing machine": {
     "targetId": "sewing machine",
     "startingElements": [
-      "plant",
-      "electricity",
       "tool",
-      "cloud"
+      "plant",
+      "cloud",
+      "electricity"
     ],
     "targetName": "Sewing Machine",
     "targetEmoji": "\ud83e\udd14",
@@ -36434,10 +36462,10 @@ const GRAPH_DATA = {
   "shark": {
     "targetId": "shark",
     "startingElements": [
-      "sea",
+      "animal",
       "sky",
-      "time",
-      "animal"
+      "sea",
+      "time"
     ],
     "targetName": "Shark",
     "targetEmoji": "\ud83e\udd88",
@@ -36447,10 +36475,10 @@ const GRAPH_DATA = {
   "sheep": {
     "targetId": "sheep",
     "startingElements": [
-      "tool",
-      "earth",
       "animal",
-      "land"
+      "earth",
+      "land",
+      "tool"
     ],
     "targetName": "Sheep",
     "targetEmoji": "\ud83d\udc0f",
@@ -36460,9 +36488,9 @@ const GRAPH_DATA = {
   "sheet music": {
     "targetId": "sheet music",
     "startingElements": [
+      "book",
       "human",
       "flute",
-      "book",
       "air"
     ],
     "targetName": "Sheet Music",
@@ -36473,10 +36501,10 @@ const GRAPH_DATA = {
   "shovel": {
     "targetId": "shovel",
     "startingElements": [
+      "tool",
       "human",
-      "house",
       "plant",
-      "tool"
+      "house"
     ],
     "targetName": "Shovel",
     "targetEmoji": "\ud83e\udd44",
@@ -36486,10 +36514,10 @@ const GRAPH_DATA = {
   "shuriken": {
     "targetId": "shuriken",
     "startingElements": [
-      "fire",
+      "night",
       "sky",
       "ore",
-      "night"
+      "fire"
     ],
     "targetName": "Shuriken",
     "targetEmoji": "\ud83c\udfaf",
@@ -36499,10 +36527,10 @@ const GRAPH_DATA = {
   "sickness": {
     "targetId": "sickness",
     "startingElements": [
-      "mud",
-      "time",
+      "animal",
       "life",
-      "animal"
+      "time",
+      "mud"
     ],
     "targetName": "Sickness",
     "targetEmoji": "\ud83d\ude37",
@@ -36512,10 +36540,10 @@ const GRAPH_DATA = {
   "silo": {
     "targetId": "silo",
     "startingElements": [
-      "wall",
       "earth",
-      "plant",
-      "field"
+      "field",
+      "wall",
+      "plant"
     ],
     "targetName": "Silo",
     "targetEmoji": "\ud83c\udfe2",
@@ -36525,10 +36553,10 @@ const GRAPH_DATA = {
   "skateboard": {
     "targetId": "skateboard",
     "startingElements": [
-      "water",
+      "cold",
       "tool",
-      "glasses",
-      "cold"
+      "water",
+      "glasses"
     ],
     "targetName": "Skateboard",
     "targetEmoji": "\ud83d\udef9",
@@ -36538,8 +36566,8 @@ const GRAPH_DATA = {
   "skeleton": {
     "targetId": "skeleton",
     "startingElements": [
-      "time",
       "animal",
+      "time",
       "air",
       "earth"
     ],
@@ -36551,9 +36579,9 @@ const GRAPH_DATA = {
   "ski goggles": {
     "targetId": "ski goggles",
     "startingElements": [
-      "human",
-      "wind",
       "glass",
+      "wind",
+      "human",
       "air"
     ],
     "targetName": "Ski Goggles",
@@ -36564,8 +36592,8 @@ const GRAPH_DATA = {
   "skier": {
     "targetId": "skier",
     "startingElements": [
-      "human",
       "wind",
+      "human",
       "glasses",
       "air"
     ],
@@ -36577,9 +36605,9 @@ const GRAPH_DATA = {
   "sky": {
     "targetId": "sky",
     "startingElements": [
-      "water",
-      "planet",
       "air",
+      "planet",
+      "water",
       "earth"
     ],
     "targetName": "Sky",
@@ -36590,9 +36618,9 @@ const GRAPH_DATA = {
   "skyscraper": {
     "targetId": "skyscraper",
     "startingElements": [
-      "atmosphere",
-      "wall",
       "water",
+      "wall",
+      "atmosphere",
       "air"
     ],
     "targetName": "Skyscraper",
@@ -36603,10 +36631,10 @@ const GRAPH_DATA = {
   "sleigh": {
     "targetId": "sleigh",
     "startingElements": [
+      "ice",
       "tool",
       "tree",
-      "wheel",
-      "ice"
+      "wheel"
     ],
     "targetName": "Sleigh",
     "targetEmoji": "\ud83d\udef7",
@@ -36616,9 +36644,9 @@ const GRAPH_DATA = {
   "sloth": {
     "targetId": "sloth",
     "startingElements": [
-      "time",
-      "primordial soup",
       "land",
+      "primordial soup",
+      "time",
       "air"
     ],
     "targetName": "Sloth",
@@ -36629,9 +36657,9 @@ const GRAPH_DATA = {
   "small": {
     "targetId": "small",
     "startingElements": [
-      "human",
       "firefighter",
       "bacteria",
+      "human",
       "air"
     ],
     "targetName": "Small",
@@ -36655,10 +36683,10 @@ const GRAPH_DATA = {
   "smog": {
     "targetId": "smog",
     "startingElements": [
-      "atmosphere",
-      "earth",
       "smoke",
-      "water"
+      "earth",
+      "water",
+      "atmosphere"
     ],
     "targetName": "Smog",
     "targetEmoji": "\ud83c\udfed",
@@ -36668,8 +36696,8 @@ const GRAPH_DATA = {
   "smoke": {
     "targetId": "smoke",
     "startingElements": [
-      "fire",
       "air",
+      "fire",
       "earth",
       "water"
     ],
@@ -36681,9 +36709,9 @@ const GRAPH_DATA = {
   "smoke signal": {
     "targetId": "smoke signal",
     "startingElements": [
-      "cotton",
       "smoke",
       "tool",
+      "cotton",
       "air"
     ],
     "targetName": "Smoke Signal",
@@ -36694,10 +36722,10 @@ const GRAPH_DATA = {
   "smoothie": {
     "targetId": "smoothie",
     "startingElements": [
-      "plant",
+      "cold",
       "time",
-      "rainbow",
-      "cold"
+      "plant",
+      "rainbow"
     ],
     "targetName": "Smoothie",
     "targetEmoji": "\ud83e\udd64",
@@ -36707,10 +36735,10 @@ const GRAPH_DATA = {
   "snake": {
     "targetId": "snake",
     "startingElements": [
-      "fish",
-      "sun",
+      "land",
       "solar cell",
-      "land"
+      "sun",
+      "fish"
     ],
     "targetName": "Snake",
     "targetEmoji": "\ud83d\udc0d",
@@ -36720,9 +36748,9 @@ const GRAPH_DATA = {
   "snow": {
     "targetId": "snow",
     "startingElements": [
-      "time",
       "animal",
       "wind",
+      "time",
       "steam"
     ],
     "targetName": "Snow",
@@ -36733,9 +36761,9 @@ const GRAPH_DATA = {
   "snow globe": {
     "targetId": "snow globe",
     "startingElements": [
-      "human",
-      "wind",
       "glass",
+      "wind",
+      "human",
       "steam"
     ],
     "targetName": "Snow Globe",
@@ -36746,9 +36774,9 @@ const GRAPH_DATA = {
   "snowball": {
     "targetId": "snowball",
     "startingElements": [
-      "human",
       "earth",
       "wind",
+      "human",
       "steam"
     ],
     "targetName": "Snowball",
@@ -36759,10 +36787,10 @@ const GRAPH_DATA = {
   "snowboard": {
     "targetId": "snowboard",
     "startingElements": [
-      "human",
-      "water",
       "beach",
-      "cold"
+      "water",
+      "cold",
+      "human"
     ],
     "targetName": "Snowboard",
     "targetEmoji": "\ud83c\udfc2",
@@ -36772,9 +36800,9 @@ const GRAPH_DATA = {
   "snowboarder": {
     "targetId": "snowboarder",
     "startingElements": [
+      "ice",
       "human",
       "beach",
-      "ice",
       "air"
     ],
     "targetName": "Snowboarder",
@@ -36785,8 +36813,8 @@ const GRAPH_DATA = {
   "snowman": {
     "targetId": "snowman",
     "startingElements": [
-      "human",
       "wind",
+      "human",
       "steam",
       "air"
     ],
@@ -36798,8 +36826,8 @@ const GRAPH_DATA = {
   "snowmobile": {
     "targetId": "snowmobile",
     "startingElements": [
-      "wheel",
       "ice",
+      "wheel",
       "air",
       "earth"
     ],
@@ -36812,8 +36840,8 @@ const GRAPH_DATA = {
     "targetId": "soap",
     "startingElements": [
       "pressure",
-      "plant",
       "clay",
+      "plant",
       "sun"
     ],
     "targetName": "Soap",
@@ -36824,10 +36852,10 @@ const GRAPH_DATA = {
   "soda": {
     "targetId": "soda",
     "startingElements": [
-      "water",
       "soil",
+      "night",
       "life",
-      "night"
+      "water"
     ],
     "targetName": "Soda",
     "targetEmoji": "\ud83e\udd64",
@@ -36837,8 +36865,8 @@ const GRAPH_DATA = {
   "soil": {
     "targetId": "soil",
     "startingElements": [
-      "sea",
       "earth",
+      "sea",
       "time",
       "air"
     ],
@@ -36850,9 +36878,9 @@ const GRAPH_DATA = {
   "solar cell": {
     "targetId": "solar cell",
     "startingElements": [
+      "continent",
       "energy",
       "fire",
-      "continent",
       "air"
     ],
     "targetName": "Solar Cell",
@@ -36876,10 +36904,10 @@ const GRAPH_DATA = {
   "solid": {
     "targetId": "solid",
     "startingElements": [
-      "human",
       "earth",
       "glass",
-      "planet"
+      "planet",
+      "human"
     ],
     "targetName": "Solid",
     "targetEmoji": "\ud83e\udea8",
@@ -36889,10 +36917,10 @@ const GRAPH_DATA = {
   "sound": {
     "targetId": "sound",
     "startingElements": [
-      "water",
-      "wind",
       "air",
-      "pond"
+      "pond",
+      "wind",
+      "water"
     ],
     "targetName": "Sound",
     "targetEmoji": "\ud83d\udc42",
@@ -36902,9 +36930,9 @@ const GRAPH_DATA = {
   "space": {
     "targetId": "space",
     "startingElements": [
+      "day",
       "planet",
       "time",
-      "day",
       "air"
     ],
     "targetName": "Space",
@@ -36915,8 +36943,8 @@ const GRAPH_DATA = {
   "space station": {
     "targetId": "space station",
     "startingElements": [
-      "planet",
       "air",
+      "planet",
       "brick",
       "earth"
     ],
@@ -36928,10 +36956,10 @@ const GRAPH_DATA = {
   "spaceship": {
     "targetId": "spaceship",
     "startingElements": [
-      "fire",
       "solar system",
+      "night",
       "ore",
-      "night"
+      "fire"
     ],
     "targetName": "Spaceship",
     "targetEmoji": "\ud83d\udc7e",
@@ -36954,9 +36982,9 @@ const GRAPH_DATA = {
   "sphinx": {
     "targetId": "sphinx",
     "startingElements": [
-      "stone",
       "animal",
       "night",
+      "stone",
       "air"
     ],
     "targetName": "Sphinx",
@@ -36967,10 +36995,10 @@ const GRAPH_DATA = {
   "spider": {
     "targetId": "spider",
     "startingElements": [
-      "tool",
-      "plant",
       "animal",
-      "cloud"
+      "tool",
+      "cloud",
+      "plant"
     ],
     "targetName": "Spider",
     "targetEmoji": "\ud83d\udd77\ufe0f",
@@ -36982,8 +37010,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "gardener",
       "philosophy",
-      "bacteria",
-      "tool"
+      "tool",
+      "bacteria"
     ],
     "targetName": "Spoon",
     "targetEmoji": "\ud83e\udd44",
@@ -36994,8 +37022,8 @@ const GRAPH_DATA = {
     "targetId": "spotlight",
     "startingElements": [
       "light bulb",
-      "electricity",
       "tool",
+      "electricity",
       "air"
     ],
     "targetName": "Spotlight",
@@ -37006,9 +37034,9 @@ const GRAPH_DATA = {
   "sprinkles": {
     "targetId": "sprinkles",
     "startingElements": [
+      "flower",
       "time",
       "fire",
-      "flower",
       "rainbow"
     ],
     "targetName": "Sprinkles",
@@ -37019,9 +37047,9 @@ const GRAPH_DATA = {
   "squirrel": {
     "targetId": "squirrel",
     "startingElements": [
-      "time",
-      "wall",
       "milk",
+      "wall",
+      "time",
       "plant"
     ],
     "targetName": "Squirrel",
@@ -37033,9 +37061,9 @@ const GRAPH_DATA = {
     "targetId": "star",
     "startingElements": [
       "day",
-      "time",
       "air",
-      "cloud"
+      "cloud",
+      "time"
     ],
     "targetName": "Star",
     "targetEmoji": "\ud83d\udcab",
@@ -37045,10 +37073,10 @@ const GRAPH_DATA = {
   "starfish": {
     "targetId": "starfish",
     "startingElements": [
-      "sea",
+      "day",
       "sky",
-      "time",
-      "day"
+      "sea",
+      "time"
     ],
     "targetName": "Starfish",
     "targetEmoji": "\ud83d\udcab",
@@ -37058,8 +37086,8 @@ const GRAPH_DATA = {
   "statue": {
     "targetId": "statue",
     "startingElements": [
-      "human",
       "stone",
+      "human",
       "air",
       "earth"
     ],
@@ -37071,10 +37099,10 @@ const GRAPH_DATA = {
   "steak": {
     "targetId": "steak",
     "startingElements": [
-      "human",
-      "fire",
+      "animal",
       "stone",
-      "animal"
+      "human",
+      "fire"
     ],
     "targetName": "Steak",
     "targetEmoji": "\ud83e\udd69",
@@ -37097,8 +37125,8 @@ const GRAPH_DATA = {
   "steam engine": {
     "targetId": "steam engine",
     "startingElements": [
-      "water",
       "stone",
+      "water",
       "human",
       "steam"
     ],
@@ -37111,8 +37139,8 @@ const GRAPH_DATA = {
     "targetId": "steamboat",
     "startingElements": [
       "water",
-      "sea",
       "tool",
+      "sea",
       "steam"
     ],
     "targetName": "Steamboat",
@@ -37123,10 +37151,10 @@ const GRAPH_DATA = {
   "steel": {
     "targetId": "steel",
     "startingElements": [
-      "charcoal",
-      "fire",
+      "earth",
       "hammer",
-      "earth"
+      "charcoal",
+      "fire"
     ],
     "targetName": "Steel",
     "targetEmoji": "\ud83d\udc55",
@@ -37136,10 +37164,10 @@ const GRAPH_DATA = {
   "steel wool": {
     "targetId": "steel wool",
     "startingElements": [
-      "metal",
-      "livestock",
       "tool",
-      "land"
+      "land",
+      "livestock",
+      "metal"
     ],
     "targetName": "Steel Wool",
     "targetEmoji": "\ud83d\ude2f",
@@ -37149,10 +37177,10 @@ const GRAPH_DATA = {
   "stethoscope": {
     "targetId": "stethoscope",
     "startingElements": [
-      "time",
-      "stone",
       "sound",
-      "animal"
+      "animal",
+      "stone",
+      "time"
     ],
     "targetName": "Stethoscope",
     "targetEmoji": "\ud83e\ude7a",
@@ -37175,9 +37203,9 @@ const GRAPH_DATA = {
   "storm": {
     "targetId": "storm",
     "startingElements": [
+      "wind",
       "water",
       "atmosphere",
-      "wind",
       "air"
     ],
     "targetName": "Storm",
@@ -37188,8 +37216,8 @@ const GRAPH_DATA = {
   "story": {
     "targetId": "story",
     "startingElements": [
-      "human",
       "animal",
+      "human",
       "time",
       "lightning"
     ],
@@ -37201,10 +37229,10 @@ const GRAPH_DATA = {
   "stream": {
     "targetId": "stream",
     "startingElements": [
-      "human",
       "wind",
-      "telescope",
-      "pond"
+      "pond",
+      "human",
+      "telescope"
     ],
     "targetName": "Stream",
     "targetEmoji": "\ud83c\udf8f",
@@ -37214,10 +37242,10 @@ const GRAPH_DATA = {
   "string phone": {
     "targetId": "string phone",
     "startingElements": [
-      "house",
       "tea",
+      "philosophy",
       "wire",
-      "philosophy"
+      "house"
     ],
     "targetName": "String Phone",
     "targetEmoji": "\ud83e\udd2a",
@@ -37227,8 +37255,8 @@ const GRAPH_DATA = {
   "stun gun": {
     "targetId": "stun gun",
     "startingElements": [
-      "energy",
       "bullet",
+      "energy",
       "house",
       "philosophy"
     ],
@@ -37241,8 +37269,8 @@ const GRAPH_DATA = {
     "targetId": "sugar",
     "startingElements": [
       "plant",
-      "fire",
       "time",
+      "fire",
       "rainbow"
     ],
     "targetName": "Sugar",
@@ -37253,10 +37281,10 @@ const GRAPH_DATA = {
   "sun": {
     "targetId": "sun",
     "startingElements": [
-      "fire",
       "continent",
       "earth",
-      "land"
+      "land",
+      "fire"
     ],
     "targetName": "Sun",
     "targetEmoji": "\ud83d\ude0e",
@@ -37266,9 +37294,9 @@ const GRAPH_DATA = {
   "sundial": {
     "targetId": "sundial",
     "startingElements": [
+      "solar cell",
       "time",
       "sun",
-      "solar cell",
       "air"
     ],
     "targetName": "Sundial",
@@ -37280,8 +37308,8 @@ const GRAPH_DATA = {
     "targetId": "sunflower",
     "startingElements": [
       "earth",
-      "sun",
       "life",
+      "sun",
       "air"
     ],
     "targetName": "Sunflower",
@@ -37292,9 +37320,9 @@ const GRAPH_DATA = {
   "sunglasses": {
     "targetId": "sunglasses",
     "startingElements": [
+      "glass",
       "water",
       "sand",
-      "glass",
       "air"
     ],
     "targetName": "Sunglasses",
@@ -37305,9 +37333,9 @@ const GRAPH_DATA = {
   "supernova": {
     "targetId": "supernova",
     "startingElements": [
+      "continent",
       "explosion",
       "fire",
-      "continent",
       "air"
     ],
     "targetName": "Supernova",
@@ -37318,10 +37346,10 @@ const GRAPH_DATA = {
   "surfer": {
     "targetId": "surfer",
     "startingElements": [
-      "life",
-      "time",
       "beach",
-      "land"
+      "life",
+      "land",
+      "time"
     ],
     "targetName": "Surfer",
     "targetEmoji": "\ud83c\udfc4",
@@ -37331,9 +37359,9 @@ const GRAPH_DATA = {
   "sushi": {
     "targetId": "sushi",
     "startingElements": [
-      "fish",
       "soil",
       "lake",
+      "fish",
       "life"
     ],
     "targetName": "Sushi",
@@ -37344,10 +37372,10 @@ const GRAPH_DATA = {
   "swamp": {
     "targetId": "swamp",
     "startingElements": [
-      "life",
       "earth",
-      "mud",
-      "soil"
+      "life",
+      "soil",
+      "mud"
     ],
     "targetName": "Swamp",
     "targetEmoji": "\ud83d\udc0a",
@@ -37357,9 +37385,9 @@ const GRAPH_DATA = {
   "sweater": {
     "targetId": "sweater",
     "startingElements": [
-      "human",
-      "livestock",
       "tool",
+      "livestock",
+      "human",
       "land"
     ],
     "targetName": "Sweater",
@@ -37370,10 +37398,10 @@ const GRAPH_DATA = {
   "swim goggles": {
     "targetId": "swim goggles",
     "startingElements": [
+      "glass",
       "water",
-      "fire",
       "sand",
-      "glass"
+      "fire"
     ],
     "targetName": "Swim Goggles",
     "targetEmoji": "\ud83c\udfca",
@@ -37383,10 +37411,10 @@ const GRAPH_DATA = {
   "swimmer": {
     "targetId": "swimmer",
     "startingElements": [
-      "water",
-      "time",
       "life",
-      "land"
+      "land",
+      "water",
+      "time"
     ],
     "targetName": "Swimmer",
     "targetEmoji": "\ud83c\udfca",
@@ -37396,9 +37424,9 @@ const GRAPH_DATA = {
   "swimming pool": {
     "targetId": "swimming pool",
     "startingElements": [
-      "wall",
       "lake",
       "brick",
+      "wall",
       "air"
     ],
     "targetName": "Swimming Pool",
@@ -37409,10 +37437,10 @@ const GRAPH_DATA = {
   "sword": {
     "targetId": "sword",
     "startingElements": [
-      "metal",
       "fire",
+      "ore",
       "stone",
-      "ore"
+      "metal"
     ],
     "targetName": "Sword",
     "targetEmoji": "\ud83d\udde1\ufe0f",
@@ -37423,9 +37451,9 @@ const GRAPH_DATA = {
     "targetId": "swordfish",
     "startingElements": [
       "fish",
-      "fire",
+      "ore",
       "stone",
-      "ore"
+      "fire"
     ],
     "targetName": "Swordfish",
     "targetEmoji": "\ud83e\udd3a",
@@ -37435,8 +37463,8 @@ const GRAPH_DATA = {
   "syringe": {
     "targetId": "syringe",
     "startingElements": [
-      "cotton",
       "tool",
+      "cotton",
       "air",
       "earth"
     ],
@@ -37449,9 +37477,9 @@ const GRAPH_DATA = {
     "targetId": "tablet",
     "startingElements": [
       "computer",
+      "philosophy",
       "bacteria",
-      "small",
-      "philosophy"
+      "small"
     ],
     "targetName": "Tablet",
     "targetEmoji": "\ud83d\udc8a",
@@ -37461,10 +37489,10 @@ const GRAPH_DATA = {
   "tailor": {
     "targetId": "tailor",
     "startingElements": [
-      "human",
-      "plant",
+      "cloud",
       "tool",
-      "cloud"
+      "human",
+      "plant"
     ],
     "targetName": "Tailor",
     "targetEmoji": "\ud83e\udea1",
@@ -37487,9 +37515,9 @@ const GRAPH_DATA = {
   "tea": {
     "targetId": "tea",
     "startingElements": [
+      "wind",
       "water",
       "plant",
-      "wind",
       "rainbow"
     ],
     "targetName": "Tea",
@@ -37500,9 +37528,9 @@ const GRAPH_DATA = {
   "telescope": {
     "targetId": "telescope",
     "startingElements": [
-      "fire",
-      "sand",
       "continent",
+      "sand",
+      "fire",
       "air"
     ],
     "targetName": "Telescope",
@@ -37513,9 +37541,9 @@ const GRAPH_DATA = {
   "tent": {
     "targetId": "tent",
     "startingElements": [
+      "tool",
       "wall",
       "cotton",
-      "tool",
       "air"
     ],
     "targetName": "Tent",
@@ -37526,10 +37554,10 @@ const GRAPH_DATA = {
   "the one ring": {
     "targetId": "the one ring",
     "startingElements": [
-      "volcano",
-      "metal",
+      "coal",
       "pressure",
-      "coal"
+      "metal",
+      "volcano"
     ],
     "targetName": "The One Ring",
     "targetEmoji": "\ud83e\udd2a",
@@ -37539,10 +37567,10 @@ const GRAPH_DATA = {
   "thermometer": {
     "targetId": "thermometer",
     "startingElements": [
-      "science",
-      "metal",
+      "glass",
       "water",
-      "glass"
+      "metal",
+      "science"
     ],
     "targetName": "Thermometer",
     "targetEmoji": "\ud83e\udd12",
@@ -37565,9 +37593,9 @@ const GRAPH_DATA = {
   "tide": {
     "targetId": "tide",
     "startingElements": [
+      "pond",
       "water",
       "time",
-      "pond",
       "air"
     ],
     "targetName": "Tide",
@@ -37579,8 +37607,8 @@ const GRAPH_DATA = {
     "targetId": "titanic",
     "startingElements": [
       "steam engine",
-      "sea",
       "ice",
+      "sea",
       "air"
     ],
     "targetName": "Titanic",
@@ -37591,8 +37619,8 @@ const GRAPH_DATA = {
   "toast": {
     "targetId": "toast",
     "startingElements": [
-      "water",
       "flour",
+      "water",
       "fire",
       "air"
     ],
@@ -37604,9 +37632,9 @@ const GRAPH_DATA = {
   "tobacco": {
     "targetId": "tobacco",
     "startingElements": [
-      "fire",
-      "life",
       "earth",
+      "life",
+      "fire",
       "air"
     ],
     "targetName": "Tobacco",
@@ -37617,10 +37645,10 @@ const GRAPH_DATA = {
   "tool": {
     "targetId": "tool",
     "startingElements": [
-      "time",
-      "stone",
       "life",
-      "land"
+      "land",
+      "stone",
+      "time"
     ],
     "targetName": "Tool",
     "targetEmoji": "\ud83d\udd2a",
@@ -37630,10 +37658,10 @@ const GRAPH_DATA = {
   "toolbox": {
     "targetId": "toolbox",
     "startingElements": [
-      "human",
-      "house",
       "tool",
-      "idea"
+      "house",
+      "idea",
+      "human"
     ],
     "targetName": "Toolbox",
     "targetEmoji": "\ud83e\uddf0",
@@ -37656,10 +37684,10 @@ const GRAPH_DATA = {
   "toucan": {
     "targetId": "toucan",
     "startingElements": [
-      "life",
-      "rainbow",
       "air",
-      "land"
+      "land",
+      "life",
+      "rainbow"
     ],
     "targetName": "Toucan",
     "targetEmoji": "\ud83e\udd6b",
@@ -37669,8 +37697,8 @@ const GRAPH_DATA = {
   "tractor": {
     "targetId": "tractor",
     "startingElements": [
-      "wheel",
       "field",
+      "wheel",
       "air",
       "earth"
     ],
@@ -37682,10 +37710,10 @@ const GRAPH_DATA = {
   "train": {
     "targetId": "train",
     "startingElements": [
-      "water",
       "tool",
-      "wheel",
-      "steam"
+      "water",
+      "steam",
+      "wheel"
     ],
     "targetName": "Train",
     "targetEmoji": "\ud83d\ude82",
@@ -37696,8 +37724,8 @@ const GRAPH_DATA = {
     "targetId": "trainyard",
     "startingElements": [
       "wall",
-      "wheel",
       "steam",
+      "wheel",
       "air"
     ],
     "targetName": "Trainyard",
@@ -37708,8 +37736,8 @@ const GRAPH_DATA = {
   "treasure": {
     "targetId": "treasure",
     "startingElements": [
-      "paper",
       "island",
+      "paper",
       "land",
       "air"
     ],
@@ -37721,9 +37749,9 @@ const GRAPH_DATA = {
   "treasure map": {
     "targetId": "treasure map",
     "startingElements": [
+      "island",
       "water",
       "wood",
-      "island",
       "land"
     ],
     "targetName": "Treasure Map",
@@ -37734,10 +37762,10 @@ const GRAPH_DATA = {
   "tree": {
     "targetId": "tree",
     "startingElements": [
-      "human",
       "planet",
-      "plant",
-      "idea"
+      "human",
+      "idea",
+      "plant"
     ],
     "targetName": "Tree",
     "targetEmoji": "\ud83c\udf43",
@@ -37747,10 +37775,10 @@ const GRAPH_DATA = {
   "treehouse": {
     "targetId": "treehouse",
     "startingElements": [
+      "philosophy",
       "planet",
       "house",
-      "plant",
-      "philosophy"
+      "plant"
     ],
     "targetName": "Treehouse",
     "targetEmoji": "\ud83c\udf43",
@@ -37761,8 +37789,8 @@ const GRAPH_DATA = {
     "targetId": "trojan horse",
     "startingElements": [
       "horse",
-      "stone",
       "tool",
+      "stone",
       "air"
     ],
     "targetName": "Trojan Horse",
@@ -37773,10 +37801,10 @@ const GRAPH_DATA = {
   "tsunami": {
     "targetId": "tsunami",
     "startingElements": [
-      "water",
       "gunpowder",
-      "fire",
-      "lake"
+      "lake",
+      "water",
+      "fire"
     ],
     "targetName": "Tsunami",
     "targetEmoji": "\ud83c\udf0a",
@@ -37788,8 +37816,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "steam engine",
       "earth",
-      "wheel",
-      "earthquake"
+      "earthquake",
+      "wheel"
     ],
     "targetName": "Tunnel",
     "targetEmoji": "\ud83d\udd73\ufe0f",
@@ -37799,10 +37827,10 @@ const GRAPH_DATA = {
   "turtle": {
     "targetId": "turtle",
     "startingElements": [
-      "time",
       "beach",
+      "land",
       "primordial soup",
-      "land"
+      "time"
     ],
     "targetName": "Turtle",
     "targetEmoji": "\ud83d\udc22",
@@ -37812,9 +37840,9 @@ const GRAPH_DATA = {
   "twilight": {
     "targetId": "twilight",
     "startingElements": [
-      "fire",
-      "time",
       "planet",
+      "time",
+      "fire",
       "air"
     ],
     "targetName": "Twilight",
@@ -37825,10 +37853,10 @@ const GRAPH_DATA = {
   "tyrannosaurus rex": {
     "targetId": "tyrannosaurus rex",
     "startingElements": [
+      "animal",
       "tool",
-      "time",
       "lizard",
-      "animal"
+      "time"
     ],
     "targetName": "Tyrannosaurus Rex",
     "targetEmoji": "\ud83e\udd96",
@@ -37838,10 +37866,10 @@ const GRAPH_DATA = {
   "ufo": {
     "targetId": "ufo",
     "startingElements": [
-      "mercury",
-      "air",
       "life",
-      "cloud"
+      "mercury",
+      "cloud",
+      "air"
     ],
     "targetName": "UFO",
     "targetEmoji": "\ud83d\udc7e",
@@ -37851,10 +37879,10 @@ const GRAPH_DATA = {
   "umbrella": {
     "targetId": "umbrella",
     "startingElements": [
-      "time",
-      "stone",
       "rain",
-      "animal"
+      "animal",
+      "stone",
+      "time"
     ],
     "targetName": "Umbrella",
     "targetEmoji": "\u2602\ufe0f",
@@ -37864,9 +37892,9 @@ const GRAPH_DATA = {
   "unicorn": {
     "targetId": "unicorn",
     "startingElements": [
-      "rainbow",
       "life",
       "land",
+      "rainbow",
       "air"
     ],
     "targetName": "Unicorn",
@@ -37890,10 +37918,10 @@ const GRAPH_DATA = {
   "vacuum cleaner": {
     "targetId": "vacuum cleaner",
     "startingElements": [
+      "tool",
       "tree",
       "hay",
-      "electricity",
-      "tool"
+      "electricity"
     ],
     "targetName": "Vacuum Cleaner",
     "targetEmoji": "\ud83d\udec0",
@@ -37903,9 +37931,9 @@ const GRAPH_DATA = {
   "vampire": {
     "targetId": "vampire",
     "startingElements": [
+      "stone",
       "human",
       "metal",
-      "stone",
       "air"
     ],
     "targetName": "Vampire",
@@ -37917,8 +37945,8 @@ const GRAPH_DATA = {
     "targetId": "vase",
     "startingElements": [
       "soil",
-      "tool",
       "life",
+      "tool",
       "clay"
     ],
     "targetName": "Vase",
@@ -37929,10 +37957,10 @@ const GRAPH_DATA = {
   "vault": {
     "targetId": "vault",
     "startingElements": [
-      "metal",
-      "planet",
+      "philosophy",
       "gold",
-      "philosophy"
+      "planet",
+      "metal"
     ],
     "targetName": "Vault",
     "targetEmoji": "\ud83c\udfe6",
@@ -37943,8 +37971,8 @@ const GRAPH_DATA = {
     "targetId": "vegetable",
     "startingElements": [
       "soil",
-      "earth",
       "life",
+      "earth",
       "tool"
     ],
     "targetName": "Vegetable",
@@ -37955,9 +37983,9 @@ const GRAPH_DATA = {
   "venus": {
     "targetId": "venus",
     "startingElements": [
+      "continent",
       "lava",
       "earth",
-      "continent",
       "air"
     ],
     "targetName": "Venus",
@@ -37981,8 +38009,8 @@ const GRAPH_DATA = {
   "vine": {
     "targetId": "vine",
     "startingElements": [
-      "earth",
       "rain",
+      "earth",
       "wire",
       "tree"
     ],
@@ -37994,10 +38022,10 @@ const GRAPH_DATA = {
   "vinegar": {
     "targetId": "vinegar",
     "startingElements": [
-      "time",
-      "fruit",
+      "air",
       "juice",
-      "air"
+      "time",
+      "fruit"
     ],
     "targetName": "Vinegar",
     "targetEmoji": "\ud83e\uddea",
@@ -38020,10 +38048,10 @@ const GRAPH_DATA = {
   "vulture": {
     "targetId": "vulture",
     "startingElements": [
-      "land",
       "air",
+      "desert",
       "life",
-      "desert"
+      "land"
     ],
     "targetName": "Vulture",
     "targetEmoji": "\ud83e\udd85",
@@ -38033,10 +38061,10 @@ const GRAPH_DATA = {
   "wagon": {
     "targetId": "wagon",
     "startingElements": [
+      "tool",
       "wall",
       "tree",
-      "wheel",
-      "tool"
+      "wheel"
     ],
     "targetName": "Wagon",
     "targetEmoji": "\ud83d\ude83",
@@ -38046,8 +38074,8 @@ const GRAPH_DATA = {
   "wall": {
     "targetId": "wall",
     "startingElements": [
-      "fire",
       "mud",
+      "fire",
       "air",
       "earth"
     ],
@@ -38072,8 +38100,8 @@ const GRAPH_DATA = {
   "warmth": {
     "targetId": "warmth",
     "startingElements": [
-      "fire",
       "air",
+      "fire",
       "earth",
       "water"
     ],
@@ -38085,9 +38113,9 @@ const GRAPH_DATA = {
   "warrior": {
     "targetId": "warrior",
     "startingElements": [
+      "stone",
       "human",
       "metal",
-      "stone",
       "air"
     ],
     "targetName": "Warrior",
@@ -38098,9 +38126,9 @@ const GRAPH_DATA = {
   "watch": {
     "targetId": "watch",
     "startingElements": [
+      "solar cell",
       "human",
       "time",
-      "solar cell",
       "sun"
     ],
     "targetName": "Watch",
@@ -38111,8 +38139,8 @@ const GRAPH_DATA = {
   "water gun": {
     "targetId": "water gun",
     "startingElements": [
-      "water",
       "bullet",
+      "water",
       "house",
       "philosophy"
     ],
@@ -38126,8 +38154,8 @@ const GRAPH_DATA = {
     "startingElements": [
       "soil",
       "puddle",
-      "rainbow",
-      "life"
+      "life",
+      "rainbow"
     ],
     "targetName": "Water Lily",
     "targetEmoji": "\ud83d\udca6",
@@ -38137,10 +38165,10 @@ const GRAPH_DATA = {
   "water pipe": {
     "targetId": "water pipe",
     "startingElements": [
+      "tool",
       "water",
-      "fire",
       "plant",
-      "tool"
+      "fire"
     ],
     "targetName": "Water Pipe",
     "targetEmoji": "\ud83d\udca6",
@@ -38150,9 +38178,9 @@ const GRAPH_DATA = {
   "waterfall": {
     "targetId": "waterfall",
     "startingElements": [
-      "motion",
       "earth",
       "lake",
+      "motion",
       "air"
     ],
     "targetName": "Waterfall",
@@ -38163,10 +38191,10 @@ const GRAPH_DATA = {
   "wave": {
     "targetId": "wave",
     "startingElements": [
-      "water",
       "pressure",
       "air",
-      "pond"
+      "pond",
+      "water"
     ],
     "targetName": "Wave",
     "targetEmoji": "\ud83d\udc4b",
@@ -38176,9 +38204,9 @@ const GRAPH_DATA = {
   "wax": {
     "targetId": "wax",
     "startingElements": [
-      "wall",
-      "flower",
       "animal",
+      "flower",
+      "wall",
       "air"
     ],
     "targetName": "Wax",
@@ -38189,9 +38217,9 @@ const GRAPH_DATA = {
   "web": {
     "targetId": "web",
     "startingElements": [
-      "tool",
-      "cotton",
       "animal",
+      "cotton",
+      "tool",
       "air"
     ],
     "targetName": "Web",
@@ -38202,9 +38230,9 @@ const GRAPH_DATA = {
   "werewolf": {
     "targetId": "werewolf",
     "startingElements": [
+      "animal",
       "moon",
       "time",
-      "animal",
       "air"
     ],
     "targetName": "Werewolf",
@@ -38215,10 +38243,10 @@ const GRAPH_DATA = {
   "wheat": {
     "targetId": "wheat",
     "startingElements": [
-      "soil",
       "earth",
       "field",
-      "life"
+      "life",
+      "soil"
     ],
     "targetName": "Wheat",
     "targetEmoji": "\ud83c\udf3e",
@@ -38228,10 +38256,10 @@ const GRAPH_DATA = {
   "wheel": {
     "targetId": "wheel",
     "startingElements": [
+      "animal",
       "water",
       "stone",
-      "time",
-      "animal"
+      "time"
     ],
     "targetName": "Wheel",
     "targetEmoji": "\ud83d\udede",
@@ -38241,10 +38269,10 @@ const GRAPH_DATA = {
   "wild boar": {
     "targetId": "wild boar",
     "startingElements": [
-      "life",
-      "mud",
       "animal",
-      "land"
+      "life",
+      "land",
+      "mud"
     ],
     "targetName": "Wild Boar",
     "targetEmoji": "\ud83e\udd2a",
@@ -38267,8 +38295,8 @@ const GRAPH_DATA = {
   "wind turbine": {
     "targetId": "wind turbine",
     "startingElements": [
-      "energy",
       "wind",
+      "energy",
       "sun",
       "air"
     ],
@@ -38280,9 +38308,9 @@ const GRAPH_DATA = {
   "windmill": {
     "targetId": "windmill",
     "startingElements": [
-      "wall",
       "wind",
       "brick",
+      "wall",
       "air"
     ],
     "targetName": "Windmill",
@@ -38293,10 +38321,10 @@ const GRAPH_DATA = {
   "windsurfer": {
     "targetId": "windsurfer",
     "startingElements": [
-      "time",
-      "wind",
       "beach",
-      "animal"
+      "wind",
+      "animal",
+      "time"
     ],
     "targetName": "Windsurfer",
     "targetEmoji": "\ud83d\udca8",
@@ -38306,9 +38334,9 @@ const GRAPH_DATA = {
   "wine": {
     "targetId": "wine",
     "startingElements": [
-      "fruit",
-      "time",
       "earth",
+      "time",
+      "fruit",
       "air"
     ],
     "targetName": "Wine",
@@ -38319,10 +38347,10 @@ const GRAPH_DATA = {
   "wire": {
     "targetId": "wire",
     "startingElements": [
-      "fire",
+      "earth",
       "hammer",
-      "electricity",
-      "earth"
+      "fire",
+      "electricity"
     ],
     "targetName": "Wire",
     "targetEmoji": "\ud83d\udcfb",
@@ -38332,10 +38360,10 @@ const GRAPH_DATA = {
   "witch": {
     "targetId": "witch",
     "startingElements": [
-      "human",
-      "metal",
+      "pottery",
       "hero",
-      "pottery"
+      "human",
+      "metal"
     ],
     "targetName": "Witch",
     "targetEmoji": "\ud83e\uddd9\u200d\u2640\ufe0f",
@@ -38345,10 +38373,10 @@ const GRAPH_DATA = {
   "wizard": {
     "targetId": "wizard",
     "startingElements": [
-      "time",
-      "rainbow",
       "life",
-      "land"
+      "land",
+      "time",
+      "rainbow"
     ],
     "targetName": "Wizard",
     "targetEmoji": "\ud83e\uddd9",
@@ -38358,9 +38386,9 @@ const GRAPH_DATA = {
   "wolf": {
     "targetId": "wolf",
     "startingElements": [
+      "life",
       "sky",
       "time",
-      "life",
       "land"
     ],
     "targetName": "Wolf",
@@ -38371,10 +38399,10 @@ const GRAPH_DATA = {
   "wood": {
     "targetId": "wood",
     "startingElements": [
-      "planet",
       "philosophy",
-      "plant",
-      "tool"
+      "tool",
+      "planet",
+      "plant"
     ],
     "targetName": "Wood",
     "targetEmoji": "\ud83c\udf32",
@@ -38384,10 +38412,10 @@ const GRAPH_DATA = {
   "woodpecker": {
     "targetId": "woodpecker",
     "startingElements": [
-      "plant",
-      "planet",
       "bird",
-      "philosophy"
+      "philosophy",
+      "planet",
+      "plant"
     ],
     "targetName": "Woodpecker",
     "targetEmoji": "\ud83d\ude2f",
@@ -38410,10 +38438,10 @@ const GRAPH_DATA = {
   "wrapping paper": {
     "targetId": "wrapping paper",
     "startingElements": [
+      "wood",
       "water",
-      "star",
       "tree",
-      "wood"
+      "star"
     ],
     "targetName": "Wrapping Paper",
     "targetEmoji": "\ud83e\udda7",
@@ -38423,10 +38451,10 @@ const GRAPH_DATA = {
   "writer": {
     "targetId": "writer",
     "startingElements": [
-      "human",
-      "house",
       "philosophy",
-      "idea"
+      "human",
+      "idea",
+      "house"
     ],
     "targetName": "Writer",
     "targetEmoji": "\u270d\ufe0f",
@@ -38436,9 +38464,9 @@ const GRAPH_DATA = {
   "yeti": {
     "targetId": "yeti",
     "startingElements": [
+      "glacier",
       "human",
       "lightning",
-      "glacier",
       "air"
     ],
     "targetName": "Yeti",
@@ -38449,9 +38477,9 @@ const GRAPH_DATA = {
   "yogurt": {
     "targetId": "yogurt",
     "startingElements": [
-      "water",
       "field",
       "bacteria",
+      "water",
       "livestock"
     ],
     "targetName": "Yogurt",
@@ -38462,9 +38490,9 @@ const GRAPH_DATA = {
   "zombie": {
     "targetId": "zombie",
     "startingElements": [
-      "time",
-      "life",
       "animal",
+      "life",
+      "time",
       "air"
     ],
     "targetName": "Zombie",
@@ -38475,9 +38503,9 @@ const GRAPH_DATA = {
   "zoo": {
     "targetId": "zoo",
     "startingElements": [
+      "animal",
       "wall",
       "moon",
-      "animal",
       "air"
     ],
     "targetName": "Zoo",

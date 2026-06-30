@@ -28,8 +28,7 @@ async function initPuzzleAPI(method, value = null, title = "Puzzle") {
       body: JSON.stringify({ method, value })
     });
     if (!response.ok) {
-      const err = await response.json();
-      throw new Error(err.detail || "Failed to start puzzle");
+      throw new Error("HTTP " + response.status);
     }
     const data = await response.json();
     sessionToken = data.session_token;
@@ -52,9 +51,61 @@ async function initPuzzleAPI(method, value = null, title = "Puzzle") {
     renderInventory();
     spawnStartingElements();
   } catch (error) {
-    console.error("API start error:", error);
-    alert("Error loading puzzle from backend API. Make sure the API server is running on port 8000!");
+    console.warn("Backend API unreachable. Falling back to local client-side logic.", error);
+    initPuzzleLocal(method, value, title);
   }
+}
+
+function generatePuzzleLocal(targetId, title) {
+  const puzzle = GRAPH_DATA.puzzles[targetId];
+  if (!puzzle) return;
+  
+  sessionToken = ""; // Clear token for local mode
+  currentTargetId = targetId;
+  activePuzzle = {
+    title: title,
+    targetId: targetId,
+    startingElements: puzzle.startingElements,
+    targetName: puzzle.targetName,
+    targetEmoji: puzzle.targetEmoji,
+    targetLevel: puzzle.targetLevel,
+    targetCost: puzzle.targetCost
+  };
+  
+  unlockedElements = new Set(puzzle.startingElements);
+  saveGameState();
+  
+  document.getElementById("target-display-name").textContent = activePuzzle.targetName;
+  document.getElementById("target-display-emoji").textContent = activePuzzle.targetEmoji;
+  document.getElementById("target-display-level").textContent = `Level: ${activePuzzle.targetLevel}`;
+  document.getElementById("target-display-steps").textContent = `Shortest steps: ${activePuzzle.targetCost}`;
+  
+  renderInventory();
+  spawnStartingElements();
+}
+
+function initPuzzleLocal(method, value = null, title = "Puzzle") {
+  const eligible = Object.keys(GRAPH_DATA.puzzles);
+  if (eligible.length === 0) return;
+  
+  let targetId = "steam";
+  if (method === "date") {
+    let day = 1, month = 0, year = 2026;
+    if (value && value.length === 8) {
+      day = parseInt(value.slice(0, 2));
+      month = parseInt(value.slice(2, 4)) - 1;
+      year = parseInt(value.slice(4, 8));
+    }
+    const idx = (year * 367 + month * 31 + day) % eligible.length;
+    targetId = eligible[idx];
+  } else if (method === "target") {
+    targetId = value || "steam";
+  } else {
+    const randomIdx = Math.floor(Math.random() * eligible.length);
+    targetId = eligible[randomIdx];
+  }
+  
+  generatePuzzleLocal(targetId, title);
 }
 
 // Elements lookup maps
@@ -697,10 +748,21 @@ function setupEventListeners() {
   
   // Show Solution / Recipe Modal
   document.getElementById("show-recipe-btn").addEventListener("click", async () => {
-    if (!currentTargetId || !activePuzzle || !sessionToken) return;
+    if (!currentTargetId || !activePuzzle) return;
     const container = document.getElementById("recipe-steps-list");
-    container.innerHTML = "<div style='color: var(--text-muted);'>Loading solution path from backend API...</div>";
     document.getElementById("recipe-modal").style.display = "flex";
+    
+    if (!sessionToken) {
+      const steps = findSolutionPathLocal(currentTargetId, activePuzzle.startingElements);
+      if (steps && steps.length > 0) {
+        container.innerHTML = steps.join("");
+      } else {
+        container.innerHTML = "<div style='color: var(--text-muted);'>No solution path required (target already in starting set!).</div>";
+      }
+      return;
+    }
+    
+    container.innerHTML = "<div style='color: var(--text-muted);'>Loading solution path from backend API...</div>";
     
     try {
       const response = await fetch(`${API_BASE_URL}/api/alchemist/answer?token=${sessionToken}`);
@@ -716,8 +778,13 @@ function setupEventListeners() {
         container.innerHTML = "<div style='color: var(--text-muted);'>No solution path required (target already in starting set!).</div>";
       }
     } catch (err) {
-      console.error(err);
-      container.innerHTML = "<div style='color: #ff5555;'>Error loading solution path from backend API. Make sure the API server is running on port 8000!</div>";
+      console.warn("API answer load failed, using local solver:", err);
+      const steps = findSolutionPathLocal(currentTargetId, activePuzzle.startingElements);
+      if (steps && steps.length > 0) {
+        container.innerHTML = steps.join("");
+      } else {
+        container.innerHTML = "<div style='color: var(--text-muted);'>No solution path required (target already in starting set!).</div>";
+      }
     }
   });
   
@@ -755,6 +822,59 @@ function setupEventListeners() {
 function clearWorkspace() {
   document.querySelectorAll("#canvas-workspace .element-card").forEach(c => c.remove());
   workspaceElements = [];
+}
+
+function findSolutionPathLocal(targetId, startingSet) {
+  let currentSet = new Set(startingSet);
+  let parentRecipe = {}; // maps elementId -> { input_a, input_b }
+  let discoveredInRound = true;
+  
+  while (discoveredInRound && !currentSet.has(targetId)) {
+    discoveredInRound = false;
+    let currentList = Array.from(currentSet);
+    let newDiscoveries = {};
+    
+    for (let i = 0; i < currentList.length; i++) {
+      for (let j = i; j < currentList.length; j++) {
+        const key = [currentList[i], currentList[j]].sort().join("+");
+        const outputs = recipeMap[key];
+        if (outputs) {
+          outputs.forEach(output => {
+            if (!currentSet.has(output) && !newDiscoveries[output]) {
+              newDiscoveries[output] = { input_a: currentList[i], input_b: currentList[j] };
+              discoveredInRound = true;
+            }
+          });
+        }
+      }
+    }
+    
+    for (let output in newDiscoveries) {
+      currentSet.add(output);
+      parentRecipe[output] = newDiscoveries[output];
+    }
+  }
+  
+  if (!currentSet.has(targetId)) return null;
+  
+  let steps = [];
+  function trace(id) {
+    if (startingSet.includes(id)) return;
+    const parent = parentRecipe[id];
+    if (!parent) return;
+    
+    trace(parent.input_a);
+    trace(parent.input_b);
+    
+    const stepStr = `<div class="recipe-step-line"><span>${elementsMap[parent.input_a].emoji} ${elementsMap[parent.input_a].name}</span> + <span>${elementsMap[parent.input_b].emoji} ${elementsMap[parent.input_b].name}</span> ➔ <strong>${elementsMap[id].emoji} ${elementsMap[id].name}</strong></div>`;
+    
+    if (!steps.includes(stepStr)) {
+      steps.push(stepStr);
+    }
+  }
+  
+  trace(targetId);
+  return steps;
 }
 
 // Start game loop when script is loaded

@@ -8,6 +8,55 @@ let currentTargetId = null;
 let workspaceElements = [];
 let nextElementId = 1;
 
+const API_BASE_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? "http://127.0.0.1:8000" : "";
+let sessionToken = "";
+
+function getFormattedDate(d) {
+  const day = String(d.getDate()).padStart(2, '0');
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const year = d.getFullYear();
+  return `${day}${month}${year}`;
+}
+
+async function initPuzzleAPI(method, value = null, title = "Puzzle") {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/alchemist/start`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ method, value })
+    });
+    if (!response.ok) {
+      const err = await response.json();
+      throw new Error(err.detail || "Failed to start puzzle");
+    }
+    const data = await response.json();
+    sessionToken = data.session_token;
+    currentTargetId = data.target_id;
+    activePuzzle = {
+      title: title,
+      targetId: data.target_id,
+      startingElements: data.starting_elements,
+      targetName: data.target_name,
+      targetEmoji: data.target_emoji,
+      targetLevel: data.target_level,
+      targetCost: data.target_cost
+    };
+    unlockedElements = new Set(data.starting_elements);
+    saveGameState();
+    document.getElementById("target-display-name").textContent = activePuzzle.targetName;
+    document.getElementById("target-display-emoji").textContent = activePuzzle.targetEmoji;
+    document.getElementById("target-display-level").textContent = `Level: ${activePuzzle.targetLevel}`;
+    document.getElementById("target-display-steps").textContent = `Shortest steps: ${activePuzzle.targetCost}`;
+    renderInventory();
+    spawnStartingElements();
+  } catch (error) {
+    console.error("API start error:", error);
+    alert("Error loading puzzle from backend API. Make sure the API server is running on port 8000!");
+  }
+}
+
 // Elements lookup maps
 let elementsMap = {};
 let recipeMap = {};
@@ -23,7 +72,10 @@ function initGame() {
   recipeMap = {};
   GRAPH_DATA.recipes.forEach(r => {
     const key = [r.input_a, r.input_b].sort().join("+");
-    recipeMap[key] = r.output;
+    if (!recipeMap[key]) {
+      recipeMap[key] = [];
+    }
+    recipeMap[key].push(r.output);
   });
   
   // Load saved state
@@ -71,16 +123,9 @@ function switchMode(mode) {
 
 // 4. Daily Puzzle Generator
 function setupDailyChallenge() {
-  const eligible = Object.keys(GRAPH_DATA.puzzles);
-  if (eligible.length === 0) return;
-  
-  // Deterministic select based on date
   const today = new Date();
-  const index = (today.getFullYear() * 367 + today.getMonth() * 31 + today.getDate()) % eligible.length;
-  const targetId = eligible[index];
-  
-  currentTargetId = targetId;
-  generatePuzzle(targetId, "Daily Challenge");
+  const dateStr = getFormattedDate(today);
+  initPuzzleAPI("date", dateStr, "Daily Challenge");
 }
 
 function populatePracticeSelector() {
@@ -133,47 +178,8 @@ function populateCatalog() {
 
 function setupPracticeChallenge() {
   const select = document.getElementById("practice-target-select");
-  const targetId = select.value;
-  if (!targetId) {
-    // Default to Steam if not selected
-    currentTargetId = "steam";
-    select.value = "steam";
-  } else {
-    currentTargetId = targetId;
-  }
-  generatePuzzle(currentTargetId, "Practice Mode");
-}
-
-// 5. Pre-generated Puzzle Loader
-function generatePuzzle(targetId, title) {
-  const puzzle = GRAPH_DATA.puzzles[targetId];
-  if (!puzzle) return;
-  
-  // Setup active puzzle details
-  activePuzzle = {
-    title: title,
-    targetId: targetId,
-    startingElements: puzzle.startingElements,
-    targetName: puzzle.targetName,
-    targetEmoji: puzzle.targetEmoji,
-    targetLevel: puzzle.targetLevel,
-    targetCost: puzzle.targetCost
-  };
-  
-  // Set puzzle starting elements as the ONLY unlocked elements in this puzzle mode
-  unlockedElements = new Set(puzzle.startingElements);
-  saveGameState();
-  
-  // Update UI Panels
-  document.getElementById("target-display-name").textContent = activePuzzle.targetName;
-  document.getElementById("target-display-emoji").textContent = activePuzzle.targetEmoji;
-  document.getElementById("target-display-level").textContent = `Level: ${activePuzzle.targetLevel}`;
-  document.getElementById("target-display-steps").textContent = `Shortest steps: ${activePuzzle.targetCost}`;
-  
-  renderInventory();
-  
-  // Auto-spawn starting elements onto workspace for instant playability
-  spawnStartingElements();
+  const targetId = select.value || "steam";
+  initPuzzleAPI("target", targetId, "Practice Mode");
 }
 
 function spawnStartingElements() {
@@ -358,11 +364,11 @@ function combineElements(itemA, itemB) {
   
   // Recipe lookup (inputs must be sorted alphabetically)
   const key = [idA, idB].sort().join("+");
-  const outputId = recipeMap[key];
+  const outputs = recipeMap[key];
   
   const canvas = document.getElementById("canvas-workspace");
   
-  if (outputId) {
+  if (outputs && outputs.length > 0) {
     // Collision center coordinates
     const centerX = (itemA.x + itemB.x) / 2;
     const centerY = (itemA.y + itemB.y) / 2;
@@ -376,21 +382,22 @@ function combineElements(itemA, itemB) {
     
     workspaceElements = workspaceElements.filter(item => item.uid !== itemA.uid && item.uid !== itemB.uid);
     
-    // Spawn output element
-    createElementCard(outputId, centerX, centerY);
-    
-    // Register discovery
-    if (!unlockedElements.has(outputId)) {
-      unlockedElements.add(outputId);
-      saveGameState();
-      renderInventory();
-      triggerDiscoveryNotification(outputId);
-    }
-    
-    // Check if target is achieved
-    if (gameMode !== "sandbox" && outputId === currentTargetId) {
-      triggerSuccess();
-    }
+    // Spawn output elements (slightly offset if multiple to make them readable)
+    outputs.forEach((outputId, idx) => {
+      const offsetX = (idx - (outputs.length - 1) / 2) * 40;
+      createElementCard(outputId, centerX + offsetX, centerY);
+      
+      // Register discovery
+      if (!unlockedElements.has(outputId)) {
+        unlockedElements.add(outputId);
+        saveGameState();
+        renderInventory();
+        triggerDiscoveryNotification(outputId);
+      }
+      
+      // Check if target is achieved
+      checkVictory(outputId);
+    });
   } else {
     // Invalid combo, bounce cards slightly apart
     bounceApart(itemA, itemB);
@@ -452,6 +459,36 @@ function triggerSuccess() {
     document.getElementById("modal-target-emoji").textContent = activePuzzle.targetEmoji;
     modal.style.display = "flex";
   }, 600);
+}
+
+async function checkVictory(outputId) {
+  if (gameMode === "sandbox" || outputId !== currentTargetId) return;
+  
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/alchemist/check`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        session_token: sessionToken,
+        crafted_element_id: outputId
+      })
+    });
+    
+    if (response.ok) {
+      const data = await response.json();
+      if (data.solved) {
+        triggerSuccess();
+      }
+    } else {
+      // Local fallback
+      triggerSuccess();
+    }
+  } catch (error) {
+    console.error("Verification error:", error);
+    triggerSuccess(); // Local fallback
+  }
 }
 
 // 9. Side Panel Inventory Rendering
@@ -571,7 +608,8 @@ function saveGameState() {
     gameMode: gameMode,
     unlockedElements: Array.from(unlockedElements),
     currentTargetId: currentTargetId,
-    activePuzzle: activePuzzle
+    activePuzzle: activePuzzle,
+    sessionToken: sessionToken
   };
   localStorage.setItem("alchemix_game_state", JSON.stringify(state));
 }
@@ -585,6 +623,7 @@ function loadGameState() {
     gameMode = state.gameMode || "daily";
     currentTargetId = state.currentTargetId;
     activePuzzle = state.activePuzzle;
+    sessionToken = state.sessionToken || "";
     
     if (state.unlockedElements) {
       unlockedElements = new Set(state.unlockedElements);
@@ -657,18 +696,29 @@ function setupEventListeners() {
   });
   
   // Show Solution / Recipe Modal
-  document.getElementById("show-recipe-btn").addEventListener("click", () => {
-    if (!currentTargetId || !activePuzzle) return;
-    const steps = findSolutionPath(currentTargetId, activePuzzle.startingElements);
+  document.getElementById("show-recipe-btn").addEventListener("click", async () => {
+    if (!currentTargetId || !activePuzzle || !sessionToken) return;
     const container = document.getElementById("recipe-steps-list");
-    
-    if (steps && steps.length > 0) {
-      container.innerHTML = steps.join("");
-    } else {
-      container.innerHTML = "<div style='color: var(--text-muted);'>No solution path required (target already in starting set!).</div>";
-    }
-    
+    container.innerHTML = "<div style='color: var(--text-muted);'>Loading solution path from backend API...</div>";
     document.getElementById("recipe-modal").style.display = "flex";
+    
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/alchemist/answer?token=${sessionToken}`);
+      if (!response.ok) throw new Error("Failed to load answer");
+      const data = await response.json();
+      
+      if (data.steps && data.steps.length > 0) {
+        const stepHTMLs = data.steps.map(step => {
+          return `<div class="recipe-step-line"><span>${step.input_a.emoji} ${step.input_a.name}</span> + <span>${step.input_b.emoji} ${step.input_b.name}</span> ➔ <strong>${step.output.emoji} ${step.output.name}</strong></div>`;
+        });
+        container.innerHTML = stepHTMLs.join("");
+      } else {
+        container.innerHTML = "<div style='color: var(--text-muted);'>No solution path required (target already in starting set!).</div>";
+      }
+    } catch (err) {
+      console.error(err);
+      container.innerHTML = "<div style='color: #ff5555;'>Error loading solution path from backend API. Make sure the API server is running on port 8000!</div>";
+    }
   });
   
   // Close Recipe Modal

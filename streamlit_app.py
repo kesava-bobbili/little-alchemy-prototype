@@ -68,7 +68,33 @@ def compile_game():
     
     return html
 
+import threading
+import uvicorn
+import socket
+
+def is_port_open(port):
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        return s.connect_ex(('127.0.0.1', port)) != 0
+
+def start_backend_api():
+    if is_port_open(8000):
+        try:
+            from api import app
+            thread = threading.Thread(
+                target=uvicorn.run,
+                args=(app,),
+                kwargs={"host": "127.0.0.1", "port": 8000, "log_level": "warning"},
+                daemon=True
+            )
+            thread.start()
+            print("FastAPI backend server started on port 8000.")
+        except Exception as e:
+            print(f"Error starting background API server: {e}")
+    else:
+        print("Port 8000 is in use, assuming backend API server is already running.")
+
 def main():
+    start_backend_api()
     compiled_html = compile_game()
     if compiled_html:
         # Serve the single-page application inside the iframe

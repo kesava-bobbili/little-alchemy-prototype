@@ -8,7 +8,7 @@ let currentTargetId = null;
 let workspaceElements = [];
 let nextElementId = 1;
 
-const API_BASE_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? "http://127.0.0.1:8000" : "";
+const API_BASE_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? "http://127.0.0.1:8000" : "https://little-alchemy-prototype-api.onrender.com";
 let sessionToken = "";
 
 function getFormattedDate(d) {

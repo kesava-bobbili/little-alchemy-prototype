@@ -240,9 +240,7 @@ body {
 }
 
 .target-meta {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-top: 2px;
+  display: none;
 }
 
 .puzzle-btn {
@@ -641,10 +639,7 @@ body {
     font-size: 0.9rem;
   }
   
-  .target-meta {
-    font-size: 0.65rem;
-  }
-  
+
   .puzzle-actions {
     display: flex;
     flex-direction: column;

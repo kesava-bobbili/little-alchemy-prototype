@@ -4326,6 +4326,69 @@
       "name": "Zoo",
       "level": 10,
       "source": "dataset"
+    },
+    {
+      "id": "rattlesnake",
+      "name": "Rattlesnake",
+      "level": 11,
+      "source": "dataset",
+      "emoji": "🐍"
+    },
+    {
+      "id": "delivery",
+      "name": "Delivery",
+      "level": 11,
+      "source": "dataset",
+      "emoji": "📦"
+    },
+    {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "level": 5,
+      "source": "dataset",
+      "emoji": "🪐"
+    },
+    {
+      "id": "ghost_ship",
+      "name": "Ghost Ship",
+      "level": 14,
+      "source": "dataset",
+      "emoji": "🏴‍☠️"
+    },
+    {
+      "id": "fairy",
+      "name": "Fairy",
+      "level": 9,
+      "source": "dataset",
+      "emoji": "🧚"
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "level": 9,
+      "source": "dataset",
+      "emoji": "🍄"
+    },
+    {
+      "id": "sharknado",
+      "name": "Sharknado",
+      "level": 10,
+      "source": "dataset",
+      "emoji": "🌪️"
+    },
+    {
+      "id": "time_machine",
+      "name": "Time Machine",
+      "level": 12,
+      "source": "dataset",
+      "emoji": "🚗"
+    },
+    {
+      "id": "lightsaber",
+      "name": "Lightsaber",
+      "level": 14,
+      "source": "dataset",
+      "emoji": "⚔️"
     }
   ]
 }

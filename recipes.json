@@ -24177,6 +24177,69 @@
       "input_b": "mist",
       "output": "air",
       "source": "RECIPIES.doc"
+    },
+    {
+      "id": "r3455",
+      "input_a": "snake",
+      "input_b": "desert",
+      "output": "rattlesnake",
+      "source": "dataset"
+    },
+    {
+      "id": "r3456",
+      "input_a": "human",
+      "input_b": "airplane",
+      "output": "delivery",
+      "source": "dataset"
+    },
+    {
+      "id": "r3457",
+      "input_a": "planet",
+      "input_b": "desert",
+      "output": "tatooine",
+      "source": "dataset"
+    },
+    {
+      "id": "r3458",
+      "input_a": "ghost",
+      "input_b": "boat",
+      "output": "ghost_ship",
+      "source": "dataset"
+    },
+    {
+      "id": "r3459",
+      "input_a": "magic",
+      "input_b": "butterfly",
+      "output": "fairy",
+      "source": "dataset"
+    },
+    {
+      "id": "r3460",
+      "input_a": "plant",
+      "input_b": "mud",
+      "output": "mushroom",
+      "source": "dataset"
+    },
+    {
+      "id": "r3461",
+      "input_a": "shark",
+      "input_b": "tornado",
+      "output": "sharknado",
+      "source": "dataset"
+    },
+    {
+      "id": "r3462",
+      "input_a": "time",
+      "input_b": "car",
+      "output": "time_machine",
+      "source": "dataset"
+    },
+    {
+      "id": "r3463",
+      "input_a": "light",
+      "input_b": "sword",
+      "output": "lightsaber",
+      "source": "dataset"
     }
   ]
 }

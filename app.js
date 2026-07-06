@@ -1,7 +1,19 @@
 // app.js - Little Alchemy-like Game Logic
 
 // 1. Initial State & Setup
-let gameMode = "daily"; // "daily", "practice", "sandbox"
+let gameMode = "daily"; // "daily", "practice", "sandbox", "experimental"
+const EXPERIMENTAL_ELEMENTS = new Set([
+  "tsunami", "rattlesnake", "delivery", "tatooine", "ghost_ship", "fairy", "mushroom", "bacon", "phoenix", "sharknado",
+  "time_machine", "cyborg", "excalibur", "ninja", "zombie", "astronaut", "golem", "lightsaber", "dragon", "pegasus",
+  "air", "earth", "fire", "water", "dust", "energy", "land", "lava", "mist", "mud",
+  "pressure", "puddle", "smoke", "steam", "brick", "continent", "eruption", "geyser", "granite", "gunpowder",
+  "heat", "obsidian", "pond", "stone", "volcano", "wind", "clay", "explosion", "lake", "planet",
+  "plasma", "sand", "tornado", "wall", "warmth", "atmosphere", "atomic_bomb", "beach", "desert", "dune",
+  "glass", "hourglass", "house", "sandstone", "sea", "solar_system", "sun", "wave", "aquarium", "aurora",
+  "black_hole", "cloud", "current", "day", "factory", "fireworks", "galaxy", "glasses", "hurricane", "island",
+  "mars", "meteoroid", "oasis", "ocean", "primordial_soup", "pyramid", "rainbow", "ruins", "salt", "sky",
+  "solar_cell", "sound", "life", "time", "plant", "human", "animal", "bacteria", "tree", "wood"
+]);
 let unlockedElements = new Set(["air", "earth", "fire", "water"]);
 let activePuzzle = null;
 let currentTargetId = null;
@@ -44,10 +56,7 @@ async function initPuzzleAPI(method, value = null, title = "Puzzle") {
     };
     unlockedElements = new Set(data.starting_elements);
     saveGameState();
-    document.getElementById("target-display-name").textContent = activePuzzle.targetName;
-    document.getElementById("target-display-emoji").textContent = activePuzzle.targetEmoji;
-    document.getElementById("target-display-level").textContent = `Level: ${activePuzzle.targetLevel}`;
-    document.getElementById("target-display-steps").textContent = `Shortest steps: ${activePuzzle.targetCost}`;
+    updateTargetCardUI();
     renderInventory();
     spawnStartingElements();
   } catch (error) {
@@ -74,14 +83,28 @@ function generatePuzzleLocal(targetId, title) {
   
   unlockedElements = new Set(puzzle.startingElements);
   saveGameState();
-  
-  document.getElementById("target-display-name").textContent = activePuzzle.targetName;
-  document.getElementById("target-display-emoji").textContent = activePuzzle.targetEmoji;
-  document.getElementById("target-display-level").textContent = `Level: ${activePuzzle.targetLevel}`;
-  document.getElementById("target-display-steps").textContent = `Shortest steps: ${activePuzzle.targetCost}`;
-  
+  updateTargetCardUI();
   renderInventory();
   spawnStartingElements();
+}
+
+function updateTargetCardUI() {
+  if (!activePuzzle) return;
+  document.getElementById("target-display-name").textContent = activePuzzle.targetName;
+  
+  const emojiContainer = document.getElementById("target-display-emoji");
+  const isExperimentalMode = (gameMode === "experimental");
+  const hasImage = EXPERIMENTAL_ELEMENTS.has(activePuzzle.targetId);
+  
+  if (isExperimentalMode && hasImage) {
+    const imgFilename = activePuzzle.targetId.toLowerCase().replace(/ /g, "_") + ".jpg";
+    emojiContainer.innerHTML = `<img src="assets/icons/${imgFilename}" class="card-image" style="width: 40px; height: 40px; border-radius: 8px;" alt="${activePuzzle.targetName}">`;
+  } else {
+    emojiContainer.innerHTML = activePuzzle.targetEmoji;
+  }
+  
+  document.getElementById("target-display-level").textContent = `Level: ${activePuzzle.targetLevel}`;
+  document.getElementById("target-display-steps").textContent = `Shortest steps: ${activePuzzle.targetCost}`;
 }
 
 function initPuzzleLocal(method, value = null, title = "Puzzle") {
@@ -169,6 +192,10 @@ function switchMode(mode) {
     saveGameState();
     renderInventory();
     spawnSandboxStartingElements();
+  } else if (mode === "experimental") {
+    puzzlePanel.style.display = "block";
+    practiceSelector.style.display = "none";
+    setupExperimentalChallenge();
   }
 }
 
@@ -177,6 +204,12 @@ function setupDailyChallenge() {
   const today = new Date();
   const dateStr = getFormattedDate(today);
   initPuzzleAPI("date", dateStr, "Daily Challenge");
+}
+
+function setupExperimentalChallenge() {
+  const targets = Array.from(EXPERIMENTAL_ELEMENTS);
+  const randomTarget = targets[Math.floor(Math.random() * targets.length)];
+  initPuzzleAPI("target", randomTarget, "Experimental Challenge");
 }
 
 function populatePracticeSelector() {
@@ -289,7 +322,16 @@ function createElementCard(id, x, y) {
   const group = getElementColorGroup(id);
   card.classList.add(group);
   
-  card.innerHTML = `<span class="card-emoji">${elem.emoji}</span> <span class="card-name">${elem.name}</span>`;
+  const isExperimentalMode = (gameMode === "experimental");
+  const hasImage = EXPERIMENTAL_ELEMENTS.has(id);
+  
+  if (isExperimentalMode && hasImage) {
+    const imgFilename = id.toLowerCase().replace(/ /g, "_") + ".jpg";
+    card.innerHTML = `<img src="assets/icons/${imgFilename}" class="card-image" alt="${elem.name}"> <span class="card-name">${elem.name}</span>`;
+    card.classList.add("experimental-card");
+  } else {
+    card.innerHTML = `<span class="card-emoji">${elem.emoji}</span> <span class="card-name">${elem.name}</span>`;
+  }
   
   // Position absolutely inside canvas
   card.style.left = `${x}px`;
@@ -507,7 +549,18 @@ function triggerSuccess() {
   setTimeout(() => {
     const modal = document.getElementById("success-modal");
     document.getElementById("modal-target-name").textContent = activePuzzle.targetName;
-    document.getElementById("modal-target-emoji").textContent = activePuzzle.targetEmoji;
+    
+    const emojiContainer = document.getElementById("modal-target-emoji");
+    const isExperimentalMode = (gameMode === "experimental");
+    const hasImage = EXPERIMENTAL_ELEMENTS.has(activePuzzle.targetId);
+    
+    if (isExperimentalMode && hasImage) {
+      const imgFilename = activePuzzle.targetId.toLowerCase().replace(/ /g, "_") + ".jpg";
+      emojiContainer.innerHTML = `<img src="assets/icons/${imgFilename}" class="card-image" style="width: 48px; height: 48px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.2);" alt="${activePuzzle.targetName}">`;
+    } else {
+      emojiContainer.innerHTML = activePuzzle.targetEmoji;
+    }
+    
     modal.style.display = "flex";
   }, 600);
 }
@@ -578,7 +631,16 @@ function renderInventory() {
       item.classList.add(group);
     }
     
-    item.innerHTML = `<span class="item-emoji">${elem.emoji}</span> <span class="item-name">${elem.name}</span>`;
+    const isExperimentalMode = (gameMode === "experimental");
+    const hasImage = EXPERIMENTAL_ELEMENTS.has(elem.id);
+    
+    if (isExperimentalMode && hasImage && !isLocked) {
+      const imgFilename = elem.id.toLowerCase().replace(/ /g, "_") + ".jpg";
+      item.innerHTML = `<img src="assets/icons/${imgFilename}" class="item-image" alt="${elem.name}"> <span class="item-name">${elem.name}</span>`;
+      item.classList.add("experimental-item");
+    } else {
+      item.innerHTML = `<span class="item-emoji">${elem.emoji}</span> <span class="item-name">${elem.name}</span>`;
+    }
     
     if (!isLocked) {
       // Spawn element onto canvas when clicked inside inventory sidebar

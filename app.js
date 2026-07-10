@@ -98,7 +98,7 @@ function updateTargetCardUI() {
   
   if (isExperimentalMode && hasImage) {
     const imgFilename = activePuzzle.targetId.toLowerCase().replace(/ /g, "_") + ".jpg";
-    emojiContainer.innerHTML = `<img src="assets/icons/${imgFilename}" class="card-image" style="width: 40px; height: 40px; border-radius: 8px;" alt="${activePuzzle.targetName}">`;
+    emojiContainer.innerHTML = `<img src="${API_BASE_URL}/assets/icons/${imgFilename}" class="card-image" style="width: 40px; height: 40px; border-radius: 8px;" alt="${activePuzzle.targetName}">`;
   } else {
     emojiContainer.innerHTML = activePuzzle.targetEmoji;
   }
@@ -327,7 +327,7 @@ function createElementCard(id, x, y) {
   
   if (isExperimentalMode && hasImage) {
     const imgFilename = id.toLowerCase().replace(/ /g, "_") + ".jpg";
-    card.innerHTML = `<img src="assets/icons/${imgFilename}" class="card-image" alt="${elem.name}"> <span class="card-name">${elem.name}</span>`;
+    card.innerHTML = `<img src="${API_BASE_URL}/assets/icons/${imgFilename}" class="card-image" alt="${elem.name}"> <span class="card-name">${elem.name}</span>`;
     card.classList.add("experimental-card");
   } else {
     card.innerHTML = `<span class="card-emoji">${elem.emoji}</span> <span class="card-name">${elem.name}</span>`;
@@ -556,7 +556,7 @@ function triggerSuccess() {
     
     if (isExperimentalMode && hasImage) {
       const imgFilename = activePuzzle.targetId.toLowerCase().replace(/ /g, "_") + ".jpg";
-      emojiContainer.innerHTML = `<img src="assets/icons/${imgFilename}" class="card-image" style="width: 48px; height: 48px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.2);" alt="${activePuzzle.targetName}">`;
+      emojiContainer.innerHTML = `<img src="${API_BASE_URL}/assets/icons/${imgFilename}" class="card-image" style="width: 48px; height: 48px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.2);" alt="${activePuzzle.targetName}">`;
     } else {
       emojiContainer.innerHTML = activePuzzle.targetEmoji;
     }
@@ -636,7 +636,7 @@ function renderInventory() {
     
     if (isExperimentalMode && hasImage && !isLocked) {
       const imgFilename = elem.id.toLowerCase().replace(/ /g, "_") + ".jpg";
-      item.innerHTML = `<img src="assets/icons/${imgFilename}" class="item-image" alt="${elem.name}"> <span class="item-name">${elem.name}</span>`;
+      item.innerHTML = `<img src="${API_BASE_URL}/assets/icons/${imgFilename}" class="item-image" alt="${elem.name}"> <span class="item-name">${elem.name}</span>`;
       item.classList.add("experimental-item");
     } else {
       item.innerHTML = `<span class="item-emoji">${elem.emoji}</span> <span class="item-name">${elem.name}</span>`;

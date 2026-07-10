@@ -9,6 +9,7 @@ from datetime import date, datetime, timedelta
 from typing import List, Optional, Union, Literal
 from fastapi import FastAPI, APIRouter, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 # Initialize FastAPI App
@@ -343,3 +344,8 @@ def reveal_solution(
     starting_deck = generate_starting_deck(target_id)
     steps = find_solution_path_py(target_id, starting_deck)
     return AnswerResponse(target_id=target_id, steps=steps)
+
+# Mount static icons directory
+assets_dir = BASE_DIR / "assets"
+if assets_dir.exists():
+    app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")

@@ -131,7 +131,12 @@
           <h2 style="font-size: 1.4rem; color: #fff;">📚 All Elements Catalog</h2>
           <button id="close-catalog-x" style="background: transparent; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer; font-weight: bold; line-height: 1;">&times;</button>
         </div>
-        <input type="text" id="catalog-search" placeholder="Search catalog elements..." class="search-input" style="width: 100%; margin: 8px 0 16px 0;">
+        <input type="text" id="catalog-search" placeholder="Search catalog elements..." class="search-input" style="width: 100%; margin: 8px 0 8px 0;">
+        <div style="display: flex; gap: 8px; margin-bottom: 16px; align-items: center; justify-content: flex-start; font-size: 0.85rem; color: var(--text-muted);">
+          <label style="cursor: pointer; display: flex; align-items: center; gap: 6px; user-select: none;">
+            <input type="checkbox" id="catalog-experimental-only" style="cursor: pointer;"> 🧪 Show Only Experimental Elements
+          </label>
+        </div>
         <div id="catalog-list" style="flex: 1; overflow-y: auto; width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; padding-right: 8px; text-align: left;">
           <!-- Populated dynamically -->
         </div>

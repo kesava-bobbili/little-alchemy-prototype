@@ -240,6 +240,7 @@ function populateCatalog() {
   sorted.forEach(elem => {
     const item = document.createElement("div");
     item.className = "catalog-item";
+    item.dataset.id = elem.id;
     item.style.display = "flex";
     item.style.alignItems = "center";
     item.style.gap = "8px";
@@ -248,13 +249,25 @@ function populateCatalog() {
     item.style.background = "rgba(255,255,255,0.05)";
     item.style.border = "1px solid var(--panel-border)";
     
-    item.innerHTML = `
-      <span style="font-size: 1.4rem;">${elem.emoji}</span>
-      <div>
-        <div class="catalog-name" style="font-weight: 600; color: #fff; font-size: 0.9rem;">${elem.name}</div>
-        <div style="font-size: 0.72rem; color: var(--text-muted);">Level ${elem.level !== null ? elem.level : 0}</div>
-      </div>
-    `;
+    const hasImage = EXPERIMENTAL_ELEMENTS.has(elem.id);
+    if (hasImage) {
+      const imgFilename = elem.id.toLowerCase().replace(/ /g, "_") + ".jpg";
+      item.innerHTML = `
+        <img src="${API_BASE_URL}/assets/icons/${imgFilename}" style="width: 28px; height: 28px; border-radius: 6px; object-fit: cover; border: 1px solid rgba(255,255,255,0.15);" alt="${elem.name}">
+        <div>
+          <div class="catalog-name" style="font-weight: 600; color: #fff; font-size: 0.9rem;">${elem.name} <span style="font-size: 0.72rem; color: #38bdf8; font-weight: 400;">🧪</span></div>
+          <div style="font-size: 0.72rem; color: var(--text-muted);">Level ${elem.level !== null ? elem.level : 0}</div>
+        </div>
+      `;
+    } else {
+      item.innerHTML = `
+        <span style="font-size: 1.4rem;">${elem.emoji}</span>
+        <div>
+          <div class="catalog-name" style="font-weight: 600; color: #fff; font-size: 0.9rem;">${elem.name}</div>
+          <div style="font-size: 0.72rem; color: var(--text-muted);">Level ${elem.level !== null ? elem.level : 0}</div>
+        </div>
+      `;
+    }
     
     container.appendChild(item);
   });
@@ -871,14 +884,24 @@ function setupEventListeners() {
     document.getElementById("catalog-modal").style.display = "none";
   });
   
-  // Search Catalog Filter
-  document.getElementById("catalog-search").addEventListener("input", (e) => {
-    const query = e.target.value.toLowerCase().trim();
+  // Search and Experimental Filters Catalog helper
+  function filterCatalog() {
+    const query = document.getElementById("catalog-search").value.toLowerCase().trim();
+    const showExperimentalOnly = document.getElementById("catalog-experimental-only").checked;
+    
     document.querySelectorAll(".catalog-item").forEach(item => {
+      const id = item.dataset.id;
       const name = item.querySelector(".catalog-name").textContent.toLowerCase();
-      item.style.display = name.includes(query) ? "flex" : "none";
+      
+      const matchesSearch = name.includes(query);
+      const matchesExperimental = !showExperimentalOnly || EXPERIMENTAL_ELEMENTS.has(id);
+      
+      item.style.display = (matchesSearch && matchesExperimental) ? "flex" : "none";
     });
-  });
+  }
+  
+  document.getElementById("catalog-search").addEventListener("input", filterCatalog);
+  document.getElementById("catalog-experimental-only").addEventListener("change", filterCatalog);
 }
 
 function clearWorkspace() {
